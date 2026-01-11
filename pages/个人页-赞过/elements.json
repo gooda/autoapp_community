@@ -1,0 +1,1168 @@
+{
+  "_meta": {
+    "pageName": "个人页-赞过",
+    "pageSignature": null,
+    "description": "",
+    "elementCount": 30,
+    "updatedAt": "2026-01-11T16:44:31.210Z"
+  },
+  "elements": [
+    {
+      "elementId": "elem_个人页-赞过_XCUIElementTypeOther_16_115",
+      "name": "XCUIElementTypeOther_16_115",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]",
+        "coordinates": {
+          "x": 0.1374,
+          "y": 0.1796
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeOther",
+        "name": "",
+        "label": "",
+        "value": "",
+        "elementType": "container",
+        "allTexts": "",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 16,
+        "y": 115,
+        "width": 76,
+        "height": 76
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:44:31.104Z"
+    },
+    {
+      "elementId": "elem_个人页-赞过_沁",
+      "name": "沁",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeStaticText[1]",
+        "accessibilityId": "沁",
+        "coordinates": {
+          "x": 0.3003,
+          "y": 0.1514
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeStaticText",
+        "name": "沁",
+        "label": "沁",
+        "value": "沁",
+        "elementType": "content",
+        "allTexts": "沁",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 108,
+        "y": 115,
+        "width": 20,
+        "height": 28
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:44:31.107Z"
+    },
+    {
+      "elementId": "elem_个人页-赞过_蜜蜂号：584532360",
+      "name": "蜜蜂号：584532360",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]",
+        "accessibilityId": "蜜蜂号：584532360",
+        "coordinates": {
+          "x": 0.3944,
+          "y": 0.1796
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeButton",
+        "name": "蜜蜂号：584532360",
+        "label": "蜜蜂号：584532360",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "蜜蜂号：584532360",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 108,
+        "y": 146,
+        "width": 94,
+        "height": 14
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:44:31.111Z"
+    },
+    {
+      "elementId": "elem_个人页-赞过_贵州",
+      "name": "贵州",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeStaticText[1]",
+        "accessibilityId": "贵州",
+        "coordinates": {
+          "x": 0.0865,
+          "y": 0.2594
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeStaticText",
+        "name": "贵州",
+        "label": "贵州",
+        "value": "贵州",
+        "elementType": "content",
+        "allTexts": "贵州",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 16,
+        "y": 211,
+        "width": 36,
+        "height": 20
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:44:31.114Z"
+    },
+    {
+      "elementId": "elem_个人页-赞过_XCUIElementTypeButton_60_211",
+      "name": "XCUIElementTypeButton_60_211",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]",
+        "coordinates": {
+          "x": 0.2265,
+          "y": 0.2594
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeButton",
+        "name": "",
+        "label": "",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 60,
+        "y": 211,
+        "width": 58,
+        "height": 20
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:44:31.119Z"
+    },
+    {
+      "elementId": "elem_个人页-赞过_41",
+      "name": "41",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[1]",
+        "accessibilityId": "41",
+        "coordinates": {
+          "x": 0.0712,
+          "y": 0.3063
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeStaticText",
+        "name": "41",
+        "label": "41",
+        "value": "41",
+        "elementType": "content",
+        "allTexts": "41",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 16,
+        "y": 251,
+        "width": 24,
+        "height": 20
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:44:31.122Z"
+    },
+    {
+      "elementId": "elem_个人页-赞过_关注",
+      "name": "关注",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[2]",
+        "accessibilityId": "关注",
+        "coordinates": {
+          "x": 0.0712,
+          "y": 0.3292
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeStaticText",
+        "name": "关注",
+        "label": "关注",
+        "value": "关注",
+        "elementType": "content",
+        "allTexts": "关注",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 16,
+        "y": 272,
+        "width": 24,
+        "height": 17
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:44:31.124Z"
+    },
+    {
+      "elementId": "elem_个人页-赞过_174",
+      "name": "174",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeStaticText[1]",
+        "accessibilityId": "174",
+        "coordinates": {
+          "x": 0.1832,
+          "y": 0.3063
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeStaticText",
+        "name": "174",
+        "label": "174",
+        "value": "174",
+        "elementType": "content",
+        "allTexts": "174",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 60,
+        "y": 251,
+        "width": 24,
+        "height": 20
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:44:31.128Z"
+    },
+    {
+      "elementId": "elem_个人页-赞过_粉丝",
+      "name": "粉丝",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeStaticText[2]",
+        "accessibilityId": "粉丝",
+        "coordinates": {
+          "x": 0.1832,
+          "y": 0.3292
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeStaticText",
+        "name": "粉丝",
+        "label": "粉丝",
+        "value": "粉丝",
+        "elementType": "content",
+        "allTexts": "粉丝",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 60,
+        "y": 272,
+        "width": 24,
+        "height": 17
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:44:31.132Z"
+    },
+    {
+      "elementId": "elem_个人页-赞过_1.9万",
+      "name": "1.9万",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeOther[2]/XCUIElementTypeOther[3]/XCUIElementTypeStaticText[1]",
+        "accessibilityId": "1.9万",
+        "coordinates": {
+          "x": 0.3372,
+          "y": 0.3063
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeStaticText",
+        "name": "1.9万",
+        "label": "1.9万",
+        "value": "1.9万",
+        "elementType": "content",
+        "allTexts": "1.9万",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 104,
+        "y": 251,
+        "width": 57,
+        "height": 20
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:44:31.136Z"
+    },
+    {
+      "elementId": "elem_个人页-赞过_获赞&礼物",
+      "name": "获赞&礼物",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeOther[2]/XCUIElementTypeOther[3]/XCUIElementTypeStaticText[2]",
+        "accessibilityId": "获赞&礼物",
+        "coordinates": {
+          "x": 0.3372,
+          "y": 0.3292
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeStaticText",
+        "name": "获赞&礼物",
+        "label": "获赞&礼物",
+        "value": "获赞&礼物",
+        "elementType": "content",
+        "allTexts": "获赞&礼物",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 104,
+        "y": 272,
+        "width": 57,
+        "height": 17
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:44:31.144Z"
+    },
+    {
+      "elementId": "elem_个人页-赞过_关注",
+      "name": "关注",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeOther[3]/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]",
+        "accessibilityId": "关注",
+        "coordinates": {
+          "x": 0.6896,
+          "y": 0.3169
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeButton",
+        "name": "关注",
+        "label": "关注",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "关注",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 227,
+        "y": 256,
+        "width": 88,
+        "height": 28
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:44:31.148Z"
+    },
+    {
+      "elementId": "elem_个人页-赞过_私信",
+      "name": "私信",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeOther[3]/XCUIElementTypeButton[1]",
+        "accessibilityId": "私信",
+        "coordinates": {
+          "x": 0.8957,
+          "y": 0.3169
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeButton",
+        "name": "私信",
+        "label": "私信",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "私信",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 327,
+        "y": 256,
+        "width": 50,
+        "height": 28
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:44:31.153Z"
+    },
+    {
+      "elementId": "elem_个人页-赞过_笔记",
+      "name": "笔记",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeButton[1]",
+        "accessibilityId": "笔记",
+        "coordinates": {
+          "x": 0.084,
+          "y": 0.3856
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeButton",
+        "name": "笔记",
+        "label": "笔记",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "笔记",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 0,
+        "y": 309,
+        "width": 66,
+        "height": 39
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:44:31.156Z"
+    },
+    {
+      "elementId": "elem_个人页-赞过_已选中_赞过",
+      "name": "已选中:赞过",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeButton[2]",
+        "accessibilityId": "已选中:赞过",
+        "coordinates": {
+          "x": 0.2519,
+          "y": 0.3856
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeButton",
+        "name": "已选中:赞过",
+        "label": "已选中:赞过",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "已选中:赞过 赞过",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 66,
+        "y": 309,
+        "width": 66,
+        "height": 39
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:44:31.159Z"
+    },
+    {
+      "elementId": "elem_个人页-赞过_XCUIElementTypeOther_0_353",
+      "name": "XCUIElementTypeOther_0_353",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeOther[2]",
+        "coordinates": {
+          "x": 0.5,
+          "y": 0.4319
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeOther",
+        "name": "",
+        "label": "",
+        "value": "",
+        "elementType": "container",
+        "allTexts": "",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 0,
+        "y": 353,
+        "width": 393,
+        "height": 30
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:44:31.162Z"
+    },
+    {
+      "elementId": "elem_个人页-赞过_#社团才艺大赏_#茶生活花艺天团_桃花开",
+      "name": "#社团才艺大赏 #茶生活花艺天团 桃花开",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]",
+        "coordinates": {
+          "x": 0.2532,
+          "y": 0.6092
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeCell",
+        "name": "",
+        "label": "",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "#社团才艺大赏 #茶生活花艺天团 桃花开三次 匿名 30",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 5,
+        "y": 358,
+        "width": 189,
+        "height": 322
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:44:31.164Z"
+    },
+    {
+      "elementId": "elem_个人页-赞过_#社团才艺大赏_#茶生活花艺天团",
+      "name": "#社团才艺大赏 #茶生活花艺天团",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]",
+        "accessibilityId": "#社团才艺大赏 #茶生活花艺天团",
+        "coordinates": {
+          "x": 0.2532,
+          "y": 0.7306
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeOther",
+        "name": "#社团才艺大赏 #茶生活花艺天团",
+        "label": "#社团才艺大赏 #茶生活花艺天团",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "#社团才艺大赏 #茶生活花艺天团",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 17,
+        "y": 599,
+        "width": 165,
+        "height": 47
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:44:31.167Z"
+    },
+    {
+      "elementId": "elem_个人页-赞过_桃花开三次_匿名",
+      "name": "桃花开三次 匿名",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]",
+        "coordinates": {
+          "x": 0.145,
+          "y": 0.77
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeButton",
+        "name": "",
+        "label": "",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "桃花开三次 匿名",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 17,
+        "y": 646,
+        "width": 80,
+        "height": 20
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:44:31.170Z"
+    },
+    {
+      "elementId": "elem_个人页-赞过_30",
+      "name": "30",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[2]",
+        "coordinates": {
+          "x": 0.4351,
+          "y": 0.77
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeButton",
+        "name": "",
+        "label": "",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "30",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 148,
+        "y": 646,
+        "width": 46,
+        "height": 20
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:44:31.173Z"
+    },
+    {
+      "elementId": "elem_个人页-赞过_video_list_cell_icon",
+      "name": "video_list_cell_icon",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[2]",
+        "coordinates": {
+          "x": 0.7468,
+          "y": 0.5687
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeCell",
+        "name": "",
+        "label": "",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "video_list_cell_icon 干物女 匿名 lllll 68 邵阳学院",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 199,
+        "y": 358,
+        "width": 189,
+        "height": 253
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:44:31.177Z"
+    },
+    {
+      "elementId": "elem_个人页-赞过_干物女",
+      "name": "干物女",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]",
+        "accessibilityId": "干物女",
+        "coordinates": {
+          "x": 0.7468,
+          "y": 0.6426
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeOther",
+        "name": "干物女",
+        "label": "干物女",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "干物女",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 211,
+        "y": 534,
+        "width": 165,
+        "height": 27
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:44:31.180Z"
+    },
+    {
+      "elementId": "elem_个人页-赞过_匿名_lllll",
+      "name": "匿名 lllll",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[2]/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]",
+        "coordinates": {
+          "x": 0.5827,
+          "y": 0.6696
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeButton",
+        "name": "",
+        "label": "",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "匿名 lllll",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 211,
+        "y": 560,
+        "width": 36,
+        "height": 21
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:44:31.182Z"
+    },
+    {
+      "elementId": "elem_个人页-赞过_68",
+      "name": "68",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[2]/XCUIElementTypeOther[1]/XCUIElementTypeButton[2]",
+        "coordinates": {
+          "x": 0.9288,
+          "y": 0.6696
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeButton",
+        "name": "",
+        "label": "",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "68",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 342,
+        "y": 560,
+        "width": 46,
+        "height": 21
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:44:31.187Z"
+    },
+    {
+      "elementId": "elem_个人页-赞过_邵阳学院",
+      "name": "邵阳学院",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeStaticText[1]",
+        "accessibilityId": "邵阳学院",
+        "coordinates": {
+          "x": 0.7646,
+          "y": 0.6931
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeStaticText",
+        "name": "邵阳学院",
+        "label": "邵阳学院",
+        "value": "邵阳学院",
+        "elementType": "content",
+        "allTexts": "邵阳学院",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 225,
+        "y": 584,
+        "width": 151,
+        "height": 13
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:44:31.189Z"
+    },
+    {
+      "elementId": "elem_个人页-赞过_下雪啦🌨️快来一起玩吧_匿名_xy_3",
+      "name": "下雪啦🌨️快来一起玩吧 匿名 xy 3",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[3]",
+        "coordinates": {
+          "x": 0.7468,
+          "y": 0.9137
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeCell",
+        "name": "",
+        "label": "",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "下雪啦🌨️快来一起玩吧 匿名 xy 30",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 199,
+        "y": 616,
+        "width": 189,
+        "height": 325
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:44:31.196Z"
+    },
+    {
+      "elementId": "elem_个人页-赞过_活成自己喜欢的模样_匿名_xy_34",
+      "name": "活成自己喜欢的模样 匿名 xy 34",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[4]",
+        "coordinates": {
+          "x": 0.2532,
+          "y": 0.9918
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeCell",
+        "name": "",
+        "label": "",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "活成自己喜欢的模样 匿名 xy 34",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 5,
+        "y": 685,
+        "width": 189,
+        "height": 320
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:44:31.198Z"
+    },
+    {
+      "elementId": "elem_个人页-赞过_返回",
+      "name": "返回",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]",
+        "accessibilityId": "返回",
+        "coordinates": {
+          "x": 0.0662,
+          "y": 0.0951
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeButton",
+        "name": "返回",
+        "label": "返回",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "返回",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 12,
+        "y": 67,
+        "width": 28,
+        "height": 28
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:44:31.201Z"
+    },
+    {
+      "elementId": "elem_个人页-赞过_XCUIElementTypeButton_353_67",
+      "name": "XCUIElementTypeButton_353_67",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[2]",
+        "coordinates": {
+          "x": 0.9338,
+          "y": 0.0951
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeButton",
+        "name": "",
+        "label": "",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 353,
+        "y": 67,
+        "width": 28,
+        "height": 28
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:44:31.204Z"
+    },
+    {
+      "elementId": "elem_个人页-赞过_XCUIElementTypeOther_2_668",
+      "name": "XCUIElementTypeOther_2_668",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]",
+        "coordinates": {
+          "x": 0.0662,
+          "y": 0.8122
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeOther",
+        "name": "",
+        "label": "",
+        "value": "",
+        "elementType": "container",
+        "allTexts": "",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 2,
+        "y": 668,
+        "width": 48,
+        "height": 48
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:44:31.207Z"
+    }
+  ]
+}
