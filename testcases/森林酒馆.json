@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "version": "1.0.0",
+    "createdAt": "2026-01-12T12:23:56.529Z",
+    "updatedAt": "2026-01-12T12:23:56.529Z",
+    "author": "user"
+  },
+  "name": "森林酒馆",
+  "description": "",
+  "priority": "medium",
+  "tags": [],
+  "applications": [],
+  "steps": [],
+  "blueprintEnabled": false,
+  "blueprintData": null
+}
