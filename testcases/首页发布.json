@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "version": "1.0.0",
+    "createdAt": "2026-01-12T12:04:17.091Z",
+    "updatedAt": "2026-01-12T12:04:17.091Z",
+    "author": "user"
+  },
+  "name": "首页发布",
+  "description": "",
+  "priority": "medium",
+  "tags": [],
+  "applications": [],
+  "steps": [],
+  "blueprintEnabled": false,
+  "blueprintData": null
+}
