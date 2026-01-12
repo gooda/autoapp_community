@@ -1,0 +1,1125 @@
+{
+  "_meta": {
+    "pageName": "首页-发现",
+    "pageSignature": null,
+    "description": "",
+    "elementCount": 29,
+    "updatedAt": "2026-01-11T16:34:20.723Z"
+  },
+  "elements": [
+    {
+      "elementId": "elem_首页-发现_关注",
+      "name": "关注",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]",
+        "accessibilityId": "关注",
+        "coordinates": {
+          "x": 0.3219,
+          "y": 0.0921
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeButton",
+        "name": "关注",
+        "label": "关注",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "关注",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 91,
+        "y": 59,
+        "width": 71,
+        "height": 39
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:34:20.605Z"
+    },
+    {
+      "elementId": "elem_首页-发现_已选中_发现",
+      "name": "已选中:发现",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[2]",
+        "accessibilityId": "已选中:发现",
+        "coordinates": {
+          "x": 0.5,
+          "y": 0.0921
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeButton",
+        "name": "已选中:发现",
+        "label": "已选中:发现",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "已选中:发现 发现",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 161,
+        "y": 59,
+        "width": 71,
+        "height": 39
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:34:20.615Z"
+    },
+    {
+      "elementId": "elem_首页-发现_蜂巢",
+      "name": "蜂巢",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[3]",
+        "accessibilityId": "蜂巢",
+        "coordinates": {
+          "x": 0.6781,
+          "y": 0.0921
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeButton",
+        "name": "蜂巢",
+        "label": "蜂巢",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "蜂巢",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 231,
+        "y": 59,
+        "width": 71,
+        "height": 39
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:34:20.621Z"
+    },
+    {
+      "elementId": "elem_首页-发现_XCUIElementTypeButton_11_66",
+      "name": "XCUIElementTypeButton_11_66",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]",
+        "coordinates": {
+          "x": 0.0903,
+          "y": 0.0939
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeButton",
+        "name": "",
+        "label": "",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 11,
+        "y": 66,
+        "width": 49,
+        "height": 28
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:34:20.634Z"
+    },
+    {
+      "elementId": "elem_首页-发现_XCUIElementTypeButton_344_59",
+      "name": "XCUIElementTypeButton_344_59",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[2]",
+        "coordinates": {
+          "x": 0.9377,
+          "y": 0.0951
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeButton",
+        "name": "",
+        "label": "",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 344,
+        "y": 59,
+        "width": 49,
+        "height": 44
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:34:20.637Z"
+    },
+    {
+      "elementId": "elem_首页-发现_XCUIElementTypeOther_0_103",
+      "name": "XCUIElementTypeOther_0_103",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeOther[1]",
+        "coordinates": {
+          "x": 0.5,
+          "y": 0.1385
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeOther",
+        "name": "",
+        "label": "",
+        "value": "",
+        "elementType": "container",
+        "allTexts": "",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 0,
+        "y": 103,
+        "width": 393,
+        "height": 30
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:34:20.642Z"
+    },
+    {
+      "elementId": "elem_首页-发现_77岁王刚，60岁时老来得子，如今走路都",
+      "name": "77岁王刚，60岁时老来得子，如今走路都",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]",
+        "coordinates": {
+          "x": 0.2532,
+          "y": 0.3175
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeCell",
+        "name": "",
+        "label": "",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "77岁王刚，60岁时老来得子，如今走路都需扶 堇墨浮华 匿名 16",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 5,
+        "y": 108,
+        "width": 189,
+        "height": 325
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:34:20.646Z"
+    },
+    {
+      "elementId": "elem_首页-发现_77岁王刚，60岁时老来得子，如今走路都需扶",
+      "name": "77岁王刚，60岁时老来得子，如今走路都需扶",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]",
+        "accessibilityId": "77岁王刚，60岁时老来得子，如今走路都需扶",
+        "coordinates": {
+          "x": 0.2532,
+          "y": 0.4401
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeOther",
+        "name": "77岁王刚，60岁时老来得子，如今走路都需扶",
+        "label": "77岁王刚，60岁时老来得子，如今走路都需扶",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "77岁王刚，60岁时老来得子，如今走路都需扶",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 17,
+        "y": 351,
+        "width": 165,
+        "height": 48
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:34:20.649Z"
+    },
+    {
+      "elementId": "elem_首页-发现_堇墨浮华_匿名",
+      "name": "堇墨浮华 匿名",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]",
+        "coordinates": {
+          "x": 0.1298,
+          "y": 0.4795
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeButton",
+        "name": "",
+        "label": "",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "堇墨浮华 匿名",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 17,
+        "y": 398,
+        "width": 68,
+        "height": 21
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:34:20.651Z"
+    },
+    {
+      "elementId": "elem_首页-发现_16",
+      "name": "16",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[2]",
+        "coordinates": {
+          "x": 0.4389,
+          "y": 0.4795
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeButton",
+        "name": "",
+        "label": "",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "16",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 151,
+        "y": 398,
+        "width": 43,
+        "height": 21
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:34:20.656Z"
+    },
+    {
+      "elementId": "elem_首页-发现_老婆的日常穿搭分享（瑜伽篇）_Henry",
+      "name": "老婆的日常穿搭分享（瑜伽篇） Henry",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[2]",
+        "coordinates": {
+          "x": 0.7468,
+          "y": 0.3269
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeCell",
+        "name": "",
+        "label": "",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "老婆的日常穿搭分享（瑜伽篇） Henry 匿名 8",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 199,
+        "y": 108,
+        "width": 189,
+        "height": 341
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:34:20.662Z"
+    },
+    {
+      "elementId": "elem_首页-发现_老婆的日常穿搭分享（瑜伽篇）",
+      "name": "老婆的日常穿搭分享（瑜伽篇）",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]",
+        "accessibilityId": "老婆的日常穿搭分享（瑜伽篇）",
+        "coordinates": {
+          "x": 0.7468,
+          "y": 0.4595
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeOther",
+        "name": "老婆的日常穿搭分享（瑜伽篇）",
+        "label": "老婆的日常穿搭分享（瑜伽篇）",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "老婆的日常穿搭分享（瑜伽篇）",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 211,
+        "y": 368,
+        "width": 165,
+        "height": 47
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:34:20.665Z"
+    },
+    {
+      "elementId": "elem_首页-发现_Henry_匿名",
+      "name": "Henry 匿名",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[2]/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]",
+        "coordinates": {
+          "x": 0.6056,
+          "y": 0.4988
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeButton",
+        "name": "",
+        "label": "",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "Henry 匿名",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 211,
+        "y": 415,
+        "width": 54,
+        "height": 20
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:34:20.668Z"
+    },
+    {
+      "elementId": "elem_首页-发现_8",
+      "name": "8",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[2]/XCUIElementTypeOther[1]/XCUIElementTypeButton[2]",
+        "coordinates": {
+          "x": 0.9377,
+          "y": 0.4988
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeButton",
+        "name": "",
+        "label": "",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "8",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 349,
+        "y": 415,
+        "width": 39,
+        "height": 20
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:34:20.671Z"
+    },
+    {
+      "elementId": "elem_首页-发现_网友滑雪偶遇陈冠希_娱乐新鲜派_匿名_2",
+      "name": "网友滑雪偶遇陈冠希 娱乐新鲜派 匿名 2",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[3]",
+        "coordinates": {
+          "x": 0.2532,
+          "y": 0.7025
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeCell",
+        "name": "",
+        "label": "",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "网友滑雪偶遇陈冠希 娱乐新鲜派 匿名 26",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 5,
+        "y": 438,
+        "width": 189,
+        "height": 321
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:34:20.674Z"
+    },
+    {
+      "elementId": "elem_首页-发现_网友滑雪偶遇陈冠希",
+      "name": "网友滑雪偶遇陈冠希",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[3]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]",
+        "accessibilityId": "网友滑雪偶遇陈冠希",
+        "coordinates": {
+          "x": 0.2532,
+          "y": 0.8351
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeOther",
+        "name": "网友滑雪偶遇陈冠希",
+        "label": "网友滑雪偶遇陈冠希",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "网友滑雪偶遇陈冠希",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 17,
+        "y": 698,
+        "width": 165,
+        "height": 27
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:34:20.678Z"
+    },
+    {
+      "elementId": "elem_首页-发现_娱乐新鲜派_匿名",
+      "name": "娱乐新鲜派 匿名",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[3]/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]",
+        "coordinates": {
+          "x": 0.145,
+          "y": 0.8621
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeButton",
+        "name": "",
+        "label": "",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "娱乐新鲜派 匿名",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 17,
+        "y": 724,
+        "width": 80,
+        "height": 21
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:34:20.682Z"
+    },
+    {
+      "elementId": "elem_首页-发现_26",
+      "name": "26",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[3]/XCUIElementTypeOther[1]/XCUIElementTypeButton[2]",
+        "coordinates": {
+          "x": 0.4364,
+          "y": 0.8621
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeButton",
+        "name": "",
+        "label": "",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "26",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 149,
+        "y": 724,
+        "width": 45,
+        "height": 21
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:34:20.685Z"
+    },
+    {
+      "elementId": "elem_首页-发现_哈哈哈我做的橘子竟然骗过了豆包_是頭頭呀",
+      "name": "哈哈哈我做的橘子竟然骗过了豆包 是頭頭呀",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[4]",
+        "coordinates": {
+          "x": 0.7468,
+          "y": 0.7342
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeCell",
+        "name": "",
+        "label": "",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "哈哈哈我做的橘子竟然骗过了豆包 是頭頭呀 匿名 93",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 199,
+        "y": 455,
+        "width": 189,
+        "height": 341
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:34:20.689Z"
+    },
+    {
+      "elementId": "elem_首页-发现_哈哈哈我做的橘子竟然骗过了豆包",
+      "name": "哈哈哈我做的橘子竟然骗过了豆包",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[4]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]",
+        "accessibilityId": "哈哈哈我做的橘子竟然骗过了豆包",
+        "coordinates": {
+          "x": 0.7468,
+          "y": 0.8668
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeOther",
+        "name": "哈哈哈我做的橘子竟然骗过了豆包",
+        "label": "哈哈哈我做的橘子竟然骗过了豆包",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "哈哈哈我做的橘子竟然骗过了豆包",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 211,
+        "y": 715,
+        "width": 165,
+        "height": 47
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:34:20.692Z"
+    },
+    {
+      "elementId": "elem_首页-发现_是頭頭呀_匿名",
+      "name": "是頭頭呀 匿名",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[4]/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]",
+        "coordinates": {
+          "x": 0.6234,
+          "y": 0.9061
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeButton",
+        "name": "",
+        "label": "",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "是頭頭呀 匿名",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 211,
+        "y": 762,
+        "width": 68,
+        "height": 20
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:34:20.696Z"
+    },
+    {
+      "elementId": "elem_首页-发现_93",
+      "name": "93",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[4]/XCUIElementTypeOther[1]/XCUIElementTypeButton[2]",
+        "coordinates": {
+          "x": 0.9288,
+          "y": 0.9061
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeButton",
+        "name": "",
+        "label": "",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "93",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 342,
+        "y": 762,
+        "width": 46,
+        "height": 20
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:34:20.700Z"
+    },
+    {
+      "elementId": "elem_首页-发现_video_list_cell_icon",
+      "name": "video_list_cell_icon",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[5]",
+        "coordinates": {
+          "x": 0.2532,
+          "y": 1.0974
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeCell",
+        "name": "",
+        "label": "",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "video_list_cell_icon 梨形身材到底要多瘦腿才能细点啊 160梨形的小谷 匿名 5",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 5,
+        "y": 764,
+        "width": 189,
+        "height": 342
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:34:20.703Z"
+    },
+    {
+      "elementId": "elem_首页-发现_已选定_首页_标签",
+      "name": "已选定 首页 标签",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]",
+        "accessibilityId": "已选定 首页 标签 ",
+        "coordinates": {
+          "x": 0.1005,
+          "y": 0.9331
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeOther",
+        "name": "已选定 首页 标签 ",
+        "label": "已选定 首页 标签 ",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "已选定 首页 标签",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 0,
+        "y": 772,
+        "width": 79,
+        "height": 46
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:34:20.706Z"
+    },
+    {
+      "elementId": "elem_首页-发现_广场_标签",
+      "name": "广场 标签",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]",
+        "accessibilityId": "广场 标签 ",
+        "coordinates": {
+          "x": 0.3003,
+          "y": 0.9331
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeOther",
+        "name": "广场 标签 ",
+        "label": "广场 标签 ",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "广场 标签",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 78,
+        "y": 772,
+        "width": 80,
+        "height": 46
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:34:20.709Z"
+    },
+    {
+      "elementId": "elem_首页-发现_发布_标签",
+      "name": "发布 标签",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[3]",
+        "accessibilityId": "发布 标签 ",
+        "coordinates": {
+          "x": 0.5,
+          "y": 0.9331
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeOther",
+        "name": "发布 标签 ",
+        "label": "发布 标签 ",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "发布 标签",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 157,
+        "y": 772,
+        "width": 79,
+        "height": 46
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:34:20.711Z"
+    },
+    {
+      "elementId": "elem_首页-发现_消息_标签",
+      "name": "消息 标签",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[4]",
+        "accessibilityId": "消息 标签 ",
+        "coordinates": {
+          "x": 0.6997,
+          "y": 0.9331
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeOther",
+        "name": "消息 标签 ",
+        "label": "消息 标签 ",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "消息 标签",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 235,
+        "y": 772,
+        "width": 80,
+        "height": 46
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:34:20.714Z"
+    },
+    {
+      "elementId": "elem_首页-发现_我的_标签",
+      "name": "我的 标签",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[5]",
+        "accessibilityId": "我的 标签 ",
+        "coordinates": {
+          "x": 0.8995,
+          "y": 0.9331
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeOther",
+        "name": "我的 标签 ",
+        "label": "我的 标签 ",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "我的 标签",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 314,
+        "y": 772,
+        "width": 79,
+        "height": 46
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:34:20.717Z"
+    },
+    {
+      "elementId": "elem_首页-发现_XCUIElementTypeOther_2_668",
+      "name": "XCUIElementTypeOther_2_668",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]",
+        "coordinates": {
+          "x": 0.0662,
+          "y": 0.8122
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeOther",
+        "name": "",
+        "label": "",
+        "value": "",
+        "elementType": "container",
+        "allTexts": "",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 2,
+        "y": 668,
+        "width": 48,
+        "height": 48
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:34:20.719Z"
+    }
+  ]
+}

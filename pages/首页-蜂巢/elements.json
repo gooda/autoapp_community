@@ -1,0 +1,1555 @@
+{
+  "_meta": {
+    "pageName": "首页-蜂巢",
+    "pageSignature": null,
+    "description": "",
+    "elementCount": 40,
+    "updatedAt": "2026-01-11T16:35:04.586Z"
+  },
+  "elements": [
+    {
+      "elementId": "elem_首页-蜂巢_关注",
+      "name": "关注",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeButton[1]",
+        "accessibilityId": "关注",
+        "coordinates": {
+          "x": 0.3219,
+          "y": 0.0921
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeButton",
+        "name": "关注",
+        "label": "关注",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "关注",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 91,
+        "y": 59,
+        "width": 71,
+        "height": 39
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:35:04.456Z"
+    },
+    {
+      "elementId": "elem_首页-蜂巢_发现",
+      "name": "发现",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeButton[2]",
+        "accessibilityId": "发现",
+        "coordinates": {
+          "x": 0.5,
+          "y": 0.0921
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeButton",
+        "name": "发现",
+        "label": "发现",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "发现",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 161,
+        "y": 59,
+        "width": 71,
+        "height": 39
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:35:04.458Z"
+    },
+    {
+      "elementId": "elem_首页-蜂巢_已选中_蜂巢",
+      "name": "已选中:蜂巢",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeButton[3]",
+        "accessibilityId": "已选中:蜂巢",
+        "coordinates": {
+          "x": 0.6781,
+          "y": 0.0921
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeButton",
+        "name": "已选中:蜂巢",
+        "label": "已选中:蜂巢",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "已选中:蜂巢 蜂巢",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 231,
+        "y": 59,
+        "width": 71,
+        "height": 39
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:35:04.462Z"
+    },
+    {
+      "elementId": "elem_首页-蜂巢_XCUIElementTypeButton_11_66",
+      "name": "XCUIElementTypeButton_11_66",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]",
+        "coordinates": {
+          "x": 0.0903,
+          "y": 0.0939
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeButton",
+        "name": "",
+        "label": "",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 11,
+        "y": 66,
+        "width": 49,
+        "height": 28
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:35:04.465Z"
+    },
+    {
+      "elementId": "elem_首页-蜂巢_XCUIElementTypeButton_344_59",
+      "name": "XCUIElementTypeButton_344_59",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[2]",
+        "coordinates": {
+          "x": 0.9377,
+          "y": 0.0951
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeButton",
+        "name": "",
+        "label": "",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 344,
+        "y": 59,
+        "width": 49,
+        "height": 44
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:35:04.471Z"
+    },
+    {
+      "elementId": "elem_首页-蜂巢_生活",
+      "name": "生活",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]",
+        "coordinates": {
+          "x": 0.112,
+          "y": 0.1479
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeCell",
+        "name": "",
+        "label": "",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "生活",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 16,
+        "y": 110,
+        "width": 56,
+        "height": 32
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:35:04.474Z"
+    },
+    {
+      "elementId": "elem_首页-蜂巢_生活",
+      "name": "生活",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[1]",
+        "accessibilityId": "生活",
+        "coordinates": {
+          "x": 0.1374,
+          "y": 0.1485
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeStaticText",
+        "name": "生活",
+        "label": "生活",
+        "value": "生活",
+        "elementType": "content",
+        "allTexts": "生活",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 42,
+        "y": 119,
+        "width": 24,
+        "height": 15
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:35:04.479Z"
+    },
+    {
+      "elementId": "elem_首页-蜂巢_beehive_square_更多",
+      "name": "beehive_square 更多",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[2]",
+        "coordinates": {
+          "x": 0.271,
+          "y": 0.1479
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeCell",
+        "name": "",
+        "label": "",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "beehive_square 更多",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 78,
+        "y": 110,
+        "width": 57,
+        "height": 32
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:35:04.486Z"
+    },
+    {
+      "elementId": "elem_首页-蜂巢_更多",
+      "name": "更多",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[2]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[1]",
+        "accessibilityId": "更多",
+        "coordinates": {
+          "x": 0.2926,
+          "y": 0.1485
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeStaticText",
+        "name": "更多",
+        "label": "更多",
+        "value": "更多",
+        "elementType": "content",
+        "allTexts": "更多",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 103,
+        "y": 119,
+        "width": 24,
+        "height": 15
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:35:04.491Z"
+    },
+    {
+      "elementId": "elem_首页-蜂巢_XCUIElementTypeButton_20_161",
+      "name": "XCUIElementTypeButton_20_161",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeButton[1]",
+        "coordinates": {
+          "x": 0.0916,
+          "y": 0.2095
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeButton",
+        "name": "",
+        "label": "",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 20,
+        "y": 161,
+        "width": 32,
+        "height": 35
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:35:04.494Z"
+    },
+    {
+      "elementId": "elem_首页-蜂巢_beehive_detailenter",
+      "name": "beehive detailenter",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeButton[2]",
+        "accessibilityId": "beehive detailenter",
+        "coordinates": {
+          "x": 0.1527,
+          "y": 0.213
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeButton",
+        "name": "beehive detailenter",
+        "label": "beehive detailenter",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "beehive detailenter",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 54,
+        "y": 175,
+        "width": 12,
+        "height": 13
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:35:04.497Z"
+    },
+    {
+      "elementId": "elem_首页-蜂巢_5.3万只小蜜蜂已加入",
+      "name": "5.3万只小蜜蜂已加入",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeButton[3]",
+        "accessibilityId": "5.3万只小蜜蜂已加入",
+        "coordinates": {
+          "x": 0.1972,
+          "y": 0.2394
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeButton",
+        "name": "5.3万只小蜜蜂已加入",
+        "label": "5.3万只小蜜蜂已加入",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "5.3万只小蜜蜂已加入",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 20,
+        "y": 195,
+        "width": 115,
+        "height": 18
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:35:04.499Z"
+    },
+    {
+      "elementId": "elem_首页-蜂巢_退出",
+      "name": "退出",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeButton[4]",
+        "accessibilityId": "退出",
+        "coordinates": {
+          "x": 0.4173,
+          "y": 0.2394
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeButton",
+        "name": "退出",
+        "label": "退出",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "退出",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 151,
+        "y": 195,
+        "width": 26,
+        "height": 18
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:35:04.501Z"
+    },
+    {
+      "elementId": "elem_首页-蜂巢_我的2026年N个第一次",
+      "name": "我的2026年N个第一次",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[1]",
+        "accessibilityId": "我的2026年N个第一次",
+        "coordinates": {
+          "x": 0.1934,
+          "y": 0.2864
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeStaticText",
+        "name": "我的2026年N个第一次",
+        "label": "我的2026年N个第一次",
+        "value": "我的2026年N个第一次",
+        "elementType": "content",
+        "allTexts": "我的2026年N个第一次",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 16,
+        "y": 236,
+        "width": 120,
+        "height": 16
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:35:04.506Z"
+    },
+    {
+      "elementId": "elem_首页-蜂巢_赢现金奖励",
+      "name": "赢现金奖励",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[2]",
+        "accessibilityId": "赢现金奖励",
+        "coordinates": {
+          "x": 0.444,
+          "y": 0.2864
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeStaticText",
+        "name": "赢现金奖励",
+        "label": "赢现金奖励",
+        "value": "赢现金奖励",
+        "elementType": "content",
+        "allTexts": "赢现金奖励",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 142,
+        "y": 236,
+        "width": 65,
+        "height": 16
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:35:04.509Z"
+    },
+    {
+      "elementId": "elem_首页-蜂巢_💰我是经济鬼才，发笔记赢现金",
+      "name": "💰我是经济鬼才，发笔记赢现金",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeStaticText[1]",
+        "accessibilityId": "💰我是经济鬼才，发笔记赢现金",
+        "coordinates": {
+          "x": 0.2786,
+          "y": 0.3169
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeStaticText",
+        "name": "💰我是经济鬼才，发笔记赢现金",
+        "label": "💰我是经济鬼才，发笔记赢现金",
+        "value": "💰我是经济鬼才，发笔记赢现金",
+        "elementType": "content",
+        "allTexts": "💰我是经济鬼才，发笔记赢现金",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 16,
+        "y": 262,
+        "width": 187,
+        "height": 16
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:35:04.512Z"
+    },
+    {
+      "elementId": "elem_首页-蜂巢_前排小蜜蜂",
+      "name": "前排小蜜蜂",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeOther[2]/XCUIElementTypeStaticText[1]",
+        "accessibilityId": "前排小蜜蜂",
+        "coordinates": {
+          "x": 0.3066,
+          "y": 0.365
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeStaticText",
+        "name": "前排小蜜蜂",
+        "label": "前排小蜜蜂",
+        "value": "前排小蜜蜂",
+        "elementType": "content",
+        "allTexts": "前排小蜜蜂",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 93,
+        "y": 304,
+        "width": 55,
+        "height": 14
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:35:04.515Z"
+    },
+    {
+      "elementId": "elem_首页-蜂巢_热议群聊",
+      "name": "热议群聊",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeOther[3]/XCUIElementTypeStaticText[1]",
+        "accessibilityId": "热议群聊",
+        "coordinates": {
+          "x": 0.7608,
+          "y": 0.365
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeStaticText",
+        "name": "热议群聊",
+        "label": "热议群聊",
+        "value": "热议群聊",
+        "elementType": "content",
+        "allTexts": "热议群聊",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 243,
+        "y": 304,
+        "width": 112,
+        "height": 14
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:35:04.518Z"
+    },
+    {
+      "elementId": "elem_首页-蜂巢_已选中_最热",
+      "name": "已选中:最热",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeButton[1]",
+        "accessibilityId": "已选中:最热",
+        "coordinates": {
+          "x": 0.084,
+          "y": 0.4325
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeButton",
+        "name": "已选中:最热",
+        "label": "已选中:最热",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "已选中:最热 最热",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 0,
+        "y": 350,
+        "width": 66,
+        "height": 37
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:35:04.522Z"
+    },
+    {
+      "elementId": "elem_首页-蜂巢_最新",
+      "name": "最新",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeButton[2]",
+        "accessibilityId": "最新",
+        "coordinates": {
+          "x": 0.2519,
+          "y": 0.4325
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeButton",
+        "name": "最新",
+        "label": "最新",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "最新",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 66,
+        "y": 350,
+        "width": 66,
+        "height": 37
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:35:04.524Z"
+    },
+    {
+      "elementId": "elem_首页-蜂巢_关注",
+      "name": "关注",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeButton[3]",
+        "accessibilityId": "关注",
+        "coordinates": {
+          "x": 0.4198,
+          "y": 0.4325
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeButton",
+        "name": "关注",
+        "label": "关注",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "关注",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 132,
+        "y": 350,
+        "width": 66,
+        "height": 37
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:35:04.526Z"
+    },
+    {
+      "elementId": "elem_首页-蜂巢_XCUIElementTypeOther_0_392",
+      "name": "XCUIElementTypeOther_0_392",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeOther[2]",
+        "coordinates": {
+          "x": 0.5,
+          "y": 0.4777
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeOther",
+        "name": "",
+        "label": "",
+        "value": "",
+        "elementType": "container",
+        "allTexts": "",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 0,
+        "y": 392,
+        "width": 393,
+        "height": 30
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:35:04.530Z"
+    },
+    {
+      "elementId": "elem_首页-蜂巢_悬赏_论我在台州如何0元出片_我一定早睡",
+      "name": "悬赏 论我在台州如何0元出片 我一定早睡",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]",
+        "coordinates": {
+          "x": 0.2532,
+          "y": 0.6631
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeCell",
+        "name": "",
+        "label": "",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "悬赏 论我在台州如何0元出片 我一定早睡 匿名 358 台州学院",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 5,
+        "y": 397,
+        "width": 189,
+        "height": 336
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:35:04.532Z"
+    },
+    {
+      "elementId": "elem_首页-蜂巢_悬赏",
+      "name": "悬赏",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]/XCUIElementTypeOther[1]/XCUIElementTypeImage[1]/XCUIElementTypeButton[1]",
+        "coordinates": {
+          "x": 0.0967,
+          "y": 0.7406
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeButton",
+        "name": "",
+        "label": "",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "悬赏",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 13,
+        "y": 621,
+        "width": 50,
+        "height": 20
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:35:04.535Z"
+    },
+    {
+      "elementId": "elem_首页-蜂巢_论我在台州如何0元出片",
+      "name": "论我在台州如何0元出片",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]",
+        "accessibilityId": "论我在台州如何0元出片",
+        "coordinates": {
+          "x": 0.2532,
+          "y": 0.7858
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeOther",
+        "name": "论我在台州如何0元出片",
+        "label": "论我在台州如何0元出片",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "论我在台州如何0元出片",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 17,
+        "y": 656,
+        "width": 165,
+        "height": 27
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:35:04.538Z"
+    },
+    {
+      "elementId": "elem_首页-蜂巢_我一定早睡_匿名",
+      "name": "我一定早睡 匿名",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]",
+        "coordinates": {
+          "x": 0.145,
+          "y": 0.8128
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeButton",
+        "name": "",
+        "label": "",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "我一定早睡 匿名",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 17,
+        "y": 682,
+        "width": 80,
+        "height": 21
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:35:04.541Z"
+    },
+    {
+      "elementId": "elem_首页-蜂巢_358",
+      "name": "358",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[2]",
+        "coordinates": {
+          "x": 0.4262,
+          "y": 0.8128
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeButton",
+        "name": "",
+        "label": "",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "358",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 141,
+        "y": 682,
+        "width": 53,
+        "height": 21
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:35:04.544Z"
+    },
+    {
+      "elementId": "elem_首页-蜂巢_台州学院",
+      "name": "台州学院",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeStaticText[1]",
+        "accessibilityId": "台州学院",
+        "coordinates": {
+          "x": 0.271,
+          "y": 0.8363
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeStaticText",
+        "name": "台州学院",
+        "label": "台州学院",
+        "value": "台州学院",
+        "elementType": "content",
+        "allTexts": "台州学院",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 31,
+        "y": 706,
+        "width": 151,
+        "height": 13
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:35:04.547Z"
+    },
+    {
+      "elementId": "elem_首页-蜂巢_Plog_你有多久，没慢品一碗海鲜粥？",
+      "name": "Plog|你有多久，没慢品一碗海鲜粥？",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[2]",
+        "coordinates": {
+          "x": 0.7468,
+          "y": 0.6661
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeCell",
+        "name": "",
+        "label": "",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "Plog|你有多久，没慢品一碗海鲜粥？ 栗子Chestnut 匿名 241",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 199,
+        "y": 397,
+        "width": 189,
+        "height": 341
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:35:04.550Z"
+    },
+    {
+      "elementId": "elem_首页-蜂巢_Plog_你有多久，没慢品一碗海鲜粥？",
+      "name": "Plog|你有多久，没慢品一碗海鲜粥？",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]",
+        "accessibilityId": "Plog|你有多久，没慢品一碗海鲜粥？",
+        "coordinates": {
+          "x": 0.7468,
+          "y": 0.7981
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeOther",
+        "name": "Plog|你有多久，没慢品一碗海鲜粥？",
+        "label": "Plog|你有多久，没慢品一碗海鲜粥？",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "Plog|你有多久，没慢品一碗海鲜粥？",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 211,
+        "y": 656,
+        "width": 165,
+        "height": 48
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:35:04.554Z"
+    },
+    {
+      "elementId": "elem_首页-蜂巢_栗子Chestnut_匿名",
+      "name": "栗子Chestnut 匿名",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[2]/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]",
+        "coordinates": {
+          "x": 0.6603,
+          "y": 0.8374
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeButton",
+        "name": "",
+        "label": "",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "栗子Chestnut 匿名",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 211,
+        "y": 703,
+        "width": 97,
+        "height": 21
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:35:04.556Z"
+    },
+    {
+      "elementId": "elem_首页-蜂巢_241",
+      "name": "241",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[2]/XCUIElementTypeOther[1]/XCUIElementTypeButton[2]",
+        "coordinates": {
+          "x": 0.9249,
+          "y": 0.8374
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeButton",
+        "name": "",
+        "label": "",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "241",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 339,
+        "y": 703,
+        "width": 49,
+        "height": 21
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:35:04.558Z"
+    },
+    {
+      "elementId": "elem_首页-蜂巢_新年第一次的仪式感小事_蘑菇种在树上_匿",
+      "name": "新年第一次的仪式感小事 蘑菇种在树上 匿",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[3]",
+        "coordinates": {
+          "x": 0.2532,
+          "y": 1.0552
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeCell",
+        "name": "",
+        "label": "",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "新年第一次的仪式感小事 蘑菇种在树上 匿名 299",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 5,
+        "y": 739,
+        "width": 189,
+        "height": 320
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:35:04.562Z"
+    },
+    {
+      "elementId": "elem_首页-蜂巢_Plog_不讲究正宗，但美味无敌🥘_栗",
+      "name": "Plog|不讲究正宗，但美味无敌🥘 栗",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[4]",
+        "coordinates": {
+          "x": 0.7468,
+          "y": 1.0757
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeCell",
+        "name": "",
+        "label": "",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "Plog|不讲究正宗，但美味无敌🥘 栗子Chestnut 匿名 443",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 199,
+        "y": 744,
+        "width": 189,
+        "height": 345
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:35:04.565Z"
+    },
+    {
+      "elementId": "elem_首页-蜂巢_已选定_首页_标签",
+      "name": "已选定 首页 标签",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]",
+        "accessibilityId": "已选定 首页 标签 ",
+        "coordinates": {
+          "x": 0.1005,
+          "y": 0.9331
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeOther",
+        "name": "已选定 首页 标签 ",
+        "label": "已选定 首页 标签 ",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "已选定 首页 标签",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 0,
+        "y": 772,
+        "width": 79,
+        "height": 46
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:35:04.567Z"
+    },
+    {
+      "elementId": "elem_首页-蜂巢_广场_标签",
+      "name": "广场 标签",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]",
+        "accessibilityId": "广场 标签 ",
+        "coordinates": {
+          "x": 0.3003,
+          "y": 0.9331
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeOther",
+        "name": "广场 标签 ",
+        "label": "广场 标签 ",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "广场 标签",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 78,
+        "y": 772,
+        "width": 80,
+        "height": 46
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:35:04.571Z"
+    },
+    {
+      "elementId": "elem_首页-蜂巢_发布_标签",
+      "name": "发布 标签",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[3]",
+        "accessibilityId": "发布 标签 ",
+        "coordinates": {
+          "x": 0.5,
+          "y": 0.9331
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeOther",
+        "name": "发布 标签 ",
+        "label": "发布 标签 ",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "发布 标签",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 157,
+        "y": 772,
+        "width": 79,
+        "height": 46
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:35:04.573Z"
+    },
+    {
+      "elementId": "elem_首页-蜂巢_消息_标签",
+      "name": "消息 标签",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[4]",
+        "accessibilityId": "消息 标签 ",
+        "coordinates": {
+          "x": 0.6997,
+          "y": 0.9331
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeOther",
+        "name": "消息 标签 ",
+        "label": "消息 标签 ",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "消息 标签",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 235,
+        "y": 772,
+        "width": 80,
+        "height": 46
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:35:04.576Z"
+    },
+    {
+      "elementId": "elem_首页-蜂巢_我的_标签",
+      "name": "我的 标签",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[5]",
+        "accessibilityId": "我的 标签 ",
+        "coordinates": {
+          "x": 0.8995,
+          "y": 0.9331
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeOther",
+        "name": "我的 标签 ",
+        "label": "我的 标签 ",
+        "value": "",
+        "elementType": "content",
+        "allTexts": "我的 标签",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 314,
+        "y": 772,
+        "width": 79,
+        "height": 46
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:35:04.580Z"
+    },
+    {
+      "elementId": "elem_首页-蜂巢_XCUIElementTypeOther_2_668",
+      "name": "XCUIElementTypeOther_2_668",
+      "locators": {
+        "xpath": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]",
+        "coordinates": {
+          "x": 0.0662,
+          "y": 0.8122
+        }
+      },
+      "locatorPriority": [
+        "xpath",
+        "accessibilityId",
+        "matchImage",
+        "coordinates",
+        "aiLocate"
+      ],
+      "details": {
+        "type": "XCUIElementTypeOther",
+        "name": "",
+        "label": "",
+        "value": "",
+        "elementType": "container",
+        "allTexts": "",
+        "enabled": true,
+        "visible": true
+      },
+      "bounds": {
+        "x": 2,
+        "y": 668,
+        "width": 48,
+        "height": 48
+      },
+      "dependencies": [],
+      "status": "active",
+      "version": "1.0.0",
+      "updatedAt": "2026-01-11T16:35:04.582Z"
+    }
+  ]
+}
