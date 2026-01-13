@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "version": "1.0.0",
+    "createdAt": "2026-01-13T05:47:03.150Z",
+    "updatedAt": "2026-01-13T05:47:03.150Z",
+    "author": "recorder"
+  },
+  "name": "test1",
+  "description": "",
+  "priority": "medium",
+  "tags": [],
+  "applications": [],
+  "steps": [],
+  "blueprintEnabled": false,
+  "blueprintData": null
+}
