@@ -35,5 +35,9 @@
       "_operationId": "1768294747365_i99c3bnt1"
     }
   ],
-  "updatedAt": "2026-01-13T08:59:10.431Z"
+  "updatedAt": "2026-01-13T08:59:10.431Z",
+  "file": "testcases/test1.json",
+  "categoryIds": [
+    "cat_mkcia9w7_tu4zlt"
+  ]
 }
