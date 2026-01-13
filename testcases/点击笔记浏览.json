@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "version": "1.0.0",
+    "createdAt": "2026-01-13T04:25:26.840Z",
+    "updatedAt": "2026-01-13T04:25:26.840Z",
+    "author": "recorder"
+  },
+  "name": "点击笔记浏览",
+  "description": "",
+  "priority": "medium",
+  "tags": [],
+  "applications": [],
+  "steps": [],
+  "blueprintEnabled": false,
+  "blueprintData": null
+}
