@@ -1,16 +1,75 @@
 {
-  "_meta": {
-    "version": "1.0.0",
-    "createdAt": "2026-01-13T05:47:03.150Z",
-    "updatedAt": "2026-01-13T05:47:03.150Z",
-    "author": "recorder"
-  },
   "name": "test1",
   "description": "",
   "priority": "medium",
   "tags": [],
-  "applications": [],
-  "steps": [],
-  "blueprintEnabled": false,
-  "blueprintData": null
+  "steps": [
+    {
+      "action": "launch_app",
+      "description": "打开应用: 网易小蜜蜂企业版",
+      "operationId": "launch_app_1768293907717_n7m34r665",
+      "timestamp": "2026-01-13T08:45:07.717Z",
+      "stepNumber": 1,
+      "element": {
+        "type": "app_launch",
+        "name": "网易小蜜蜂企业版",
+        "bundleId": "com.netease.communityent",
+        "version": "2.30.0"
+      },
+      "parameters": {
+        "appName": "网易小蜜蜂企业版",
+        "bundleId": "com.netease.communityent",
+        "version": "2.30.0"
+      }
+    },
+    {
+      "action": "click",
+      "locator": {
+        "strategy": "xpath",
+        "value": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]"
+      },
+      "timestamp": "2026-01-13T08:45:10.889Z",
+      "operationId": "1768293910889_w709a6kmn",
+      "description": "点击 选项",
+      "status": "completed",
+      "elementInfo": {
+        "tagName": "XCUIElementTypeCell",
+        "text": "",
+        "location": {
+          "y": 397,
+          "x": 5
+        },
+        "size": {
+          "width": 189,
+          "height": 336
+        }
+      },
+      "stepNumber": 2
+    },
+    {
+      "action": "click",
+      "locator": {
+        "strategy": "xpath",
+        "value": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]"
+      },
+      "timestamp": "2026-01-13T08:45:58.048Z",
+      "operationId": "1768293958048_bikshlidn",
+      "description": "点击 \"返回\"按钮",
+      "status": "completed",
+      "elementInfo": {
+        "tagName": "XCUIElementTypeButton",
+        "text": "返回",
+        "location": {
+          "y": 75,
+          "x": 12
+        },
+        "size": {
+          "width": 28,
+          "height": 28
+        }
+      },
+      "stepNumber": 3
+    }
+  ],
+  "updatedAt": "2026-01-13T08:46:25.718Z"
 }
