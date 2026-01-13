@@ -1,7 +1,7 @@
 {
   "_meta": {
     "version": "1.0.0",
-    "updatedAt": "2026-01-13T11:26:11.326Z",
+    "updatedAt": "2026-01-13T12:03:48.911Z",
     "updatedBy": "user"
   },
   "categories": [
@@ -36,6 +36,14 @@
       "parentId": null,
       "order": 3,
       "createdAt": "2026-01-13T11:26:11.237Z"
+    },
+    {
+      "id": "cat_mkcjmtw6_z6btyb",
+      "name": "自动任务",
+      "description": "",
+      "parentId": null,
+      "order": 4,
+      "createdAt": "2026-01-13T12:03:48.822Z"
     }
   ]
 }
