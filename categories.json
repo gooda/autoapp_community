@@ -1,7 +1,7 @@
 {
   "_meta": {
     "version": "1.0.0",
-    "updatedAt": "2026-01-13T11:25:29.248Z",
+    "updatedAt": "2026-01-13T11:25:45.302Z",
     "updatedBy": "user"
   },
   "categories": [
@@ -12,6 +12,14 @@
       "parentId": null,
       "order": 0,
       "createdAt": "2026-01-13T11:25:29.162Z"
+    },
+    {
+      "id": "cat_mkci9vuu_d3zxcb",
+      "name": "发布页",
+      "description": "",
+      "parentId": "cat_mkci9jgq_02bqhb",
+      "order": 1,
+      "createdAt": "2026-01-13T11:25:45.222Z"
     }
   ]
 }
