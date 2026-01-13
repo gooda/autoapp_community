@@ -1,16 +1,227 @@
 {
-  "_meta": {
-    "version": "1.0.0",
-    "createdAt": "2026-01-13T02:56:18.923Z",
-    "updatedAt": "2026-01-13T02:56:18.923Z",
-    "author": "recorder"
-  },
   "name": "首页发布文生图笔记",
   "description": "",
   "priority": "medium",
   "tags": [],
-  "applications": [],
-  "steps": [],
-  "blueprintEnabled": false,
-  "blueprintData": null
+  "steps": [
+    {
+      "action": "launch_app",
+      "description": "打开应用: 网易小蜜蜂",
+      "operationId": "launch_app_1768273714669_x75zccsya",
+      "timestamp": "2026-01-13T03:08:34.669Z",
+      "stepNumber": 1,
+      "element": {
+        "type": "app_launch",
+        "name": "网易小蜜蜂",
+        "bundleId": "com.netease.community",
+        "version": "2.41.0"
+      },
+      "parameters": {
+        "appName": "网易小蜜蜂",
+        "bundleId": "com.netease.community",
+        "version": "2.41.0"
+      }
+    },
+    {
+      "action": "click",
+      "locator": {
+        "strategy": "xpath",
+        "value": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[3]"
+      },
+      "timestamp": "2026-01-13T03:08:44.233Z",
+      "operationId": "1768273724233_ppd5pewda",
+      "description": "点击 \"发布 标签\"元素",
+      "status": "completed",
+      "elementInfo": {
+        "tagName": "XCUIElementTypeOther",
+        "text": "发布 标签 ",
+        "location": {
+          "y": 772,
+          "x": 157
+        },
+        "size": {
+          "width": 79,
+          "height": 46
+        }
+      },
+      "stepNumber": 2
+    },
+    {
+      "action": "click",
+      "locator": {
+        "strategy": "xpath",
+        "value": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeTable[1]/XCUIElementTypeCell[3]"
+      },
+      "timestamp": "2026-01-13T03:09:13.724Z",
+      "operationId": "1768273753724_592v1q5m2",
+      "description": "点击 选项",
+      "status": "completed",
+      "elementInfo": {
+        "tagName": "XCUIElementTypeCell",
+        "text": "",
+        "location": {
+          "y": 696,
+          "x": 0
+        },
+        "size": {
+          "width": 393,
+          "height": 59
+        }
+      },
+      "stepNumber": 3
+    },
+    {
+      "action": "click",
+      "locator": {
+        "strategy": "xpath",
+        "value": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeTextView[2]"
+      },
+      "timestamp": "2026-01-13T03:09:18.044Z",
+      "operationId": "1768273758044_42aj08i52",
+      "description": "点击 文本",
+      "status": "completed",
+      "elementInfo": {
+        "tagName": "XCUIElementTypeTextView",
+        "text": "",
+        "location": {
+          "y": 226,
+          "x": 60
+        },
+        "size": {
+          "width": 273,
+          "height": 343
+        }
+      },
+      "stepNumber": 4
+    },
+    {
+      "action": "input-text",
+      "element": {
+        "locator": {
+          "strategy": "-ios predicate string",
+          "value": "type == 'XCUIElementTypeTextView' AND value == \"说说你的想法吧~\" AND visible == true"
+        },
+        "bounds": {
+          "x": 60,
+          "y": 226,
+          "width": 273,
+          "height": 95
+        },
+        "details": {
+          "type": "XCUIElementTypeTextView",
+          "name": "",
+          "label": "",
+          "value": "说说你的想法吧~"
+        },
+        "type": "XCUIElementTypeTextView"
+      },
+      "value": "今天天气不错，去哪玩呢",
+      "timestamp": "2026-01-13T03:09:33.730Z",
+      "operationId": "1768273773730_rq5rhansr",
+      "description": "输入文本: \"今天天气不错，去哪玩呢\"",
+      "status": "completed",
+      "stepNumber": 5
+    },
+    {
+      "action": "click",
+      "locator": {
+        "strategy": "xpath",
+        "value": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]"
+      },
+      "timestamp": "2026-01-13T03:09:47.368Z",
+      "operationId": "1768273787368_1jalj6c0w",
+      "description": "点击 \"生成\"按钮",
+      "status": "completed",
+      "elementInfo": {
+        "tagName": "XCUIElementTypeButton",
+        "text": "生成",
+        "location": {
+          "y": 68,
+          "x": 319
+        },
+        "size": {
+          "width": 58,
+          "height": 26
+        }
+      },
+      "stepNumber": 6
+    },
+    {
+      "action": "wait",
+      "description": "等待图片生成",
+      "timestamp": "2026-01-13T03:09:52.149Z",
+      "value": "5000",
+      "stepNumber": 7
+    },
+    {
+      "action": "click",
+      "locator": {
+        "strategy": "xpath",
+        "value": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]"
+      },
+      "timestamp": "2026-01-13T03:10:10.557Z",
+      "operationId": "1768273810557_ad6szuuu0",
+      "description": "点击 \"确定\"按钮",
+      "status": "completed",
+      "elementInfo": {
+        "tagName": "XCUIElementTypeButton",
+        "text": "确定",
+        "location": {
+          "y": 68,
+          "x": 319
+        },
+        "size": {
+          "width": 58,
+          "height": 26
+        }
+      },
+      "stepNumber": 8
+    },
+    {
+      "action": "click",
+      "locator": {
+        "strategy": "xpath",
+        "value": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeButton[2]"
+      },
+      "timestamp": "2026-01-13T03:10:18.470Z",
+      "operationId": "1768273818470_pkocewoxs",
+      "description": "点击 \"1\"按钮",
+      "status": "completed",
+      "elementInfo": {
+        "tagName": "XCUIElementTypeButton",
+        "text": "1",
+        "location": {
+          "y": 762,
+          "x": 64
+        },
+        "size": {
+          "width": 309,
+          "height": 40
+        }
+      },
+      "stepNumber": 9
+    },
+    {
+      "action": "wait",
+      "description": "等待发布完成",
+      "timestamp": "2026-01-13T03:10:33.162Z",
+      "value": "5000",
+      "stepNumber": 10
+    },
+    {
+      "action": "assert",
+      "assertionType": "text_contains",
+      "locator": {
+        "strategy": "xpath",
+        "value": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]"
+      },
+      "expectedValue": "今天天气不错，去哪玩呢",
+      "timestamp": "2026-01-13T03:11:24.905Z",
+      "operationId": "1768273884904_tdqiv4ke6",
+      "description": "断言操作: text_contains",
+      "status": "completed",
+      "stepNumber": 11
+    }
+  ],
+  "updatedAt": "2026-01-13T03:11:25.832Z"
 }

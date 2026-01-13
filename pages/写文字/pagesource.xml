@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AppiumAUT>
+  <XCUIElementTypeApplication type="XCUIElementTypeApplication" name="网易小蜜蜂" label="网易小蜜蜂" enabled="true" visible="true" accessible="false" x="0" y="0" width="393" height="852" index="0">
+    <XCUIElementTypeWindow type="XCUIElementTypeWindow" enabled="true" visible="true" accessible="false" x="0" y="0" width="393" height="852" index="0">
+      <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="0" width="393" height="852" index="0">
+        <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="0" width="393" height="852" index="0">
+          <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="0" width="393" height="852" index="0">
+            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="0" width="393" height="852" index="0">
+              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="0" width="393" height="852" index="0">
+                <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="0" width="393" height="852" index="0">
+                  <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="59" width="393" height="44" index="0">
+                    <XCUIElementTypeButton type="XCUIElementTypeButton" name="生成" label="生成" enabled="false" visible="true" accessible="true" x="319" y="68" width="58" height="26" index="0">
+                      <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="生成" name="生成" label="生成" enabled="true" visible="true" accessible="false" x="334" y="72" width="28" height="18" index="0"/>
+                    </XCUIElementTypeButton>
+                  </XCUIElementTypeOther>
+                  <XCUIElementTypeButton type="XCUIElementTypeButton" name="返回" label="返回" enabled="true" visible="true" accessible="true" x="12" y="67" width="28" height="28" index="1"/>
+                  <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="一句话生成配图" name="一句话生成配图" label="一句话生成配图" enabled="true" visible="true" accessible="true" x="20" y="119" width="154" height="31" index="2"/>
+                  <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="16" y="170" width="361" height="439" index="3"/>
+                  <XCUIElementTypeImage type="XCUIElementTypeImage" name="publish_textToImage_input" enabled="true" visible="true" accessible="false" x="36" y="186" width="48" height="40" index="4"/>
+                  <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="60" y="226" width="273" height="343" index="5">
+                    <XCUIElementTypeTextView type="XCUIElementTypeTextView" value="说说你的想法吧~" enabled="false" visible="true" accessible="true" x="60" y="226" width="273" height="95" index="0"/>
+                    <XCUIElementTypeTextView type="XCUIElementTypeTextView" enabled="true" visible="true" accessible="true" x="60" y="226" width="273" height="343" index="1">
+                      <XCUIElementTypeOther type="XCUIElementTypeOther" value="0%" name="垂直滚动条, 1页" label="垂直滚动条, 1页" enabled="true" visible="true" accessible="false" x="299" y="226" width="31" height="343" index="0">
+                        <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="326" y="187" width="4" height="36" index="0"/>
+                      </XCUIElementTypeOther>
+                    </XCUIElementTypeTextView>
+                  </XCUIElementTypeOther>
+                  <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="16" y="625" width="361" height="86" index="6">
+                    <XCUIElementTypeImage type="XCUIElementTypeImage" name="publish_edit_longText" enabled="true" visible="true" accessible="false" x="32" y="648" width="40" height="40" index="0"/>
+                    <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="写长文" name="写长文" label="写长文" enabled="true" visible="true" accessible="true" x="84" y="644" width="48" height="22" index="1"/>
+                    <XCUIElementTypeImage type="XCUIElementTypeImage" name="arrow_black55_24x24" enabled="true" visible="true" accessible="false" x="337" y="656" width="24" height="24" index="2"/>
+                    <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="支持千字以上，全屏阅读体验" name="支持千字以上，全屏阅读体验" label="支持千字以上，全屏阅读体验" enabled="true" visible="true" accessible="true" x="84" y="671" width="181" height="20" index="3"/>
+                  </XCUIElementTypeOther>
+                  <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="851" width="393" height="1" index="7">
+                    <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="851" width="393" height="1" index="0"/>
+                    <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="851" width="393" height="853" index="1"/>
+                  </XCUIElementTypeOther>
+                </XCUIElementTypeOther>
+              </XCUIElementTypeOther>
+            </XCUIElementTypeOther>
+          </XCUIElementTypeOther>
+        </XCUIElementTypeOther>
+      </XCUIElementTypeOther>
+    </XCUIElementTypeWindow>
+    <XCUIElementTypeWindow type="XCUIElementTypeWindow" enabled="true" visible="false" accessible="false" x="0" y="0" width="393" height="852" index="1">
+      <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="0" width="393" height="852" index="0">
+        <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="0" width="393" height="852" index="0"/>
+        <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="852" width="393" height="233" index="1"/>
+      </XCUIElementTypeOther>
+    </XCUIElementTypeWindow>
+  </XCUIElementTypeApplication>
+</AppiumAUT>

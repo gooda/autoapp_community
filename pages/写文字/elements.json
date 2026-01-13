@@ -1,0 +1,179 @@
+{
+  "page": {
+    "app": "网易小蜜蜂",
+    "page_type": "form",
+    "screen": "写文字"
+  },
+  "view_structure": {
+    "layout": "vertical",
+    "regions": [
+      {
+        "name": "status_bar",
+        "type": "system",
+        "bounds_normalized": [
+          0,
+          0,
+          1,
+          0.069
+        ]
+      },
+      {
+        "name": "navigation_bar",
+        "type": "navigation",
+        "layout": "horizontal",
+        "bounds_normalized": [
+          0,
+          0.069,
+          1,
+          0.052
+        ]
+      },
+      {
+        "name": "content_area",
+        "type": "fixed_content",
+        "layout": "vertical",
+        "bounds_normalized": [
+          0,
+          0.14,
+          1,
+          0.73
+        ]
+      },
+      {
+        "name": "bottom_entry",
+        "type": "fixed_content",
+        "layout": "horizontal",
+        "bounds_normalized": [
+          0.041,
+          0.734,
+          0.918,
+          0.101
+        ]
+      }
+    ]
+  },
+  "interactive_elements": [
+    {
+      "id": 1,
+      "component": "navigation_bar",
+      "role": "back",
+      "label": "返回",
+      "type": "button",
+      "bounds_pixel": [
+        12,
+        67,
+        28,
+        28
+      ],
+      "center_normalized": [
+        0.066,
+        0.095
+      ],
+      "has_identifier": true,
+      "locators": {
+        "accessibility_id": "返回",
+        "predicate": "type == 'XCUIElementTypeButton' AND name == '返回'",
+        "class_chain": "**/XCUIElementTypeButton[`name == '返回'`]"
+      }
+    },
+    {
+      "id": 2,
+      "component": "navigation_bar",
+      "role": "action",
+      "label": "生成",
+      "type": "button",
+      "bounds_pixel": [
+        319,
+        68,
+        58,
+        26
+      ],
+      "center_normalized": [
+        0.885,
+        0.095
+      ],
+      "has_identifier": true,
+      "locators": {
+        "accessibility_id": "生成",
+        "predicate": "type == 'XCUIElementTypeButton' AND name == '生成'",
+        "class_chain": "**/XCUIElementTypeButton[`name == '生成'`]"
+      },
+      "locator_note": "按钮初始为禁用状态，输入内容后启用"
+    },
+    {
+      "id": 3,
+      "component": "page_title",
+      "role": "title",
+      "label": "一句话生成配图",
+      "type": "text",
+      "bounds_pixel": [
+        20,
+        119,
+        154,
+        31
+      ],
+      "center_normalized": [
+        0.247,
+        0.158
+      ],
+      "has_identifier": true,
+      "locators": {
+        "accessibility_id": "一句话生成配图",
+        "predicate": "type == 'XCUIElementTypeStaticText' AND name == '一句话生成配图'",
+        "class_chain": "**/XCUIElementTypeStaticText[`name == '一句话生成配图'`]"
+      }
+    },
+    {
+      "id": 4,
+      "component": "input_area",
+      "role": "text_input",
+      "label": "说说你的想法吧~",
+      "type": "input",
+      "bounds_pixel": [
+        60,
+        226,
+        273,
+        343
+      ],
+      "center_normalized": [
+        0.5,
+        0.466
+      ],
+      "has_identifier": false,
+      "locators": {
+        "predicate": "type == 'XCUIElementTypeTextView' AND enabled == true AND visible == true",
+        "class_chain": "**/XCUIElementTypeTextView[`visible == true`][2]"
+      },
+      "locator_note": "主输入框，占位符为'说说你的想法吧~'"
+    },
+    {
+      "id": 5,
+      "component": "feature_entry",
+      "role": "entry",
+      "label": "写长文",
+      "type": "button",
+      "bounds_pixel": [
+        16,
+        625,
+        361,
+        86
+      ],
+      "center_normalized": [
+        0.5,
+        0.784
+      ],
+      "has_identifier": false,
+      "locators": {
+        "predicate": "type == 'XCUIElementTypeStaticText' AND name == '写长文'",
+        "class_chain": "**/XCUIElementTypeStaticText[`name == '写长文'`]"
+      },
+      "locator_note": "点击进入写长文模式，支持千字以上内容"
+    }
+  ],
+  "summary": {
+    "total_elements": 5,
+    "with_identifier": 3,
+    "without_identifier": 2,
+    "note": "这是一句话生成配图的编辑页面，包含文本输入区域和写长文入口"
+  }
+}

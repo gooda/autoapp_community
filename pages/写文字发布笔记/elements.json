@@ -1,0 +1,503 @@
+{
+  "page": {
+    "app": "网易小蜜蜂",
+    "page_type": "form",
+    "screen": "写文字发布笔记"
+  },
+  "view_structure": {
+    "layout": "vertical",
+    "regions": [
+      {
+        "name": "status_bar",
+        "type": "system",
+        "bounds_normalized": [
+          0,
+          0,
+          1,
+          0.069
+        ]
+      },
+      {
+        "name": "navigation_bar",
+        "type": "navigation",
+        "layout": "horizontal",
+        "bounds_normalized": [
+          0,
+          0.069,
+          1,
+          0.052
+        ]
+      },
+      {
+        "name": "scrollable_content",
+        "type": "scrollable_content",
+        "layout": "vertical",
+        "bounds_normalized": [
+          0,
+          0.121,
+          1,
+          0.755
+        ]
+      },
+      {
+        "name": "bottom_action_bar",
+        "type": "fixed_content",
+        "layout": "horizontal",
+        "bounds_normalized": [
+          0,
+          0.876,
+          1,
+          0.124
+        ]
+      }
+    ]
+  },
+  "interactive_elements": [
+    {
+      "id": 1,
+      "component": "navigation_bar",
+      "role": "back",
+      "label": "返回",
+      "type": "button",
+      "bounds_pixel": [
+        16,
+        70,
+        35,
+        22
+      ],
+      "center_normalized": [
+        0.085,
+        0.095
+      ],
+      "has_identifier": true,
+      "locators": {
+        "accessibility_id": "nav item back black",
+        "predicate": "type == 'XCUIElementTypeButton' AND name == 'nav item back black'",
+        "class_chain": "**/XCUIElementTypeButton[`name == 'nav item back black'`]"
+      }
+    },
+    {
+      "id": 2,
+      "component": "navigation_bar",
+      "role": "action",
+      "label": "存草稿",
+      "type": "button",
+      "bounds_pixel": [
+        314,
+        68,
+        63,
+        26
+      ],
+      "center_normalized": [
+        0.879,
+        0.095
+      ],
+      "has_identifier": true,
+      "locators": {
+        "accessibility_id": "存草稿",
+        "predicate": "type == 'XCUIElementTypeButton' AND name == '存草稿'",
+        "class_chain": "**/XCUIElementTypeButton[`name == '存草稿'`]"
+      }
+    },
+    {
+      "id": 3,
+      "component": "content_section",
+      "role": "selector",
+      "label": "选择蜂巢",
+      "type": "button",
+      "bounds_pixel": [
+        16,
+        115,
+        103,
+        28
+      ],
+      "center_normalized": [
+        0.172,
+        0.151
+      ],
+      "has_identifier": true,
+      "locators": {
+        "accessibility_id": "选择蜂巢",
+        "predicate": "type == 'XCUIElementTypeStaticText' AND name == '选择蜂巢'",
+        "class_chain": "**/XCUIElementTypeStaticText[`name == '选择蜂巢'`]"
+      },
+      "locator_note": "点击选择发布到的蜂巢社区"
+    },
+    {
+      "id": 4,
+      "component": "media_picker",
+      "role": "media_item",
+      "label": "已选图片1",
+      "type": "cell",
+      "bounds_pixel": [
+        15,
+        155,
+        80,
+        80
+      ],
+      "center_normalized": [
+        0.14,
+        0.229
+      ],
+      "has_identifier": false,
+      "locators": {
+        "predicate": "type == 'XCUIElementTypeCell' AND visible == true",
+        "class_chain": "**/XCUIElementTypeCollectionView/XCUIElementTypeCell[1]"
+      },
+      "locator_note": "第一个已选择的图片"
+    },
+    {
+      "id": 5,
+      "component": "media_picker",
+      "role": "add_media",
+      "label": "添加图片",
+      "type": "button",
+      "bounds_pixel": [
+        101,
+        155,
+        80,
+        80
+      ],
+      "center_normalized": [
+        0.359,
+        0.229
+      ],
+      "has_identifier": true,
+      "locators": {
+        "accessibility_id": "photo_picker_add_media",
+        "predicate": "type == 'XCUIElementTypeImage' AND name == 'photo_picker_add_media'",
+        "class_chain": "**/XCUIElementTypeImage[`name == 'photo_picker_add_media'`]"
+      },
+      "locator_note": "点击添加更多图片或视频"
+    },
+    {
+      "id": 6,
+      "component": "input_section",
+      "role": "title_input",
+      "label": "填写标题会有更多赞哦~",
+      "type": "input",
+      "bounds_pixel": [
+        15,
+        243,
+        323,
+        48
+      ],
+      "center_normalized": [
+        0.449,
+        0.314
+      ],
+      "has_identifier": false,
+      "locators": {
+        "predicate": "type == 'XCUIElementTypeTextField' AND visible == true",
+        "class_chain": "**/XCUIElementTypeTextField[`visible == true`]"
+      },
+      "locator_note": "标题输入框，最多20字"
+    },
+    {
+      "id": 7,
+      "component": "input_section",
+      "role": "content_input",
+      "label": "输入一段话",
+      "type": "input",
+      "bounds_pixel": [
+        15,
+        306,
+        366,
+        170
+      ],
+      "center_normalized": [
+        0.504,
+        0.459
+      ],
+      "has_identifier": false,
+      "locators": {
+        "predicate": "type == 'XCUIElementTypeTextView' AND visible == true",
+        "class_chain": "**/XCUIElementTypeTextView[`visible == true`]"
+      },
+      "locator_note": "正文内容输入框"
+    },
+    {
+      "id": 8,
+      "component": "toolbar",
+      "role": "emoji",
+      "label": "表情",
+      "type": "button",
+      "bounds_pixel": [
+        16,
+        492,
+        54,
+        25
+      ],
+      "center_normalized": [
+        0.109,
+        0.592
+      ],
+      "has_identifier": true,
+      "locators": {
+        "accessibility_id": "表情",
+        "predicate": "type == 'XCUIElementTypeButton' AND name == '表情'",
+        "class_chain": "**/XCUIElementTypeButton[`name == '表情'`]"
+      }
+    },
+    {
+      "id": 9,
+      "component": "toolbar",
+      "role": "topic",
+      "label": "话题",
+      "type": "button",
+      "bounds_pixel": [
+        78,
+        492,
+        54,
+        25
+      ],
+      "center_normalized": [
+        0.267,
+        0.592
+      ],
+      "has_identifier": true,
+      "locators": {
+        "accessibility_id": "话题",
+        "predicate": "type == 'XCUIElementTypeButton' AND name == '话题'",
+        "class_chain": "**/XCUIElementTypeButton[`name == '话题'`]"
+      }
+    },
+    {
+      "id": 10,
+      "component": "toolbar",
+      "role": "mention",
+      "label": "用户",
+      "type": "button",
+      "bounds_pixel": [
+        140,
+        492,
+        54,
+        25
+      ],
+      "center_normalized": [
+        0.425,
+        0.592
+      ],
+      "has_identifier": true,
+      "locators": {
+        "accessibility_id": "用户",
+        "predicate": "type == 'XCUIElementTypeButton' AND name == '用户'",
+        "class_chain": "**/XCUIElementTypeButton[`name == '用户'`]"
+      }
+    },
+    {
+      "id": 11,
+      "component": "toolbar",
+      "role": "voice",
+      "label": "语音",
+      "type": "button",
+      "bounds_pixel": [
+        202,
+        492,
+        54,
+        25
+      ],
+      "center_normalized": [
+        0.582,
+        0.592
+      ],
+      "has_identifier": true,
+      "locators": {
+        "accessibility_id": "语音",
+        "predicate": "type == 'XCUIElementTypeButton' AND name == '语音'",
+        "class_chain": "**/XCUIElementTypeButton[`name == '语音'`]"
+      }
+    },
+    {
+      "id": 12,
+      "component": "toolbar",
+      "role": "long_text",
+      "label": "长文",
+      "type": "button",
+      "bounds_pixel": [
+        323,
+        492,
+        54,
+        25
+      ],
+      "center_normalized": [
+        0.891,
+        0.592
+      ],
+      "has_identifier": true,
+      "locators": {
+        "accessibility_id": "长文",
+        "predicate": "type == 'XCUIElementTypeButton' AND name == '长文'",
+        "class_chain": "**/XCUIElementTypeButton[`name == '长文'`]"
+      }
+    },
+    {
+      "id": 13,
+      "component": "settings_section",
+      "role": "mood",
+      "label": "标记情绪",
+      "type": "button",
+      "bounds_pixel": [
+        15,
+        533,
+        363,
+        52
+      ],
+      "center_normalized": [
+        0.5,
+        0.656
+      ],
+      "has_identifier": true,
+      "locators": {
+        "accessibility_id": "标记情绪",
+        "predicate": "type == 'XCUIElementTypeStaticText' AND name == '标记情绪'",
+        "class_chain": "**/XCUIElementTypeStaticText[`name == '标记情绪'`]"
+      }
+    },
+    {
+      "id": 14,
+      "component": "settings_section",
+      "role": "more_components",
+      "label": "更多组件",
+      "type": "button",
+      "bounds_pixel": [
+        15,
+        585,
+        363,
+        52
+      ],
+      "center_normalized": [
+        0.5,
+        0.717
+      ],
+      "has_identifier": true,
+      "locators": {
+        "accessibility_id": "更多组件",
+        "predicate": "type == 'XCUIElementTypeStaticText' AND name == '更多组件'",
+        "class_chain": "**/XCUIElementTypeStaticText[`name == '更多组件'`]"
+      }
+    },
+    {
+      "id": 15,
+      "component": "settings_section",
+      "role": "visibility",
+      "label": "公开可见",
+      "type": "button",
+      "bounds_pixel": [
+        15,
+        637,
+        363,
+        52
+      ],
+      "center_normalized": [
+        0.5,
+        0.778
+      ],
+      "has_identifier": true,
+      "locators": {
+        "accessibility_id": "公开可见",
+        "predicate": "type == 'XCUIElementTypeStaticText' AND name == '公开可见'",
+        "class_chain": "**/XCUIElementTypeStaticText[`name == '公开可见'`]"
+      }
+    },
+    {
+      "id": 16,
+      "component": "settings_section",
+      "role": "advanced_settings",
+      "label": "高级设置",
+      "type": "button",
+      "bounds_pixel": [
+        20,
+        689,
+        60,
+        44
+      ],
+      "center_normalized": [
+        0.127,
+        0.834
+      ],
+      "has_identifier": true,
+      "locators": {
+        "accessibility_id": "高级设置",
+        "predicate": "type == 'XCUIElementTypeButton' AND name == '高级设置'",
+        "class_chain": "**/XCUIElementTypeButton[`name == '高级设置'`]"
+      }
+    },
+    {
+      "id": 17,
+      "component": "settings_section",
+      "role": "anonymous",
+      "label": "匿名发布",
+      "type": "button",
+      "bounds_pixel": [
+        311,
+        689,
+        62,
+        44
+      ],
+      "center_normalized": [
+        0.87,
+        0.834
+      ],
+      "has_identifier": true,
+      "locators": {
+        "accessibility_id": "匿名发布",
+        "predicate": "type == 'XCUIElementTypeButton' AND name == '匿名发布'",
+        "class_chain": "**/XCUIElementTypeButton[`name == '匿名发布'`]"
+      }
+    },
+    {
+      "id": 18,
+      "component": "bottom_action_bar",
+      "role": "preview",
+      "label": "预览",
+      "type": "button",
+      "bounds_pixel": [
+        17,
+        762,
+        32,
+        40
+      ],
+      "center_normalized": [
+        0.084,
+        0.917
+      ],
+      "has_identifier": true,
+      "locators": {
+        "accessibility_id": "预览",
+        "predicate": "type == 'XCUIElementTypeButton' AND name == '预览'",
+        "class_chain": "**/XCUIElementTypeButton[`name == '预览'`]"
+      }
+    },
+    {
+      "id": 19,
+      "component": "bottom_action_bar",
+      "role": "submit",
+      "label": "发布笔记",
+      "type": "button",
+      "bounds_pixel": [
+        64,
+        762,
+        309,
+        40
+      ],
+      "center_normalized": [
+        0.556,
+        0.917
+      ],
+      "has_identifier": true,
+      "locators": {
+        "accessibility_id": "发布笔记",
+        "predicate": "type == 'XCUIElementTypeButton' AND name == '发布笔记'",
+        "class_chain": "**/XCUIElementTypeButton[`name == '发布笔记'`]"
+      },
+      "locator_note": "主发布按钮，黄色高亮显示"
+    }
+  ],
+  "summary": {
+    "total_elements": 19,
+    "with_identifier": 16,
+    "without_identifier": 3,
+    "note": "笔记发布表单页面，包含媒体选择、标题/正文输入、工具栏、发布设置和提交按钮"
+  }
+}

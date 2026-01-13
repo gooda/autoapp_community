@@ -1,16 +1,171 @@
 {
-  "_meta": {
-    "version": "1.0.0",
-    "createdAt": "2026-01-12T12:04:17.091Z",
-    "updatedAt": "2026-01-12T12:04:17.091Z",
-    "author": "user"
-  },
   "name": "首页发布",
   "description": "",
   "priority": "medium",
   "tags": [],
-  "applications": [],
-  "steps": [],
-  "blueprintEnabled": false,
-  "blueprintData": null
+  "steps": [
+    {
+      "action": "launch_app",
+      "description": "打开应用: 网易小蜜蜂",
+      "operationId": "launch_app_1768277841085_k0b83lxh1",
+      "timestamp": "2026-01-13T04:17:21.085Z",
+      "stepNumber": 1,
+      "element": {
+        "type": "app_launch",
+        "name": "网易小蜜蜂",
+        "bundleId": "com.netease.community",
+        "version": "2.41.0"
+      },
+      "parameters": {
+        "appName": "网易小蜜蜂",
+        "bundleId": "com.netease.community",
+        "version": "2.41.0"
+      }
+    },
+    {
+      "action": "click",
+      "locator": {
+        "strategy": "xpath",
+        "value": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[3]"
+      },
+      "timestamp": "2026-01-13T04:17:23.731Z",
+      "operationId": "1768277843731_4kyaglfan",
+      "description": "点击 \"发布 标签\"元素",
+      "status": "completed",
+      "elementInfo": {
+        "tagName": "XCUIElementTypeOther",
+        "text": "发布 标签 ",
+        "location": {
+          "y": 772,
+          "x": 157
+        },
+        "size": {
+          "width": 79,
+          "height": 46
+        }
+      },
+      "stepNumber": 2
+    },
+    {
+      "action": "click",
+      "locator": {
+        "strategy": "xpath",
+        "value": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeTable[1]/XCUIElementTypeCell[1]/XCUIElementTypeStaticText[1]"
+      },
+      "timestamp": "2026-01-13T04:17:29.451Z",
+      "operationId": "1768277849451_a7kpr75av",
+      "description": "点击 \"从相册选择\"文本",
+      "status": "completed",
+      "elementInfo": {
+        "tagName": "XCUIElementTypeStaticText",
+        "text": "从相册选择",
+        "location": {
+          "y": 598,
+          "x": 52
+        },
+        "size": {
+          "width": 289,
+          "height": 22
+        }
+      },
+      "stepNumber": 3
+    },
+    {
+      "action": "click",
+      "locator": {
+        "strategy": "xpath",
+        "value": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]"
+      },
+      "timestamp": "2026-01-13T04:17:45.977Z",
+      "operationId": "1768277865977_0fxritvhp",
+      "description": "点击 按钮",
+      "status": "completed",
+      "elementInfo": {
+        "tagName": "XCUIElementTypeButton",
+        "text": "",
+        "location": {
+          "y": 147,
+          "x": 86
+        },
+        "size": {
+          "width": 45,
+          "height": 44
+        }
+      },
+      "stepNumber": 4
+    },
+    {
+      "action": "click",
+      "locator": {
+        "strategy": "xpath",
+        "value": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeButton[1]"
+      },
+      "timestamp": "2026-01-13T04:17:55.255Z",
+      "operationId": "1768277875255_vf9rpm14p",
+      "description": "点击 \"下一步(1)\"按钮",
+      "status": "completed",
+      "elementInfo": {
+        "tagName": "XCUIElementTypeButton",
+        "text": "下一步(1)",
+        "location": {
+          "y": 763,
+          "x": 293
+        },
+        "size": {
+          "width": 84,
+          "height": 32
+        }
+      },
+      "stepNumber": 5
+    },
+    {
+      "action": "click",
+      "locator": {
+        "strategy": "xpath",
+        "value": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeButton[1]"
+      },
+      "timestamp": "2026-01-13T04:18:04.152Z",
+      "operationId": "1768277884152_l1vvshcmn",
+      "description": "点击 \"下一步(1)\"按钮",
+      "status": "completed",
+      "elementInfo": {
+        "tagName": "XCUIElementTypeButton",
+        "text": "下一步(1)",
+        "location": {
+          "y": 754,
+          "x": 293
+        },
+        "size": {
+          "width": 84,
+          "height": 32
+        }
+      },
+      "stepNumber": 6
+    },
+    {
+      "action": "click",
+      "locator": {
+        "strategy": "xpath",
+        "value": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeButton[2]"
+      },
+      "timestamp": "2026-01-13T04:18:14.143Z",
+      "operationId": "1768277894143_39ujb9q25",
+      "description": "点击 \"1\"按钮",
+      "status": "completed",
+      "elementInfo": {
+        "tagName": "XCUIElementTypeButton",
+        "text": "1",
+        "location": {
+          "y": 762,
+          "x": 64
+        },
+        "size": {
+          "width": 309,
+          "height": 40
+        }
+      },
+      "stepNumber": 7
+    }
+  ],
+  "updatedAt": "2026-01-13T04:18:16.404Z"
 }
