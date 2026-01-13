@@ -1,7 +1,7 @@
 {
   "_meta": {
     "version": "1.0.0",
-    "updatedAt": "2026-01-13T11:26:03.493Z",
+    "updatedAt": "2026-01-13T11:26:11.326Z",
     "updatedBy": "user"
   },
   "categories": [
@@ -28,6 +28,14 @@
       "parentId": null,
       "order": 2,
       "createdAt": "2026-01-13T11:26:03.415Z"
+    },
+    {
+      "id": "cat_mkciafxh_qfmeuq",
+      "name": "UI测试",
+      "description": "",
+      "parentId": null,
+      "order": 3,
+      "createdAt": "2026-01-13T11:26:11.237Z"
     }
   ]
 }
