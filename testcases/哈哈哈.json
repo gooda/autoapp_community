@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "version": "1.0.0",
+    "createdAt": "2026-01-13T05:36:42.169Z",
+    "updatedAt": "2026-01-13T05:36:42.169Z",
+    "author": "recorder"
+  },
+  "name": "哈哈哈",
+  "description": "",
+  "priority": "medium",
+  "tags": [],
+  "applications": [],
+  "steps": [],
+  "blueprintEnabled": false,
+  "blueprintData": null
+}
