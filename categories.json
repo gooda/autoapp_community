@@ -1,7 +1,7 @@
 {
   "_meta": {
     "version": "1.0.0",
-    "updatedAt": "2026-01-13T11:25:45.302Z",
+    "updatedAt": "2026-01-13T11:26:03.493Z",
     "updatedBy": "user"
   },
   "categories": [
@@ -20,6 +20,14 @@
       "parentId": "cat_mkci9jgq_02bqhb",
       "order": 1,
       "createdAt": "2026-01-13T11:25:45.222Z"
+    },
+    {
+      "id": "cat_mkcia9w7_tu4zlt",
+      "name": "性能测试",
+      "description": "",
+      "parentId": null,
+      "order": 2,
+      "createdAt": "2026-01-13T11:26:03.415Z"
     }
   ]
 }
