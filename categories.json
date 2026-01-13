@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "version": "1.0.0",
+    "updatedAt": "2026-01-13T11:25:29.248Z",
+    "updatedBy": "user"
+  },
+  "categories": [
+    {
+      "id": "cat_mkci9jgq_02bqhb",
+      "name": "回归测试",
+      "description": "",
+      "parentId": null,
+      "order": 0,
+      "createdAt": "2026-01-13T11:25:29.162Z"
+    }
+  ]
+}
