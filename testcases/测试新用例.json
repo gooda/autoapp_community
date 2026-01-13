@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "version": "1.0.0",
+    "createdAt": "2026-01-13T04:36:15.015Z",
+    "updatedAt": "2026-01-13T04:36:15.015Z",
+    "author": "recorder"
+  },
+  "name": "测试新用例",
+  "description": "",
+  "priority": "medium",
+  "tags": [],
+  "applications": [],
+  "steps": [],
+  "blueprintEnabled": false,
+  "blueprintData": null
+}
