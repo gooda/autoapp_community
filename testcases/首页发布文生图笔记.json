@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "version": "1.0.0",
+    "createdAt": "2026-01-13T02:56:18.923Z",
+    "updatedAt": "2026-01-13T02:56:18.923Z",
+    "author": "recorder"
+  },
+  "name": "首页发布文生图笔记",
+  "description": "",
+  "priority": "medium",
+  "tags": [],
+  "applications": [],
+  "steps": [],
+  "blueprintEnabled": false,
+  "blueprintData": null
+}
