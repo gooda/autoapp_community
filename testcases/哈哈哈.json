@@ -1,16 +1,51 @@
 {
-  "_meta": {
-    "version": "1.0.0",
-    "createdAt": "2026-01-13T05:36:42.169Z",
-    "updatedAt": "2026-01-13T05:36:42.169Z",
-    "author": "recorder"
-  },
   "name": "哈哈哈",
   "description": "",
   "priority": "medium",
   "tags": [],
-  "applications": [],
-  "steps": [],
-  "blueprintEnabled": false,
-  "blueprintData": null
+  "steps": [
+    {
+      "action": "launch_app",
+      "description": "打开应用: 网易小蜜蜂企业版",
+      "operationId": "launch_app_1768282624294_prumorayd",
+      "timestamp": "2026-01-13T05:37:04.294Z",
+      "stepNumber": 1,
+      "element": {
+        "type": "app_launch",
+        "name": "网易小蜜蜂企业版",
+        "bundleId": "com.netease.communityent",
+        "version": "2.30.0"
+      },
+      "parameters": {
+        "appName": "网易小蜜蜂企业版",
+        "bundleId": "com.netease.communityent",
+        "version": "2.30.0"
+      }
+    },
+    {
+      "action": "click",
+      "locator": {
+        "strategy": "xpath",
+        "value": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[2]"
+      },
+      "timestamp": "2026-01-13T05:37:05.760Z",
+      "operationId": "1768282625759_688u10c7v",
+      "description": "点击 选项",
+      "status": "completed",
+      "elementInfo": {
+        "tagName": "XCUIElementTypeCell",
+        "text": "",
+        "location": {
+          "y": 108,
+          "x": 199
+        },
+        "size": {
+          "width": 189,
+          "height": 278
+        }
+      },
+      "stepNumber": 2
+    }
+  ],
+  "updatedAt": "2026-01-13T05:37:08.334Z"
 }
