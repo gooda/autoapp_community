@@ -3,112 +3,56 @@
   "description": "",
   "priority": "medium",
   "tags": [],
+  "applications": [],
+  "minAppVersion": null,
+  "recordedAppVersion": null,
+  "blueprintEnabled": false,
   "steps": [
     {
-      "action": "launch_app",
-      "description": "打开应用: 网易小蜜蜂",
-      "operationId": "launch_app_1768278338260_kl395asqf",
-      "timestamp": "2026-01-13T04:25:38.260Z",
       "stepNumber": 1,
-      "element": {
-        "type": "app_launch",
-        "name": "网易小蜜蜂",
-        "bundleId": "com.netease.community",
-        "version": "2.41.0"
-      },
-      "parameters": {
-        "appName": "网易小蜜蜂",
-        "bundleId": "com.netease.community",
-        "version": "2.41.0"
-      }
-    },
-    {
       "action": "click",
+      "description": "点击 选项",
+      "timestamp": "2026-01-13T04:25:43.893Z",
       "locator": {
         "strategy": "xpath",
         "value": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]"
-      },
-      "timestamp": "2026-01-13T04:25:43.893Z",
-      "operationId": "1768278343892_sd2ij0ovk",
-      "description": "点击 选项",
-      "status": "completed",
-      "elementInfo": {
-        "tagName": "XCUIElementTypeCell",
-        "text": "",
-        "location": {
-          "y": 108,
-          "x": 5
-        },
-        "size": {
-          "width": 189,
-          "height": 345
-        }
-      },
-      "stepNumber": 2
+      }
     },
     {
+      "stepNumber": 2,
       "action": "scroll",
-      "element": {
-        "type": "global_scroll"
-      },
-      "direction": "up",
-      "distance": "80%",
+      "description": "滚动操作: up 80%",
       "timestamp": "2026-01-13T04:25:51.088Z",
-      "operationId": "1768278351088_oy4x7oqkh",
-      "description": "滚动操作: up 80%",
-      "status": "completed",
-      "stepNumber": 3
+      "direction": "up",
+      "distance": "80%"
     },
     {
+      "stepNumber": 3,
       "action": "scroll",
-      "element": {
-        "type": "global_scroll"
-      },
-      "direction": "up",
-      "distance": "80%",
+      "description": "滚动操作: up 80%",
       "timestamp": "2026-01-13T04:25:56.010Z",
-      "operationId": "1768278356010_yrumz82k8",
-      "description": "滚动操作: up 80%",
-      "status": "completed",
-      "stepNumber": 4
-    },
-    {
-      "action": "scroll",
-      "element": {
-        "type": "global_scroll"
-      },
       "direction": "up",
-      "distance": "80%",
-      "timestamp": "2026-01-13T04:26:00.848Z",
-      "operationId": "1768278360848_g2zkd3ude",
-      "description": "滚动操作: up 80%",
-      "status": "completed",
-      "stepNumber": 5
+      "distance": "80%"
     },
     {
+      "stepNumber": 4,
+      "action": "scroll",
+      "description": "滚动操作: up 80%",
+      "timestamp": "2026-01-13T04:26:00.848Z",
+      "direction": "up",
+      "distance": "80%"
+    },
+    {
+      "stepNumber": 5,
       "action": "click",
+      "description": "点击 \"返回\"按钮",
+      "timestamp": "2026-01-13T04:26:10.479Z",
       "locator": {
         "strategy": "xpath",
         "value": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]"
-      },
-      "timestamp": "2026-01-13T04:26:10.479Z",
-      "operationId": "1768278370479_ihtwlvsgt",
-      "description": "点击 \"返回\"按钮",
-      "status": "completed",
-      "elementInfo": {
-        "tagName": "XCUIElementTypeButton",
-        "text": "返回",
-        "location": {
-          "y": 75,
-          "x": 12
-        },
-        "size": {
-          "width": 28,
-          "height": 28
-        }
-      },
-      "stepNumber": 6
+      }
     }
   ],
-  "updatedAt": "2026-01-13T04:26:12.775Z"
+  "blueprintData": null,
+  "updatedAt": "2026-01-13T06:47:17.856Z"
 }
