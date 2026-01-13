@@ -1,16 +1,51 @@
 {
-  "_meta": {
-    "version": "1.0.0",
-    "createdAt": "2026-01-13T04:36:15.015Z",
-    "updatedAt": "2026-01-13T04:36:15.015Z",
-    "author": "recorder"
-  },
   "name": "测试新用例",
   "description": "",
   "priority": "medium",
   "tags": [],
-  "applications": [],
-  "steps": [],
-  "blueprintEnabled": false,
-  "blueprintData": null
+  "steps": [
+    {
+      "action": "launch_app",
+      "description": "打开应用: 网易小蜜蜂",
+      "operationId": "launch_app_1768279293440_hl5lunif4",
+      "timestamp": "2026-01-13T04:41:33.440Z",
+      "stepNumber": 1,
+      "element": {
+        "type": "app_launch",
+        "name": "网易小蜜蜂",
+        "bundleId": "com.netease.community",
+        "version": "2.41.0"
+      },
+      "parameters": {
+        "appName": "网易小蜜蜂",
+        "bundleId": "com.netease.community",
+        "version": "2.41.0"
+      }
+    },
+    {
+      "action": "click",
+      "locator": {
+        "strategy": "xpath",
+        "value": "/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[3]"
+      },
+      "timestamp": "2026-01-13T04:41:46.746Z",
+      "operationId": "1768279306746_7ootm68xz",
+      "description": "点击 \"发布 标签\"元素",
+      "status": "completed",
+      "elementInfo": {
+        "tagName": "XCUIElementTypeOther",
+        "text": "发布 标签 ",
+        "location": {
+          "y": 772,
+          "x": 157
+        },
+        "size": {
+          "width": 79,
+          "height": 46
+        }
+      },
+      "stepNumber": 2
+    }
+  ],
+  "updatedAt": "2026-01-13T04:41:48.887Z"
 }
