@@ -12,5 +12,9 @@
   "applications": [],
   "steps": [],
   "blueprintEnabled": false,
-  "blueprintData": null
+  "blueprintData": null,
+  "file": "testcases/森林酒馆.json",
+  "categoryIds": [
+    "cat_mkddorkp_so15f2"
+  ]
 }
