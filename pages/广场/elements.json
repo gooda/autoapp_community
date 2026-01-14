@@ -1,0 +1,485 @@
+{
+  "page": {
+    "app": "网易小蜜蜂",
+    "page_type": "feed",
+    "screen": "广场"
+  },
+  "view_structure": {
+    "layout": "vertical",
+    "regions": [
+      {
+        "name": "status_bar",
+        "type": "system",
+        "layout": "horizontal",
+        "bounds_normalized": [
+          0,
+          0,
+          1,
+          0.069
+        ]
+      },
+      {
+        "name": "navigation_bar",
+        "type": "navigation",
+        "layout": "horizontal",
+        "bounds_normalized": [
+          0,
+          0.069,
+          1,
+          0.061
+        ]
+      },
+      {
+        "name": "activity_banners",
+        "type": "fixed_content",
+        "layout": "horizontal",
+        "bounds_normalized": [
+          0,
+          0.13,
+          1,
+          0.1
+        ]
+      },
+      {
+        "name": "ranking_list",
+        "type": "scrollable_content",
+        "layout": "vertical",
+        "bounds_normalized": [
+          0,
+          0.23,
+          1,
+          0.675
+        ]
+      },
+      {
+        "name": "bottom_tab_bar",
+        "type": "navigation",
+        "layout": "horizontal",
+        "bounds_normalized": [
+          0,
+          0.906,
+          1,
+          0.054
+        ]
+      }
+    ]
+  },
+  "interactive_elements": [
+    {
+      "id": 1,
+      "component": "navigation_bar",
+      "role": "title",
+      "label": "广场",
+      "type": "static_text",
+      "bounds_pixel": [
+        0,
+        59,
+        393,
+        52
+      ],
+      "center_normalized": [
+        0.5,
+        0.1
+      ],
+      "has_identifier": true,
+      "locators": {
+        "accessibility_id": "广场",
+        "predicate": "type == 'XCUIElementTypeStaticText' AND name == '广场'",
+        "class_chain": "**/XCUIElementTypeStaticText[`name == '广场'`]"
+      }
+    },
+    {
+      "id": 2,
+      "component": "activity_banners",
+      "role": "banner",
+      "label": "蜂云人物",
+      "type": "button",
+      "bounds_pixel": [
+        8,
+        111,
+        122,
+        85
+      ],
+      "center_normalized": [
+        0.176,
+        0.18
+      ],
+      "has_identifier": false,
+      "locators": {
+        "class_chain": "**/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]",
+        "predicate": "type == 'XCUIElementTypeOther' AND visible == true AND rect.x == 8 AND rect.y == 111"
+      },
+      "locator_note": "第一个活动入口卡片，无 accessibility_id，使用位置定位"
+    },
+    {
+      "id": 3,
+      "component": "activity_banners",
+      "role": "banner",
+      "label": "梗王大赛",
+      "type": "button",
+      "bounds_pixel": [
+        135,
+        111,
+        123,
+        85
+      ],
+      "center_normalized": [
+        0.5,
+        0.18
+      ],
+      "has_identifier": false,
+      "locators": {
+        "class_chain": "**/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]",
+        "predicate": "type == 'XCUIElementTypeOther' AND visible == true AND rect.x == 135 AND rect.y == 111"
+      },
+      "locator_note": "第二个活动入口卡片"
+    },
+    {
+      "id": 4,
+      "component": "activity_banners",
+      "role": "banner",
+      "label": "社团PK",
+      "type": "button",
+      "bounds_pixel": [
+        263,
+        111,
+        122,
+        85
+      ],
+      "center_normalized": [
+        0.824,
+        0.18
+      ],
+      "has_identifier": false,
+      "locators": {
+        "class_chain": "**/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]",
+        "predicate": "type == 'XCUIElementTypeOther' AND visible == true AND rect.x == 263 AND rect.y == 111"
+      },
+      "locator_note": "第三个活动入口卡片"
+    },
+    {
+      "id": 5,
+      "component": "ranking_section_header",
+      "role": "title",
+      "label": "热门评分榜单",
+      "type": "static_text",
+      "bounds_pixel": [
+        36,
+        212,
+        84,
+        21
+      ],
+      "center_normalized": [
+        0.198,
+        0.261
+      ],
+      "has_identifier": true,
+      "locators": {
+        "accessibility_id": "热门评分榜单",
+        "predicate": "type == 'XCUIElementTypeStaticText' AND name == '热门评分榜单'",
+        "class_chain": "**/XCUIElementTypeStaticText[`name == '热门评分榜单'`]"
+      }
+    },
+    {
+      "id": 6,
+      "component": "ranking_section_header",
+      "role": "button",
+      "label": "查看全部",
+      "type": "button",
+      "bounds_pixel": [
+        316,
+        213,
+        48,
+        18
+      ],
+      "center_normalized": [
+        0.865,
+        0.26
+      ],
+      "has_identifier": true,
+      "locators": {
+        "accessibility_id": "查看全部",
+        "predicate": "type == 'XCUIElementTypeStaticText' AND name == '查看全部'",
+        "class_chain": "**/XCUIElementTypeStaticText[`name == '查看全部'`]"
+      }
+    },
+    {
+      "id": 7,
+      "component": "ranking_list",
+      "role": "card_template",
+      "label": "榜单卡片",
+      "type": "cell",
+      "bounds_pixel": [
+        10,
+        242,
+        373,
+        262
+      ],
+      "center_normalized": [
+        0.5,
+        0.437
+      ],
+      "has_identifier": false,
+      "locators": {
+        "class_chain": "**/XCUIElementTypeTable/XCUIElementTypeCell[`index == {{INDEX}}`]",
+        "predicate": "type == 'XCUIElementTypeCell' AND visible == true"
+      },
+      "locator_note": "榜单卡片模板，使用索引定位。第1个卡片 index=0，第2个 index=2（中间有分隔符）",
+      "children": [
+        {
+          "role": "title",
+          "label": "榜单标题",
+          "type": "static_text",
+          "has_identifier": true,
+          "locators": {
+            "class_chain": "**/XCUIElementTypeCell[{{INDEX}}]/XCUIElementTypeStaticText[`name CONTAINS '排行榜' OR name CONTAINS '榜'`][-1]",
+            "note": "如：减脂期优质碳水排行榜、最适合打工人养的宠物"
+          }
+        },
+        {
+          "role": "participant_count",
+          "label": "参与人数",
+          "type": "static_text",
+          "has_identifier": true,
+          "locators": {
+            "predicate": "name CONTAINS '人参与' AND type == 'XCUIElementTypeStaticText'",
+            "note": "如：512人参与"
+          }
+        },
+        {
+          "role": "ranking_item",
+          "label": "排名项目",
+          "type": "group",
+          "has_identifier": false,
+          "children": [
+            {
+              "role": "rank",
+              "label": "排名序号",
+              "type": "static_text",
+              "locators": {
+                "predicate": "name == '1' OR name == '2' OR name == '3'"
+              }
+            },
+            {
+              "role": "item_name",
+              "label": "项目名称",
+              "type": "static_text",
+              "has_identifier": true,
+              "locators": {
+                "note": "如：马铃薯、紫薯、土松"
+              }
+            },
+            {
+              "role": "score",
+              "label": "评分",
+              "type": "static_text",
+              "has_identifier": true,
+              "locators": {
+                "predicate": "name MATCHES '^[0-9]\\.[0-9]$'",
+                "note": "如：9.4、9.2"
+              }
+            },
+            {
+              "role": "description",
+              "label": "评价描述",
+              "type": "other",
+              "has_identifier": true,
+              "locators": {
+                "predicate": "name BEGINSWITH '\u201c'",
+                "note": "用户评价内容，以中文左引号开头"
+              }
+            }
+          ]
+        },
+        {
+          "role": "action_button",
+          "label": "卡片点击区域",
+          "type": "button",
+          "has_identifier": false,
+          "locators": {
+            "class_chain": "**/XCUIElementTypeCell[{{INDEX}}]/XCUIElementTypeButton"
+          }
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "component": "floating_button",
+      "role": "ai_assistant",
+      "label": "AI助手",
+      "type": "button",
+      "bounds_pixel": [
+        2,
+        668,
+        48,
+        48
+      ],
+      "center_normalized": [
+        0.066,
+        0.812
+      ],
+      "has_identifier": false,
+      "locators": {
+        "class_chain": "**/XCUIElementTypeOther[`rect.width == 48 AND rect.height == 48`]/XCUIElementTypeImage",
+        "predicate": "type == 'XCUIElementTypeImage' AND rect.x == 6 AND rect.y == 672"
+      },
+      "locator_note": "左下角悬浮 AI 助手按钮"
+    },
+    {
+      "id": 9,
+      "component": "bottom_tab_bar",
+      "role": "tab",
+      "label": "首页",
+      "type": "tab",
+      "bounds_pixel": [
+        0,
+        772,
+        79,
+        46
+      ],
+      "center_normalized": [
+        0.1,
+        0.933
+      ],
+      "has_identifier": true,
+      "locators": {
+        "accessibility_id": "首页 标签 ",
+        "predicate": "name == '首页 标签 '",
+        "class_chain": "**/XCUIElementTypeOther[`name == '首页 标签 '`]"
+      }
+    },
+    {
+      "id": 10,
+      "component": "bottom_tab_bar",
+      "role": "tab",
+      "label": "广场",
+      "type": "tab",
+      "bounds_pixel": [
+        78,
+        772,
+        80,
+        46
+      ],
+      "center_normalized": [
+        0.3,
+        0.933
+      ],
+      "has_identifier": true,
+      "selected": true,
+      "locators": {
+        "accessibility_id": "已选定 广场 标签 ",
+        "predicate": "name == '已选定 广场 标签 '",
+        "class_chain": "**/XCUIElementTypeOther[`name CONTAINS '广场 标签'`]"
+      },
+      "locator_note": "当前选中状态，name 带有'已选定'前缀"
+    },
+    {
+      "id": 11,
+      "component": "bottom_tab_bar",
+      "role": "tab",
+      "label": "发布",
+      "type": "tab",
+      "bounds_pixel": [
+        157,
+        772,
+        79,
+        46
+      ],
+      "center_normalized": [
+        0.5,
+        0.933
+      ],
+      "has_identifier": true,
+      "locators": {
+        "accessibility_id": "发布 标签 ",
+        "predicate": "name == '发布 标签 '",
+        "class_chain": "**/XCUIElementTypeOther[`name == '发布 标签 '`]"
+      },
+      "locator_note": "中间的 + 号发布按钮"
+    },
+    {
+      "id": 12,
+      "component": "bottom_tab_bar",
+      "role": "tab",
+      "label": "消息",
+      "type": "tab",
+      "bounds_pixel": [
+        235,
+        772,
+        80,
+        46
+      ],
+      "center_normalized": [
+        0.7,
+        0.933
+      ],
+      "has_identifier": true,
+      "locators": {
+        "accessibility_id": "消息 标签 ",
+        "predicate": "name == '消息 标签 '",
+        "class_chain": "**/XCUIElementTypeOther[`name == '消息 标签 '`]"
+      }
+    },
+    {
+      "id": 13,
+      "component": "bottom_tab_bar",
+      "role": "tab",
+      "label": "我的",
+      "type": "tab",
+      "bounds_pixel": [
+        314,
+        772,
+        79,
+        46
+      ],
+      "center_normalized": [
+        0.9,
+        0.933
+      ],
+      "has_identifier": true,
+      "locators": {
+        "accessibility_id": "我的 标签 ",
+        "predicate": "name == '我的 标签 '",
+        "class_chain": "**/XCUIElementTypeOther[`name == '我的 标签 '`]"
+      }
+    },
+    {
+      "id": 14,
+      "component": "ranking_list_footer",
+      "role": "button",
+      "label": "查看全部榜单",
+      "type": "button",
+      "bounds_pixel": [
+        10,
+        2669,
+        373,
+        45
+      ],
+      "center_normalized": [
+        0.5,
+        0.95
+      ],
+      "has_identifier": true,
+      "visible": false,
+      "locators": {
+        "accessibility_id": "查看全部榜单",
+        "predicate": "type == 'XCUIElementTypeButton' AND name == '查看全部榜单'",
+        "class_chain": "**/XCUIElementTypeButton[`name == '查看全部榜单'`]"
+      },
+      "locator_note": "列表底部按钮，需滚动到底部可见"
+    }
+  ],
+  "summary": {
+    "total_elements": 14,
+    "with_identifier": 10,
+    "without_identifier": 4,
+    "note": "广场页面为榜单 Feed 流，包含顶部活动入口(3个)、热门评分榜单列表、底部 Tab 栏(5个)。榜单卡片使用模板定位，每个卡片内含标题、参与人数、Top3 排名项目。"
+  },
+  "_meta": {
+    "pageName": "广场",
+    "description": "网易小蜜蜂 App 广场页面 - 热门评分榜单 Feed 流",
+    "elementCount": 14,
+    "createdAt": "2026-01-14T02:48:04.384Z",
+    "updatedAt": "2026-01-14T03:15:00.000Z"
+  }
+}

@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AppiumAUT>
+  <XCUIElementTypeApplication type="XCUIElementTypeApplication" name="网易小蜜蜂" label="网易小蜜蜂" enabled="true" visible="true" accessible="false" x="0" y="0" width="393" height="852" index="0">
+    <XCUIElementTypeWindow type="XCUIElementTypeWindow" enabled="true" visible="true" accessible="false" x="0" y="0" width="393" height="852" index="0">
+      <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="0" width="393" height="852" index="0">
+        <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="0" width="393" height="852" index="0">
+          <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="0" width="393" height="852" index="0">
+            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="0" width="393" height="852" index="0">
+              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="0" width="393" height="852" index="0">
+                <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="0" width="393" height="852" index="0">
+                  <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="0" width="393" height="852" index="0">
+                    <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="0" width="393" height="772" index="0">
+                      <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="0" width="393" height="111" index="0">
+                        <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="0" width="393" height="59" index="0"/>
+                        <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="广场" name="广场" label="广场" enabled="true" visible="true" accessible="true" x="0" y="59" width="393" height="52" index="1"/>
+                      </XCUIElementTypeOther>
+                      <XCUIElementTypeScrollView type="XCUIElementTypeScrollView" enabled="true" visible="true" accessible="false" x="0" y="111" width="393" height="661" index="1">
+                        <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="111" width="393" height="85" index="0">
+                          <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="8" y="111" width="122" height="85" index="0">
+                            <XCUIElementTypeImage type="XCUIElementTypeImage" enabled="true" visible="true" accessible="false" x="8" y="111" width="122" height="85" index="0"/>
+                          </XCUIElementTypeOther>
+                          <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="135" y="111" width="123" height="85" index="1">
+                            <XCUIElementTypeImage type="XCUIElementTypeImage" enabled="true" visible="true" accessible="false" x="135" y="111" width="123" height="85" index="0"/>
+                          </XCUIElementTypeOther>
+                          <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="263" y="111" width="122" height="85" index="2">
+                            <XCUIElementTypeImage type="XCUIElementTypeImage" enabled="true" visible="true" accessible="false" x="263" y="111" width="122" height="85" index="0"/>
+                          </XCUIElementTypeOther>
+                        </XCUIElementTypeOther>
+                        <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="10" y="195" width="373" height="2529" index="1">
+                          <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="10" y="210" width="373" height="24" index="0">
+                            <XCUIElementTypeImage type="XCUIElementTypeImage" name="rank_square_scroeobj_icon" enabled="true" visible="true" accessible="false" x="13" y="212" width="20" height="21" index="0"/>
+                            <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="热门评分榜单" name="热门评分榜单" label="热门评分榜单" enabled="true" visible="true" accessible="true" x="36" y="212" width="84" height="21" index="1"/>
+                            <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="查看全部" name="查看全部" label="查看全部" enabled="true" visible="true" accessible="true" x="316" y="213" width="48" height="18" index="2"/>
+                            <XCUIElementTypeImage type="XCUIElementTypeImage" name="rank_square_checkall_icon" enabled="true" visible="true" accessible="false" x="364" y="216" width="12" height="13" index="3"/>
+                          </XCUIElementTypeOther>
+                          <XCUIElementTypeTable type="XCUIElementTypeTable" enabled="true" visible="true" accessible="false" x="10" y="242" width="373" height="2422" index="1">
+                            <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="true" accessible="true" x="10" y="242" width="373" height="262" index="0">
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="512人参与" name="512人参与" label="512人参与" enabled="true" visible="true" accessible="true" x="293" y="262" width="55" height="17" index="0"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="1" name="1" label="1" enabled="true" visible="true" accessible="true" x="30" y="298" width="13" height="21" index="1"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="马铃薯" name="马铃薯" label="马铃薯" enabled="true" visible="true" accessible="true" x="97" y="296" width="48" height="24" index="2"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="26人参与" name="26人参与" label="26人参与" enabled="true" visible="true" accessible="true" x="313" y="321" width="50" height="17" index="3"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="2" name="2" label="2" enabled="true" visible="true" accessible="true" x="30" y="370" width="13" height="21" index="4"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="紫薯" name="紫薯" label="紫薯" enabled="true" visible="true" accessible="true" x="97" y="368" width="32" height="24" index="5"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="5人参与" name="5人参与" label="5人参与" enabled="true" visible="true" accessible="true" x="319" y="393" width="44" height="17" index="6"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="3" name="3" label="3" enabled="true" visible="true" accessible="true" x="30" y="442" width="13" height="21" index="7"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="红薯" name="红薯" label="红薯" enabled="true" visible="true" accessible="true" x="97" y="440" width="32" height="24" index="8"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="40人参与" name="40人参与" label="40人参与" enabled="true" visible="true" accessible="true" x="312" y="465" width="51" height="17" index="9"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="9.4" name="9.4" label="9.4" enabled="true" visible="true" accessible="true" x="329" y="295" width="23" height="23" index="10"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="分" name="分" label="分" enabled="true" visible="true" accessible="true" x="353" y="301" width="10" height="13" index="11"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="9.2" name="9.2" label="9.2" enabled="true" visible="true" accessible="true" x="329" y="367" width="23" height="23" index="12"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="分" name="分" label="分" enabled="true" visible="true" accessible="true" x="353" y="373" width="10" height="13" index="13"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="9.1" name="9.1" label="9.1" enabled="true" visible="true" accessible="true" x="333" y="439" width="19" height="23" index="14"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="分" name="分" label="分" enabled="true" visible="true" accessible="true" x="353" y="445" width="10" height="13" index="15"/>
+                              <XCUIElementTypeImage type="XCUIElementTypeImage" enabled="true" visible="true" accessible="false" x="10" y="242" width="373" height="137" index="16"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="减脂期优质碳水排行榜" name="减脂期优质碳水排行榜" label="减脂期优质碳水排行榜" enabled="true" visible="true" accessible="true" x="33" y="259" width="160" height="23" index="17"/>
+                              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="97" y="320" width="183" height="19" index="18">
+                                <XCUIElementTypeOther type="XCUIElementTypeOther" name="“马铃薯真的是神中神，几乎怎么做都好吃，减脂期也是优质的主食，总体来说夯爆了" label="“马铃薯真的是神中神，几乎怎么做都好吃，减脂期也是优质的主食，总体来说夯爆了" enabled="true" visible="true" accessible="true" x="97" y="320" width="183" height="19" index="0"/>
+                              </XCUIElementTypeOther>
+                              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="97" y="392" width="183" height="19" index="19">
+                                <XCUIElementTypeOther type="XCUIElementTypeOther" name="“紫薯口感细腻绵密，甜度恰到好处，散发着自然清新的香甜气息，富含营养又健康。无论是蒸煮还是做成糕点都很美味，值得品尝。" label="“紫薯口感细腻绵密，甜度恰到好处，散发着自然清新的香甜气息，富含营养又健康。无论是蒸煮还是做成糕点都很美味，值得品尝。" enabled="true" visible="true" accessible="true" x="97" y="392" width="183" height="19" index="0"/>
+                              </XCUIElementTypeOther>
+                              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="97" y="464" width="183" height="19" index="20">
+                                <XCUIElementTypeOther type="XCUIElementTypeOther" name="“特别喜欢红薯，特别是烤红薯，吃起来软软糯糯的，然后带着甜甜的感觉，非常好吃！" label="“特别喜欢红薯，特别是烤红薯，吃起来软软糯糯的，然后带着甜甜的感觉，非常好吃！" enabled="true" visible="true" accessible="true" x="97" y="464" width="183" height="19" index="0"/>
+                              </XCUIElementTypeOther>
+                              <XCUIElementTypeButton type="XCUIElementTypeButton" enabled="true" visible="true" accessible="true" x="10" y="281" width="373" height="223" index="21">
+                                <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" enabled="true" visible="false" accessible="false" x="10" y="281" width="0" height="1" index="0"/>
+                              </XCUIElementTypeButton>
+                            </XCUIElementTypeCell>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="10" y="503" width="373" height="9" index="1"/>
+                            <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="true" accessible="true" x="10" y="511" width="373" height="262" index="2">
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="830人参与" name="830人参与" label="830人参与" enabled="true" visible="true" accessible="true" x="289" y="531" width="59" height="17" index="0"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="1" name="1" label="1" enabled="true" visible="true" accessible="true" x="30" y="567" width="13" height="21" index="1"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="土松" name="土松" label="土松" enabled="true" visible="true" accessible="true" x="97" y="565" width="32" height="24" index="2"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="18人参与" name="18人参与" label="18人参与" enabled="true" visible="true" accessible="true" x="314" y="590" width="49" height="17" index="3"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="2" name="2" label="2" enabled="true" visible="true" accessible="true" x="30" y="639" width="13" height="21" index="4"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="中华田园犬" name="中华田园犬" label="中华田园犬" enabled="true" visible="true" accessible="true" x="97" y="637" width="80" height="24" index="5"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="49人参与" name="49人参与" label="49人参与" enabled="true" visible="true" accessible="true" x="313" y="662" width="50" height="17" index="6"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="3" name="3" label="3" enabled="true" visible="true" accessible="true" x="30" y="711" width="13" height="21" index="7"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="萨摩耶" name="萨摩耶" label="萨摩耶" enabled="true" visible="true" accessible="true" x="97" y="709" width="48" height="24" index="8"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="23人参与" name="23人参与" label="23人参与" enabled="true" visible="true" accessible="true" x="313" y="734" width="50" height="17" index="9"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="9.8" name="9.8" label="9.8" enabled="true" visible="true" accessible="true" x="328" y="564" width="24" height="22" index="10"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="分" name="分" label="分" enabled="true" visible="true" accessible="true" x="353" y="570" width="10" height="13" index="11"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="9.6" name="9.6" label="9.6" enabled="true" visible="true" accessible="true" x="329" y="636" width="23" height="22" index="12"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="分" name="分" label="分" enabled="true" visible="true" accessible="true" x="353" y="642" width="10" height="13" index="13"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="9.4" name="9.4" label="9.4" enabled="true" visible="true" accessible="true" x="329" y="708" width="23" height="22" index="14"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="分" name="分" label="分" enabled="true" visible="true" accessible="true" x="353" y="714" width="10" height="13" index="15"/>
+                              <XCUIElementTypeImage type="XCUIElementTypeImage" enabled="true" visible="true" accessible="false" x="10" y="511" width="373" height="137" index="16"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="最适合打工人养的宠物" name="最适合打工人养的宠物" label="最适合打工人养的宠物" enabled="true" visible="true" accessible="true" x="33" y="527" width="160" height="24" index="17"/>
+                              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="97" y="589" width="183" height="19" index="18">
+                                <XCUIElementTypeOther type="XCUIElementTypeOther" name="“[图片]" label="“[图片]" enabled="true" visible="true" accessible="true" x="97" y="589" width="183" height="19" index="0"/>
+                              </XCUIElementTypeOther>
+                              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="97" y="661" width="183" height="19" index="19">
+                                <XCUIElementTypeOther type="XCUIElementTypeOther" name="“中华田园犬特别可爱，而且通人性。特别听话，也好养活，适合打工人养，不用操心太多而且还能带来很多情感上面的关爱❤️" label="“中华田园犬特别可爱，而且通人性。特别听话，也好养活，适合打工人养，不用操心太多而且还能带来很多情感上面的关爱❤️" enabled="true" visible="true" accessible="true" x="97" y="661" width="183" height="19" index="0"/>
+                              </XCUIElementTypeOther>
+                              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="97" y="733" width="183" height="19" index="20">
+                                <XCUIElementTypeOther type="XCUIElementTypeOther" name="“微笑天使👼🏻萨摩耶，超级喜欢超级可爱，情绪价值也高高的" label="“微笑天使👼🏻萨摩耶，超级喜欢超级可爱，情绪价值也高高的" enabled="true" visible="true" accessible="true" x="97" y="733" width="183" height="19" index="0"/>
+                              </XCUIElementTypeOther>
+                              <XCUIElementTypeButton type="XCUIElementTypeButton" enabled="true" visible="true" accessible="true" x="10" y="550" width="373" height="223" index="21">
+                                <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" enabled="true" visible="false" accessible="false" x="10" y="550" width="0" height="1" index="0"/>
+                              </XCUIElementTypeButton>
+                            </XCUIElementTypeCell>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="10" y="772" width="373" height="9" index="3"/>
+                            <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="false" accessible="true" x="10" y="780" width="373" height="262" index="4">
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="313人参与" name="313人参与" label="313人参与" enabled="true" visible="false" accessible="true" x="293" y="800" width="55" height="17" index="0"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="1" name="1" label="1" enabled="true" visible="false" accessible="true" x="30" y="836" width="13" height="21" index="1"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="蒜薹" name="蒜薹" label="蒜薹" enabled="true" visible="false" accessible="true" x="97" y="834" width="32" height="24" index="2"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="6人参与" name="6人参与" label="6人参与" enabled="true" visible="false" accessible="true" x="319" y="859" width="44" height="17" index="3"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="2" name="2" label="2" enabled="true" visible="false" accessible="true" x="30" y="908" width="13" height="21" index="4"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="金针菇" name="金针菇" label="金针菇" enabled="true" visible="false" accessible="true" x="97" y="906" width="48" height="24" index="5"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="34人参与" name="34人参与" label="34人参与" enabled="true" visible="false" accessible="true" x="312" y="931" width="51" height="17" index="6"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="3" name="3" label="3" enabled="true" visible="false" accessible="true" x="30" y="980" width="13" height="21" index="7"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="洋葱" name="洋葱" label="洋葱" enabled="true" visible="false" accessible="true" x="97" y="978" width="32" height="24" index="8"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="30人参与" name="30人参与" label="30人参与" enabled="true" visible="false" accessible="true" x="312" y="1003" width="51" height="17" index="9"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="9.3" name="9.3" label="9.3" enabled="true" visible="false" accessible="true" x="329" y="833" width="23" height="22" index="10"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="分" name="分" label="分" enabled="true" visible="false" accessible="true" x="353" y="839" width="10" height="13" index="11"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="8.6" name="8.6" label="8.6" enabled="true" visible="false" accessible="true" x="327" y="905" width="25" height="22" index="12"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="分" name="分" label="分" enabled="true" visible="false" accessible="true" x="353" y="911" width="10" height="13" index="13"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="8.5" name="8.5" label="8.5" enabled="true" visible="false" accessible="true" x="327" y="977" width="25" height="22" index="14"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="分" name="分" label="分" enabled="true" visible="false" accessible="true" x="353" y="983" width="10" height="13" index="15"/>
+                              <XCUIElementTypeImage type="XCUIElementTypeImage" enabled="true" visible="false" accessible="false" x="10" y="780" width="373" height="137" index="16"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="减脂期膳食纤维排行榜" name="减脂期膳食纤维排行榜" label="减脂期膳食纤维排行榜" enabled="true" visible="false" accessible="true" x="33" y="796" width="160" height="24" index="17"/>
+                              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="97" y="858" width="183" height="19" index="18">
+                                <XCUIElementTypeOther type="XCUIElementTypeOther" name="“美味蒜苗呀咪呀咪减脂餐的优质膳食纤维减脂餐的优质膳食纤维" label="“美味蒜苗呀咪呀咪减脂餐的优质膳食纤维减脂餐的优质膳食纤维" enabled="true" visible="false" accessible="true" x="97" y="858" width="183" height="19" index="0"/>
+                              </XCUIElementTypeOther>
+                              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="97" y="930" width="183" height="19" index="19">
+                                <XCUIElementTypeOther type="XCUIElementTypeOther" name="“减脂餐最佳伴侣" label="“减脂餐最佳伴侣" enabled="true" visible="false" accessible="true" x="97" y="930" width="183" height="19" index="0"/>
+                              </XCUIElementTypeOther>
+                              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="97" y="1002" width="183" height="19" index="20">
+                                <XCUIElementTypeOther type="XCUIElementTypeOther" name="“洋葱真的能让其他减脂食物变得好吃起来" label="“洋葱真的能让其他减脂食物变得好吃起来" enabled="true" visible="false" accessible="true" x="97" y="1002" width="183" height="19" index="0"/>
+                              </XCUIElementTypeOther>
+                              <XCUIElementTypeButton type="XCUIElementTypeButton" enabled="true" visible="false" accessible="true" x="10" y="819" width="373" height="223" index="21">
+                                <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" enabled="true" visible="false" accessible="false" x="10" y="819" width="0" height="1" index="0"/>
+                              </XCUIElementTypeButton>
+                            </XCUIElementTypeCell>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="10" y="1041" width="373" height="9" index="5"/>
+                            <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="false" accessible="true" x="10" y="1049" width="373" height="262" index="6">
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="452人参与" name="452人参与" label="452人参与" enabled="true" visible="false" accessible="true" x="291" y="1069" width="57" height="17" index="0"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="1" name="1" label="1" enabled="true" visible="false" accessible="true" x="30" y="1105" width="13" height="21" index="1"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="牛奶" name="牛奶" label="牛奶" enabled="true" visible="false" accessible="true" x="97" y="1103" width="32" height="24" index="2"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="10人参与" name="10人参与" label="10人参与" enabled="true" visible="false" accessible="true" x="314" y="1128" width="49" height="17" index="3"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="2" name="2" label="2" enabled="true" visible="false" accessible="true" x="30" y="1177" width="13" height="21" index="4"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="鸡蛋" name="鸡蛋" label="鸡蛋" enabled="true" visible="false" accessible="true" x="97" y="1175" width="32" height="24" index="5"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="59人参与" name="59人参与" label="59人参与" enabled="true" visible="false" accessible="true" x="312" y="1200" width="51" height="17" index="6"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="3" name="3" label="3" enabled="true" visible="false" accessible="true" x="30" y="1249" width="13" height="21" index="7"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="牛肉丸" name="牛肉丸" label="牛肉丸" enabled="true" visible="false" accessible="true" x="97" y="1247" width="48" height="24" index="8"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="9人参与" name="9人参与" label="9人参与" enabled="true" visible="false" accessible="true" x="319" y="1272" width="44" height="17" index="9"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="9.0" name="9.0" label="9.0" enabled="true" visible="false" accessible="true" x="329" y="1102" width="23" height="22" index="10"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="分" name="分" label="分" enabled="true" visible="false" accessible="true" x="353" y="1108" width="10" height="13" index="11"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="8.9" name="8.9" label="8.9" enabled="true" visible="false" accessible="true" x="328" y="1174" width="24" height="22" index="12"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="分" name="分" label="分" enabled="true" visible="false" accessible="true" x="353" y="1180" width="10" height="13" index="13"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="8.9" name="8.9" label="8.9" enabled="true" visible="false" accessible="true" x="328" y="1246" width="24" height="22" index="14"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="分" name="分" label="分" enabled="true" visible="false" accessible="true" x="353" y="1252" width="10" height="13" index="15"/>
+                              <XCUIElementTypeImage type="XCUIElementTypeImage" enabled="true" visible="false" accessible="false" x="10" y="1049" width="373" height="137" index="16"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="减脂期优质蛋白排行榜" name="减脂期优质蛋白排行榜" label="减脂期优质蛋白排行榜" enabled="true" visible="false" accessible="true" x="33" y="1065" width="160" height="24" index="17"/>
+                              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="97" y="1127" width="183" height="19" index="18">
+                                <XCUIElementTypeOther type="XCUIElementTypeOther" name="“冬天喝一杯热牛奶🥛特别暖和，但是感觉晚上喝总会爆痘" label="“冬天喝一杯热牛奶🥛特别暖和，但是感觉晚上喝总会爆痘" enabled="true" visible="false" accessible="true" x="97" y="1127" width="183" height="19" index="0"/>
+                              </XCUIElementTypeOther>
+                              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="97" y="1199" width="183" height="19" index="19">
+                                <XCUIElementTypeOther type="XCUIElementTypeOther" name="“最常见的减脂食物 但是不能只吃鸡蛋，对身体不好" label="“最常见的减脂食物 但是不能只吃鸡蛋，对身体不好" enabled="true" visible="false" accessible="true" x="97" y="1199" width="183" height="19" index="0"/>
+                              </XCUIElementTypeOther>
+                              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="97" y="1271" width="183" height="19" index="20">
+                                <XCUIElementTypeOther type="XCUIElementTypeOther" name="“必须给到满分。又好吃又有营养，感觉一口咬下去全是肉，非常满足。 唯一一个缺点就是感觉吃不够了。" label="“必须给到满分。又好吃又有营养，感觉一口咬下去全是肉，非常满足。 唯一一个缺点就是感觉吃不够了。" enabled="true" visible="false" accessible="true" x="97" y="1271" width="183" height="19" index="0"/>
+                              </XCUIElementTypeOther>
+                              <XCUIElementTypeButton type="XCUIElementTypeButton" enabled="true" visible="false" accessible="true" x="10" y="1088" width="373" height="223" index="21">
+                                <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" enabled="true" visible="false" accessible="false" x="10" y="1088" width="0" height="1" index="0"/>
+                              </XCUIElementTypeButton>
+                            </XCUIElementTypeCell>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="10" y="1310" width="373" height="9" index="7"/>
+                            <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="false" accessible="true" x="10" y="1318" width="373" height="262" index="8">
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="1653人参与" name="1653人参与" label="1653人参与" enabled="true" visible="false" accessible="true" x="285" y="1338" width="63" height="17" index="0"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="1" name="1" label="1" enabled="true" visible="false" accessible="true" x="30" y="1374" width="13" height="21" index="1"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="豆包" name="豆包" label="豆包" enabled="true" visible="false" accessible="true" x="97" y="1372" width="32" height="24" index="2"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="8人参与" name="8人参与" label="8人参与" enabled="true" visible="false" accessible="true" x="319" y="1397" width="44" height="17" index="3"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="2" name="2" label="2" enabled="true" visible="false" accessible="true" x="30" y="1446" width="13" height="21" index="4"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="铁路12306" name="铁路12306" label="铁路12306" enabled="true" visible="false" accessible="true" x="97" y="1444" width="77" height="24" index="5"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="44人参与" name="44人参与" label="44人参与" enabled="true" visible="false" accessible="true" x="312" y="1469" width="51" height="17" index="6"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="3" name="3" label="3" enabled="true" visible="false" accessible="true" x="30" y="1518" width="13" height="21" index="7"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="钉钉" name="钉钉" label="钉钉" enabled="true" visible="false" accessible="true" x="97" y="1516" width="32" height="24" index="8"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="7人参与" name="7人参与" label="7人参与" enabled="true" visible="false" accessible="true" x="320" y="1541" width="43" height="17" index="9"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="9.8" name="9.8" label="9.8" enabled="true" visible="false" accessible="true" x="328" y="1371" width="24" height="22" index="10"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="分" name="分" label="分" enabled="true" visible="false" accessible="true" x="353" y="1377" width="10" height="13" index="11"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="8.5" name="8.5" label="8.5" enabled="true" visible="false" accessible="true" x="327" y="1443" width="25" height="22" index="12"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="分" name="分" label="分" enabled="true" visible="false" accessible="true" x="353" y="1449" width="10" height="13" index="13"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="8.0" name="8.0" label="8.0" enabled="true" visible="false" accessible="true" x="327" y="1515" width="25" height="22" index="14"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="分" name="分" label="分" enabled="true" visible="false" accessible="true" x="353" y="1521" width="10" height="13" index="15"/>
+                              <XCUIElementTypeImage type="XCUIElementTypeImage" enabled="true" visible="false" accessible="false" x="10" y="1318" width="373" height="136" index="16"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="大学生讨厌但不得不用的app" name="大学生讨厌但不得不用的app" label="大学生讨厌但不得不用的app" enabled="true" visible="false" accessible="true" x="33" y="1334" width="205" height="24" index="17"/>
+                              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="97" y="1396" width="183" height="19" index="18">
+                                <XCUIElementTypeOther type="XCUIElementTypeOther" name="“感觉豆包蠢蠢的，但是每次干啥搜题写作业第一个打开他，就是可靠性不强，比如说生成的论文题目参考都是瞎编的。" label="“感觉豆包蠢蠢的，但是每次干啥搜题写作业第一个打开他，就是可靠性不强，比如说生成的论文题目参考都是瞎编的。" enabled="true" visible="false" accessible="true" x="97" y="1396" width="183" height="19" index="0"/>
+                              </XCUIElementTypeOther>
+                              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="97" y="1468" width="183" height="19" index="19">
+                                <XCUIElementTypeOther type="XCUIElementTypeOther" name="“十分好评了，记得把票给我" label="“十分好评了，记得把票给我" enabled="true" visible="false" accessible="true" x="97" y="1468" width="183" height="19" index="0"/>
+                              </XCUIElementTypeOther>
+                              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="97" y="1540" width="183" height="19" index="20">
+                                <XCUIElementTypeOther type="XCUIElementTypeOther" name="“钉钉虽方便教学办公，但打卡繁琐且常占私人时间。" label="“钉钉虽方便教学办公，但打卡繁琐且常占私人时间。" enabled="true" visible="false" accessible="true" x="97" y="1540" width="183" height="19" index="0"/>
+                              </XCUIElementTypeOther>
+                              <XCUIElementTypeButton type="XCUIElementTypeButton" enabled="true" visible="false" accessible="true" x="10" y="1357" width="373" height="223" index="21">
+                                <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" enabled="true" visible="false" accessible="false" x="10" y="1357" width="0" height="1" index="0"/>
+                              </XCUIElementTypeButton>
+                            </XCUIElementTypeCell>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="10" y="1579" width="373" height="9" index="9"/>
+                            <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="false" accessible="true" x="10" y="1587" width="373" height="262" index="10">
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="2162人参与" name="2162人参与" label="2162人参与" enabled="true" visible="false" accessible="true" x="286" y="1607" width="62" height="17" index="0"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="1" name="1" label="1" enabled="true" visible="false" accessible="true" x="30" y="1643" width="13" height="21" index="1"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="身体健康" name="身体健康" label="身体健康" enabled="true" visible="false" accessible="true" x="97" y="1641" width="64" height="24" index="2"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="165人参与" name="165人参与" label="165人参与" enabled="true" visible="false" accessible="true" x="307" y="1666" width="56" height="17" index="3"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="2" name="2" label="2" enabled="true" visible="false" accessible="true" x="30" y="1715" width="13" height="21" index="4"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="超级好运" name="超级好运" label="超级好运" enabled="true" visible="false" accessible="true" x="97" y="1713" width="64" height="24" index="5"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="49人参与" name="49人参与" label="49人参与" enabled="true" visible="false" accessible="true" x="313" y="1738" width="50" height="17" index="6"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="3" name="3" label="3" enabled="true" visible="false" accessible="true" x="30" y="1787" width="13" height="21" index="7"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="发财暴富" name="发财暴富" label="发财暴富" enabled="true" visible="false" accessible="true" x="97" y="1785" width="64" height="24" index="8"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="123人参与" name="123人参与" label="123人参与" enabled="true" visible="false" accessible="true" x="308" y="1810" width="55" height="17" index="9"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="9.8" name="9.8" label="9.8" enabled="true" visible="false" accessible="true" x="328" y="1640" width="24" height="22" index="10"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="分" name="分" label="分" enabled="true" visible="false" accessible="true" x="353" y="1646" width="10" height="13" index="11"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="9.8" name="9.8" label="9.8" enabled="true" visible="false" accessible="true" x="328" y="1712" width="24" height="22" index="12"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="分" name="分" label="分" enabled="true" visible="false" accessible="true" x="353" y="1718" width="10" height="13" index="13"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="9.7" name="9.7" label="9.7" enabled="true" visible="false" accessible="true" x="330" y="1784" width="22" height="22" index="14"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="分" name="分" label="分" enabled="true" visible="false" accessible="true" x="353" y="1790" width="10" height="13" index="15"/>
+                              <XCUIElementTypeImage type="XCUIElementTypeImage" enabled="true" visible="false" accessible="false" x="10" y="1587" width="373" height="137" index="16"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="我的2026新年Flag" name="我的2026新年Flag" label="我的2026新年Flag" enabled="true" visible="false" accessible="true" x="33" y="1603" width="135" height="24" index="17"/>
+                              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="97" y="1665" width="183" height="19" index="18">
+                                <XCUIElementTypeOther type="XCUIElementTypeOther" name="“平安顺利" label="“平安顺利" enabled="true" visible="false" accessible="true" x="97" y="1665" width="183" height="19" index="0"/>
+                              </XCUIElementTypeOther>
+                              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="97" y="1737" width="183" height="19" index="19">
+                                <XCUIElementTypeOther type="XCUIElementTypeOther" name="“好运贴贴" label="“好运贴贴" enabled="true" visible="false" accessible="true" x="97" y="1737" width="183" height="19" index="0"/>
+                              </XCUIElementTypeOther>
+                              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="97" y="1809" width="183" height="19" index="20">
+                                <XCUIElementTypeOther type="XCUIElementTypeOther" name="“我要变有钱!明年加油变有钱!" label="“我要变有钱!明年加油变有钱!" enabled="true" visible="false" accessible="true" x="97" y="1809" width="183" height="19" index="0"/>
+                              </XCUIElementTypeOther>
+                              <XCUIElementTypeButton type="XCUIElementTypeButton" enabled="true" visible="false" accessible="true" x="10" y="1626" width="373" height="223" index="21">
+                                <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" enabled="true" visible="false" accessible="false" x="10" y="1626" width="0" height="1" index="0"/>
+                              </XCUIElementTypeButton>
+                            </XCUIElementTypeCell>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="10" y="1848" width="373" height="9" index="11"/>
+                            <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="false" accessible="true" x="10" y="1856" width="373" height="262" index="12">
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="242人参与" name="242人参与" label="242人参与" enabled="true" visible="false" accessible="true" x="291" y="1876" width="57" height="17" index="0"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="1" name="1" label="1" enabled="true" visible="false" accessible="true" x="30" y="1912" width="13" height="21" index="1"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="三文鱼" name="三文鱼" label="三文鱼" enabled="true" visible="false" accessible="true" x="97" y="1910" width="48" height="24" index="2"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="38人参与" name="38人参与" label="38人参与" enabled="true" visible="false" accessible="true" x="312" y="1935" width="51" height="17" index="3"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="2" name="2" label="2" enabled="true" visible="false" accessible="true" x="30" y="1984" width="13" height="21" index="4"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="奶酪" name="奶酪" label="奶酪" enabled="true" visible="false" accessible="true" x="97" y="1982" width="32" height="24" index="5"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="5人参与" name="5人参与" label="5人参与" enabled="true" visible="false" accessible="true" x="319" y="2007" width="44" height="17" index="6"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="3" name="3" label="3" enabled="true" visible="false" accessible="true" x="30" y="2056" width="13" height="21" index="7"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="橄榄油" name="橄榄油" label="橄榄油" enabled="true" visible="false" accessible="true" x="97" y="2054" width="48" height="24" index="8"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="33人参与" name="33人参与" label="33人参与" enabled="true" visible="false" accessible="true" x="312" y="2079" width="51" height="17" index="9"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="8.8" name="8.8" label="8.8" enabled="true" visible="false" accessible="true" x="327" y="1909" width="25" height="22" index="10"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="分" name="分" label="分" enabled="true" visible="false" accessible="true" x="353" y="1915" width="10" height="13" index="11"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="8.8" name="8.8" label="8.8" enabled="true" visible="false" accessible="true" x="327" y="1981" width="25" height="22" index="12"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="分" name="分" label="分" enabled="true" visible="false" accessible="true" x="353" y="1987" width="10" height="13" index="13"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="8.4" name="8.4" label="8.4" enabled="true" visible="false" accessible="true" x="328" y="2053" width="24" height="22" index="14"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="分" name="分" label="分" enabled="true" visible="false" accessible="true" x="353" y="2059" width="10" height="13" index="15"/>
+                              <XCUIElementTypeImage type="XCUIElementTypeImage" enabled="true" visible="false" accessible="false" x="10" y="1856" width="373" height="137" index="16"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="减脂期优质脂肪排行榜" name="减脂期优质脂肪排行榜" label="减脂期优质脂肪排行榜" enabled="true" visible="false" accessible="true" x="33" y="1872" width="160" height="24" index="17"/>
+                              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="97" y="1934" width="183" height="19" index="18">
+                                <XCUIElementTypeOther type="XCUIElementTypeOther" name="“抛开减不减肥 三文鱼是真好吃啊" label="“抛开减不减肥 三文鱼是真好吃啊" enabled="true" visible="false" accessible="true" x="97" y="1934" width="183" height="19" index="0"/>
+                              </XCUIElementTypeOther>
+                              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="97" y="2006" width="183" height="19" index="19">
+                                <XCUIElementTypeOther type="XCUIElementTypeOther" name="“我是奶酪脑袋，酸酸甜甜的好吃……奶酪含油量挺高的，一般没有油我就涂点奶油奶酪下减脂餐里" label="“我是奶酪脑袋，酸酸甜甜的好吃……奶酪含油量挺高的，一般没有油我就涂点奶油奶酪下减脂餐里" enabled="true" visible="false" accessible="true" x="97" y="2006" width="183" height="19" index="0"/>
+                              </XCUIElementTypeOther>
+                              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="97" y="2078" width="183" height="19" index="20">
+                                <XCUIElementTypeOther type="XCUIElementTypeOther" name="“除了贵没其他问题 减脂餐我基本都用橄榄油来做" label="“除了贵没其他问题 减脂餐我基本都用橄榄油来做" enabled="true" visible="false" accessible="true" x="97" y="2078" width="183" height="19" index="0"/>
+                              </XCUIElementTypeOther>
+                              <XCUIElementTypeButton type="XCUIElementTypeButton" enabled="true" visible="false" accessible="true" x="10" y="1895" width="373" height="223" index="21">
+                                <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" enabled="true" visible="false" accessible="false" x="10" y="1895" width="0" height="1" index="0"/>
+                              </XCUIElementTypeButton>
+                            </XCUIElementTypeCell>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="10" y="2117" width="373" height="9" index="13"/>
+                            <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="false" accessible="true" x="10" y="2125" width="373" height="262" index="14">
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="1748人参与" name="1748人参与" label="1748人参与" enabled="true" visible="false" accessible="true" x="287" y="2145" width="61" height="17" index="0"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="1" name="1" label="1" enabled="true" visible="false" accessible="true" x="30" y="2181" width="13" height="21" index="1"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="夏威夷果" name="夏威夷果" label="夏威夷果" enabled="true" visible="false" accessible="true" x="97" y="2179" width="64" height="24" index="2"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="9人参与" name="9人参与" label="9人参与" enabled="true" visible="false" accessible="true" x="319" y="2204" width="44" height="17" index="3"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="2" name="2" label="2" enabled="true" visible="false" accessible="true" x="30" y="2253" width="13" height="21" index="4"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="旺仔牛奶" name="旺仔牛奶" label="旺仔牛奶" enabled="true" visible="false" accessible="true" x="97" y="2251" width="64" height="24" index="5"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="49人参与" name="49人参与" label="49人参与" enabled="true" visible="false" accessible="true" x="313" y="2276" width="50" height="17" index="6"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="3" name="3" label="3" enabled="true" visible="false" accessible="true" x="30" y="2325" width="13" height="21" index="7"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="砂糖橘" name="砂糖橘" label="砂糖橘" enabled="true" visible="false" accessible="true" x="97" y="2323" width="48" height="24" index="8"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="88人参与" name="88人参与" label="88人参与" enabled="true" visible="false" accessible="true" x="312" y="2348" width="51" height="17" index="9"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="9.6" name="9.6" label="9.6" enabled="true" visible="false" accessible="true" x="329" y="2178" width="23" height="22" index="10"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="分" name="分" label="分" enabled="true" visible="false" accessible="true" x="353" y="2184" width="10" height="13" index="11"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="9.4" name="9.4" label="9.4" enabled="true" visible="false" accessible="true" x="329" y="2250" width="23" height="22" index="12"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="分" name="分" label="分" enabled="true" visible="false" accessible="true" x="353" y="2256" width="10" height="13" index="13"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="9.3" name="9.3" label="9.3" enabled="true" visible="false" accessible="true" x="329" y="2322" width="23" height="22" index="14"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="分" name="分" label="分" enabled="true" visible="false" accessible="true" x="353" y="2328" width="10" height="13" index="15"/>
+                              <XCUIElementTypeImage type="XCUIElementTypeImage" enabled="true" visible="false" accessible="false" x="10" y="2125" width="373" height="137" index="16"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="年货零食排行榜" name="年货零食排行榜" label="年货零食排行榜" enabled="true" visible="false" accessible="true" x="33" y="2141" width="112" height="24" index="17"/>
+                              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="97" y="2203" width="183" height="19" index="18">
+                                <XCUIElementTypeOther type="XCUIElementTypeOther" name="“夏威夷果口感酥脆，奶香浓郁，是年货坚果中的佳品。它营养丰富，富含不饱和脂肪酸，有益心血管健康。包装精美的夏威夷果礼盒，也是走亲访友的不错选择。" label="“夏威夷果口感酥脆，奶香浓郁，是年货坚果中的佳品。它营养丰富，富含不饱和脂肪酸，有益心血管健康。包装精美的夏威夷果礼盒，也是走亲访友的不错选择。" enabled="true" visible="false" accessible="true" x="97" y="2203" width="183" height="19" index="0"/>
+                              </XCUIElementTypeOther>
+                              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="97" y="2275" width="183" height="19" index="19">
+                                <XCUIElementTypeOther type="XCUIElementTypeOther" name="“旺仔牛奶甜而不腻，童年回忆满满，过年摆出来超有氛围，大人小孩都爱喝，囤几箱当年货准没错。" label="“旺仔牛奶甜而不腻，童年回忆满满，过年摆出来超有氛围，大人小孩都爱喝，囤几箱当年货准没错。" enabled="true" visible="false" accessible="true" x="97" y="2275" width="183" height="19" index="0"/>
+                              </XCUIElementTypeOther>
+                              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="97" y="2347" width="183" height="19" index="20">
+                                <XCUIElementTypeOther type="XCUIElementTypeOther" name="“只要吃上正宗砂糖橘，过年的味道就来了～" label="“只要吃上正宗砂糖橘，过年的味道就来了～" enabled="true" visible="false" accessible="true" x="97" y="2347" width="183" height="19" index="0"/>
+                              </XCUIElementTypeOther>
+                              <XCUIElementTypeButton type="XCUIElementTypeButton" enabled="true" visible="false" accessible="true" x="10" y="2164" width="373" height="223" index="21">
+                                <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" enabled="true" visible="false" accessible="false" x="10" y="2164" width="0" height="1" index="0"/>
+                              </XCUIElementTypeButton>
+                            </XCUIElementTypeCell>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="10" y="2386" width="373" height="9" index="15"/>
+                            <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="false" accessible="true" x="10" y="2394" width="373" height="262" index="16">
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="304人参与" name="304人参与" label="304人参与" enabled="true" visible="false" accessible="true" x="290" y="2414" width="58" height="17" index="0"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="1" name="1" label="1" enabled="true" visible="false" accessible="true" x="30" y="2450" width="13" height="21" index="1"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="富察傅恒" name="富察傅恒" label="富察傅恒" enabled="true" visible="false" accessible="true" x="97" y="2448" width="64" height="24" index="2"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="33人参与" name="33人参与" label="33人参与" enabled="true" visible="false" accessible="true" x="312" y="2473" width="51" height="17" index="3"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="2" name="2" label="2" enabled="true" visible="false" accessible="true" x="30" y="2522" width="13" height="21" index="4"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="魏璎珞" name="魏璎珞" label="魏璎珞" enabled="true" visible="false" accessible="true" x="97" y="2520" width="48" height="24" index="5"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="30人参与" name="30人参与" label="30人参与" enabled="true" visible="false" accessible="true" x="312" y="2545" width="51" height="17" index="6"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="3" name="3" label="3" enabled="true" visible="false" accessible="true" x="30" y="2594" width="13" height="21" index="7"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="富察容音" name="富察容音" label="富察容音" enabled="true" visible="false" accessible="true" x="97" y="2592" width="64" height="24" index="8"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="27人参与" name="27人参与" label="27人参与" enabled="true" visible="false" accessible="true" x="314" y="2617" width="49" height="17" index="9"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="9.0" name="9.0" label="9.0" enabled="true" visible="false" accessible="true" x="329" y="2447" width="23" height="22" index="10"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="分" name="分" label="分" enabled="true" visible="false" accessible="true" x="353" y="2453" width="10" height="13" index="11"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="9.0" name="9.0" label="9.0" enabled="true" visible="false" accessible="true" x="329" y="2519" width="23" height="22" index="12"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="分" name="分" label="分" enabled="true" visible="false" accessible="true" x="353" y="2525" width="10" height="13" index="13"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="9.0" name="9.0" label="9.0" enabled="true" visible="false" accessible="true" x="329" y="2591" width="23" height="22" index="14"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="分" name="分" label="分" enabled="true" visible="false" accessible="true" x="353" y="2597" width="10" height="13" index="15"/>
+                              <XCUIElementTypeImage type="XCUIElementTypeImage" enabled="true" visible="false" accessible="false" x="10" y="2394" width="373" height="136" index="16"/>
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="《延禧攻略》角色榜" name="《延禧攻略》角色榜" label="《延禧攻略》角色榜" enabled="true" visible="false" accessible="true" x="33" y="2410" width="144" height="24" index="17"/>
+                              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="97" y="2472" width="183" height="19" index="18">
+                                <XCUIElementTypeOther type="XCUIElementTypeOther" name="“这是我见过最好看的光头" label="“这是我见过最好看的光头" enabled="true" visible="false" accessible="true" x="97" y="2472" width="183" height="19" index="0"/>
+                              </XCUIElementTypeOther>
+                              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="97" y="2544" width="183" height="19" index="19">
+                                <XCUIElementTypeOther type="XCUIElementTypeOther" name="“爱上魏姐就像呼吸一样简单" label="“爱上魏姐就像呼吸一样简单" enabled="true" visible="false" accessible="true" x="97" y="2544" width="183" height="19" index="0"/>
+                              </XCUIElementTypeOther>
+                              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="97" y="2616" width="183" height="19" index="20">
+                                <XCUIElementTypeOther type="XCUIElementTypeOther" name="“那种自己淋过雨懂得为别人撑伞的人" label="“那种自己淋过雨懂得为别人撑伞的人" enabled="true" visible="false" accessible="true" x="97" y="2616" width="183" height="19" index="0"/>
+                              </XCUIElementTypeOther>
+                              <XCUIElementTypeButton type="XCUIElementTypeButton" enabled="true" visible="false" accessible="true" x="10" y="2433" width="373" height="223" index="21">
+                                <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" enabled="true" visible="false" accessible="false" x="10" y="2433" width="0" height="1" index="0"/>
+                              </XCUIElementTypeButton>
+                            </XCUIElementTypeCell>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="10" y="2655" width="373" height="9" index="17"/>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" value="0%" name="垂直滚动条, 1页" label="垂直滚动条, 1页" enabled="true" visible="false" accessible="false" x="350" y="242" width="30" height="2422" index="18">
+                              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="377" y="203" width="3" height="37" index="0"/>
+                            </XCUIElementTypeOther>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" value="0%" name="水平滚动条, 1页" label="水平滚动条, 1页" enabled="true" visible="false" accessible="false" x="10" y="2630" width="373" height="31" index="19">
+                              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="-29" y="2657" width="36" height="4" index="0"/>
+                            </XCUIElementTypeOther>
+                          </XCUIElementTypeTable>
+                          <XCUIElementTypeButton type="XCUIElementTypeButton" name="查看全部榜单" label="查看全部榜单" enabled="true" visible="false" accessible="true" x="10" y="2669" width="373" height="45" index="2">
+                            <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="查看全部榜单" name="查看全部榜单" label="查看全部榜单" enabled="true" visible="false" accessible="false" x="144" y="2681" width="90" height="22" index="0"/>
+                          </XCUIElementTypeButton>
+                        </XCUIElementTypeOther>
+                      </XCUIElementTypeScrollView>
+                    </XCUIElementTypeOther>
+                  </XCUIElementTypeOther>
+                  <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="772" width="393" height="46" index="1">
+                    <XCUIElementTypeOther type="XCUIElementTypeOther" name="首页 标签 " label="首页 标签 " enabled="true" visible="true" accessible="true" x="0" y="772" width="79" height="46" index="0"/>
+                    <XCUIElementTypeOther type="XCUIElementTypeOther" name="已选定 广场 标签 " label="已选定 广场 标签 " enabled="true" visible="true" accessible="true" x="78" y="772" width="80" height="46" index="1"/>
+                    <XCUIElementTypeOther type="XCUIElementTypeOther" name="发布 标签 " label="发布 标签 " enabled="true" visible="true" accessible="true" x="157" y="772" width="79" height="46" index="2"/>
+                    <XCUIElementTypeOther type="XCUIElementTypeOther" name="消息 标签 " label="消息 标签 " enabled="true" visible="true" accessible="true" x="235" y="772" width="80" height="46" index="3"/>
+                    <XCUIElementTypeOther type="XCUIElementTypeOther" name="我的 标签 " label="我的 标签 " enabled="true" visible="true" accessible="true" x="314" y="772" width="79" height="46" index="4"/>
+                  </XCUIElementTypeOther>
+                </XCUIElementTypeOther>
+              </XCUIElementTypeOther>
+            </XCUIElementTypeOther>
+            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="2" y="668" width="48" height="48" index="1">
+              <XCUIElementTypeImage type="XCUIElementTypeImage" enabled="true" visible="true" accessible="false" x="6" y="672" width="40" height="40" index="0"/>
+            </XCUIElementTypeOther>
+          </XCUIElementTypeOther>
+        </XCUIElementTypeOther>
+      </XCUIElementTypeOther>
+    </XCUIElementTypeWindow>
+    <XCUIElementTypeWindow type="XCUIElementTypeWindow" enabled="true" visible="false" accessible="false" x="0" y="0" width="393" height="852" index="1">
+      <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="0" width="393" height="852" index="0">
+        <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="0" width="393" height="852" index="0"/>
+        <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="852" width="393" height="233" index="1"/>
+      </XCUIElementTypeOther>
+    </XCUIElementTypeWindow>
+  </XCUIElementTypeApplication>
+</AppiumAUT>

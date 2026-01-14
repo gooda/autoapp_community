@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AppiumAUT>
+  <XCUIElementTypeApplication type="XCUIElementTypeApplication" name="网易小蜜蜂" label="网易小蜜蜂" enabled="true" visible="true" accessible="false" x="0" y="0" width="393" height="852" index="0">
+    <XCUIElementTypeWindow type="XCUIElementTypeWindow" enabled="true" visible="true" accessible="false" x="0" y="0" width="393" height="852" index="0">
+      <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="0" width="393" height="852" index="0">
+        <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="0" width="393" height="852" index="0">
+          <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="0" width="393" height="852" index="0">
+            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="0" width="393" height="852" index="0">
+              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="0" width="393" height="852" index="0">
+                <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="0" width="393" height="852" index="0">
+                  <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="0" width="393" height="852" index="0">
+                    <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="0" width="393" height="852" index="0">
+                      <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="0" width="393" height="852" index="0">
+                        <XCUIElementTypeOther type="XCUIElementTypeOther" name="写长文 输入标题 输入120字正文 一键生成标题 垂直滚动条, 2页 水平滚动条, 1页 垂直滚动条, 2页 水平滚动条, 1页 一键排版" label="写长文 输入标题 输入120字正文 一键生成标题 垂直滚动条, 2页 水平滚动条, 1页 垂直滚动条, 2页 水平滚动条, 1页 一键排版" enabled="true" visible="false" accessible="false" x="0" y="0" width="393" height="852" index="0">
+                          <XCUIElementTypeOther type="XCUIElementTypeOther" name="写长文 输入标题 输入120字正文 一键生成标题 垂直滚动条, 2页 水平滚动条, 1页 垂直滚动条, 2页 水平滚动条, 1页 一键排版" label="写长文 输入标题 输入120字正文 一键生成标题 垂直滚动条, 2页 水平滚动条, 1页 垂直滚动条, 2页 水平滚动条, 1页 一键排版" enabled="true" visible="false" accessible="false" x="0" y="0" width="393" height="852" index="0">
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" name="写长文 输入标题 输入120字正文 一键生成标题 垂直滚动条, 2页 水平滚动条, 1页 垂直滚动条, 2页 水平滚动条, 1页 一键排版" label="写长文 输入标题 输入120字正文 一键生成标题 垂直滚动条, 2页 水平滚动条, 1页 垂直滚动条, 2页 水平滚动条, 1页 一键排版" enabled="true" visible="false" accessible="false" x="0" y="0" width="393" height="852" index="0">
+                              <XCUIElementTypeOther type="XCUIElementTypeOther" name="写长文" label="写长文" enabled="true" visible="false" accessible="false" x="0" y="0" width="393" height="103" index="0">
+                                <XCUIElementTypeOther type="XCUIElementTypeOther" name="写长文" label="写长文" enabled="true" visible="false" accessible="false" x="0" y="0" width="393" height="103" index="0">
+                                  <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="写长文" name="写长文" label="写长文" enabled="true" visible="false" accessible="true" x="171" y="70" width="51" height="22" index="0"/>
+                                </XCUIElementTypeOther>
+                                <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="12" y="59" width="24" height="44" index="1">
+                                  <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="true" x="12" y="69" width="24" height="24" index="0"/>
+                                </XCUIElementTypeOther>
+                              </XCUIElementTypeOther>
+                              <XCUIElementTypeOther type="XCUIElementTypeOther" name="输入标题 输入120字正文 一键生成标题" label="输入标题 输入120字正文 一键生成标题" enabled="true" visible="false" accessible="true" x="0" y="103" width="393" height="50" index="1"/>
+                              <XCUIElementTypeOther type="XCUIElementTypeOther" name="垂直滚动条, 2页 水平滚动条, 1页 垂直滚动条, 2页 水平滚动条, 1页" label="垂直滚动条, 2页 水平滚动条, 1页 垂直滚动条, 2页 水平滚动条, 1页" enabled="true" visible="false" accessible="false" x="0" y="153" width="393" height="700" index="2">
+                                <XCUIElementTypeOther type="XCUIElementTypeOther" name="垂直滚动条, 2页 水平滚动条, 1页 垂直滚动条, 2页 水平滚动条, 1页" label="垂直滚动条, 2页 水平滚动条, 1页 垂直滚动条, 2页 水平滚动条, 1页" enabled="true" visible="false" accessible="false" x="0" y="153" width="393" height="604" index="0">
+                                  <XCUIElementTypeOther type="XCUIElementTypeOther" name="垂直滚动条, 2页 水平滚动条, 1页 垂直滚动条, 2页 水平滚动条, 1页" label="垂直滚动条, 2页 水平滚动条, 1页 垂直滚动条, 2页 水平滚动条, 1页" enabled="true" visible="false" accessible="false" x="0" y="153" width="393" height="604" index="0">
+                                    <XCUIElementTypeWebView type="XCUIElementTypeWebView" enabled="true" visible="false" accessible="false" x="0" y="153" width="393" height="604" index="0">
+                                      <XCUIElementTypeWebView type="XCUIElementTypeWebView" enabled="true" visible="false" accessible="false" x="0" y="153" width="393" height="604" index="0">
+                                        <XCUIElementTypeWebView type="XCUIElementTypeWebView" enabled="true" visible="false" accessible="false" x="0" y="153" width="393" height="604" index="0">
+                                          <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="0" width="393" height="603" index="0">
+                                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="0" width="393" height="603" index="0">
+                                              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="153" width="393" height="603" index="0">
+                                                <XCUIElementTypeOther type="XCUIElementTypeOther" name="RichTextEditor" label="RichTextEditor" enabled="true" visible="true" accessible="false" x="0" y="153" width="393" height="604" index="0">
+                                                  <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="0" width="0" height="0" index="0">
+                                                    <XCUIElementTypeTextView type="XCUIElementTypeTextView" value="&#10;" enabled="true" visible="true" accessible="true" x="0" y="165" width="393" height="850" index="0" placeholderValue="">
+                                                      <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="24" y="165" width="345" height="27" index="0">
+                                                        <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="粘贴文本到这里或输入文字" name="粘贴文本到这里或输入文字" label="粘贴文本到这里或输入文字" enabled="true" visible="true" accessible="false" x="24" y="168" width="173" height="20" index="0"/>
+                                                      </XCUIElementTypeOther>
+                                                      <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="粘贴文本到这里或输入文字" name="粘贴文本到这里或输入文字" label="粘贴文本到这里或输入文字" enabled="true" visible="true" accessible="false" x="24" y="168" width="173" height="20" index="1"/>
+                                                    </XCUIElementTypeTextView>
+                                                  </XCUIElementTypeOther>
+                                                </XCUIElementTypeOther>
+                                              </XCUIElementTypeOther>
+                                            </XCUIElementTypeOther>
+                                          </XCUIElementTypeOther>
+                                        </XCUIElementTypeWebView>
+                                        <XCUIElementTypeOther type="XCUIElementTypeOther" value="0%" name="垂直滚动条, 2页" label="垂直滚动条, 2页" enabled="true" visible="false" accessible="false" x="360" y="153" width="30" height="604" index="1">
+                                          <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="387" y="114" width="3" height="37" index="0"/>
+                                        </XCUIElementTypeOther>
+                                        <XCUIElementTypeOther type="XCUIElementTypeOther" value="0%" name="水平滚动条, 1页" label="水平滚动条, 1页" enabled="true" visible="false" accessible="false" x="0" y="722" width="393" height="31" index="2">
+                                          <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="-39" y="749" width="36" height="4" index="0"/>
+                                        </XCUIElementTypeOther>
+                                        <XCUIElementTypeOther type="XCUIElementTypeOther" value="0%" name="垂直滚动条, 2页" label="垂直滚动条, 2页" enabled="true" visible="false" accessible="false" x="360" y="153" width="30" height="604" index="3">
+                                          <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="387" y="114" width="3" height="37" index="0"/>
+                                        </XCUIElementTypeOther>
+                                        <XCUIElementTypeOther type="XCUIElementTypeOther" value="0%" name="水平滚动条, 1页" label="水平滚动条, 1页" enabled="true" visible="false" accessible="false" x="0" y="722" width="393" height="31" index="4">
+                                          <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="-39" y="749" width="36" height="4" index="0"/>
+                                        </XCUIElementTypeOther>
+                                      </XCUIElementTypeWebView>
+                                    </XCUIElementTypeWebView>
+                                  </XCUIElementTypeOther>
+                                </XCUIElementTypeOther>
+                                <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="756" width="393" height="97" index="1"/>
+                              </XCUIElementTypeOther>
+                              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="24" y="153" width="345" height="1" index="3"/>
+                              <XCUIElementTypeOther type="XCUIElementTypeOther" name="一键排版" label="一键排版" enabled="true" visible="false" accessible="false" x="0" y="750" width="393" height="102" index="4">
+                                <XCUIElementTypeOther type="XCUIElementTypeOther" name="一键排版" label="一键排版" enabled="false" visible="false" accessible="true" x="69" y="762" width="255" height="44" index="0"/>
+                              </XCUIElementTypeOther>
+                            </XCUIElementTypeOther>
+                          </XCUIElementTypeOther>
+                        </XCUIElementTypeOther>
+                      </XCUIElementTypeOther>
+                    </XCUIElementTypeOther>
+                  </XCUIElementTypeOther>
+                  <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="0" width="393" height="852" index="1">
+                    <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="0" width="393" height="852" index="0">
+                      <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="0" width="393" height="852" index="0">
+                        <XCUIElementTypeOther type="XCUIElementTypeOther" name="关联账号导入文章 关联微信公众号/网易号后，输入链接导入文章 关联公众号 关联网易号 点击关联即代表您同意 《网易小蜜蜂长文导入功能服务协议》" label="关联账号导入文章 关联微信公众号/网易号后，输入链接导入文章 关联公众号 关联网易号 点击关联即代表您同意 《网易小蜜蜂长文导入功能服务协议》" enabled="true" visible="true" accessible="false" x="0" y="0" width="393" height="852" index="0">
+                          <XCUIElementTypeOther type="XCUIElementTypeOther" name="关联账号导入文章 关联微信公众号/网易号后，输入链接导入文章 关联公众号 关联网易号 点击关联即代表您同意 《网易小蜜蜂长文导入功能服务协议》" label="关联账号导入文章 关联微信公众号/网易号后，输入链接导入文章 关联公众号 关联网易号 点击关联即代表您同意 《网易小蜜蜂长文导入功能服务协议》" enabled="true" visible="true" accessible="false" x="0" y="0" width="393" height="852" index="0">
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" name="关联账号导入文章 关联微信公众号/网易号后，输入链接导入文章 关联公众号 关联网易号 点击关联即代表您同意 《网易小蜜蜂长文导入功能服务协议》" label="关联账号导入文章 关联微信公众号/网易号后，输入链接导入文章 关联公众号 关联网易号 点击关联即代表您同意 《网易小蜜蜂长文导入功能服务协议》" enabled="true" visible="true" accessible="false" x="0" y="0" width="393" height="852" index="0">
+                              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="0" width="393" height="852" index="0"/>
+                              <XCUIElementTypeOther type="XCUIElementTypeOther" name="关联账号导入文章 关联微信公众号/网易号后，输入链接导入文章 关联公众号 关联网易号 点击关联即代表您同意 《网易小蜜蜂长文导入功能服务协议》" label="关联账号导入文章 关联微信公众号/网易号后，输入链接导入文章 关联公众号 关联网易号 点击关联即代表您同意 《网易小蜜蜂长文导入功能服务协议》" enabled="true" visible="true" accessible="false" x="0" y="0" width="393" height="852" index="1">
+                                <XCUIElementTypeOther type="XCUIElementTypeOther" name="关联账号导入文章 关联微信公众号/网易号后，输入链接导入文章 关联公众号 关联网易号 点击关联即代表您同意 《网易小蜜蜂长文导入功能服务协议》" label="关联账号导入文章 关联微信公众号/网易号后，输入链接导入文章 关联公众号 关联网易号 点击关联即代表您同意 《网易小蜜蜂长文导入功能服务协议》" enabled="true" visible="true" accessible="false" x="0" y="0" width="393" height="852" index="0">
+                                  <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="true" x="0" y="0" width="393" height="426" index="0"/>
+                                  <XCUIElementTypeOther type="XCUIElementTypeOther" name="关联账号导入文章 关联微信公众号/网易号后，输入链接导入文章 关联公众号 关联网易号 点击关联即代表您同意 《网易小蜜蜂长文导入功能服务协议》" label="关联账号导入文章 关联微信公众号/网易号后，输入链接导入文章 关联公众号 关联网易号 点击关联即代表您同意 《网易小蜜蜂长文导入功能服务协议》" enabled="true" visible="true" accessible="false" x="0" y="426" width="393" height="426" index="1">
+                                    <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="关联账号导入文章" name="关联账号导入文章" label="关联账号导入文章" enabled="true" visible="true" accessible="true" x="132" y="426" width="129" height="45" index="0"/>
+                                    <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="true" x="12" y="438" width="58" height="26" index="1"/>
+                                    <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="关联微信公众号/网易号后，输入链接导入文章" name="关联微信公众号/网易号后，输入链接导入文章" label="关联微信公众号/网易号后，输入链接导入文章" enabled="true" visible="true" accessible="true" x="53" y="518" width="287" height="18" index="2"/>
+                                    <XCUIElementTypeOther type="XCUIElementTypeOther" name="关联公众号" label="关联公众号" enabled="true" visible="true" accessible="true" x="55" y="555" width="283" height="60" index="3"/>
+                                    <XCUIElementTypeOther type="XCUIElementTypeOther" name="关联网易号" label="关联网易号" enabled="true" visible="true" accessible="true" x="55" y="631" width="283" height="60" index="4"/>
+                                    <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="点击关联即代表您同意" name="点击关联即代表您同意" label="点击关联即代表您同意" enabled="true" visible="true" accessible="true" x="136" y="707" width="121" height="15" index="5"/>
+                                    <XCUIElementTypeOther type="XCUIElementTypeOther" name="《网易小蜜蜂长文导入功能服务协议》" label="《网易小蜜蜂长文导入功能服务协议》" enabled="true" visible="true" accessible="false" x="99" y="725" width="195" height="15" index="6">
+                                      <XCUIElementTypeOther type="XCUIElementTypeOther" name="《网易小蜜蜂长文导入功能服务协议》" label="《网易小蜜蜂长文导入功能服务协议》" enabled="true" visible="true" accessible="true" x="101" y="725" width="191" height="15" index="0"/>
+                                    </XCUIElementTypeOther>
+                                  </XCUIElementTypeOther>
+                                </XCUIElementTypeOther>
+                              </XCUIElementTypeOther>
+                            </XCUIElementTypeOther>
+                          </XCUIElementTypeOther>
+                        </XCUIElementTypeOther>
+                      </XCUIElementTypeOther>
+                    </XCUIElementTypeOther>
+                  </XCUIElementTypeOther>
+                </XCUIElementTypeOther>
+              </XCUIElementTypeOther>
+            </XCUIElementTypeOther>
+            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="2" y="668" width="48" height="48" index="1">
+              <XCUIElementTypeImage type="XCUIElementTypeImage" enabled="true" visible="true" accessible="false" x="6" y="672" width="40" height="40" index="0"/>
+            </XCUIElementTypeOther>
+          </XCUIElementTypeOther>
+        </XCUIElementTypeOther>
+      </XCUIElementTypeOther>
+    </XCUIElementTypeWindow>
+    <XCUIElementTypeWindow type="XCUIElementTypeWindow" enabled="true" visible="false" accessible="false" x="0" y="0" width="393" height="852" index="1">
+      <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="0" width="393" height="852" index="0">
+        <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="0" width="393" height="852" index="0"/>
+        <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="852" width="393" height="233" index="1"/>
+      </XCUIElementTypeOther>
+    </XCUIElementTypeWindow>
+  </XCUIElementTypeApplication>
+</AppiumAUT>
