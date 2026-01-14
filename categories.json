@@ -1,7 +1,7 @@
 {
   "_meta": {
     "version": "1.0.0",
-    "updatedAt": "2026-01-13T12:03:48.911Z",
+    "updatedAt": "2026-01-14T02:05:07.689Z",
     "updatedBy": "user"
   },
   "categories": [
@@ -44,6 +44,14 @@
       "parentId": null,
       "order": 4,
       "createdAt": "2026-01-13T12:03:48.822Z"
+    },
+    {
+      "id": "cat_mkddorkp_so15f2",
+      "name": "冒烟测试",
+      "description": "",
+      "parentId": null,
+      "order": 5,
+      "createdAt": "2026-01-14T02:05:07.609Z"
     }
   ]
 }
