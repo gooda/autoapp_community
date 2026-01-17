@@ -1,0 +1,368 @@
+{
+  "page": {
+    "app": "网易小蜜蜂",
+    "page_type": "feed",
+    "screen": "首页-关注"
+  },
+  "view_structure": {
+    "layout": "vertical",
+    "regions": [
+      {
+        "name": "status_bar",
+        "type": "system",
+        "bounds_normalized": [
+          0,
+          0,
+          1,
+          0.069
+        ]
+      },
+      {
+        "name": "top_navigation",
+        "type": "navigation",
+        "layout": "horizontal",
+        "bounds_normalized": [
+          0,
+          0.069,
+          1,
+          0.052
+        ]
+      },
+      {
+        "name": "publish_success_toast",
+        "type": "fixed_content",
+        "layout": "horizontal",
+        "bounds_normalized": [
+          0.038,
+          0.127,
+          0.924,
+          0.065
+        ]
+      },
+      {
+        "name": "feed_content",
+        "type": "scrollable_content",
+        "layout": "waterfall_grid",
+        "columns": 2,
+        "bounds_normalized": [
+          0,
+          0.121,
+          1,
+          0.785
+        ]
+      },
+      {
+        "name": "bottom_tab_bar",
+        "type": "navigation",
+        "layout": "horizontal",
+        "bounds_normalized": [
+          0,
+          0.906,
+          1,
+          0.054
+        ]
+      }
+    ]
+  },
+  "interactive_elements": [
+    {
+      "id": 1,
+      "component": "top_navigation",
+      "role": "menu",
+      "label": "菜单",
+      "type": "button",
+      "bounds_pixel": [
+        11,
+        66,
+        49,
+        28
+      ],
+      "center_normalized": [
+        0.09,
+        0.094
+      ],
+      "has_identifier": false,
+      "locators": {
+        "predicate": "type == 'XCUIElementTypeButton' AND visible == true AND rect.x < 50",
+        "class_chain": "**/XCUIElementTypeOther[`rect.y == 59`]/../XCUIElementTypeButton[3]"
+      },
+      "locator_note": "左上角功能入口按钮"
+    },
+    {
+      "id": 2,
+      "component": "top_navigation",
+      "role": "tab",
+      "label": "关注",
+      "type": "button",
+      "bounds_pixel": [
+        91,
+        59,
+        71,
+        39
+      ],
+      "center_normalized": [
+        0.322,
+        0.092
+      ],
+      "has_identifier": true,
+      "locators": {
+        "accessibility_id": "已选中:关注",
+        "predicate": "type == 'XCUIElementTypeButton' AND name CONTAINS '关注'",
+        "class_chain": "**/XCUIElementTypeButton[`name CONTAINS '关注'`][1]"
+      },
+      "locator_note": "当前选中状态，name为'已选中:关注'"
+    },
+    {
+      "id": 3,
+      "component": "top_navigation",
+      "role": "tab",
+      "label": "发现",
+      "type": "button",
+      "bounds_pixel": [
+        161,
+        59,
+        71,
+        39
+      ],
+      "center_normalized": [
+        0.5,
+        0.092
+      ],
+      "has_identifier": true,
+      "locators": {
+        "accessibility_id": "发现",
+        "predicate": "type == 'XCUIElementTypeButton' AND name == '发现' AND visible == true",
+        "class_chain": "**/XCUIElementTypeButton[`name == '发现'`][1]"
+      }
+    },
+    {
+      "id": 4,
+      "component": "top_navigation",
+      "role": "tab",
+      "label": "蜂巢",
+      "type": "button",
+      "bounds_pixel": [
+        231,
+        59,
+        71,
+        39
+      ],
+      "center_normalized": [
+        0.677,
+        0.092
+      ],
+      "has_identifier": true,
+      "locators": {
+        "accessibility_id": "蜂巢",
+        "predicate": "type == 'XCUIElementTypeButton' AND name == '蜂巢' AND visible == true",
+        "class_chain": "**/XCUIElementTypeButton[`name == '蜂巢'`][1]"
+      }
+    },
+    {
+      "id": 5,
+      "component": "top_navigation",
+      "role": "search",
+      "label": "搜索",
+      "type": "button",
+      "bounds_pixel": [
+        344,
+        57,
+        49,
+        44
+      ],
+      "center_normalized": [
+        0.938,
+        0.093
+      ],
+      "has_identifier": true,
+      "locators": {
+        "accessibility_id": "home navigation search",
+        "predicate": "type == 'XCUIElementTypeButton' AND name == 'home navigation search'",
+        "class_chain": "**/XCUIElementTypeButton[`name == 'home navigation search'`]"
+      }
+    },
+    {
+      "id": 6,
+      "component": "feed_content",
+      "role": "card_template",
+      "label": "关注内容卡片模板",
+      "type": "cell",
+      "bounds_pixel": [
+        5,
+        108,
+        189,
+        320
+      ],
+      "center_normalized": [
+        0.253,
+        0.315
+      ],
+      "has_identifier": false,
+      "locators": {
+        "predicate": "type == 'XCUIElementTypeCell' AND visible == true",
+        "class_chain": "**/XCUIElementTypeCollectionView/XCUIElementTypeCell"
+      },
+      "locator_note": "瀑布流内容卡片，通过索引定位具体卡片",
+      "children": [
+        {
+          "role": "cover_image",
+          "type": "image",
+          "has_identifier": false,
+          "locators": {
+            "class_chain": "XCUIElementTypeOther/XCUIElementTypeImage[1]"
+          }
+        },
+        {
+          "role": "title",
+          "type": "text",
+          "has_identifier": true,
+          "locators": {
+            "class_chain": "XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther"
+          },
+          "locator_note": "卡片标题，name属性包含完整标题文本"
+        },
+        {
+          "role": "author",
+          "type": "button",
+          "has_identifier": false,
+          "locators": {
+            "class_chain": "XCUIElementTypeOther/XCUIElementTypeButton[1]"
+          },
+          "locator_note": "作者信息，内部StaticText包含作者名"
+        },
+        {
+          "role": "like",
+          "type": "button",
+          "has_identifier": false,
+          "locators": {
+            "class_chain": "XCUIElementTypeOther/XCUIElementTypeButton[2]"
+          },
+          "locator_note": "点赞按钮，内部StaticText包含点赞数或'赞'"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "component": "bottom_tab_bar",
+      "role": "tab",
+      "label": "首页",
+      "type": "tab",
+      "bounds_pixel": [
+        0,
+        772,
+        79,
+        46
+      ],
+      "center_normalized": [
+        0.101,
+        0.933
+      ],
+      "has_identifier": true,
+      "locators": {
+        "accessibility_id": "已选定 首页 标签 ",
+        "predicate": "type == 'XCUIElementTypeOther' AND name CONTAINS '首页'",
+        "class_chain": "**/XCUIElementTypeOther[`name CONTAINS '首页'`]"
+      },
+      "locator_note": "当前选中状态"
+    },
+    {
+      "id": 8,
+      "component": "bottom_tab_bar",
+      "role": "tab",
+      "label": "广场",
+      "type": "tab",
+      "bounds_pixel": [
+        78,
+        772,
+        80,
+        46
+      ],
+      "center_normalized": [
+        0.3,
+        0.933
+      ],
+      "has_identifier": true,
+      "locators": {
+        "accessibility_id": "广场 标签 ",
+        "predicate": "type == 'XCUIElementTypeOther' AND name CONTAINS '广场'",
+        "class_chain": "**/XCUIElementTypeOther[`name CONTAINS '广场'`]"
+      }
+    },
+    {
+      "id": 9,
+      "component": "bottom_tab_bar",
+      "role": "tab",
+      "label": "发布",
+      "type": "tab",
+      "bounds_pixel": [
+        157,
+        772,
+        79,
+        46
+      ],
+      "center_normalized": [
+        0.5,
+        0.933
+      ],
+      "has_identifier": true,
+      "locators": {
+        "accessibility_id": "发布 标签 ",
+        "predicate": "type == 'XCUIElementTypeOther' AND name CONTAINS '发布 标签'",
+        "class_chain": "**/XCUIElementTypeOther[`name CONTAINS '发布 标签'`]"
+      },
+      "locator_note": "中央发布按钮，黄色圆形"
+    },
+    {
+      "id": 10,
+      "component": "bottom_tab_bar",
+      "role": "tab",
+      "label": "消息",
+      "type": "tab",
+      "bounds_pixel": [
+        235,
+        772,
+        80,
+        46
+      ],
+      "center_normalized": [
+        0.7,
+        0.933
+      ],
+      "has_identifier": true,
+      "locators": {
+        "accessibility_id": "消息 标签 ",
+        "predicate": "type == 'XCUIElementTypeOther' AND name CONTAINS '消息'",
+        "class_chain": "**/XCUIElementTypeOther[`name CONTAINS '消息'`]"
+      }
+    },
+    {
+      "id": 11,
+      "component": "bottom_tab_bar",
+      "role": "tab",
+      "label": "我的",
+      "type": "tab",
+      "bounds_pixel": [
+        314,
+        772,
+        79,
+        46
+      ],
+      "center_normalized": [
+        0.9,
+        0.933
+      ],
+      "has_identifier": true,
+      "locators": {
+        "accessibility_id": "我的 标签 ",
+        "predicate": "type == 'XCUIElementTypeOther' AND name CONTAINS '我的'",
+        "class_chain": "**/XCUIElementTypeOther[`name CONTAINS '我的'`]"
+      }
+    }
+  ],
+  "summary": {
+    "total_elements": 11,
+    "with_identifier": 9,
+    "without_identifier": 2,
+    "note": "首页关注Tab页面，显示已关注用户发布的内容，瀑布流布局。截图中有发布成功提示卡片，提供微信/QQ/聊天分享入口"
+  }
+}

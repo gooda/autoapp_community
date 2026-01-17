@@ -1,0 +1,160 @@
+{
+  "page": {
+    "app": "网易小蜜蜂",
+    "page_type": "action_sheet",
+    "screen": "首页发布"
+  },
+  "view_structure": {
+    "layout": "vertical",
+    "regions": [
+      {
+        "name": "overlay_background",
+        "type": "system",
+        "bounds_normalized": [
+          0,
+          0,
+          1,
+          0.681
+        ]
+      },
+      {
+        "name": "action_sheet",
+        "type": "fixed_content",
+        "layout": "vertical",
+        "bounds_normalized": [
+          0,
+          0.681,
+          1,
+          0.319
+        ]
+      }
+    ]
+  },
+  "interactive_elements": [
+    {
+      "id": 1,
+      "component": "overlay_background",
+      "role": "dismiss",
+      "label": "点击关闭",
+      "type": "area",
+      "bounds_pixel": [
+        0,
+        0,
+        393,
+        580
+      ],
+      "center_normalized": [
+        0.5,
+        0.34
+      ],
+      "has_identifier": false,
+      "locators": {
+        "predicate": "type == 'XCUIElementTypeOther' AND visible == true AND rect.y == 0 AND rect.height > 500",
+        "class_chain": "**/XCUIElementTypeOther[`visible == true AND rect.height > 500`][1]"
+      },
+      "locator_note": "点击遮罩层区域可关闭ActionSheet"
+    },
+    {
+      "id": 2,
+      "component": "action_sheet",
+      "role": "option",
+      "label": "从相册选择",
+      "type": "button",
+      "bounds_pixel": [
+        0,
+        580,
+        393,
+        58
+      ],
+      "center_normalized": [
+        0.5,
+        0.714
+      ],
+      "has_identifier": true,
+      "locators": {
+        "accessibility_id": "从相册选择",
+        "predicate": "type == 'XCUIElementTypeStaticText' AND name == '从相册选择'",
+        "class_chain": "**/XCUIElementTypeCell[1]/XCUIElementTypeStaticText[`name == '从相册选择'`]"
+      },
+      "locator_note": "选择设备相册中的图片/视频发布"
+    },
+    {
+      "id": 3,
+      "component": "action_sheet",
+      "role": "option",
+      "label": "相机",
+      "type": "button",
+      "bounds_pixel": [
+        0,
+        638,
+        393,
+        59
+      ],
+      "center_normalized": [
+        0.5,
+        0.783
+      ],
+      "has_identifier": true,
+      "locators": {
+        "accessibility_id": "相机",
+        "predicate": "type == 'XCUIElementTypeStaticText' AND name == '相机'",
+        "class_chain": "**/XCUIElementTypeCell/XCUIElementTypeStaticText[`name == '相机'`]"
+      },
+      "locator_note": "打开相机拍摄图片/视频发布"
+    },
+    {
+      "id": 4,
+      "component": "action_sheet",
+      "role": "option",
+      "label": "写文字",
+      "type": "button",
+      "bounds_pixel": [
+        0,
+        696,
+        393,
+        59
+      ],
+      "center_normalized": [
+        0.5,
+        0.851
+      ],
+      "has_identifier": true,
+      "locators": {
+        "accessibility_id": "写文字",
+        "predicate": "type == 'XCUIElementTypeStaticText' AND name == '写文字'",
+        "class_chain": "**/XCUIElementTypeCell/XCUIElementTypeStaticText[`name == '写文字'`]"
+      },
+      "locator_note": "创建纯文字笔记，支持文生图和长文功能"
+    },
+    {
+      "id": 5,
+      "component": "action_sheet",
+      "role": "cancel",
+      "label": "取消",
+      "type": "button",
+      "bounds_pixel": [
+        0,
+        760,
+        393,
+        59
+      ],
+      "center_normalized": [
+        0.5,
+        0.926
+      ],
+      "has_identifier": true,
+      "locators": {
+        "accessibility_id": "取消",
+        "predicate": "type == 'XCUIElementTypeStaticText' AND name == '取消'",
+        "class_chain": "**/XCUIElementTypeCell/XCUIElementTypeStaticText[`name == '取消'`]"
+      },
+      "locator_note": "关闭ActionSheet返回首页"
+    }
+  ],
+  "summary": {
+    "total_elements": 5,
+    "with_identifier": 4,
+    "without_identifier": 1,
+    "note": "底部ActionSheet弹出菜单，提供发布内容的入口选项：从相册选择、相机拍摄、写文字"
+  }
+}
