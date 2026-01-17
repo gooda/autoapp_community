@@ -1,0 +1,277 @@
+{
+  "name": "浏览首页内容",
+  "description": "测试用户在首页浏览内容流，包括切换顶部Tab（关注/发现/蜂巢）、滚动浏览内容卡片、点击卡片查看详情",
+  "priority": "high",
+  "tags": [
+    "首页",
+    "浏览",
+    "核心功能"
+  ],
+  "applications": [
+    "com.netease.bee"
+  ],
+  "minAppVersion": null,
+  "recordedAppVersion": null,
+  "blueprintEnabled": false,
+  "steps": [
+    {
+      "stepNumber": 1,
+      "action": "tap",
+      "description": "点击底部首页Tab，确保在首页",
+      "locators": {
+        "ios": {
+          "accessibility_id": "已选定 首页 标签 ",
+          "predicate": "type == 'XCUIElementTypeOther' AND name CONTAINS '首页'",
+          "class_chain": "**/XCUIElementTypeOther[`name CONTAINS '首页'`]",
+          "coordinates": {
+            "x": 0.101,
+            "y": 0.933
+          }
+        }
+      }
+    },
+    {
+      "stepNumber": 2,
+      "action": "wait",
+      "description": "等待首页内容加载",
+      "params": {
+        "ms": 2000
+      }
+    },
+    {
+      "stepNumber": 3,
+      "action": "assertElementExists",
+      "description": "验证顶部发现Tab存在",
+      "locators": {
+        "ios": {
+          "accessibility_id": "已选中:发现",
+          "predicate": "type == 'XCUIElementTypeButton' AND name CONTAINS '发现'"
+        }
+      }
+    },
+    {
+      "stepNumber": 4,
+      "action": "screenshot",
+      "description": "保存首页发现Tab截图",
+      "params": {
+        "name": "homepage_discover_tab"
+      }
+    },
+    {
+      "stepNumber": 5,
+      "action": "tap",
+      "description": "切换到关注Tab",
+      "locators": {
+        "ios": {
+          "accessibility_id": "关注",
+          "predicate": "type == 'XCUIElementTypeButton' AND name == '关注' AND visible == true",
+          "class_chain": "**/XCUIElementTypeButton[`name == '关注'`][1]",
+          "coordinates": {
+            "x": 0.322,
+            "y": 0.092
+          }
+        }
+      }
+    },
+    {
+      "stepNumber": 6,
+      "action": "wait",
+      "description": "等待关注Tab内容加载",
+      "params": {
+        "ms": 1500
+      }
+    },
+    {
+      "stepNumber": 7,
+      "action": "screenshot",
+      "description": "保存关注Tab页面",
+      "params": {
+        "name": "homepage_follow_tab"
+      }
+    },
+    {
+      "stepNumber": 8,
+      "action": "tap",
+      "description": "切换到蜂巢Tab",
+      "locators": {
+        "ios": {
+          "accessibility_id": "蜂巢",
+          "predicate": "type == 'XCUIElementTypeButton' AND name == '蜂巢' AND visible == true",
+          "class_chain": "**/XCUIElementTypeButton[`name == '蜂巢'`][1]",
+          "coordinates": {
+            "x": 0.677,
+            "y": 0.092
+          }
+        }
+      }
+    },
+    {
+      "stepNumber": 9,
+      "action": "wait",
+      "description": "等待蜂巢Tab内容加载",
+      "params": {
+        "ms": 1500
+      }
+    },
+    {
+      "stepNumber": 10,
+      "action": "screenshot",
+      "description": "保存蜂巢Tab页面",
+      "params": {
+        "name": "homepage_beehive_tab"
+      }
+    },
+    {
+      "stepNumber": 11,
+      "action": "tap",
+      "description": "切换回发现Tab",
+      "locators": {
+        "ios": {
+          "predicate": "type == 'XCUIElementTypeButton' AND name CONTAINS '发现'",
+          "class_chain": "**/XCUIElementTypeButton[`name CONTAINS '发现'`][1]",
+          "coordinates": {
+            "x": 0.5,
+            "y": 0.092
+          }
+        }
+      }
+    },
+    {
+      "stepNumber": 12,
+      "action": "wait",
+      "description": "等待发现Tab内容加载",
+      "params": {
+        "ms": 1500
+      }
+    },
+    {
+      "stepNumber": 13,
+      "action": "scroll",
+      "description": "向下滚动浏览内容",
+      "params": {
+        "direction": "down",
+        "distance": "50%"
+      }
+    },
+    {
+      "stepNumber": 14,
+      "action": "wait",
+      "description": "等待滚动后内容加载",
+      "params": {
+        "ms": 1000
+      }
+    },
+    {
+      "stepNumber": 15,
+      "action": "screenshot",
+      "description": "保存滚动后的页面",
+      "params": {
+        "name": "homepage_after_scroll"
+      }
+    },
+    {
+      "stepNumber": 16,
+      "action": "tap",
+      "description": "点击第一个内容卡片",
+      "locators": {
+        "ios": {
+          "predicate": "type == 'XCUIElementTypeCell' AND visible == true",
+          "class_chain": "**/XCUIElementTypeCollectionView/XCUIElementTypeCell[1]",
+          "xpath": "//XCUIElementTypeCollectionView/XCUIElementTypeCell[1]",
+          "coordinates": {
+            "x": 0.253,
+            "y": 0.327
+          }
+        }
+      }
+    },
+    {
+      "stepNumber": 17,
+      "action": "wait",
+      "description": "等待内容详情页加载",
+      "params": {
+        "ms": 2000
+      }
+    },
+    {
+      "stepNumber": 18,
+      "action": "screenshot",
+      "description": "保存内容详情页",
+      "params": {
+        "name": "content_detail_page"
+      }
+    },
+    {
+      "stepNumber": 19,
+      "action": "swipe",
+      "description": "在详情页向右滑动返回",
+      "params": {
+        "direction": "right",
+        "distance": "80%"
+      }
+    },
+    {
+      "stepNumber": 20,
+      "action": "wait",
+      "description": "等待返回首页",
+      "params": {
+        "ms": 1000
+      }
+    },
+    {
+      "stepNumber": 21,
+      "action": "assertElementExists",
+      "description": "验证已返回首页（检查首页Tab是否选中）",
+      "locators": {
+        "ios": {
+          "accessibility_id": "已选定 首页 标签 ",
+          "predicate": "type == 'XCUIElementTypeOther' AND name CONTAINS '已选定' AND name CONTAINS '首页'"
+        }
+      }
+    },
+    {
+      "stepNumber": 22,
+      "action": "scroll",
+      "description": "继续向下滚动浏览更多内容",
+      "params": {
+        "direction": "down",
+        "distance": "50%"
+      }
+    },
+    {
+      "stepNumber": 23,
+      "action": "wait",
+      "description": "等待更多内容加载",
+      "params": {
+        "ms": 1000
+      }
+    },
+    {
+      "stepNumber": 24,
+      "action": "scroll",
+      "description": "向上滚动回到页面顶部",
+      "params": {
+        "direction": "up",
+        "distance": "100%"
+      }
+    },
+    {
+      "stepNumber": 25,
+      "action": "wait",
+      "description": "等待滚动完成",
+      "params": {
+        "ms": 500
+      }
+    },
+    {
+      "stepNumber": 26,
+      "action": "screenshot",
+      "description": "保存测试完成后的首页",
+      "params": {
+        "name": "homepage_final"
+      }
+    }
+  ],
+  "blueprintData": null,
+  "updatedAt": "2026-01-17T15:30:00.000Z"
+}
