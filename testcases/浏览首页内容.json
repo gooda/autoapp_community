@@ -40,7 +40,7 @@
     },
     {
       "stepNumber": 3,
-      "action": "assertElementExists",
+      "action": "assertExists",
       "description": "验证顶部发现Tab存在",
       "locators": {
         "ios": {
@@ -220,7 +220,7 @@
     },
     {
       "stepNumber": 21,
-      "action": "assertElementExists",
+      "action": "assertExists",
       "description": "验证已返回首页（检查首页Tab是否选中）",
       "locators": {
         "ios": {
