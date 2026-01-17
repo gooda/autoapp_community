@@ -44,7 +44,7 @@
       "description": "验证顶部发现Tab存在",
       "locators": {
         "ios": {
-          "accessibility_id": "已选中:发现",
+          "accessibility_id": "发现",
           "predicate": "type == 'XCUIElementTypeButton' AND name CONTAINS '发现'"
         }
       }
