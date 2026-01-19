@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "version": "1.0.0",
+    "createdAt": "2026-01-19T07:51:56.508Z",
+    "updatedAt": "2026-01-19T07:51:56.508Z",
+    "author": "recorder"
+  },
+  "name": "111",
+  "description": "",
+  "priority": "medium",
+  "tags": [],
+  "applications": [],
+  "steps": [],
+  "blueprintEnabled": false,
+  "blueprintData": null
+}
