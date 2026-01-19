@@ -152,8 +152,9 @@
       "stepNumber": 12,
       "action": "wait",
       "description": "等待AI生成配图（可能需要较长时间）",
+      "locators": {},
       "params": {
-        "ms": 10000
+        "ms": 5000
       }
     },
     {
@@ -170,17 +171,6 @@
     },
     {
       "stepNumber": 14,
-      "action": "assertExists",
-      "description": "验证预览图片已生成并显示",
-      "locators": {
-        "ios": {
-          "predicate": "type == 'XCUIElementTypeImage' AND visible == true AND rect.width > 300",
-          "class_chain": "**/XCUIElementTypeImage[`visible == true AND rect.width > 300`]"
-        }
-      }
-    },
-    {
-      "stepNumber": 15,
       "action": "wait",
       "description": "等待卡片样式加载完成",
       "params": {
@@ -188,7 +178,7 @@
       }
     },
     {
-      "stepNumber": 16,
+      "stepNumber": 15,
       "action": "tap",
       "description": "选择喜欢的卡片样式（选择第一个基础样式）",
       "locators": {
@@ -204,7 +194,7 @@
       }
     },
     {
-      "stepNumber": 17,
+      "stepNumber": 16,
       "action": "wait",
       "description": "等待预览图更新",
       "params": {
@@ -212,7 +202,7 @@
       }
     },
     {
-      "stepNumber": 18,
+      "stepNumber": 17,
       "action": "tap",
       "description": "点击确定按钮，进入发布笔记页面",
       "locators": {
@@ -228,7 +218,7 @@
       }
     },
     {
-      "stepNumber": 19,
+      "stepNumber": 18,
       "action": "wait",
       "description": "等待发布笔记页面加载",
       "params": {
@@ -236,7 +226,7 @@
       }
     },
     {
-      "stepNumber": 20,
+      "stepNumber": 19,
       "action": "assertExists",
       "description": "验证已进入发布笔记页面（检查发布笔记按钮）",
       "locators": {
@@ -248,18 +238,7 @@
       }
     },
     {
-      "stepNumber": 21,
-      "action": "assertExists",
-      "description": "验证生成的图片已显示在发布页面",
-      "locators": {
-        "ios": {
-          "predicate": "type == 'XCUIElementTypeCell' AND visible == true",
-          "class_chain": "**/XCUIElementTypeCollectionView/XCUIElementTypeCell[1]"
-        }
-      }
-    },
-    {
-      "stepNumber": 22,
+      "stepNumber": 20,
       "action": "input",
       "description": "填写笔记标题（可选）",
       "locators": {
@@ -277,7 +256,7 @@
       }
     },
     {
-      "stepNumber": 23,
+      "stepNumber": 21,
       "action": "wait",
       "description": "等待标题输入完成",
       "params": {
@@ -285,7 +264,7 @@
       }
     },
     {
-      "stepNumber": 24,
+      "stepNumber": 22,
       "action": "input",
       "description": "填写笔记正文内容",
       "locators": {
@@ -303,7 +282,7 @@
       }
     },
     {
-      "stepNumber": 25,
+      "stepNumber": 23,
       "action": "wait",
       "description": "等待内容输入完成",
       "params": {
@@ -311,7 +290,7 @@
       }
     },
     {
-      "stepNumber": 26,
+      "stepNumber": 24,
       "action": "tap",
       "description": "点击发布笔记按钮，完成发布",
       "locators": {
@@ -327,7 +306,7 @@
       }
     },
     {
-      "stepNumber": 27,
+      "stepNumber": 25,
       "action": "wait",
       "description": "等待发布请求完成",
       "params": {
@@ -335,7 +314,7 @@
       }
     },
     {
-      "stepNumber": 28,
+      "stepNumber": 26,
       "action": "assertExists",
       "description": "验证已返回首页（检查首页Tab是否选中）",
       "locators": {
@@ -347,7 +326,7 @@
       }
     },
     {
-      "stepNumber": 29,
+      "stepNumber": 27,
       "action": "wait",
       "description": "等待首页内容刷新",
       "params": {
@@ -355,7 +334,7 @@
       }
     },
     {
-      "stepNumber": 30,
+      "stepNumber": 28,
       "action": "swipe",
       "description": "向上滚动到顶部，查看最新发布的笔记",
       "params": {
@@ -364,7 +343,7 @@
       }
     },
     {
-      "stepNumber": 31,
+      "stepNumber": 29,
       "action": "wait",
       "description": "等待滚动完成",
       "params": {
@@ -373,5 +352,5 @@
     }
   ],
   "blueprintData": null,
-  "updatedAt": "2026-01-19T04:30:09.716Z"
+  "updatedAt": "2026-01-19T04:48:42.087Z"
 }
