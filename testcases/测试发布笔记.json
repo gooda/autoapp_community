@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "version": "1.0.0",
+    "createdAt": "2026-01-19T03:34:32.768Z",
+    "updatedAt": "2026-01-19T03:34:32.768Z",
+    "author": "recorder"
+  },
+  "name": "测试发布笔记",
+  "description": "",
+  "priority": "medium",
+  "tags": [],
+  "applications": [],
+  "steps": [],
+  "blueprintEnabled": false,
+  "blueprintData": null
+}
