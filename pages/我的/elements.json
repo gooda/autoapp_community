@@ -1,10 +1,469 @@
 {
-  "_meta": {
-    "pageName": "我的",
-    "description": "",
-    "elementCount": 0,
-    "createdAt": "2026-01-14T02:47:39.597Z",
-    "updatedAt": "2026-01-14T02:47:39.597Z"
+  "page": {
+    "app": "网易小蜜蜂",
+    "pageType": "detail",
+    "screen": "我的"
   },
-  "elements": []
+  "viewStructure": {
+    "layout": "vertical",
+    "regions": [
+      {
+        "name": "top_bar",
+        "type": "navigation",
+        "layout": "horizontal",
+        "boundsNormalized": [0, 0.069, 1, 0.04]
+      },
+      {
+        "name": "profile_header",
+        "type": "fixed_content",
+        "layout": "vertical",
+        "boundsNormalized": [0, 0.109, 1, 0.24]
+      },
+      {
+        "name": "quick_entries",
+        "type": "fixed_content",
+        "layout": "horizontal",
+        "boundsNormalized": [0, 0.35, 1, 0.07]
+      },
+      {
+        "name": "content_tabs",
+        "type": "navigation",
+        "layout": "horizontal",
+        "boundsNormalized": [0, 0.42, 1, 0.05]
+      },
+      {
+        "name": "content_list",
+        "type": "scrollable_content",
+        "layout": "waterfall_grid",
+        "columns": 2,
+        "boundsNormalized": [0, 0.47, 1, 0.436]
+      },
+      {
+        "name": "bottom_tab_bar",
+        "type": "navigation",
+        "layout": "horizontal",
+        "boundsNormalized": [0, 0.906, 1, 0.054]
+      }
+    ]
+  },
+  "interactive_elements": [
+    {
+      "id": "我的.菜单",
+      "label": "菜单",
+      "role": "menu",
+      "type": "button",
+      "locators": {
+        "ios": {
+          "bounds": [12, 66, 31, 30],
+          "centerNormalized": [0.07, 0.095],
+          "accessibilityId": "profile menu btn white",
+          "predicate": "name == 'profile menu btn white'",
+          "classChain": "**/XCUIElementTypeButton[`name == 'profile menu btn white'`]"
+        }
+      }
+    },
+    {
+      "id": "我的.邀请码",
+      "label": "邀请码",
+      "role": "button",
+      "type": "button",
+      "locators": {
+        "ios": {
+          "bounds": [232, 67, 72, 28],
+          "centerNormalized": [0.682, 0.095],
+          "accessibilityId": "邀请码",
+          "predicate": "name == '邀请码'",
+          "classChain": "**/XCUIElementTypeButton[`name == '邀请码'`]"
+        }
+      }
+    },
+    {
+      "id": "我的.扫一扫",
+      "label": "扫一扫",
+      "role": "button",
+      "type": "button",
+      "locators": {
+        "ios": {
+          "bounds": [318, 67, 28, 28],
+          "centerNormalized": [0.845, 0.095],
+          "accessibilityId": "nav item scan white",
+          "predicate": "name == 'nav item scan white'",
+          "classChain": "**/XCUIElementTypeButton[`name == 'nav item scan white'`]"
+        }
+      }
+    },
+    {
+      "id": "我的.分享",
+      "label": "分享",
+      "role": "button",
+      "type": "button",
+      "locators": {
+        "ios": {
+          "bounds": [353, 67, 28, 28],
+          "centerNormalized": [0.934, 0.095],
+          "accessibilityId": "nav item share white",
+          "predicate": "name == 'nav item share white'",
+          "classChain": "**/XCUIElementTypeButton[`name == 'nav item share white'`]"
+        }
+      }
+    },
+    {
+      "id": "我的.头像",
+      "label": "头像",
+      "role": "avatar",
+      "type": "image",
+      "locators": {
+        "ios": {
+          "bounds": [16, 115, 76, 76],
+          "centerNormalized": [0.137, 0.18],
+          "classChain": "**/XCUIElementTypeOther/XCUIElementTypeImage"
+        }
+      }
+    },
+    {
+      "id": "我的.用户名",
+      "label": "用户名",
+      "role": "title",
+      "type": "text",
+      "locators": {
+        "ios": {
+          "bounds": [108, 115, 80, 28],
+          "centerNormalized": [0.376, 0.151],
+          "accessibilityId": "森林酒馆",
+          "predicate": "type == 'XCUIElementTypeStaticText' AND name == '森林酒馆'"
+        }
+      },
+      "locatorNote": "动态内容，根据实际用户名定位"
+    },
+    {
+      "id": "我的.蜜蜂号",
+      "label": "蜜蜂号",
+      "role": "button",
+      "type": "button",
+      "locators": {
+        "ios": {
+          "bounds": [108, 146, 89, 14],
+          "centerNormalized": [0.388, 0.18],
+          "accessibilityId": "蜜蜂号：609310771",
+          "predicate": "name BEGINSWITH '蜜蜂号'",
+          "classChain": "**/XCUIElementTypeButton[`name BEGINSWITH '蜜蜂号'`]"
+        }
+      }
+    },
+    {
+      "id": "我的.二维码",
+      "label": "二维码",
+      "role": "button",
+      "type": "button",
+      "locators": {
+        "ios": {
+          "bounds": [353, 137, 40, 32],
+          "centerNormalized": [0.949, 0.18],
+          "accessibilityId": "profile qr code",
+          "predicate": "name == 'profile qr code'",
+          "classChain": "**/XCUIElementTypeButton[`name == 'profile qr code'`]"
+        }
+      }
+    },
+    {
+      "id": "我的.编辑简介",
+      "label": "编辑简介",
+      "role": "button",
+      "type": "button",
+      "locators": {
+        "ios": {
+          "bounds": [116, 217, 15, 14],
+          "centerNormalized": [0.315, 0.263],
+          "accessibilityId": "profile edit info",
+          "predicate": "name == 'profile edit info'",
+          "classChain": "**/XCUIElementTypeButton[`name == 'profile edit info'`]"
+        }
+      }
+    },
+    {
+      "id": "我的.关注数",
+      "label": "关注数",
+      "role": "text",
+      "type": "text",
+      "locators": {
+        "ios": {
+          "bounds": [16, 294, 24, 38],
+          "centerNormalized": [0.071, 0.367],
+          "predicate": "name == '关注'"
+        }
+      }
+    },
+    {
+      "id": "我的.粉丝数",
+      "label": "粉丝数",
+      "role": "text",
+      "type": "text",
+      "locators": {
+        "ios": {
+          "bounds": [60, 294, 24, 38],
+          "centerNormalized": [0.183, 0.367],
+          "predicate": "name == '粉丝'"
+        }
+      }
+    },
+    {
+      "id": "我的.获赞礼物",
+      "label": "获赞礼物",
+      "role": "text",
+      "type": "text",
+      "locators": {
+        "ios": {
+          "bounds": [104, 294, 57, 38],
+          "centerNormalized": [0.337, 0.367],
+          "predicate": "name == '获赞&礼物'"
+        }
+      }
+    },
+    {
+      "id": "我的.编辑资料",
+      "label": "编辑资料",
+      "role": "button",
+      "type": "button",
+      "locators": {
+        "ios": {
+          "bounds": [233, 299, 88, 28],
+          "centerNormalized": [0.705, 0.367],
+          "accessibilityId": "编辑资料",
+          "predicate": "name == '编辑资料'",
+          "classChain": "**/XCUIElementTypeButton[`name == '编辑资料'`]"
+        }
+      }
+    },
+    {
+      "id": "我的.设置入口",
+      "label": "设置入口",
+      "role": "button",
+      "type": "button",
+      "locators": {
+        "ios": {
+          "bounds": [333, 299, 44, 28],
+          "centerNormalized": [0.903, 0.367],
+          "accessibilityId": "profile slider setting white",
+          "predicate": "name == 'profile slider setting white'",
+          "classChain": "**/XCUIElementTypeButton[`name == 'profile slider setting white'`]"
+        }
+      }
+    },
+    {
+      "id": "我的.活动中心",
+      "label": "活动中心",
+      "role": "button",
+      "type": "cell",
+      "locators": {
+        "ios": {
+          "bounds": [16, 352, 100, 48],
+          "centerNormalized": [0.168, 0.441],
+          "accessibilityId": "活动中心",
+          "predicate": "name == '活动中心'"
+        }
+      }
+    },
+    {
+      "id": "我的.群聊",
+      "label": "群聊",
+      "role": "button",
+      "type": "cell",
+      "locators": {
+        "ios": {
+          "bounds": [124, 352, 100, 48],
+          "centerNormalized": [0.443, 0.441],
+          "accessibilityId": "群聊",
+          "predicate": "name == '群聊'"
+        }
+      }
+    },
+    {
+      "id": "我的.浏览记录",
+      "label": "浏览记录",
+      "role": "button",
+      "type": "cell",
+      "locators": {
+        "ios": {
+          "bounds": [232, 352, 100, 48],
+          "centerNormalized": [0.718, 0.441],
+          "accessibilityId": "浏览记录",
+          "predicate": "name == '浏览记录'"
+        }
+      }
+    },
+    {
+      "id": "我的.钱包",
+      "label": "钱包",
+      "role": "button",
+      "type": "cell",
+      "locators": {
+        "ios": {
+          "bounds": [340, 352, 100, 48],
+          "centerNormalized": [0.993, 0.441],
+          "accessibilityId": "钱包",
+          "predicate": "name == '钱包'"
+        }
+      }
+    },
+    {
+      "id": "我的.笔记Tab",
+      "label": "笔记Tab",
+      "role": "tab",
+      "type": "button",
+      "locators": {
+        "ios": {
+          "bounds": [0, 420, 66, 37],
+          "centerNormalized": [0.084, 0.515],
+          "accessibilityId": "笔记",
+          "predicate": "type == 'XCUIElementTypeButton' AND name == '笔记'",
+          "classChain": "**/XCUIElementTypeButton[`name == '笔记'`]"
+        }
+      }
+    },
+    {
+      "id": "我的.收藏Tab",
+      "label": "收藏Tab",
+      "role": "tab",
+      "type": "button",
+      "locators": {
+        "ios": {
+          "bounds": [66, 420, 66, 37],
+          "centerNormalized": [0.252, 0.515],
+          "accessibilityId": "收藏",
+          "predicate": "type == 'XCUIElementTypeButton' AND name == '收藏'",
+          "classChain": "**/XCUIElementTypeButton[`name == '收藏'`]"
+        }
+      }
+    },
+    {
+      "id": "我的.赞过Tab",
+      "label": "赞过Tab",
+      "role": "tab",
+      "type": "button",
+      "locators": {
+        "ios": {
+          "bounds": [132, 420, 66, 37],
+          "centerNormalized": [0.42, 0.515],
+          "accessibilityId": "赞过",
+          "predicate": "type == 'XCUIElementTypeButton' AND name == '赞过'",
+          "classChain": "**/XCUIElementTypeButton[`name == '赞过'`]"
+        }
+      }
+    },
+    {
+      "id": "我的.笔记卡片",
+      "label": "笔记卡片",
+      "role": "card_template",
+      "type": "cell",
+      "locators": {
+        "ios": {
+          "bounds": [5, 467, 189, 320],
+          "centerNormalized": [0.253, 0.736],
+          "predicate": "type == 'XCUIElementTypeCell' AND visible == true",
+          "classChain": "**/XCUIElementTypeCollectionView/XCUIElementTypeCell"
+        }
+      },
+      "locatorNote": "我的笔记内容卡片，瀑布流布局",
+      "children": [
+        {
+          "role": "cover_image",
+          "type": "image"
+        },
+        {
+          "role": "title",
+          "type": "text"
+        },
+        {
+          "role": "author",
+          "type": "button"
+        },
+        {
+          "role": "like",
+          "type": "button"
+        }
+      ]
+    },
+    {
+      "id": "我的.底部首页Tab",
+      "label": "底部首页Tab",
+      "role": "tab",
+      "type": "tab",
+      "locators": {
+        "ios": {
+          "bounds": [0, 772, 79, 46],
+          "centerNormalized": [0.1, 0.933],
+          "accessibilityId": "首页 标签 ",
+          "predicate": "name == '首页 标签 '",
+          "classChain": "**/XCUIElementTypeOther[`name == '首页 标签 '`]"
+        }
+      }
+    },
+    {
+      "id": "我的.底部广场Tab",
+      "label": "底部广场Tab",
+      "role": "tab",
+      "type": "tab",
+      "locators": {
+        "ios": {
+          "bounds": [78, 772, 80, 46],
+          "centerNormalized": [0.3, 0.933],
+          "accessibilityId": "广场 标签 ",
+          "predicate": "name == '广场 标签 '",
+          "classChain": "**/XCUIElementTypeOther[`name == '广场 标签 '`]"
+        }
+      }
+    },
+    {
+      "id": "我的.底部发布Tab",
+      "label": "底部发布Tab",
+      "role": "tab",
+      "type": "tab",
+      "locators": {
+        "ios": {
+          "bounds": [157, 772, 79, 46],
+          "centerNormalized": [0.5, 0.933],
+          "accessibilityId": "发布 标签 ",
+          "predicate": "name == '发布 标签 '",
+          "classChain": "**/XCUIElementTypeOther[`name == '发布 标签 '`]"
+        }
+      }
+    },
+    {
+      "id": "我的.底部消息Tab",
+      "label": "底部消息Tab",
+      "role": "tab",
+      "type": "tab",
+      "locators": {
+        "ios": {
+          "bounds": [235, 772, 80, 46],
+          "centerNormalized": [0.7, 0.933],
+          "accessibilityId": "消息 标签 ",
+          "predicate": "name == '消息 标签 '",
+          "classChain": "**/XCUIElementTypeOther[`name == '消息 标签 '`]"
+        }
+      }
+    },
+    {
+      "id": "我的.底部我的Tab",
+      "label": "底部我的Tab",
+      "role": "tab",
+      "type": "tab",
+      "locators": {
+        "ios": {
+          "bounds": [314, 772, 79, 46],
+          "centerNormalized": [0.9, 0.933],
+          "accessibilityId": "已选定 我的 标签 ",
+          "predicate": "name CONTAINS '我的 标签'",
+          "classChain": "**/XCUIElementTypeOther[`name CONTAINS '我的 标签'`]"
+        }
+      },
+      "locatorNote": "当前选中状态"
+    }
+  ],
+  "summary": {
+    "totalElements": 27,
+    "withIdentifier": 24,
+    "withoutIdentifier": 3,
+    "note": "个人主页，包含用户信息、快捷入口和内容列表"
+  }
 }

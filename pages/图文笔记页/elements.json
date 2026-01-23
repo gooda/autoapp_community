@@ -1,10 +1,214 @@
 {
-  "_meta": {
-    "pageName": "图文笔记页",
-    "description": "",
-    "elementCount": 0,
-    "createdAt": "2026-01-14T02:47:19.296Z",
-    "updatedAt": "2026-01-14T02:47:19.296Z"
+  "page": {
+    "app": "网易小蜜蜂",
+    "pageType": "detail",
+    "screen": "图文笔记页"
   },
-  "elements": []
+  "viewStructure": {
+    "layout": "vertical",
+    "regions": [
+      {
+        "name": "navigation_bar",
+        "type": "navigation",
+        "layout": "horizontal",
+        "boundsNormalized": [0, 0.069, 1, 0.07]
+      },
+      {
+        "name": "content_area",
+        "type": "scrollable_content",
+        "layout": "vertical",
+        "boundsNormalized": [0, 0.139, 1, 0.761]
+      },
+      {
+        "name": "bottom_bar",
+        "type": "fixed_content",
+        "layout": "horizontal",
+        "boundsNormalized": [0, 0.9, 1, 0.1]
+      }
+    ]
+  },
+  "interactive_elements": [
+    {
+      "id": "图文笔记页.返回",
+      "label": "返回",
+      "role": "button",
+      "type": "button",
+      "locators": {
+        "ios": {
+          "bounds": [12, 75, 28, 28],
+          "centerNormalized": [0.066, 0.104],
+          "accessibilityId": "返回",
+          "predicate": "type == 'XCUIElementTypeButton' AND name == '返回'",
+          "classChain": "**/XCUIElementTypeButton[`name == '返回'`]"
+        }
+      }
+    },
+    {
+      "id": "图文笔记页.作者信息",
+      "label": "作者信息",
+      "role": "button",
+      "type": "button",
+      "locators": {
+        "ios": {
+          "bounds": [42, 59, 351, 60],
+          "centerNormalized": [0.553, 0.104],
+          "predicate": "type == 'XCUIElementTypeButton' AND name CONTAINS '(null)'",
+          "classChain": "**/XCUIElementTypeButton[2]"
+        }
+      },
+      "locatorNote": "作者头像和昵称区域，点击可查看作者主页"
+    },
+    {
+      "id": "图文笔记页.关注按钮",
+      "label": "关注按钮",
+      "role": "button",
+      "type": "button",
+      "locators": {
+        "ios": {
+          "bounds": [0, 0, 0, 0],
+          "centerNormalized": [0.9, 0.09],
+          "accessibilityId": "关注",
+          "predicate": "name == '关注'"
+        }
+      },
+      "locatorNote": "从截图可见的关注按钮"
+    },
+    {
+      "id": "图文笔记页.图片轮播",
+      "label": "图片轮播",
+      "role": "gallery",
+      "type": "scrollview",
+      "locators": {
+        "ios": {
+          "bounds": [0, 0, 393, 768],
+          "centerNormalized": [0.5, 0.451],
+          "predicate": "type == 'XCUIElementTypeScrollView'",
+          "classChain": "**/XCUIElementTypeScrollView"
+        }
+      },
+      "locatorNote": "图片轮播区域"
+    },
+    {
+      "id": "图文笔记页.笔记标题",
+      "label": "笔记标题",
+      "role": "title",
+      "type": "text",
+      "locators": {
+        "ios": {
+          "centerNormalized": [0.5, 0.84]
+        }
+      },
+      "locatorNote": "笔记标题，动态内容"
+    },
+    {
+      "id": "图文笔记页.评论输入框",
+      "label": "评论输入框",
+      "role": "input",
+      "type": "button",
+      "locators": {
+        "ios": {
+          "centerNormalized": [0.15, 0.935],
+          "accessibilityId": "说点什么",
+          "predicate": "name CONTAINS '说点什么'"
+        }
+      }
+    },
+    {
+      "id": "图文笔记页.点赞数",
+      "label": "点赞数",
+      "role": "button",
+      "type": "button",
+      "locators": {
+        "ios": {
+          "centerNormalized": [0.45, 0.935]
+        }
+      },
+      "locatorNote": "点赞按钮和数量"
+    },
+    {
+      "id": "图文笔记页.收藏数",
+      "label": "收藏数",
+      "role": "button",
+      "type": "button",
+      "locators": {
+        "ios": {
+          "centerNormalized": [0.6, 0.935]
+        }
+      },
+      "locatorNote": "收藏按钮和数量"
+    },
+    {
+      "id": "图文笔记页.评论数",
+      "label": "评论数",
+      "role": "button",
+      "type": "button",
+      "locators": {
+        "ios": {
+          "centerNormalized": [0.75, 0.935]
+        }
+      },
+      "locatorNote": "评论按钮和数量"
+    },
+    {
+      "id": "图文笔记页.分享",
+      "label": "分享",
+      "role": "button",
+      "type": "button",
+      "locators": {
+        "ios": {
+          "centerNormalized": [0.9, 0.935]
+        }
+      },
+      "locatorNote": "分享按钮"
+    },
+    {
+      "id": "图文笔记页.评论卡片",
+      "label": "评论卡片",
+      "role": "card_template",
+      "type": "cell",
+      "locators": {
+        "ios": {
+          "predicate": "type == 'XCUIElementTypeCell' AND name CONTAINS '跟贴'",
+          "classChain": "**/XCUIElementTypeTable/XCUIElementTypeCell"
+        }
+      },
+      "locatorNote": "评论列表卡片模板",
+      "children": [
+        {
+          "role": "avatar",
+          "type": "image"
+        },
+        {
+          "role": "username",
+          "type": "button"
+        },
+        {
+          "role": "content",
+          "type": "text"
+        },
+        {
+          "role": "timestamp",
+          "type": "text"
+        },
+        {
+          "role": "location",
+          "type": "text"
+        },
+        {
+          "role": "reply",
+          "type": "button"
+        },
+        {
+          "role": "like",
+          "type": "button"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalElements": 11,
+    "withIdentifier": 4,
+    "withoutIdentifier": 7,
+    "note": "图文笔记详情页，包含图片轮播、标题、互动按钮和评论列表"
+  }
 }

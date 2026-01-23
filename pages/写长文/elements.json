@@ -1,10 +1,163 @@
 {
-  "_meta": {
-    "pageName": "写长文",
-    "description": "",
-    "elementCount": 0,
-    "createdAt": "2026-01-14T02:46:11.497Z",
-    "updatedAt": "2026-01-14T02:46:11.497Z"
+  "page": {
+    "app": "网易小蜜蜂",
+    "pageType": "form",
+    "screen": "写长文"
   },
-  "elements": []
+  "viewStructure": {
+    "layout": "vertical",
+    "regions": [
+      {
+        "name": "navigation_bar",
+        "type": "navigation",
+        "layout": "horizontal",
+        "boundsNormalized": [0, 0, 1, 0.121]
+      },
+      {
+        "name": "title_input",
+        "type": "fixed_content",
+        "layout": "horizontal",
+        "boundsNormalized": [0, 0.121, 1, 0.059]
+      },
+      {
+        "name": "content_editor",
+        "type": "scrollable_content",
+        "layout": "vertical",
+        "boundsNormalized": [0, 0.18, 1, 0.709]
+      },
+      {
+        "name": "toolbar",
+        "type": "fixed_content",
+        "layout": "horizontal",
+        "boundsNormalized": [0, 0.549, 1, 0.056]
+      }
+    ]
+  },
+  "interactive_elements": [
+    {
+      "id": "写长文.返回",
+      "label": "返回",
+      "role": "button",
+      "type": "button",
+      "locators": {
+        "ios": {
+          "bounds": [12, 69, 24, 24],
+          "centerNormalized": [0.061, 0.095],
+          "classChain": "**/XCUIElementTypeOther[`name == '写长文'`]/XCUIElementTypeOther[2]"
+        }
+      }
+    },
+    {
+      "id": "写长文.页面标题",
+      "label": "页面标题",
+      "role": "title",
+      "type": "text",
+      "locators": {
+        "ios": {
+          "bounds": [171, 70, 51, 22],
+          "centerNormalized": [0.5, 0.095],
+          "accessibilityId": "写长文",
+          "predicate": "type == 'XCUIElementTypeStaticText' AND name == '写长文'",
+          "classChain": "**/XCUIElementTypeStaticText[`name == '写长文'`]"
+        }
+      }
+    },
+    {
+      "id": "写长文.一键排版",
+      "label": "一键排版",
+      "role": "button",
+      "type": "button",
+      "locators": {
+        "ios": {
+          "bounds": [301, 68, 80, 26],
+          "centerNormalized": [0.868, 0.095],
+          "accessibilityId": "一键排版",
+          "predicate": "name == '一键排版'",
+          "classChain": "**/XCUIElementTypeOther[`name == '一键排版'`]"
+        }
+      },
+      "locatorNote": "输入内容后可用"
+    },
+    {
+      "id": "写长文.标题输入区",
+      "label": "标题输入区",
+      "role": "input",
+      "type": "row",
+      "locators": {
+        "ios": {
+          "bounds": [0, 103, 393, 50],
+          "centerNormalized": [0.5, 0.15],
+          "accessibilityId": "输入标题 输入120字正文 一键生成标题",
+          "predicate": "name CONTAINS '输入标题'"
+        }
+      },
+      "locatorNote": "包含标题输入和一键生成标题功能"
+    },
+    {
+      "id": "写长文.正文编辑器",
+      "label": "正文编辑器",
+      "role": "input",
+      "type": "textview",
+      "locators": {
+        "ios": {
+          "bounds": [0, 165, 393, 850],
+          "centerNormalized": [0.5, 0.69],
+          "predicate": "type == 'XCUIElementTypeTextView'",
+          "classChain": "**/XCUIElementTypeTextView"
+        }
+      },
+      "locatorNote": "富文本编辑器，placeholder为'粘贴文本到这里或输入文字'"
+    },
+    {
+      "id": "写长文.AI助手",
+      "label": "AI助手",
+      "role": "button",
+      "type": "button",
+      "locators": {
+        "ios": {
+          "bounds": [12, 478, 28, 29],
+          "centerNormalized": [0.066, 0.579],
+          "accessibilityId": "new",
+          "predicate": "name == 'new'"
+        }
+      },
+      "locatorNote": "AI辅助写作功能入口"
+    },
+    {
+      "id": "写长文.字数统计",
+      "label": "字数统计",
+      "role": "text",
+      "type": "text",
+      "locators": {
+        "ios": {
+          "bounds": [316, 484, 29, 17],
+          "centerNormalized": [0.841, 0.579],
+          "accessibilityId": "0/40",
+          "predicate": "name MATCHES '^[0-9]+/[0-9]+$'"
+        }
+      },
+      "locatorNote": "显示当前输入字数/最少字数要求"
+    },
+    {
+      "id": "写长文.完成",
+      "label": "完成",
+      "role": "button",
+      "type": "button",
+      "locators": {
+        "ios": {
+          "bounds": [350, 479, 38, 27],
+          "centerNormalized": [0.939, 0.579],
+          "accessibilityId": "完成",
+          "predicate": "name == '完成'",
+          "classChain": "**/XCUIElementTypeOther[`name == '完成'`]"
+        }
+      }
+    }
+  ],
+  "summary": {
+    "totalElements": 8,
+    "withIdentifier": 7,
+    "withoutIdentifier": 1,
+    "note": "长文编辑页面，支持富文本编辑和一键排版"
+  }
 }

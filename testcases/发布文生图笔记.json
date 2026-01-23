@@ -12,15 +12,17 @@
       "stepNumber": 1,
       "action": "tap",
       "description": "点击底部发布Tab，打开发布选项菜单",
+      "elementRef": {
+        "page": "首页",
+        "elementId": "elem_首页_9"
+      },
       "locators": {
         "ios": {
-          "accessibility_id": "发布 标签 ",
-          "predicate": "type == 'XCUIElementTypeOther' AND name CONTAINS '发布 标签'",
-          "class_chain": "**/XCUIElementTypeOther[`name CONTAINS '发布 标签'`]",
           "coordinates": {
             "x": 0.5,
             "y": 0.933
-          }
+          },
+          "predicate": "type == 'XCUIElementTypeOther' AND name CONTAINS '发布 标签'"
         }
       }
     },
@@ -352,5 +354,5 @@
     }
   ],
   "blueprintData": null,
-  "updatedAt": "2026-01-19T04:48:42.087Z"
+  "updatedAt": "2026-01-23T04:33:30.545Z"
 }

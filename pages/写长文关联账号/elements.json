@@ -1,10 +1,148 @@
 {
-  "_meta": {
-    "pageName": "写长文关联账号",
-    "description": "",
-    "elementCount": 0,
-    "createdAt": "2026-01-14T02:46:35.462Z",
-    "updatedAt": "2026-01-14T02:46:35.462Z"
+  "page": {
+    "app": "网易小蜜蜂",
+    "pageType": "action_sheet",
+    "screen": "写长文关联账号"
   },
-  "elements": []
+  "viewStructure": {
+    "layout": "vertical",
+    "regions": [
+      {
+        "name": "background",
+        "type": "fixed_content",
+        "layout": "vertical",
+        "boundsNormalized": [0, 0, 1, 0.5]
+      },
+      {
+        "name": "action_sheet",
+        "type": "fixed_content",
+        "layout": "vertical",
+        "boundsNormalized": [0, 0.5, 1, 0.5]
+      }
+    ]
+  },
+  "interactive_elements": [
+    {
+      "id": "写长文关联账号.关闭",
+      "label": "关闭",
+      "role": "button",
+      "type": "button",
+      "locators": {
+        "ios": {
+          "bounds": [12, 438, 58, 26],
+          "centerNormalized": [0.104, 0.53],
+          "classChain": "**/XCUIElementTypeOther"
+        }
+      },
+      "locatorNote": "关闭弹窗的X按钮"
+    },
+    {
+      "id": "写长文关联账号.弹窗标题",
+      "label": "弹窗标题",
+      "role": "title",
+      "type": "text",
+      "locators": {
+        "ios": {
+          "bounds": [132, 426, 129, 45],
+          "centerNormalized": [0.5, 0.527],
+          "accessibilityId": "关联账号导入文章",
+          "predicate": "name == '关联账号导入文章'",
+          "classChain": "**/XCUIElementTypeStaticText[`name == '关联账号导入文章'`]"
+        }
+      }
+    },
+    {
+      "id": "写长文关联账号.说明文字",
+      "label": "说明文字",
+      "role": "text",
+      "type": "text",
+      "locators": {
+        "ios": {
+          "bounds": [53, 518, 287, 18],
+          "centerNormalized": [0.5, 0.619],
+          "accessibilityId": "关联微信公众号/网易号后，输入链接导入文章",
+          "predicate": "name CONTAINS '关联微信公众号'"
+        }
+      }
+    },
+    {
+      "id": "写长文关联账号.关联公众号",
+      "label": "关联公众号",
+      "role": "button",
+      "type": "button",
+      "locators": {
+        "ios": {
+          "bounds": [55, 555, 283, 60],
+          "centerNormalized": [0.5, 0.687],
+          "accessibilityId": "关联公众号",
+          "predicate": "name == '关联公众号'",
+          "classChain": "**/XCUIElementTypeOther[`name == '关联公众号'`]"
+        }
+      }
+    },
+    {
+      "id": "写长文关联账号.关联网易号",
+      "label": "关联网易号",
+      "role": "button",
+      "type": "button",
+      "locators": {
+        "ios": {
+          "bounds": [55, 631, 283, 60],
+          "centerNormalized": [0.5, 0.776],
+          "accessibilityId": "关联网易号",
+          "predicate": "name == '关联网易号'",
+          "classChain": "**/XCUIElementTypeOther[`name == '关联网易号'`]"
+        }
+      }
+    },
+    {
+      "id": "写长文关联账号.协议提示",
+      "label": "协议提示",
+      "role": "text",
+      "type": "text",
+      "locators": {
+        "ios": {
+          "bounds": [136, 707, 121, 15],
+          "centerNormalized": [0.5, 0.839],
+          "accessibilityId": "点击关联即代表您同意",
+          "predicate": "name == '点击关联即代表您同意'"
+        }
+      }
+    },
+    {
+      "id": "写长文关联账号.服务协议",
+      "label": "服务协议",
+      "role": "link",
+      "type": "button",
+      "locators": {
+        "ios": {
+          "bounds": [101, 725, 191, 15],
+          "centerNormalized": [0.5, 0.86],
+          "accessibilityId": "《网易小蜜蜂长文导入功能服务协议》",
+          "predicate": "name CONTAINS '服务协议'",
+          "classChain": "**/XCUIElementTypeOther[`name CONTAINS '服务协议'`]"
+        }
+      }
+    },
+    {
+      "id": "写长文关联账号.AI助手",
+      "label": "AI助手",
+      "role": "floating_button",
+      "type": "button",
+      "locators": {
+        "ios": {
+          "bounds": [2, 668, 48, 48],
+          "centerNormalized": [0.066, 0.812],
+          "classChain": "**/XCUIElementTypeOther/XCUIElementTypeImage"
+        }
+      },
+      "locatorNote": "左下角悬浮AI助手按钮"
+    }
+  ],
+  "summary": {
+    "totalElements": 8,
+    "withIdentifier": 7,
+    "withoutIdentifier": 1,
+    "note": "关联账号导入文章的弹窗，可关联微信公众号或网易号"
+  }
 }

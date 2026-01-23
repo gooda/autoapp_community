@@ -1,210 +1,220 @@
 {
   "page": {
     "app": "网易小蜜蜂",
-    "page_type": "selector",
+    "pageType": "selector",
     "screen": "写文字预览图"
   },
-  "view_structure": {
+  "viewStructure": {
     "layout": "vertical",
     "regions": [
-      {
-        "name": "status_bar",
-        "type": "system",
-        "bounds_normalized": [0, 0, 1, 0.069]
-      },
       {
         "name": "navigation_bar",
         "type": "navigation",
         "layout": "horizontal",
-        "bounds_normalized": [0, 0.069, 1, 0.052]
+        "boundsNormalized": [0, 0.069, 1, 0.052]
       },
       {
         "name": "preview_area",
         "type": "fixed_content",
         "layout": "vertical",
-        "bounds_normalized": [0.041, 0.161, 0.918, 0.566]
+        "boundsNormalized": [0, 0.16, 1, 0.565]
       },
       {
-        "name": "card_selector",
+        "name": "style_selector",
         "type": "scrollable_content",
         "layout": "horizontal",
-        "bounds_normalized": [0, 0.749, 1, 0.124]
+        "boundsNormalized": [0, 0.749, 1, 0.124]
       }
     ]
   },
   "interactive_elements": [
     {
-      "id": 1,
-      "component": "navigation_bar",
-      "role": "back",
+      "id": "写文字预览图.返回",
       "label": "返回",
+      "role": "button",
       "type": "button",
-      "bounds_pixel": [12, 67, 28, 28],
-      "center_normalized": [0.066, 0.095],
-      "has_identifier": true,
       "locators": {
-        "accessibility_id": "返回",
-        "predicate": "type == 'XCUIElementTypeButton' AND name == '返回'",
-        "class_chain": "**/XCUIElementTypeButton[`name == '返回'`]"
+        "ios": {
+          "bounds": [12, 67, 28, 28],
+          "centerNormalized": [0.066, 0.095],
+          "accessibilityId": "返回",
+          "predicate": "type == 'XCUIElementTypeButton' AND name == '返回'",
+          "classChain": "**/XCUIElementTypeButton[`name == '返回'`]"
+        }
       }
     },
     {
-      "id": 2,
-      "component": "navigation_bar",
+      "id": "写文字预览图.页面标题",
+      "label": "页面标题",
       "role": "title",
-      "label": "预览图",
       "type": "text",
-      "bounds_pixel": [146, 59, 101, 44],
-      "center_normalized": [0.5, 0.095],
-      "has_identifier": true,
       "locators": {
-        "accessibility_id": "预览图",
-        "predicate": "type == 'XCUIElementTypeStaticText' AND name == '预览图'",
-        "class_chain": "**/XCUIElementTypeStaticText[`name == '预览图'`]"
+        "ios": {
+          "bounds": [146, 59, 101, 44],
+          "centerNormalized": [0.5, 0.095],
+          "accessibilityId": "预览图",
+          "predicate": "name == '预览图'",
+          "classChain": "**/XCUIElementTypeStaticText[`name == '预览图'`]"
+        }
       }
     },
     {
-      "id": 3,
-      "component": "navigation_bar",
-      "role": "confirm",
+      "id": "写文字预览图.确定",
       "label": "确定",
+      "role": "button",
       "type": "button",
-      "bounds_pixel": [319, 68, 58, 26],
-      "center_normalized": [0.885, 0.095],
-      "has_identifier": true,
       "locators": {
-        "accessibility_id": "确定",
-        "predicate": "type == 'XCUIElementTypeButton' AND name == '确定'",
-        "class_chain": "**/XCUIElementTypeButton[`name == '确定'`]"
+        "ios": {
+          "bounds": [319, 68, 58, 26],
+          "centerNormalized": [0.886, 0.095],
+          "accessibilityId": "确定",
+          "predicate": "type == 'XCUIElementTypeButton' AND name == '确定'",
+          "classChain": "**/XCUIElementTypeButton[`name == '确定'`]"
+        }
       }
     },
     {
-      "id": 4,
-      "component": "preview_area",
-      "role": "preview_image",
+      "id": "写文字预览图.预览图片",
       "label": "预览图片",
+      "role": "preview",
       "type": "image",
-      "bounds_pixel": [16, 137, 361, 482],
-      "center_normalized": [0.5, 0.443],
-      "has_identifier": false,
       "locators": {
-        "predicate": "type == 'XCUIElementTypeImage' AND visible == true AND width > 300",
-        "class_chain": "**/XCUIElementTypeImage[`visible == true AND rect.width > 300`]"
+        "ios": {
+          "bounds": [16, 137, 361, 482],
+          "centerNormalized": [0.5, 0.443],
+          "predicate": "type == 'XCUIElementTypeImage'",
+          "classChain": "**/XCUIElementTypeImage"
+        }
       },
-      "locator_note": "卡片预览大图，显示当前选择的卡片样式效果"
+      "locatorNote": "生成的配图预览"
     },
     {
-      "id": 5,
-      "component": "card_selector",
-      "role": "section_title",
-      "label": "选择喜欢的卡片",
+      "id": "写文字预览图.选择卡片标题",
+      "label": "选择卡片标题",
+      "role": "title",
       "type": "text",
-      "bounds_pixel": [16, 638, 98, 21],
-      "center_normalized": [0.165, 0.761],
-      "has_identifier": true,
       "locators": {
-        "accessibility_id": "选择喜欢的卡片",
-        "predicate": "type == 'XCUIElementTypeStaticText' AND name == '选择喜欢的卡片'",
-        "class_chain": "**/XCUIElementTypeStaticText[`name == '选择喜欢的卡片'`]"
+        "ios": {
+          "bounds": [16, 638, 98, 21],
+          "centerNormalized": [0.165, 0.762],
+          "accessibilityId": "选择喜欢的卡片",
+          "predicate": "name == '选择喜欢的卡片'",
+          "classChain": "**/XCUIElementTypeStaticText[`name == '选择喜欢的卡片'`]"
+        }
       }
     },
     {
-      "id": 6,
-      "component": "card_selector",
-      "role": "style_option",
-      "label": "基础",
-      "type": "button",
-      "bounds_pixel": [16, 674, 64, 106],
-      "center_normalized": [0.122, 0.854],
-      "has_identifier": true,
+      "id": "写文字预览图.基础样式",
+      "label": "基础样式",
+      "role": "option",
+      "type": "cell",
       "locators": {
-        "accessibility_id": "基础",
-        "predicate": "type == 'XCUIElementTypeStaticText' AND name == '基础'",
-        "class_chain": "**/XCUIElementTypeCollectionView/XCUIElementTypeCell[1]"
+        "ios": {
+          "bounds": [16, 674, 64, 106],
+          "centerNormalized": [0.122, 0.854],
+          "accessibilityId": "基础",
+          "predicate": "name == '基础'",
+          "classChain": "**/XCUIElementTypeStaticText[`name == '基础'`]"
+        }
+      }
+    },
+    {
+      "id": "写文字预览图.便签样式",
+      "label": "便签样式",
+      "role": "option",
+      "type": "cell",
+      "locators": {
+        "ios": {
+          "bounds": [88, 674, 64, 106],
+          "centerNormalized": [0.305, 0.854],
+          "accessibilityId": "便签",
+          "predicate": "name == '便签'",
+          "classChain": "**/XCUIElementTypeStaticText[`name == '便签'`]"
+        }
+      }
+    },
+    {
+      "id": "写文字预览图.备忘录样式",
+      "label": "备忘录样式",
+      "role": "option",
+      "type": "cell",
+      "locators": {
+        "ios": {
+          "bounds": [160, 674, 64, 106],
+          "centerNormalized": [0.488, 0.854],
+          "accessibilityId": "备忘录",
+          "predicate": "name == '备忘录'",
+          "classChain": "**/XCUIElementTypeStaticText[`name == '备忘录'`]"
+        }
+      }
+    },
+    {
+      "id": "写文字预览图.二次元样式",
+      "label": "二次元样式",
+      "role": "option",
+      "type": "cell",
+      "locators": {
+        "ios": {
+          "bounds": [232, 674, 64, 106],
+          "centerNormalized": [0.671, 0.854],
+          "accessibilityId": "二次元",
+          "predicate": "name == '二次元'",
+          "classChain": "**/XCUIElementTypeStaticText[`name == '二次元'`]"
+        }
+      }
+    },
+    {
+      "id": "写文字预览图.手写样式",
+      "label": "手写样式",
+      "role": "option",
+      "type": "cell",
+      "locators": {
+        "ios": {
+          "bounds": [304, 674, 64, 106],
+          "centerNormalized": [0.854, 0.854],
+          "accessibilityId": "手写",
+          "predicate": "name == '手写'",
+          "classChain": "**/XCUIElementTypeStaticText[`name == '手写'`]"
+        }
+      }
+    },
+    {
+      "id": "写文字预览图.极简样式",
+      "label": "极简样式",
+      "role": "option",
+      "type": "cell",
+      "locators": {
+        "ios": {
+          "bounds": [376, 674, 64, 106],
+          "centerNormalized": [1.037, 0.854],
+          "accessibilityId": "极简",
+          "predicate": "name == '极简'",
+          "classChain": "**/XCUIElementTypeStaticText[`name == '极简'`]"
+        }
       },
-      "locator_note": "当前选中状态，显示'换搭配'选项"
+      "locatorNote": "需要滑动才能看到"
     },
     {
-      "id": 7,
-      "component": "card_selector",
-      "role": "style_option",
-      "label": "便签",
+      "id": "写文字预览图.换搭配",
+      "label": "换搭配",
+      "role": "button",
       "type": "button",
-      "bounds_pixel": [88, 674, 64, 106],
-      "center_normalized": [0.305, 0.854],
-      "has_identifier": true,
       "locators": {
-        "accessibility_id": "便签",
-        "predicate": "type == 'XCUIElementTypeStaticText' AND name == '便签'",
-        "class_chain": "**/XCUIElementTypeCollectionView/XCUIElementTypeCell[2]"
-      }
-    },
-    {
-      "id": 8,
-      "component": "card_selector",
-      "role": "style_option",
-      "label": "备忘录",
-      "type": "button",
-      "bounds_pixel": [160, 674, 64, 106],
-      "center_normalized": [0.489, 0.854],
-      "has_identifier": true,
-      "locators": {
-        "accessibility_id": "备忘录",
-        "predicate": "type == 'XCUIElementTypeStaticText' AND name == '备忘录'",
-        "class_chain": "**/XCUIElementTypeCollectionView/XCUIElementTypeCell[3]"
-      }
-    },
-    {
-      "id": 9,
-      "component": "card_selector",
-      "role": "style_option",
-      "label": "二次元",
-      "type": "button",
-      "bounds_pixel": [232, 674, 64, 106],
-      "center_normalized": [0.672, 0.854],
-      "has_identifier": true,
-      "locators": {
-        "accessibility_id": "二次元",
-        "predicate": "type == 'XCUIElementTypeStaticText' AND name == '二次元'",
-        "class_chain": "**/XCUIElementTypeCollectionView/XCUIElementTypeCell[4]"
-      }
-    },
-    {
-      "id": 10,
-      "component": "card_selector",
-      "role": "style_option",
-      "label": "手写",
-      "type": "button",
-      "bounds_pixel": [304, 674, 64, 106],
-      "center_normalized": [0.855, 0.854],
-      "has_identifier": true,
-      "locators": {
-        "accessibility_id": "手写",
-        "predicate": "type == 'XCUIElementTypeStaticText' AND name == '手写'",
-        "class_chain": "**/XCUIElementTypeCollectionView/XCUIElementTypeCell[5]"
-      }
-    },
-    {
-      "id": 11,
-      "component": "card_selector",
-      "role": "style_option",
-      "label": "极简",
-      "type": "button",
-      "bounds_pixel": [376, 674, 64, 106],
-      "center_normalized": [1.038, 0.854],
-      "has_identifier": true,
-      "locators": {
-        "accessibility_id": "极简",
-        "predicate": "type == 'XCUIElementTypeStaticText' AND name == '极简'",
-        "class_chain": "**/XCUIElementTypeCollectionView/XCUIElementTypeCell[6]"
+        "ios": {
+          "bounds": [30, 720, 36, 15],
+          "centerNormalized": [0.122, 0.855],
+          "accessibilityId": "换搭配",
+          "predicate": "name == '换搭配'",
+          "classChain": "**/XCUIElementTypeStaticText[`name == '换搭配'`]"
+        }
       },
-      "locator_note": "需要滑动才能完全可见"
+      "locatorNote": "当前选中样式上的更换配色按钮"
     }
   ],
   "summary": {
-    "total_elements": 11,
-    "with_identifier": 10,
-    "without_identifier": 1,
-    "note": "卡片样式选择页面，包含6种预设样式：基础、便签、备忘录、二次元、手写、极简"
+    "totalElements": 12,
+    "withIdentifier": 12,
+    "withoutIdentifier": 0,
+    "note": "文生图预览页面，可选择不同配图样式"
   }
 }

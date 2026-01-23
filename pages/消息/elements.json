@@ -1,10 +1,259 @@
 {
-  "_meta": {
-    "pageName": "消息",
-    "description": "",
-    "elementCount": 0,
-    "createdAt": "2026-01-14T02:47:50.326Z",
-    "updatedAt": "2026-01-14T02:47:50.326Z"
+  "page": {
+    "app": "网易小蜜蜂",
+    "pageType": "list",
+    "screen": "消息"
   },
-  "elements": []
+  "viewStructure": {
+    "layout": "vertical",
+    "regions": [
+      {
+        "name": "navigation_bar",
+        "type": "navigation",
+        "layout": "horizontal",
+        "boundsNormalized": [0, 0.069, 1, 0.061]
+      },
+      {
+        "name": "quick_entries",
+        "type": "fixed_content",
+        "layout": "horizontal",
+        "boundsNormalized": [0, 0.13, 1, 0.1]
+      },
+      {
+        "name": "message_list",
+        "type": "scrollable_content",
+        "layout": "vertical",
+        "boundsNormalized": [0, 0.25, 1, 0.656]
+      },
+      {
+        "name": "bottom_tab_bar",
+        "type": "navigation",
+        "layout": "horizontal",
+        "boundsNormalized": [0, 0.906, 1, 0.054]
+      }
+    ]
+  },
+  "interactive_elements": [
+    {
+      "id": "消息.创建群聊",
+      "label": "创建群聊",
+      "role": "button",
+      "type": "button",
+      "locators": {
+        "ios": {
+          "bounds": [12, 73, 80, 24],
+          "centerNormalized": [0.132, 0.1],
+          "accessibilityId": "创建群聊",
+          "predicate": "type == 'XCUIElementTypeButton' AND name == '创建群聊'",
+          "classChain": "**/XCUIElementTypeButton[`name == '创建群聊'`]"
+        }
+      }
+    },
+    {
+      "id": "消息.页面标题",
+      "label": "页面标题",
+      "role": "title",
+      "type": "text",
+      "locators": {
+        "ios": {
+          "bounds": [179, 73, 35, 24],
+          "centerNormalized": [0.5, 0.1],
+          "accessibilityId": "消息",
+          "predicate": "type == 'XCUIElementTypeStaticText' AND name == '消息'",
+          "classChain": "**/XCUIElementTypeStaticText[`name == '消息'`]"
+        }
+      }
+    },
+    {
+      "id": "消息.设置",
+      "label": "设置",
+      "role": "button",
+      "type": "button",
+      "locators": {
+        "ios": {
+          "bounds": [357, 73, 24, 24],
+          "centerNormalized": [0.939, 0.1],
+          "accessibilityId": "message navigation setting",
+          "predicate": "type == 'XCUIElementTypeButton' AND name == 'message navigation setting'",
+          "classChain": "**/XCUIElementTypeButton[`name == 'message navigation setting'`]"
+        }
+      }
+    },
+    {
+      "id": "消息.赞和收藏",
+      "label": "赞和收藏",
+      "role": "button",
+      "type": "button",
+      "locators": {
+        "ios": {
+          "bounds": [51, 134, 44, 68],
+          "centerNormalized": [0.186, 0.197],
+          "accessibilityId": "赞和收藏",
+          "predicate": "name == '赞和收藏'",
+          "classChain": "**/XCUIElementTypeButton"
+        }
+      }
+    },
+    {
+      "id": "消息.新增关注",
+      "label": "新增关注",
+      "role": "button",
+      "type": "button",
+      "locators": {
+        "ios": {
+          "bounds": [174, 134, 45, 68],
+          "centerNormalized": [0.5, 0.197],
+          "accessibilityId": "新增关注",
+          "predicate": "name == '新增关注'"
+        }
+      }
+    },
+    {
+      "id": "消息.评论",
+      "label": "评论",
+      "role": "button",
+      "type": "button",
+      "locators": {
+        "ios": {
+          "bounds": [298, 134, 44, 68],
+          "centerNormalized": [0.814, 0.197],
+          "accessibilityId": "评论",
+          "predicate": "name == '评论'"
+        }
+      }
+    },
+    {
+      "id": "消息.消息卡片",
+      "label": "消息卡片",
+      "role": "card_template",
+      "type": "cell",
+      "locators": {
+        "ios": {
+          "bounds": [0, 213, 393, 78],
+          "centerNormalized": [0.5, 0.296],
+          "predicate": "type == 'XCUIElementTypeCell'",
+          "classChain": "**/XCUIElementTypeTable/XCUIElementTypeCell"
+        }
+      },
+      "locatorNote": "消息列表卡片模板",
+      "children": [
+        {
+          "role": "avatar",
+          "type": "image"
+        },
+        {
+          "role": "sender_name",
+          "type": "text"
+        },
+        {
+          "role": "message_preview",
+          "type": "text"
+        },
+        {
+          "role": "timestamp",
+          "type": "text"
+        },
+        {
+          "role": "unread_badge",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "消息.AI助手",
+      "label": "AI助手",
+      "role": "floating_button",
+      "type": "button",
+      "locators": {
+        "ios": {
+          "bounds": [2, 668, 48, 48],
+          "centerNormalized": [0.066, 0.812],
+          "classChain": "**/XCUIElementTypeOther/XCUIElementTypeImage"
+        }
+      },
+      "locatorNote": "左下角悬浮AI助手按钮"
+    },
+    {
+      "id": "消息.底部首页Tab",
+      "label": "底部首页Tab",
+      "role": "tab",
+      "type": "tab",
+      "locators": {
+        "ios": {
+          "bounds": [0, 772, 79, 46],
+          "centerNormalized": [0.1, 0.933],
+          "accessibilityId": "首页 标签 ",
+          "predicate": "name == '首页 标签 '",
+          "classChain": "**/XCUIElementTypeOther[`name == '首页 标签 '`]"
+        }
+      }
+    },
+    {
+      "id": "消息.底部广场Tab",
+      "label": "底部广场Tab",
+      "role": "tab",
+      "type": "tab",
+      "locators": {
+        "ios": {
+          "bounds": [78, 772, 80, 46],
+          "centerNormalized": [0.3, 0.933],
+          "accessibilityId": "广场 标签 ",
+          "predicate": "name == '广场 标签 '",
+          "classChain": "**/XCUIElementTypeOther[`name == '广场 标签 '`]"
+        }
+      }
+    },
+    {
+      "id": "消息.底部发布Tab",
+      "label": "底部发布Tab",
+      "role": "tab",
+      "type": "tab",
+      "locators": {
+        "ios": {
+          "bounds": [157, 772, 79, 46],
+          "centerNormalized": [0.5, 0.933],
+          "accessibilityId": "发布 标签 ",
+          "predicate": "name == '发布 标签 '",
+          "classChain": "**/XCUIElementTypeOther[`name == '发布 标签 '`]"
+        }
+      }
+    },
+    {
+      "id": "消息.底部消息Tab",
+      "label": "底部消息Tab",
+      "role": "tab",
+      "type": "tab",
+      "locators": {
+        "ios": {
+          "bounds": [235, 772, 80, 46],
+          "centerNormalized": [0.7, 0.933],
+          "accessibilityId": "已选定 消息 标签 ",
+          "predicate": "name CONTAINS '消息 标签'",
+          "classChain": "**/XCUIElementTypeOther[`name CONTAINS '消息 标签'`]"
+        }
+      },
+      "locatorNote": "当前选中状态"
+    },
+    {
+      "id": "消息.底部我的Tab",
+      "label": "底部我的Tab",
+      "role": "tab",
+      "type": "tab",
+      "locators": {
+        "ios": {
+          "bounds": [314, 772, 79, 46],
+          "centerNormalized": [0.9, 0.933],
+          "accessibilityId": "我的 标签 ",
+          "predicate": "name == '我的 标签 '",
+          "classChain": "**/XCUIElementTypeOther[`name == '我的 标签 '`]"
+        }
+      }
+    }
+  ],
+  "summary": {
+    "totalElements": 13,
+    "withIdentifier": 11,
+    "withoutIdentifier": 2,
+    "note": "消息页面包含快捷入口和消息列表"
+  }
 }
