@@ -1,0 +1,304 @@
+{
+  "page": {
+    "app": "网易小蜜蜂",
+    "pageType": "feed",
+    "screen": "test"
+  },
+  "viewStructure": {
+    "layout": "vertical",
+    "regions": [
+      {
+        "name": "status_bar",
+        "type": "system",
+        "layout": "horizontal",
+        "boundsNormalized": [0, 0, 1, 0.069]
+      },
+      {
+        "name": "top_navigation",
+        "type": "navigation",
+        "layout": "horizontal",
+        "boundsNormalized": [0, 0.069, 1, 0.052]
+      },
+      {
+        "name": "content_list",
+        "type": "scrollable_content",
+        "layout": "waterfall_grid",
+        "columns": 2,
+        "boundsNormalized": [0, 0.121, 1, 0.785]
+      },
+      {
+        "name": "bottom_tab_bar",
+        "type": "navigation",
+        "layout": "horizontal",
+        "boundsNormalized": [0, 0.906, 1, 0.054]
+      }
+    ]
+  },
+  "interactive_elements": [
+    {
+      "id": "test.用户头像",
+      "label": "用户头像",
+      "role": "avatar",
+      "type": "button",
+      "locators": {
+        "ios": {
+          "bounds": [11, 66, 49, 28],
+          "centerNormalized": [0.09, 0.094],
+          "classChain": "**/XCUIElementTypeScrollView/../XCUIElementTypeButton[1]",
+          "xpath": "//XCUIElementTypeScrollView/preceding-sibling::XCUIElementTypeButton[1]"
+        }
+      },
+      "locatorNote": "左上角用户头像入口，无明确标识符，通过与ScrollView的相对位置定位"
+    },
+    {
+      "id": "test.关注Tab",
+      "label": "关注Tab",
+      "role": "tab",
+      "type": "button",
+      "locators": {
+        "ios": {
+          "bounds": [91, 59, 71, 39],
+          "centerNormalized": [0.322, 0.092],
+          "accessibilityId": "已选中:关注",
+          "predicate": "name == '已选中:关注'",
+          "classChain": "**/XCUIElementTypeButton[`name == '已选中:关注'`]"
+        }
+      },
+      "locatorNote": "当前选中状态，名称会变化"
+    },
+    {
+      "id": "test.发现Tab",
+      "label": "发现Tab",
+      "role": "tab",
+      "type": "button",
+      "locators": {
+        "ios": {
+          "bounds": [161, 59, 71, 39],
+          "centerNormalized": [0.5, 0.092],
+          "accessibilityId": "发现",
+          "predicate": "type == 'XCUIElementTypeButton' AND name == '发现' AND visible == true",
+          "classChain": "**/XCUIElementTypeButton[`name == '发现'`]"
+        }
+      }
+    },
+    {
+      "id": "test.蜂巢Tab",
+      "label": "蜂巢Tab",
+      "role": "tab",
+      "type": "button",
+      "locators": {
+        "ios": {
+          "bounds": [231, 59, 71, 39],
+          "centerNormalized": [0.678, 0.092],
+          "accessibilityId": "蜂巢",
+          "predicate": "type == 'XCUIElementTypeButton' AND name == '蜂巢' AND visible == true",
+          "classChain": "**/XCUIElementTypeButton[`name == '蜂巢'`]"
+        }
+      }
+    },
+    {
+      "id": "test.搜索按钮",
+      "label": "搜索按钮",
+      "role": "button",
+      "type": "button",
+      "locators": {
+        "ios": {
+          "bounds": [344, 59, 49, 44],
+          "centerNormalized": [0.937, 0.095],
+          "classChain": "**/XCUIElementTypeScrollView/../XCUIElementTypeButton[2]",
+          "xpath": "//XCUIElementTypeScrollView/preceding-sibling::XCUIElementTypeButton[2]"
+        }
+      },
+      "locatorNote": "右上角搜索按钮，无明确标识符，通过与ScrollView的相对位置定位"
+    },
+    {
+      "id": "test.笔记列表",
+      "label": "笔记列表",
+      "role": "list",
+      "type": "scrollview",
+      "locators": {
+        "ios": {
+          "bounds": [0, 103, 393, 669],
+          "centerNormalized": [0.5, 0.513],
+          "classChain": "**/XCUIElementTypeCollectionView",
+          "predicate": "type == 'XCUIElementTypeCollectionView'"
+        }
+      }
+    },
+    {
+      "id": "test.笔记卡片",
+      "label": "笔记卡片",
+      "role": "card_template",
+      "type": "cell",
+      "locators": {
+        "ios": {
+          "bounds": [5, 138, 189, 341],
+          "centerNormalized": [0.253, 0.362],
+          "predicate": "type == 'XCUIElementTypeCell' AND visible == true",
+          "classChain": "**/XCUIElementTypeCollectionView/XCUIElementTypeCell"
+        }
+      },
+      "locatorNote": "笔记内容卡片，瀑布流布局，支持多个卡片",
+      "children": [
+        {
+          "role": "cover_image",
+          "type": "image"
+        },
+        {
+          "role": "title",
+          "type": "text"
+        },
+        {
+          "role": "author",
+          "type": "button"
+        },
+        {
+          "role": "like",
+          "type": "button"
+        }
+      ]
+    },
+    {
+      "id": "test.笔记标题",
+      "label": "笔记标题",
+      "role": "title",
+      "type": "text",
+      "locators": {
+        "ios": {
+          "bounds": [17, 295, 165, 47],
+          "centerNormalized": [0.253, 0.374],
+          "accessibilityId": "测试文生图笔记，这是一条用于测试的笔记内容",
+          "predicate": "name CONTAINS '测试文生图笔记'",
+          "classChain": "**/XCUIElementTypeCell/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[`name CONTAINS '测试'`]"
+        }
+      },
+      "locatorNote": "动态内容，根据实际笔记标题定位"
+    },
+    {
+      "id": "test.笔记作者",
+      "label": "笔记作者",
+      "role": "author",
+      "type": "button",
+      "locators": {
+        "ios": {
+          "bounds": [17, 342, 98, 20],
+          "centerNormalized": [0.168, 0.413],
+          "predicate": "type == 'XCUIElementTypeStaticText' AND value == '小蜜蜂BtL728'",
+          "classChain": "**/XCUIElementTypeCell//XCUIElementTypeStaticText[`value BEGINSWITH '小蜜蜂'`]"
+        }
+      },
+      "locatorNote": "动态内容，根据实际作者名称定位"
+    },
+    {
+      "id": "test.点赞按钮",
+      "label": "点赞按钮",
+      "role": "button",
+      "type": "button",
+      "locators": {
+        "ios": {
+          "bounds": [151, 342, 43, 20],
+          "centerNormalized": [0.439, 0.413],
+          "predicate": "type == 'XCUIElementTypeStaticText' AND name == '赞'",
+          "classChain": "**/XCUIElementTypeCell//XCUIElementTypeStaticText[`name == '赞'`]"
+        }
+      }
+    },
+    {
+      "id": "test.悬浮蜜蜂",
+      "label": "悬浮蜜蜂",
+      "role": "button",
+      "type": "image",
+      "locators": {
+        "ios": {
+          "bounds": [6, 672, 40, 40],
+          "centerNormalized": [0.066, 0.812],
+          "classChain": "**/XCUIElementTypeWindow/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeImage",
+          "xpath": "//XCUIElementTypeWindow/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeImage"
+        }
+      },
+      "locatorNote": "左下角悬浮的蜜蜂图标，无明确标识符，通过层级路径定位"
+    },
+    {
+      "id": "test.底部首页Tab",
+      "label": "底部首页Tab",
+      "role": "tab",
+      "type": "tab",
+      "locators": {
+        "ios": {
+          "bounds": [0, 772, 79, 46],
+          "centerNormalized": [0.1, 0.933],
+          "accessibilityId": "已选定 首页 标签 ",
+          "predicate": "name CONTAINS '首页' AND name CONTAINS '标签'",
+          "classChain": "**/XCUIElementTypeOther[`name CONTAINS '首页 标签'`]"
+        }
+      },
+      "locatorNote": "当前选中状态"
+    },
+    {
+      "id": "test.底部广场Tab",
+      "label": "底部广场Tab",
+      "role": "tab",
+      "type": "tab",
+      "locators": {
+        "ios": {
+          "bounds": [78, 772, 80, 46],
+          "centerNormalized": [0.3, 0.933],
+          "accessibilityId": "广场 标签 ",
+          "predicate": "name == '广场 标签 '",
+          "classChain": "**/XCUIElementTypeOther[`name == '广场 标签 '`]"
+        }
+      }
+    },
+    {
+      "id": "test.底部发布Tab",
+      "label": "底部发布Tab",
+      "role": "tab",
+      "type": "tab",
+      "locators": {
+        "ios": {
+          "bounds": [157, 772, 79, 46],
+          "centerNormalized": [0.5, 0.933],
+          "accessibilityId": "发布 标签 ",
+          "predicate": "name == '发布 标签 '",
+          "classChain": "**/XCUIElementTypeOther[`name == '发布 标签 '`]"
+        }
+      }
+    },
+    {
+      "id": "test.底部消息Tab",
+      "label": "底部消息Tab",
+      "role": "tab",
+      "type": "tab",
+      "locators": {
+        "ios": {
+          "bounds": [235, 772, 80, 46],
+          "centerNormalized": [0.7, 0.933],
+          "accessibilityId": "消息 标签 ",
+          "predicate": "name == '消息 标签 '",
+          "classChain": "**/XCUIElementTypeOther[`name == '消息 标签 '`]"
+        }
+      }
+    },
+    {
+      "id": "test.底部我的Tab",
+      "label": "底部我的Tab",
+      "role": "tab",
+      "type": "tab",
+      "locators": {
+        "ios": {
+          "bounds": [314, 772, 79, 46],
+          "centerNormalized": [0.9, 0.933],
+          "accessibilityId": "我的 标签 ",
+          "predicate": "name == '我的 标签 '",
+          "classChain": "**/XCUIElementTypeOther[`name == '我的 标签 '`]"
+        }
+      }
+    }
+  ],
+  "summary": {
+    "totalElements": 16,
+    "withIdentifier": 13,
+    "withoutIdentifier": 3,
+    "note": "首页-关注Tab页面，显示关注用户的笔记内容列表，瀑布流布局。3个元素（用户头像、搜索按钮、悬浮蜜蜂）无明确标识符，通过层级相对位置定位"
+  }
+}

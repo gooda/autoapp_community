@@ -4,7 +4,7 @@
     "pageSignature": null,
     "description": "",
     "elementCount": 11,
-    "updatedAt": "2026-01-27T06:10:01.412Z"
+    "updatedAt": "2026-01-27T13:34:57.484Z"
   },
   "elements": [
     {
@@ -24,7 +24,7 @@
             0.09,
             0.094
           ],
-          "classChain": "**/XCUIElementTypeOther/XCUIElementTypeButton[3]"
+          "classChain": "**/XCUIElementTypeOther[`y >= 59 AND y <= 103`]/XCUIElementTypeButton[3]"
         }
       },
       "bounds": {
@@ -37,8 +37,7 @@
         0.09,
         0.094
       ],
-      "locatorNote": "左上角功能入口按钮",
-      "status": "active"
+      "locatorNote": "左上角功能入口按钮，无name/label属性，通过层级结构定位"
     },
     {
       "elementId": "elem_首页_首页.关注Tab",
@@ -71,8 +70,7 @@
       "centerNormalized": [
         0.322,
         0.092
-      ],
-      "status": "active"
+      ]
     },
     {
       "elementId": "elem_首页_首页.发现Tab",
@@ -106,8 +104,7 @@
         0.5,
         0.092
       ],
-      "locatorNote": "当前选中状态，name为'已选中:发现'",
-      "status": "active"
+      "locatorNote": "选中状态时name为'已选中:发现'，未选中时为'发现'"
     },
     {
       "elementId": "elem_首页_首页.蜂巢Tab",
@@ -140,8 +137,7 @@
       "centerNormalized": [
         0.677,
         0.092
-      ],
-      "status": "active"
+      ]
     },
     {
       "elementId": "elem_首页_首页.搜索",
@@ -174,8 +170,7 @@
       "centerNormalized": [
         0.938,
         0.093
-      ],
-      "status": "active"
+      ]
     },
     {
       "elementId": "elem_首页_首页.内容卡片",
@@ -188,11 +183,11 @@
             5,
             108,
             189,
-            341
+            320
           ],
           "centerNormalized": [
             0.253,
-            0.327
+            0.314
           ],
           "predicate": "type == 'XCUIElementTypeCell' AND visible == true",
           "classChain": "**/XCUIElementTypeCollectionView/XCUIElementTypeCell"
@@ -202,13 +197,13 @@
         "x": 5,
         "y": 108,
         "width": 189,
-        "height": 341
+        "height": 320
       },
       "centerNormalized": [
         0.253,
-        0.327
+        0.314
       ],
-      "locatorNote": "瀑布流内容卡片，通过索引定位具体卡片",
+      "locatorNote": "瀑布流内容卡片模板，两列布局，通过索引定位具体卡片",
       "children": [
         {
           "role": "cover_image",
@@ -218,14 +213,15 @@
               "classChain": "XCUIElementTypeOther/XCUIElementTypeImage[1]"
             }
           },
-          "locatorNote": "卡片封面图，视频类型会有video_list_cell_icon图标"
+          "locatorNote": "封面图，视频类型会显示video_list_cell_icon图标"
         },
         {
           "role": "title",
           "type": "text",
           "locators": {
             "ios": {
-              "classChain": "XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther"
+              "classChain": "XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther",
+              "predicate": "type == 'XCUIElementTypeOther' AND name != '' AND accessible == true"
             }
           },
           "locatorNote": "卡片标题，name属性包含完整标题文本"
@@ -238,7 +234,7 @@
               "classChain": "XCUIElementTypeOther/XCUIElementTypeButton[1]"
             }
           },
-          "locatorNote": "作者信息"
+          "locatorNote": "作者头像和昵称"
         },
         {
           "role": "like",
@@ -248,10 +244,9 @@
               "classChain": "XCUIElementTypeOther/XCUIElementTypeButton[2]"
             }
           },
-          "locatorNote": "点赞按钮"
+          "locatorNote": "点赞按钮，包含点赞数"
         }
-      ],
-      "status": "active"
+      ]
     },
     {
       "elementId": "elem_首页_首页.底部首页Tab",
@@ -271,8 +266,8 @@
             0.933
           ],
           "accessibilityId": "已选定 首页 标签 ",
-          "predicate": "type == 'XCUIElementTypeOther' AND name CONTAINS '首页'",
-          "classChain": "**/XCUIElementTypeOther[`name CONTAINS '首页'`]"
+          "predicate": "type == 'XCUIElementTypeOther' AND name CONTAINS '首页 标签'",
+          "classChain": "**/XCUIElementTypeOther[`name CONTAINS '首页 标签'`]"
         }
       },
       "bounds": {
@@ -285,8 +280,7 @@
         0.101,
         0.933
       ],
-      "locatorNote": "当前选中状态，name前缀为'已选定'",
-      "status": "active"
+      "locatorNote": "选中状态时name前缀为'已选定'"
     },
     {
       "elementId": "elem_首页_首页.底部广场Tab",
@@ -306,8 +300,8 @@
             0.933
           ],
           "accessibilityId": "广场 标签 ",
-          "predicate": "type == 'XCUIElementTypeOther' AND name CONTAINS '广场'",
-          "classChain": "**/XCUIElementTypeOther[`name CONTAINS '广场'`]"
+          "predicate": "type == 'XCUIElementTypeOther' AND name CONTAINS '广场 标签'",
+          "classChain": "**/XCUIElementTypeOther[`name CONTAINS '广场 标签'`]"
         }
       },
       "bounds": {
@@ -319,8 +313,7 @@
       "centerNormalized": [
         0.3,
         0.933
-      ],
-      "status": "active"
+      ]
     },
     {
       "elementId": "elem_首页_首页.底部发布Tab",
@@ -344,8 +337,15 @@
           "classChain": "**/XCUIElementTypeOther[`name CONTAINS '发布 标签'`]"
         },
         "matchImage": {
-          "screenshotId": "697856b9fabf73b26e3fa02d",
+          "screenshotId": "6978bef0cb9bf8849bfacb27",
           "threshold": 0.8
+        },
+        "accessibilityId": "发布 标签 ",
+        "class_chain": "**/XCUIElementTypeOther[`name CONTAINS '发布 标签'`]",
+        "predicate": "type == 'XCUIElementTypeOther' AND name CONTAINS '发布 标签'",
+        "coordinates": {
+          "x": 0.5,
+          "y": 0.933
         }
       },
       "bounds": {
@@ -358,8 +358,7 @@
         0.5,
         0.933
       ],
-      "locatorNote": "中央发布按钮，黄色圆形",
-      "status": "active"
+      "locatorNote": "中央黄色发布按钮"
     },
     {
       "elementId": "elem_首页_首页.底部消息Tab",
@@ -379,8 +378,8 @@
             0.933
           ],
           "accessibilityId": "消息 标签 ",
-          "predicate": "type == 'XCUIElementTypeOther' AND name CONTAINS '消息'",
-          "classChain": "**/XCUIElementTypeOther[`name CONTAINS '消息'`]"
+          "predicate": "type == 'XCUIElementTypeOther' AND name CONTAINS '消息 标签'",
+          "classChain": "**/XCUIElementTypeOther[`name CONTAINS '消息 标签'`]"
         }
       },
       "bounds": {
@@ -392,8 +391,7 @@
       "centerNormalized": [
         0.7,
         0.933
-      ],
-      "status": "active"
+      ]
     },
     {
       "elementId": "elem_首页_首页.底部我的Tab",
@@ -413,8 +411,8 @@
             0.933
           ],
           "accessibilityId": "我的 标签 ",
-          "predicate": "type == 'XCUIElementTypeOther' AND name CONTAINS '我的'",
-          "classChain": "**/XCUIElementTypeOther[`name CONTAINS '我的'`]"
+          "predicate": "type == 'XCUIElementTypeOther' AND name CONTAINS '我的 标签'",
+          "classChain": "**/XCUIElementTypeOther[`name CONTAINS '我的 标签'`]"
         }
       },
       "bounds": {
@@ -426,8 +424,7 @@
       "centerNormalized": [
         0.9,
         0.933
-      ],
-      "status": "active"
+      ]
     }
   ]
 }
