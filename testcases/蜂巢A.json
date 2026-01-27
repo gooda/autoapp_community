@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "version": "1.0.0",
+    "createdAt": "2026-01-27T12:32:57.964Z",
+    "updatedAt": "2026-01-27T12:32:57.964Z",
+    "author": "recorder"
+  },
+  "name": "蜂巢A",
+  "description": "",
+  "priority": "medium",
+  "tags": [],
+  "applications": [],
+  "steps": [],
+  "blueprintEnabled": false,
+  "blueprintData": null
+}
