@@ -11,25 +11,45 @@
         "name": "navigation_bar",
         "type": "navigation",
         "layout": "horizontal",
-        "boundsNormalized": [0, 0.069, 1, 0.061]
+        "boundsNormalized": [
+          0,
+          0.069,
+          1,
+          0.061
+        ]
       },
       {
         "name": "activity_banners",
         "type": "fixed_content",
         "layout": "horizontal",
-        "boundsNormalized": [0, 0.13, 1, 0.1]
+        "boundsNormalized": [
+          0,
+          0.13,
+          1,
+          0.1
+        ]
       },
       {
         "name": "ranking_list",
         "type": "scrollable_content",
         "layout": "vertical",
-        "boundsNormalized": [0, 0.23, 1, 0.67]
+        "boundsNormalized": [
+          0,
+          0.23,
+          1,
+          0.67
+        ]
       },
       {
         "name": "bottom_tab_bar",
         "type": "navigation",
         "layout": "horizontal",
-        "boundsNormalized": [0, 0.906, 1, 0.054]
+        "boundsNormalized": [
+          0,
+          0.906,
+          1,
+          0.054
+        ]
       }
     ]
   },
@@ -41,8 +61,16 @@
       "type": "text",
       "locators": {
         "ios": {
-          "bounds": [0, 59, 393, 52],
-          "centerNormalized": [0.5, 0.1],
+          "bounds": [
+            0,
+            59,
+            393,
+            52
+          ],
+          "centerNormalized": [
+            0.5,
+            0.1
+          ],
           "accessibilityId": "广场",
           "predicate": "type == 'XCUIElementTypeStaticText' AND name == '广场'",
           "classChain": "**/XCUIElementTypeStaticText[`name == '广场'`]"
@@ -56,8 +84,16 @@
       "type": "button",
       "locators": {
         "ios": {
-          "bounds": [8, 111, 122, 85],
-          "centerNormalized": [0.176, 0.18],
+          "bounds": [
+            8,
+            111,
+            122,
+            85
+          ],
+          "centerNormalized": [
+            0.176,
+            0.18
+          ],
           "classChain": "**/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]"
         }
       },
@@ -70,8 +106,16 @@
       "type": "button",
       "locators": {
         "ios": {
-          "bounds": [135, 111, 123, 85],
-          "centerNormalized": [0.5, 0.18],
+          "bounds": [
+            135,
+            111,
+            123,
+            85
+          ],
+          "centerNormalized": [
+            0.5,
+            0.18
+          ],
           "classChain": "**/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]"
         }
       },
@@ -84,8 +128,16 @@
       "type": "button",
       "locators": {
         "ios": {
-          "bounds": [263, 111, 122, 85],
-          "centerNormalized": [0.824, 0.18],
+          "bounds": [
+            263,
+            111,
+            122,
+            85
+          ],
+          "centerNormalized": [
+            0.824,
+            0.18
+          ],
           "classChain": "**/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]"
         }
       },
@@ -98,8 +150,16 @@
       "type": "text",
       "locators": {
         "ios": {
-          "bounds": [36, 212, 84, 21],
-          "centerNormalized": [0.198, 0.261],
+          "bounds": [
+            36,
+            212,
+            84,
+            21
+          ],
+          "centerNormalized": [
+            0.198,
+            0.261
+          ],
           "accessibilityId": "热门评分榜单",
           "predicate": "type == 'XCUIElementTypeStaticText' AND name == '热门评分榜单'",
           "classChain": "**/XCUIElementTypeStaticText[`name == '热门评分榜单'`]"
@@ -113,8 +173,16 @@
       "type": "button",
       "locators": {
         "ios": {
-          "bounds": [316, 213, 48, 18],
-          "centerNormalized": [0.865, 0.26],
+          "bounds": [
+            316,
+            213,
+            48,
+            18
+          ],
+          "centerNormalized": [
+            0.865,
+            0.26
+          ],
           "accessibilityId": "查看全部",
           "predicate": "type == 'XCUIElementTypeStaticText' AND name == '查看全部'",
           "classChain": "**/XCUIElementTypeStaticText[`name == '查看全部'`]"
@@ -128,8 +196,16 @@
       "type": "cell",
       "locators": {
         "ios": {
-          "bounds": [10, 242, 373, 262],
-          "centerNormalized": [0.5, 0.437],
+          "bounds": [
+            10,
+            242,
+            373,
+            262
+          ],
+          "centerNormalized": [
+            0.5,
+            0.437
+          ],
           "classChain": "**/XCUIElementTypeTable/XCUIElementTypeCell"
         }
       },
@@ -157,10 +233,22 @@
           "role": "ranking_item",
           "type": "group",
           "children": [
-            {"role": "rank", "type": "text"},
-            {"role": "item_name", "type": "text"},
-            {"role": "score", "type": "text"},
-            {"role": "description", "type": "text"}
+            {
+              "role": "rank",
+              "type": "text"
+            },
+            {
+              "role": "item_name",
+              "type": "text"
+            },
+            {
+              "role": "score",
+              "type": "text"
+            },
+            {
+              "role": "description",
+              "type": "text"
+            }
           ]
         },
         {
@@ -181,8 +269,16 @@
       "type": "button",
       "locators": {
         "ios": {
-          "bounds": [2, 668, 48, 48],
-          "centerNormalized": [0.066, 0.812],
+          "bounds": [
+            2,
+            668,
+            48,
+            48
+          ],
+          "centerNormalized": [
+            0.066,
+            0.812
+          ],
           "classChain": "**/XCUIElementTypeOther/XCUIElementTypeImage"
         }
       },
@@ -195,8 +291,16 @@
       "type": "tab",
       "locators": {
         "ios": {
-          "bounds": [0, 772, 79, 46],
-          "centerNormalized": [0.1, 0.933],
+          "bounds": [
+            0,
+            772,
+            79,
+            46
+          ],
+          "centerNormalized": [
+            0.1,
+            0.933
+          ],
           "accessibilityId": "首页 标签 ",
           "predicate": "name == '首页 标签 '",
           "classChain": "**/XCUIElementTypeOther[`name == '首页 标签 '`]"
@@ -210,8 +314,16 @@
       "type": "tab",
       "locators": {
         "ios": {
-          "bounds": [78, 772, 80, 46],
-          "centerNormalized": [0.3, 0.933],
+          "bounds": [
+            78,
+            772,
+            80,
+            46
+          ],
+          "centerNormalized": [
+            0.3,
+            0.933
+          ],
           "accessibilityId": "已选定 广场 标签 ",
           "predicate": "name CONTAINS '广场 标签'",
           "classChain": "**/XCUIElementTypeOther[`name CONTAINS '广场 标签'`]"
@@ -226,8 +338,16 @@
       "type": "tab",
       "locators": {
         "ios": {
-          "bounds": [157, 772, 79, 46],
-          "centerNormalized": [0.5, 0.933],
+          "bounds": [
+            157,
+            772,
+            79,
+            46
+          ],
+          "centerNormalized": [
+            0.5,
+            0.933
+          ],
           "accessibilityId": "发布 标签 ",
           "predicate": "name == '发布 标签 '",
           "classChain": "**/XCUIElementTypeOther[`name == '发布 标签 '`]"
@@ -242,8 +362,16 @@
       "type": "tab",
       "locators": {
         "ios": {
-          "bounds": [235, 772, 80, 46],
-          "centerNormalized": [0.7, 0.933],
+          "bounds": [
+            235,
+            772,
+            80,
+            46
+          ],
+          "centerNormalized": [
+            0.7,
+            0.933
+          ],
           "accessibilityId": "消息 标签 ",
           "predicate": "name == '消息 标签 '",
           "classChain": "**/XCUIElementTypeOther[`name == '消息 标签 '`]"
@@ -257,8 +385,16 @@
       "type": "tab",
       "locators": {
         "ios": {
-          "bounds": [314, 772, 79, 46],
-          "centerNormalized": [0.9, 0.933],
+          "bounds": [
+            314,
+            772,
+            79,
+            46
+          ],
+          "centerNormalized": [
+            0.9,
+            0.933
+          ],
           "accessibilityId": "我的 标签 ",
           "predicate": "name == '我的 标签 '",
           "classChain": "**/XCUIElementTypeOther[`name == '我的 标签 '`]"
@@ -272,8 +408,16 @@
       "type": "button",
       "locators": {
         "ios": {
-          "bounds": [10, 2669, 373, 45],
-          "centerNormalized": [0.5, 0.95],
+          "bounds": [
+            10,
+            2669,
+            373,
+            45
+          ],
+          "centerNormalized": [
+            0.5,
+            0.95
+          ],
           "accessibilityId": "查看全部榜单",
           "predicate": "type == 'XCUIElementTypeButton' AND name == '查看全部榜单'",
           "classChain": "**/XCUIElementTypeButton[`name == '查看全部榜单'`]"

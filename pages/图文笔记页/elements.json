@@ -11,19 +11,34 @@
         "name": "navigation_bar",
         "type": "navigation",
         "layout": "horizontal",
-        "boundsNormalized": [0, 0.069, 1, 0.07]
+        "boundsNormalized": [
+          0,
+          0.069,
+          1,
+          0.07
+        ]
       },
       {
         "name": "content_area",
         "type": "scrollable_content",
         "layout": "vertical",
-        "boundsNormalized": [0, 0.139, 1, 0.761]
+        "boundsNormalized": [
+          0,
+          0.139,
+          1,
+          0.761
+        ]
       },
       {
         "name": "bottom_bar",
         "type": "fixed_content",
         "layout": "horizontal",
-        "boundsNormalized": [0, 0.9, 1, 0.1]
+        "boundsNormalized": [
+          0,
+          0.9,
+          1,
+          0.1
+        ]
       }
     ]
   },
@@ -35,8 +50,16 @@
       "type": "button",
       "locators": {
         "ios": {
-          "bounds": [12, 75, 28, 28],
-          "centerNormalized": [0.066, 0.104],
+          "bounds": [
+            12,
+            75,
+            28,
+            28
+          ],
+          "centerNormalized": [
+            0.066,
+            0.104
+          ],
           "accessibilityId": "返回",
           "predicate": "type == 'XCUIElementTypeButton' AND name == '返回'",
           "classChain": "**/XCUIElementTypeButton[`name == '返回'`]"
@@ -50,8 +73,16 @@
       "type": "button",
       "locators": {
         "ios": {
-          "bounds": [42, 59, 351, 60],
-          "centerNormalized": [0.553, 0.104],
+          "bounds": [
+            42,
+            59,
+            351,
+            60
+          ],
+          "centerNormalized": [
+            0.553,
+            0.104
+          ],
           "predicate": "type == 'XCUIElementTypeButton' AND name CONTAINS '(null)'",
           "classChain": "**/XCUIElementTypeButton[2]"
         }
@@ -65,8 +96,16 @@
       "type": "button",
       "locators": {
         "ios": {
-          "bounds": [0, 0, 0, 0],
-          "centerNormalized": [0.9, 0.09],
+          "bounds": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "centerNormalized": [
+            0.9,
+            0.09
+          ],
           "accessibilityId": "关注",
           "predicate": "name == '关注'"
         }
@@ -80,8 +119,16 @@
       "type": "scrollview",
       "locators": {
         "ios": {
-          "bounds": [0, 0, 393, 768],
-          "centerNormalized": [0.5, 0.451],
+          "bounds": [
+            0,
+            0,
+            393,
+            768
+          ],
+          "centerNormalized": [
+            0.5,
+            0.451
+          ],
           "predicate": "type == 'XCUIElementTypeScrollView'",
           "classChain": "**/XCUIElementTypeScrollView"
         }
@@ -95,7 +142,10 @@
       "type": "text",
       "locators": {
         "ios": {
-          "centerNormalized": [0.5, 0.84]
+          "centerNormalized": [
+            0.5,
+            0.84
+          ]
         }
       },
       "locatorNote": "笔记标题，动态内容"
@@ -107,7 +157,10 @@
       "type": "button",
       "locators": {
         "ios": {
-          "centerNormalized": [0.15, 0.935],
+          "centerNormalized": [
+            0.15,
+            0.935
+          ],
           "accessibilityId": "说点什么",
           "predicate": "name CONTAINS '说点什么'"
         }
@@ -120,7 +173,10 @@
       "type": "button",
       "locators": {
         "ios": {
-          "centerNormalized": [0.45, 0.935]
+          "centerNormalized": [
+            0.45,
+            0.935
+          ]
         }
       },
       "locatorNote": "点赞按钮和数量"
@@ -132,7 +188,10 @@
       "type": "button",
       "locators": {
         "ios": {
-          "centerNormalized": [0.6, 0.935]
+          "centerNormalized": [
+            0.6,
+            0.935
+          ]
         }
       },
       "locatorNote": "收藏按钮和数量"
@@ -144,7 +203,10 @@
       "type": "button",
       "locators": {
         "ios": {
-          "centerNormalized": [0.75, 0.935]
+          "centerNormalized": [
+            0.75,
+            0.935
+          ]
         }
       },
       "locatorNote": "评论按钮和数量"
@@ -156,7 +218,10 @@
       "type": "button",
       "locators": {
         "ios": {
-          "centerNormalized": [0.9, 0.935]
+          "centerNormalized": [
+            0.9,
+            0.935
+          ]
         }
       },
       "locatorNote": "分享按钮"

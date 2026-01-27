@@ -11,13 +11,23 @@
         "name": "background_content",
         "type": "fixed_content",
         "layout": "waterfall_grid",
-        "boundsNormalized": [0, 0, 1, 0.68]
+        "boundsNormalized": [
+          0,
+          0,
+          1,
+          0.68
+        ]
       },
       {
         "name": "action_sheet",
         "type": "fixed_content",
         "layout": "vertical",
-        "boundsNormalized": [0, 0.68, 1, 0.32]
+        "boundsNormalized": [
+          0,
+          0.68,
+          1,
+          0.32
+        ]
       }
     ]
   },
@@ -29,8 +39,16 @@
       "type": "cell",
       "locators": {
         "ios": {
-          "bounds": [0, 580, 393, 58],
-          "centerNormalized": [0.5, 0.715],
+          "bounds": [
+            0,
+            580,
+            393,
+            58
+          ],
+          "centerNormalized": [
+            0.5,
+            0.715
+          ],
           "accessibilityId": "从相册选择",
           "predicate": "type == 'XCUIElementTypeStaticText' AND name == '从相册选择'",
           "classChain": "**/XCUIElementTypeStaticText[`name == '从相册选择'`]"
@@ -44,8 +62,16 @@
       "type": "cell",
       "locators": {
         "ios": {
-          "bounds": [0, 638, 393, 59],
-          "centerNormalized": [0.5, 0.783],
+          "bounds": [
+            0,
+            638,
+            393,
+            59
+          ],
+          "centerNormalized": [
+            0.5,
+            0.783
+          ],
           "accessibilityId": "相机",
           "predicate": "type == 'XCUIElementTypeStaticText' AND name == '相机'",
           "classChain": "**/XCUIElementTypeStaticText[`name == '相机'`]"
@@ -59,8 +85,16 @@
       "type": "cell",
       "locators": {
         "ios": {
-          "bounds": [0, 696, 393, 59],
-          "centerNormalized": [0.5, 0.851],
+          "bounds": [
+            0,
+            696,
+            393,
+            59
+          ],
+          "centerNormalized": [
+            0.5,
+            0.851
+          ],
           "accessibilityId": "写文字",
           "predicate": "type == 'XCUIElementTypeStaticText' AND name == '写文字'",
           "classChain": "**/XCUIElementTypeStaticText[`name == '写文字'`]"
@@ -75,8 +109,16 @@
       "type": "cell",
       "locators": {
         "ios": {
-          "bounds": [0, 760, 393, 59],
-          "centerNormalized": [0.5, 0.927],
+          "bounds": [
+            0,
+            760,
+            393,
+            59
+          ],
+          "centerNormalized": [
+            0.5,
+            0.927
+          ],
           "accessibilityId": "取消",
           "predicate": "type == 'XCUIElementTypeStaticText' AND name == '取消'",
           "classChain": "**/XCUIElementTypeStaticText[`name == '取消'`]"

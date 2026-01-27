@@ -11,19 +11,34 @@
         "name": "navigation_bar",
         "type": "navigation",
         "layout": "horizontal",
-        "boundsNormalized": [0, 0, 1, 0.121]
+        "boundsNormalized": [
+          0,
+          0,
+          1,
+          0.121
+        ]
       },
       {
         "name": "form_content",
         "type": "scrollable_content",
         "layout": "vertical",
-        "boundsNormalized": [0, 0.121, 1, 0.754]
+        "boundsNormalized": [
+          0,
+          0.121,
+          1,
+          0.754
+        ]
       },
       {
         "name": "bottom_bar",
         "type": "fixed_content",
         "layout": "horizontal",
-        "boundsNormalized": [0, 0.875, 1, 0.125]
+        "boundsNormalized": [
+          0,
+          0.875,
+          1,
+          0.125
+        ]
       }
     ]
   },
@@ -35,8 +50,16 @@
       "type": "button",
       "locators": {
         "ios": {
-          "bounds": [16, 70, 35, 22],
-          "centerNormalized": [0.085, 0.095],
+          "bounds": [
+            16,
+            70,
+            35,
+            22
+          ],
+          "centerNormalized": [
+            0.085,
+            0.095
+          ],
           "accessibilityId": "nav item back black",
           "predicate": "name == 'nav item back black'",
           "classChain": "**/XCUIElementTypeButton[`name == 'nav item back black'`]"
@@ -50,8 +73,16 @@
       "type": "button",
       "locators": {
         "ios": {
-          "bounds": [314, 68, 63, 26],
-          "centerNormalized": [0.879, 0.095],
+          "bounds": [
+            314,
+            68,
+            63,
+            26
+          ],
+          "centerNormalized": [
+            0.879,
+            0.095
+          ],
           "accessibilityId": "存草稿",
           "predicate": "name == '存草稿'",
           "classChain": "**/XCUIElementTypeButton[`name == '存草稿'`]"
@@ -65,8 +96,16 @@
       "type": "button",
       "locators": {
         "ios": {
-          "bounds": [16, 115, 103, 28],
-          "centerNormalized": [0.172, 0.151],
+          "bounds": [
+            16,
+            115,
+            103,
+            28
+          ],
+          "centerNormalized": [
+            0.172,
+            0.151
+          ],
           "accessibilityId": "选择蜂巢",
           "predicate": "name == '选择蜂巢'",
           "classChain": "**/XCUIElementTypeStaticText[`name == '选择蜂巢'`]"
@@ -80,8 +119,16 @@
       "type": "collection",
       "locators": {
         "ios": {
-          "bounds": [0, 143, 393, 100],
-          "centerNormalized": [0.5, 0.227],
+          "bounds": [
+            0,
+            143,
+            393,
+            100
+          ],
+          "centerNormalized": [
+            0.5,
+            0.227
+          ],
           "predicate": "type == 'XCUIElementTypeCollectionView'",
           "classChain": "**/XCUIElementTypeCollectionView"
         }
@@ -95,8 +142,16 @@
       "type": "cell",
       "locators": {
         "ios": {
-          "bounds": [101, 155, 80, 80],
-          "centerNormalized": [0.359, 0.229],
+          "bounds": [
+            101,
+            155,
+            80,
+            80
+          ],
+          "centerNormalized": [
+            0.359,
+            0.229
+          ],
           "accessibilityId": "photo_picker_add_media",
           "predicate": "name == 'photo_picker_add_media'"
         }
@@ -109,8 +164,16 @@
       "type": "textfield",
       "locators": {
         "ios": {
-          "bounds": [15, 243, 323, 48],
-          "centerNormalized": [0.449, 0.314],
+          "bounds": [
+            15,
+            243,
+            323,
+            48
+          ],
+          "centerNormalized": [
+            0.449,
+            0.314
+          ],
           "predicate": "type == 'XCUIElementTypeTextField'",
           "classChain": "**/XCUIElementTypeTextField"
         }
@@ -124,8 +187,16 @@
       "type": "textview",
       "locators": {
         "ios": {
-          "bounds": [15, 306, 366, 170],
-          "centerNormalized": [0.504, 0.459],
+          "bounds": [
+            15,
+            306,
+            366,
+            170
+          ],
+          "centerNormalized": [
+            0.504,
+            0.459
+          ],
           "predicate": "type == 'XCUIElementTypeTextView'",
           "classChain": "**/XCUIElementTypeTextView"
         }
@@ -138,8 +209,16 @@
       "type": "button",
       "locators": {
         "ios": {
-          "bounds": [16, 492, 54, 25],
-          "centerNormalized": [0.109, 0.592],
+          "bounds": [
+            16,
+            492,
+            54,
+            25
+          ],
+          "centerNormalized": [
+            0.109,
+            0.592
+          ],
           "accessibilityId": "表情",
           "predicate": "name == '表情'",
           "classChain": "**/XCUIElementTypeButton[`name == '表情'`]"
@@ -153,8 +232,16 @@
       "type": "button",
       "locators": {
         "ios": {
-          "bounds": [78, 492, 54, 25],
-          "centerNormalized": [0.267, 0.592],
+          "bounds": [
+            78,
+            492,
+            54,
+            25
+          ],
+          "centerNormalized": [
+            0.267,
+            0.592
+          ],
           "accessibilityId": "话题",
           "predicate": "name == '话题'",
           "classChain": "**/XCUIElementTypeButton[`name == '话题'`]"
@@ -168,8 +255,16 @@
       "type": "button",
       "locators": {
         "ios": {
-          "bounds": [140, 492, 54, 25],
-          "centerNormalized": [0.425, 0.592],
+          "bounds": [
+            140,
+            492,
+            54,
+            25
+          ],
+          "centerNormalized": [
+            0.425,
+            0.592
+          ],
           "accessibilityId": "用户",
           "predicate": "name == '用户'",
           "classChain": "**/XCUIElementTypeButton[`name == '用户'`]"
@@ -183,8 +278,16 @@
       "type": "button",
       "locators": {
         "ios": {
-          "bounds": [202, 492, 54, 25],
-          "centerNormalized": [0.583, 0.592],
+          "bounds": [
+            202,
+            492,
+            54,
+            25
+          ],
+          "centerNormalized": [
+            0.583,
+            0.592
+          ],
           "accessibilityId": "语音",
           "predicate": "name == '语音'",
           "classChain": "**/XCUIElementTypeButton[`name == '语音'`]"
@@ -198,8 +301,16 @@
       "type": "button",
       "locators": {
         "ios": {
-          "bounds": [323, 492, 54, 25],
-          "centerNormalized": [0.891, 0.592],
+          "bounds": [
+            323,
+            492,
+            54,
+            25
+          ],
+          "centerNormalized": [
+            0.891,
+            0.592
+          ],
           "accessibilityId": "长文",
           "predicate": "name == '长文'",
           "classChain": "**/XCUIElementTypeButton[`name == '长文'`]"
@@ -213,8 +324,16 @@
       "type": "row",
       "locators": {
         "ios": {
-          "bounds": [0, 533, 393, 52],
-          "centerNormalized": [0.5, 0.656],
+          "bounds": [
+            0,
+            533,
+            393,
+            52
+          ],
+          "centerNormalized": [
+            0.5,
+            0.656
+          ],
           "accessibilityId": "标记情绪",
           "predicate": "name == '标记情绪'",
           "classChain": "**/XCUIElementTypeStaticText[`name == '标记情绪'`]"
@@ -228,8 +347,16 @@
       "type": "row",
       "locators": {
         "ios": {
-          "bounds": [0, 585, 393, 52],
-          "centerNormalized": [0.5, 0.717],
+          "bounds": [
+            0,
+            585,
+            393,
+            52
+          ],
+          "centerNormalized": [
+            0.5,
+            0.717
+          ],
           "accessibilityId": "更多组件",
           "predicate": "name == '更多组件'",
           "classChain": "**/XCUIElementTypeStaticText[`name == '更多组件'`]"
@@ -243,8 +370,16 @@
       "type": "row",
       "locators": {
         "ios": {
-          "bounds": [0, 637, 393, 52],
-          "centerNormalized": [0.5, 0.778],
+          "bounds": [
+            0,
+            637,
+            393,
+            52
+          ],
+          "centerNormalized": [
+            0.5,
+            0.778
+          ],
           "accessibilityId": "公开可见",
           "predicate": "name == '公开可见'",
           "classChain": "**/XCUIElementTypeStaticText[`name == '公开可见'`]"
@@ -258,8 +393,16 @@
       "type": "button",
       "locators": {
         "ios": {
-          "bounds": [20, 689, 60, 44],
-          "centerNormalized": [0.127, 0.835],
+          "bounds": [
+            20,
+            689,
+            60,
+            44
+          ],
+          "centerNormalized": [
+            0.127,
+            0.835
+          ],
           "accessibilityId": "高级设置",
           "predicate": "name == '高级设置'",
           "classChain": "**/XCUIElementTypeButton[`name == '高级设置'`]"
@@ -273,8 +416,16 @@
       "type": "button",
       "locators": {
         "ios": {
-          "bounds": [311, 689, 62, 44],
-          "centerNormalized": [0.87, 0.835],
+          "bounds": [
+            311,
+            689,
+            62,
+            44
+          ],
+          "centerNormalized": [
+            0.87,
+            0.835
+          ],
           "accessibilityId": "匿名发布",
           "predicate": "name == '匿名发布'",
           "classChain": "**/XCUIElementTypeButton[`name == '匿名发布'`]"
@@ -288,8 +439,16 @@
       "type": "button",
       "locators": {
         "ios": {
-          "bounds": [17, 762, 32, 40],
-          "centerNormalized": [0.084, 0.917],
+          "bounds": [
+            17,
+            762,
+            32,
+            40
+          ],
+          "centerNormalized": [
+            0.084,
+            0.917
+          ],
           "accessibilityId": "预览",
           "predicate": "name == '预览'",
           "classChain": "**/XCUIElementTypeButton[`name == '预览'`]"
@@ -303,8 +462,16 @@
       "type": "button",
       "locators": {
         "ios": {
-          "bounds": [64, 762, 309, 40],
-          "centerNormalized": [0.556, 0.917],
+          "bounds": [
+            64,
+            762,
+            309,
+            40
+          ],
+          "centerNormalized": [
+            0.556,
+            0.917
+          ],
           "accessibilityId": "发布笔记",
           "predicate": "name == '发布笔记'",
           "classChain": "**/XCUIElementTypeButton[`name == '发布笔记'`]"

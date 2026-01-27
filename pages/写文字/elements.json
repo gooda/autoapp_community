@@ -11,19 +11,34 @@
         "name": "navigation_bar",
         "type": "navigation",
         "layout": "horizontal",
-        "boundsNormalized": [0, 0.069, 1, 0.052]
+        "boundsNormalized": [
+          0,
+          0.069,
+          1,
+          0.052
+        ]
       },
       {
         "name": "input_area",
         "type": "fixed_content",
         "layout": "vertical",
-        "boundsNormalized": [0, 0.14, 1, 0.515]
+        "boundsNormalized": [
+          0,
+          0.14,
+          1,
+          0.515
+        ]
       },
       {
         "name": "long_text_entry",
         "type": "fixed_content",
         "layout": "horizontal",
-        "boundsNormalized": [0, 0.734, 1, 0.1]
+        "boundsNormalized": [
+          0,
+          0.734,
+          1,
+          0.1
+        ]
       }
     ]
   },
@@ -35,8 +50,16 @@
       "type": "button",
       "locators": {
         "ios": {
-          "bounds": [12, 67, 28, 28],
-          "centerNormalized": [0.066, 0.095],
+          "bounds": [
+            12,
+            67,
+            28,
+            28
+          ],
+          "centerNormalized": [
+            0.066,
+            0.095
+          ],
           "accessibilityId": "返回",
           "predicate": "type == 'XCUIElementTypeButton' AND name == '返回'",
           "classChain": "**/XCUIElementTypeButton[`name == '返回'`]"
@@ -50,8 +73,16 @@
       "type": "button",
       "locators": {
         "ios": {
-          "bounds": [319, 68, 58, 26],
-          "centerNormalized": [0.886, 0.095],
+          "bounds": [
+            319,
+            68,
+            58,
+            26
+          ],
+          "centerNormalized": [
+            0.886,
+            0.095
+          ],
           "accessibilityId": "生成",
           "predicate": "type == 'XCUIElementTypeButton' AND name == '生成'",
           "classChain": "**/XCUIElementTypeButton[`name == '生成'`]"
@@ -66,8 +97,16 @@
       "type": "text",
       "locators": {
         "ios": {
-          "bounds": [20, 119, 154, 31],
-          "centerNormalized": [0.247, 0.158],
+          "bounds": [
+            20,
+            119,
+            154,
+            31
+          ],
+          "centerNormalized": [
+            0.247,
+            0.158
+          ],
           "accessibilityId": "一句话生成配图",
           "predicate": "name == '一句话生成配图'",
           "classChain": "**/XCUIElementTypeStaticText[`name == '一句话生成配图'`]"
@@ -81,8 +120,16 @@
       "type": "textview",
       "locators": {
         "ios": {
-          "bounds": [60, 226, 273, 343],
-          "centerNormalized": [0.5, 0.467],
+          "bounds": [
+            60,
+            226,
+            273,
+            343
+          ],
+          "centerNormalized": [
+            0.5,
+            0.467
+          ],
           "predicate": "type == 'XCUIElementTypeTextView' AND enabled == true",
           "classChain": "**/XCUIElementTypeTextView"
         }
@@ -96,8 +143,16 @@
       "type": "cell",
       "locators": {
         "ios": {
-          "bounds": [16, 625, 361, 86],
-          "centerNormalized": [0.5, 0.785],
+          "bounds": [
+            16,
+            625,
+            361,
+            86
+          ],
+          "centerNormalized": [
+            0.5,
+            0.785
+          ],
           "accessibilityId": "写长文",
           "predicate": "name == '写长文'",
           "classChain": "**/XCUIElementTypeStaticText[`name == '写长文'`]"

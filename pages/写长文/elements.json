@@ -11,25 +11,45 @@
         "name": "navigation_bar",
         "type": "navigation",
         "layout": "horizontal",
-        "boundsNormalized": [0, 0, 1, 0.121]
+        "boundsNormalized": [
+          0,
+          0,
+          1,
+          0.121
+        ]
       },
       {
         "name": "title_input",
         "type": "fixed_content",
         "layout": "horizontal",
-        "boundsNormalized": [0, 0.121, 1, 0.059]
+        "boundsNormalized": [
+          0,
+          0.121,
+          1,
+          0.059
+        ]
       },
       {
         "name": "content_editor",
         "type": "scrollable_content",
         "layout": "vertical",
-        "boundsNormalized": [0, 0.18, 1, 0.709]
+        "boundsNormalized": [
+          0,
+          0.18,
+          1,
+          0.709
+        ]
       },
       {
         "name": "toolbar",
         "type": "fixed_content",
         "layout": "horizontal",
-        "boundsNormalized": [0, 0.549, 1, 0.056]
+        "boundsNormalized": [
+          0,
+          0.549,
+          1,
+          0.056
+        ]
       }
     ]
   },
@@ -41,8 +61,16 @@
       "type": "button",
       "locators": {
         "ios": {
-          "bounds": [12, 69, 24, 24],
-          "centerNormalized": [0.061, 0.095],
+          "bounds": [
+            12,
+            69,
+            24,
+            24
+          ],
+          "centerNormalized": [
+            0.061,
+            0.095
+          ],
           "classChain": "**/XCUIElementTypeOther[`name == '写长文'`]/XCUIElementTypeOther[2]"
         }
       }
@@ -54,8 +82,16 @@
       "type": "text",
       "locators": {
         "ios": {
-          "bounds": [171, 70, 51, 22],
-          "centerNormalized": [0.5, 0.095],
+          "bounds": [
+            171,
+            70,
+            51,
+            22
+          ],
+          "centerNormalized": [
+            0.5,
+            0.095
+          ],
           "accessibilityId": "写长文",
           "predicate": "type == 'XCUIElementTypeStaticText' AND name == '写长文'",
           "classChain": "**/XCUIElementTypeStaticText[`name == '写长文'`]"
@@ -69,8 +105,16 @@
       "type": "button",
       "locators": {
         "ios": {
-          "bounds": [301, 68, 80, 26],
-          "centerNormalized": [0.868, 0.095],
+          "bounds": [
+            301,
+            68,
+            80,
+            26
+          ],
+          "centerNormalized": [
+            0.868,
+            0.095
+          ],
           "accessibilityId": "一键排版",
           "predicate": "name == '一键排版'",
           "classChain": "**/XCUIElementTypeOther[`name == '一键排版'`]"
@@ -85,8 +129,16 @@
       "type": "row",
       "locators": {
         "ios": {
-          "bounds": [0, 103, 393, 50],
-          "centerNormalized": [0.5, 0.15],
+          "bounds": [
+            0,
+            103,
+            393,
+            50
+          ],
+          "centerNormalized": [
+            0.5,
+            0.15
+          ],
           "accessibilityId": "输入标题 输入120字正文 一键生成标题",
           "predicate": "name CONTAINS '输入标题'"
         }
@@ -100,8 +152,16 @@
       "type": "textview",
       "locators": {
         "ios": {
-          "bounds": [0, 165, 393, 850],
-          "centerNormalized": [0.5, 0.69],
+          "bounds": [
+            0,
+            165,
+            393,
+            850
+          ],
+          "centerNormalized": [
+            0.5,
+            0.69
+          ],
           "predicate": "type == 'XCUIElementTypeTextView'",
           "classChain": "**/XCUIElementTypeTextView"
         }
@@ -115,8 +175,16 @@
       "type": "button",
       "locators": {
         "ios": {
-          "bounds": [12, 478, 28, 29],
-          "centerNormalized": [0.066, 0.579],
+          "bounds": [
+            12,
+            478,
+            28,
+            29
+          ],
+          "centerNormalized": [
+            0.066,
+            0.579
+          ],
           "accessibilityId": "new",
           "predicate": "name == 'new'"
         }
@@ -130,8 +198,16 @@
       "type": "text",
       "locators": {
         "ios": {
-          "bounds": [316, 484, 29, 17],
-          "centerNormalized": [0.841, 0.579],
+          "bounds": [
+            316,
+            484,
+            29,
+            17
+          ],
+          "centerNormalized": [
+            0.841,
+            0.579
+          ],
           "accessibilityId": "0/40",
           "predicate": "name MATCHES '^[0-9]+/[0-9]+$'"
         }
@@ -145,8 +221,16 @@
       "type": "button",
       "locators": {
         "ios": {
-          "bounds": [350, 479, 38, 27],
-          "centerNormalized": [0.939, 0.579],
+          "bounds": [
+            350,
+            479,
+            38,
+            27
+          ],
+          "centerNormalized": [
+            0.939,
+            0.579
+          ],
           "accessibilityId": "完成",
           "predicate": "name == '完成'",
           "classChain": "**/XCUIElementTypeOther[`name == '完成'`]"

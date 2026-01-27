@@ -11,13 +11,23 @@
         "name": "background",
         "type": "fixed_content",
         "layout": "vertical",
-        "boundsNormalized": [0, 0, 1, 0.5]
+        "boundsNormalized": [
+          0,
+          0,
+          1,
+          0.5
+        ]
       },
       {
         "name": "action_sheet",
         "type": "fixed_content",
         "layout": "vertical",
-        "boundsNormalized": [0, 0.5, 1, 0.5]
+        "boundsNormalized": [
+          0,
+          0.5,
+          1,
+          0.5
+        ]
       }
     ]
   },
@@ -29,8 +39,16 @@
       "type": "button",
       "locators": {
         "ios": {
-          "bounds": [12, 438, 58, 26],
-          "centerNormalized": [0.104, 0.53],
+          "bounds": [
+            12,
+            438,
+            58,
+            26
+          ],
+          "centerNormalized": [
+            0.104,
+            0.53
+          ],
           "classChain": "**/XCUIElementTypeOther"
         }
       },
@@ -43,8 +61,16 @@
       "type": "text",
       "locators": {
         "ios": {
-          "bounds": [132, 426, 129, 45],
-          "centerNormalized": [0.5, 0.527],
+          "bounds": [
+            132,
+            426,
+            129,
+            45
+          ],
+          "centerNormalized": [
+            0.5,
+            0.527
+          ],
           "accessibilityId": "关联账号导入文章",
           "predicate": "name == '关联账号导入文章'",
           "classChain": "**/XCUIElementTypeStaticText[`name == '关联账号导入文章'`]"
@@ -58,8 +84,16 @@
       "type": "text",
       "locators": {
         "ios": {
-          "bounds": [53, 518, 287, 18],
-          "centerNormalized": [0.5, 0.619],
+          "bounds": [
+            53,
+            518,
+            287,
+            18
+          ],
+          "centerNormalized": [
+            0.5,
+            0.619
+          ],
           "accessibilityId": "关联微信公众号/网易号后，输入链接导入文章",
           "predicate": "name CONTAINS '关联微信公众号'"
         }
@@ -72,8 +106,16 @@
       "type": "button",
       "locators": {
         "ios": {
-          "bounds": [55, 555, 283, 60],
-          "centerNormalized": [0.5, 0.687],
+          "bounds": [
+            55,
+            555,
+            283,
+            60
+          ],
+          "centerNormalized": [
+            0.5,
+            0.687
+          ],
           "accessibilityId": "关联公众号",
           "predicate": "name == '关联公众号'",
           "classChain": "**/XCUIElementTypeOther[`name == '关联公众号'`]"
@@ -87,8 +129,16 @@
       "type": "button",
       "locators": {
         "ios": {
-          "bounds": [55, 631, 283, 60],
-          "centerNormalized": [0.5, 0.776],
+          "bounds": [
+            55,
+            631,
+            283,
+            60
+          ],
+          "centerNormalized": [
+            0.5,
+            0.776
+          ],
           "accessibilityId": "关联网易号",
           "predicate": "name == '关联网易号'",
           "classChain": "**/XCUIElementTypeOther[`name == '关联网易号'`]"
@@ -102,8 +152,16 @@
       "type": "text",
       "locators": {
         "ios": {
-          "bounds": [136, 707, 121, 15],
-          "centerNormalized": [0.5, 0.839],
+          "bounds": [
+            136,
+            707,
+            121,
+            15
+          ],
+          "centerNormalized": [
+            0.5,
+            0.839
+          ],
           "accessibilityId": "点击关联即代表您同意",
           "predicate": "name == '点击关联即代表您同意'"
         }
@@ -116,8 +174,16 @@
       "type": "button",
       "locators": {
         "ios": {
-          "bounds": [101, 725, 191, 15],
-          "centerNormalized": [0.5, 0.86],
+          "bounds": [
+            101,
+            725,
+            191,
+            15
+          ],
+          "centerNormalized": [
+            0.5,
+            0.86
+          ],
           "accessibilityId": "《网易小蜜蜂长文导入功能服务协议》",
           "predicate": "name CONTAINS '服务协议'",
           "classChain": "**/XCUIElementTypeOther[`name CONTAINS '服务协议'`]"
@@ -131,8 +197,16 @@
       "type": "button",
       "locators": {
         "ios": {
-          "bounds": [2, 668, 48, 48],
-          "centerNormalized": [0.066, 0.812],
+          "bounds": [
+            2,
+            668,
+            48,
+            48
+          ],
+          "centerNormalized": [
+            0.066,
+            0.812
+          ],
           "classChain": "**/XCUIElementTypeOther/XCUIElementTypeImage"
         }
       },
