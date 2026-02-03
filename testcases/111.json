@@ -12,5 +12,9 @@
   "applications": [],
   "steps": [],
   "blueprintEnabled": false,
-  "blueprintData": null
+  "blueprintData": null,
+  "file": "testcases/111.json",
+  "categoryIds": [
+    "cat_ml678xdr_hxgiq1"
+  ]
 }
