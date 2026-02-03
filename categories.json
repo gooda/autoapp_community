@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "version": "1.0.0",
+    "updatedAt": "2026-02-03T06:10:10.047Z",
+    "updatedBy": "user"
+  },
+  "categories": [
+    {
+      "id": "cat_ml678xdr_hxgiq1",
+      "name": "回归",
+      "description": "",
+      "parentId": null,
+      "order": 0,
+      "createdAt": "2026-02-03T06:10:10.047Z"
+    }
+  ]
+}
