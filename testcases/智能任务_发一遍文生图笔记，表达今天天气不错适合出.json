@@ -1,0 +1,96 @@
+{
+  "_meta": {
+    "version": "1.0.0",
+    "createdAt": "2026-02-10T02:43:25.479Z",
+    "updatedAt": "2026-02-10T02:43:25.479Z",
+    "author": "AI Agent"
+  },
+  "name": "智能任务_发一遍文生图笔记，表达今天天气不错适合出",
+  "description": "发一遍文生图笔记，表达今天天气不错适合出去玩的心情",
+  "priority": "medium",
+  "tags": [
+    "视觉录制",
+    "智能任务"
+  ],
+  "applications": [],
+  "steps": [
+    {
+      "action": "tap",
+      "description": "点击「发布」",
+      "stepNumber": 1,
+      "_operationId": "1770691377744_hmmvj86yw",
+      "timestamp": "2026-02-10T02:40:32.667Z",
+      "target": "首页-发现.发布",
+      "locatorPriority": [
+        "ai"
+      ]
+    },
+    {
+      "action": "tap",
+      "description": "点击「写文字」",
+      "stepNumber": 2,
+      "_operationId": "1770691377744_tkoivje1w",
+      "timestamp": "2026-02-10T02:41:05.337Z",
+      "target": "发现页发布选择.写文字",
+      "locatorPriority": [
+        "ai"
+      ]
+    },
+    {
+      "action": "tap",
+      "description": "点击「文本输入」",
+      "stepNumber": 3,
+      "_operationId": "1770691377744_bucfeanqr",
+      "timestamp": "2026-02-10T02:41:13.296Z",
+      "target": "写文字预览图.文本输入",
+      "locatorPriority": [
+        "ai"
+      ]
+    },
+    {
+      "action": "input",
+      "description": "输入文本: \"今天天气真不错，阳光明媚，微风轻拂，正是出门踏青的好时光！心情也跟着明朗起来，想要去公园走走，感受这美好的春日时光✨\"",
+      "stepNumber": 4,
+      "_operationId": "1770691377744_k3ccc5ejf",
+      "timestamp": "2026-02-10T02:41:37.030Z",
+      "params": {
+        "text": "今天天气真不错，阳光明媚，微风轻拂，正是出门踏青的好时光！心情也跟着明朗起来，想要去公园走走，感受这美好的春日时光✨"
+      },
+      "value": "今天天气真不错，阳光明媚，微风轻拂，正是出门踏青的好时光！心情也跟着明朗起来，想要去公园走走，感受这美好的春日时光✨",
+      "target": "写文字.文本输入框",
+      "locatorPriority": [
+        "ai"
+      ]
+    },
+    {
+      "action": "tap",
+      "description": "点击「生成」",
+      "stepNumber": 5,
+      "_operationId": "1770691377744_i0v24rbyl",
+      "timestamp": "2026-02-10T02:41:59.526Z",
+      "target": "写文字.生成",
+      "locatorPriority": [
+        "ai"
+      ]
+    },
+    {
+      "action": "wait",
+      "description": "等待 2000ms",
+      "stepNumber": 6,
+      "_operationId": "1770691377744_mt6xamrhb",
+      "timestamp": "2026-02-10T02:42:26.785Z",
+      "params": {
+        "ms": 3000
+      }
+    },
+    {
+      "action": "done",
+      "description": "任务完成",
+      "stepNumber": 7,
+      "_operationId": "1770691377744_ypu6w2sve",
+      "timestamp": "2026-02-10T02:42:57.725Z"
+    }
+  ],
+  "blueprintEnabled": false,
+  "blueprintData": null
+}
