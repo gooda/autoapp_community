@@ -1,0 +1,1479 @@
+{
+  "_meta": {
+    "pageName": "首页-发现-记录状态",
+    "pageSignature": null,
+    "description": "",
+    "elementCount": 29,
+    "updatedAt": "2026-02-22T11:03:21.624Z",
+    "imageSize": {
+      "width": 1125,
+      "height": 2436
+    }
+  },
+  "elements": [
+    {
+      "elementId": "首页-发现-记录状态.关闭",
+      "name": "关闭",
+      "locators": {
+        "ios": {
+          "bounds": [
+            10,
+            72,
+            32,
+            32
+          ],
+          "centerNormalized": [
+            0.055,
+            0.082
+          ],
+          "coordinates": {
+            "x": 0.055,
+            "y": 0.082
+          }
+        },
+        "android": {
+          "bounds": [
+            10,
+            72,
+            32,
+            32
+          ],
+          "centerNormalized": [
+            0.055,
+            0.082
+          ],
+          "coordinates": {
+            "x": 0.055,
+            "y": 0.082
+          }
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "关闭",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "close_button",
+        "role": "navigation"
+      },
+      "status": "active",
+      "calibration_status": "corrected",
+      "interactions": {
+        "ios": {
+          "action": "tap",
+          "goto": "首页-发现",
+          "params": {}
+        }
+      }
+    },
+    {
+      "elementId": "首页-发现-记录状态.组队记录",
+      "name": "组队记录",
+      "locators": {
+        "ios": {
+          "bounds": [
+            388,
+            72,
+            65,
+            32
+          ],
+          "centerNormalized": [
+            0.888,
+            0.082
+          ],
+          "coordinates": {
+            "x": 0.888,
+            "y": 0.082
+          }
+        },
+        "android": {
+          "bounds": [
+            388,
+            72,
+            65,
+            32
+          ],
+          "centerNormalized": [
+            0.888,
+            0.082
+          ],
+          "coordinates": {
+            "x": 0.888,
+            "y": 0.082
+          }
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "组队记录",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "navigation"
+      },
+      "status": "active",
+      "calibration_status": "corrected",
+      "interactions": {
+        "ios": {
+          "action": "tap",
+          "goto": "首页-发现-组队列表",
+          "params": {}
+        }
+      }
+    },
+    {
+      "elementId": "首页-发现-记录状态.周一",
+      "name": "周一",
+      "locators": {
+        "ios": {
+          "bounds": [
+            12,
+            110,
+            43,
+            64
+          ],
+          "centerNormalized": [
+            0.068,
+            0.142
+          ],
+          "coordinates": {
+            "x": 0.068,
+            "y": 0.142
+          }
+        },
+        "android": {
+          "bounds": [
+            12,
+            110,
+            43,
+            64
+          ],
+          "centerNormalized": [
+            0.068,
+            0.142
+          ],
+          "coordinates": {
+            "x": 0.068,
+            "y": 0.142
+          }
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "周一",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "首页-发现-记录状态.周二",
+      "name": "周二",
+      "locators": {
+        "ios": {
+          "bounds": [
+            69,
+            110,
+            43,
+            64
+          ],
+          "centerNormalized": [
+            0.195,
+            0.142
+          ],
+          "coordinates": {
+            "x": 0.195,
+            "y": 0.142
+          }
+        },
+        "android": {
+          "bounds": [
+            69,
+            110,
+            43,
+            64
+          ],
+          "centerNormalized": [
+            0.195,
+            0.142
+          ],
+          "coordinates": {
+            "x": 0.195,
+            "y": 0.142
+          }
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "周二",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "首页-发现-记录状态.周三",
+      "name": "周三",
+      "locators": {
+        "ios": {
+          "bounds": [
+            131,
+            110,
+            43,
+            64
+          ],
+          "centerNormalized": [
+            0.322,
+            0.142
+          ],
+          "coordinates": {
+            "x": 0.322,
+            "y": 0.142
+          }
+        },
+        "android": {
+          "bounds": [
+            131,
+            110,
+            43,
+            64
+          ],
+          "centerNormalized": [
+            0.322,
+            0.142
+          ],
+          "coordinates": {
+            "x": 0.322,
+            "y": 0.142
+          }
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "周三",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "首页-发现-记录状态.周四",
+      "name": "周四",
+      "locators": {
+        "ios": {
+          "bounds": [
+            191,
+            110,
+            43,
+            64
+          ],
+          "centerNormalized": [
+            0.449,
+            0.142
+          ],
+          "coordinates": {
+            "x": 0.449,
+            "y": 0.142
+          }
+        },
+        "android": {
+          "bounds": [
+            191,
+            110,
+            43,
+            64
+          ],
+          "centerNormalized": [
+            0.449,
+            0.142
+          ],
+          "coordinates": {
+            "x": 0.449,
+            "y": 0.142
+          }
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "周四",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "首页-发现-记录状态.周五",
+      "name": "周五",
+      "locators": {
+        "ios": {
+          "bounds": [
+            253,
+            110,
+            43,
+            64
+          ],
+          "centerNormalized": [
+            0.576,
+            0.142
+          ],
+          "coordinates": {
+            "x": 0.576,
+            "y": 0.142
+          }
+        },
+        "android": {
+          "bounds": [
+            253,
+            110,
+            43,
+            64
+          ],
+          "centerNormalized": [
+            0.576,
+            0.142
+          ],
+          "coordinates": {
+            "x": 0.576,
+            "y": 0.142
+          }
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "周五",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "首页-发现-记录状态.周六",
+      "name": "周六",
+      "locators": {
+        "ios": {
+          "bounds": [
+            310,
+            110,
+            43,
+            64
+          ],
+          "centerNormalized": [
+            0.703,
+            0.142
+          ],
+          "coordinates": {
+            "x": 0.703,
+            "y": 0.142
+          }
+        },
+        "android": {
+          "bounds": [
+            310,
+            110,
+            43,
+            64
+          ],
+          "centerNormalized": [
+            0.703,
+            0.142
+          ],
+          "coordinates": {
+            "x": 0.703,
+            "y": 0.142
+          }
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "周六",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "首页-发现-记录状态.今天",
+      "name": "今天",
+      "locators": {
+        "ios": {
+          "bounds": [
+            365,
+            110,
+            54,
+            64
+          ],
+          "centerNormalized": [
+            0.83,
+            0.142
+          ],
+          "coordinates": {
+            "x": 0.83,
+            "y": 0.142
+          }
+        },
+        "android": {
+          "bounds": [
+            365,
+            110,
+            54,
+            64
+          ],
+          "centerNormalized": [
+            0.83,
+            0.142
+          ],
+          "coordinates": {
+            "x": 0.83,
+            "y": 0.142
+          }
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "今天",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "首页-发现-记录状态.我的状态",
+      "name": "我的状态",
+      "locators": {
+        "ios": {
+          "bounds": [
+            432,
+            110,
+            41,
+            64
+          ],
+          "centerNormalized": [
+            0.955,
+            0.142
+          ],
+          "coordinates": {
+            "x": 0.955,
+            "y": 0.142
+          }
+        },
+        "android": {
+          "bounds": [
+            432,
+            110,
+            41,
+            64
+          ],
+          "centerNormalized": [
+            0.955,
+            0.142
+          ],
+          "coordinates": {
+            "x": 0.955,
+            "y": 0.142
+          }
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "我的状态",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "首页-发现-记录状态.开心",
+      "name": "开心",
+      "locators": {
+        "ios": {
+          "bounds": [
+            20,
+            337,
+            75,
+            96
+          ],
+          "centerNormalized": [
+            0.125,
+            0.375
+          ],
+          "coordinates": {
+            "x": 0.125,
+            "y": 0.375
+          }
+        },
+        "android": {
+          "bounds": [
+            20,
+            337,
+            75,
+            96
+          ],
+          "centerNormalized": [
+            0.125,
+            0.375
+          ],
+          "coordinates": {
+            "x": 0.125,
+            "y": 0.375
+          }
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "开心",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "首页-发现-记录状态.兴奋",
+      "name": "兴奋",
+      "locators": {
+        "ios": {
+          "bounds": [
+            138,
+            337,
+            75,
+            96
+          ],
+          "centerNormalized": [
+            0.375,
+            0.375
+          ],
+          "coordinates": {
+            "x": 0.375,
+            "y": 0.375
+          }
+        },
+        "android": {
+          "bounds": [
+            138,
+            337,
+            75,
+            96
+          ],
+          "centerNormalized": [
+            0.375,
+            0.375
+          ],
+          "coordinates": {
+            "x": 0.375,
+            "y": 0.375
+          }
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "兴奋",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "首页-发现-记录状态.求桃花",
+      "name": "求桃花",
+      "locators": {
+        "ios": {
+          "bounds": [
+            256,
+            337,
+            75,
+            96
+          ],
+          "centerNormalized": [
+            0.625,
+            0.375
+          ],
+          "coordinates": {
+            "x": 0.625,
+            "y": 0.375
+          }
+        },
+        "android": {
+          "bounds": [
+            256,
+            337,
+            75,
+            96
+          ],
+          "centerNormalized": [
+            0.625,
+            0.375
+          ],
+          "coordinates": {
+            "x": 0.625,
+            "y": 0.375
+          }
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "求桃花",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "首页-发现-记录状态.难过",
+      "name": "难过",
+      "locators": {
+        "ios": {
+          "bounds": [
+            375,
+            337,
+            75,
+            96
+          ],
+          "centerNormalized": [
+            0.875,
+            0.375
+          ],
+          "coordinates": {
+            "x": 0.875,
+            "y": 0.375
+          }
+        },
+        "android": {
+          "bounds": [
+            375,
+            337,
+            75,
+            96
+          ],
+          "centerNormalized": [
+            0.875,
+            0.375
+          ],
+          "coordinates": {
+            "x": 0.875,
+            "y": 0.375
+          }
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "难过",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "首页-发现-记录状态.心累",
+      "name": "心累",
+      "locators": {
+        "ios": {
+          "bounds": [
+            20,
+            434,
+            75,
+            96
+          ],
+          "centerNormalized": [
+            0.125,
+            0.475
+          ],
+          "coordinates": {
+            "x": 0.125,
+            "y": 0.475
+          }
+        },
+        "android": {
+          "bounds": [
+            20,
+            434,
+            75,
+            96
+          ],
+          "centerNormalized": [
+            0.125,
+            0.475
+          ],
+          "coordinates": {
+            "x": 0.125,
+            "y": 0.475
+          }
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "心累",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "首页-发现-记录状态.无聊",
+      "name": "无聊",
+      "locators": {
+        "ios": {
+          "bounds": [
+            138,
+            434,
+            75,
+            96
+          ],
+          "centerNormalized": [
+            0.375,
+            0.475
+          ],
+          "coordinates": {
+            "x": 0.375,
+            "y": 0.475
+          }
+        },
+        "android": {
+          "bounds": [
+            138,
+            434,
+            75,
+            96
+          ],
+          "centerNormalized": [
+            0.375,
+            0.475
+          ],
+          "coordinates": {
+            "x": 0.375,
+            "y": 0.475
+          }
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "无聊",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "首页-发现-记录状态.求财运",
+      "name": "求财运",
+      "locators": {
+        "ios": {
+          "bounds": [
+            256,
+            434,
+            75,
+            96
+          ],
+          "centerNormalized": [
+            0.625,
+            0.475
+          ],
+          "coordinates": {
+            "x": 0.625,
+            "y": 0.475
+          }
+        },
+        "android": {
+          "bounds": [
+            256,
+            434,
+            75,
+            96
+          ],
+          "centerNormalized": [
+            0.625,
+            0.475
+          ],
+          "coordinates": {
+            "x": 0.625,
+            "y": 0.475
+          }
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "求财运",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "首页-发现-记录状态.迷茫",
+      "name": "迷茫",
+      "locators": {
+        "ios": {
+          "bounds": [
+            375,
+            434,
+            75,
+            96
+          ],
+          "centerNormalized": [
+            0.875,
+            0.475
+          ],
+          "coordinates": {
+            "x": 0.875,
+            "y": 0.475
+          }
+        },
+        "android": {
+          "bounds": [
+            375,
+            434,
+            75,
+            96
+          ],
+          "centerNormalized": [
+            0.875,
+            0.475
+          ],
+          "coordinates": {
+            "x": 0.875,
+            "y": 0.475
+          }
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "迷茫",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "首页-发现-记录状态.学习",
+      "name": "学习",
+      "locators": {
+        "ios": {
+          "bounds": [
+            20,
+            590,
+            75,
+            96
+          ],
+          "centerNormalized": [
+            0.125,
+            0.625
+          ],
+          "coordinates": {
+            "x": 0.125,
+            "y": 0.625
+          }
+        },
+        "android": {
+          "bounds": [
+            20,
+            590,
+            75,
+            96
+          ],
+          "centerNormalized": [
+            0.125,
+            0.625
+          ],
+          "coordinates": {
+            "x": 0.125,
+            "y": 0.625
+          }
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "学习",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "首页-发现-记录状态.求好运",
+      "name": "求好运",
+      "locators": {
+        "ios": {
+          "bounds": [
+            138,
+            590,
+            75,
+            96
+          ],
+          "centerNormalized": [
+            0.375,
+            0.625
+          ],
+          "coordinates": {
+            "x": 0.375,
+            "y": 0.625
+          }
+        },
+        "android": {
+          "bounds": [
+            138,
+            590,
+            75,
+            96
+          ],
+          "centerNormalized": [
+            0.375,
+            0.625
+          ],
+          "coordinates": {
+            "x": 0.375,
+            "y": 0.625
+          }
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "求好运",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "首页-发现-记录状态.搬砖",
+      "name": "搬砖",
+      "locators": {
+        "ios": {
+          "bounds": [
+            256,
+            590,
+            75,
+            96
+          ],
+          "centerNormalized": [
+            0.625,
+            0.625
+          ],
+          "coordinates": {
+            "x": 0.625,
+            "y": 0.625
+          }
+        },
+        "android": {
+          "bounds": [
+            256,
+            590,
+            75,
+            96
+          ],
+          "centerNormalized": [
+            0.625,
+            0.625
+          ],
+          "coordinates": {
+            "x": 0.625,
+            "y": 0.625
+          }
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "搬砖",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "首页-发现-记录状态.运动",
+      "name": "运动",
+      "locators": {
+        "ios": {
+          "bounds": [
+            375,
+            590,
+            75,
+            96
+          ],
+          "centerNormalized": [
+            0.875,
+            0.625
+          ],
+          "coordinates": {
+            "x": 0.875,
+            "y": 0.625
+          }
+        },
+        "android": {
+          "bounds": [
+            375,
+            590,
+            75,
+            96
+          ],
+          "centerNormalized": [
+            0.875,
+            0.625
+          ],
+          "coordinates": {
+            "x": 0.875,
+            "y": 0.625
+          }
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "运动",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "首页-发现-记录状态.恋爱",
+      "name": "恋爱",
+      "locators": {
+        "ios": {
+          "bounds": [
+            20,
+            692,
+            75,
+            96
+          ],
+          "centerNormalized": [
+            0.125,
+            0.725
+          ],
+          "coordinates": {
+            "x": 0.125,
+            "y": 0.725
+          }
+        },
+        "android": {
+          "bounds": [
+            20,
+            692,
+            75,
+            96
+          ],
+          "centerNormalized": [
+            0.125,
+            0.725
+          ],
+          "coordinates": {
+            "x": 0.125,
+            "y": 0.725
+          }
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "恋爱",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "首页-发现-记录状态.offer",
+      "name": "offer",
+      "locators": {
+        "ios": {
+          "bounds": [
+            138,
+            692,
+            75,
+            96
+          ],
+          "centerNormalized": [
+            0.375,
+            0.725
+          ],
+          "coordinates": {
+            "x": 0.375,
+            "y": 0.725
+          }
+        },
+        "android": {
+          "bounds": [
+            138,
+            692,
+            75,
+            96
+          ],
+          "centerNormalized": [
+            0.375,
+            0.725
+          ],
+          "coordinates": {
+            "x": 0.375,
+            "y": 0.725
+          }
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "offer",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "首页-发现-记录状态.游戏",
+      "name": "游戏",
+      "locators": {
+        "ios": {
+          "bounds": [
+            256,
+            692,
+            75,
+            96
+          ],
+          "centerNormalized": [
+            0.625,
+            0.725
+          ],
+          "coordinates": {
+            "x": 0.625,
+            "y": 0.725
+          }
+        },
+        "android": {
+          "bounds": [
+            256,
+            692,
+            75,
+            96
+          ],
+          "centerNormalized": [
+            0.625,
+            0.725
+          ],
+          "coordinates": {
+            "x": 0.625,
+            "y": 0.725
+          }
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "游戏",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "首页-发现-记录状态.干饭",
+      "name": "干饭",
+      "locators": {
+        "ios": {
+          "bounds": [
+            375,
+            692,
+            75,
+            96
+          ],
+          "centerNormalized": [
+            0.875,
+            0.725
+          ],
+          "coordinates": {
+            "x": 0.875,
+            "y": 0.725
+          }
+        },
+        "android": {
+          "bounds": [
+            375,
+            692,
+            75,
+            96
+          ],
+          "centerNormalized": [
+            0.875,
+            0.725
+          ],
+          "coordinates": {
+            "x": 0.875,
+            "y": 0.725
+          }
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "干饭",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "首页-发现-记录状态.过春节",
+      "name": "过春节",
+      "locators": {
+        "ios": {
+          "bounds": [
+            20,
+            853,
+            75,
+            96
+          ],
+          "centerNormalized": [
+            0.125,
+            0.875
+          ],
+          "coordinates": {
+            "x": 0.125,
+            "y": 0.875
+          }
+        },
+        "android": {
+          "bounds": [
+            20,
+            853,
+            75,
+            96
+          ],
+          "centerNormalized": [
+            0.125,
+            0.875
+          ],
+          "coordinates": {
+            "x": 0.125,
+            "y": 0.875
+          }
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "过春节",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "首页-发现-记录状态.周末",
+      "name": "周末",
+      "locators": {
+        "ios": {
+          "bounds": [
+            138,
+            853,
+            75,
+            96
+          ],
+          "centerNormalized": [
+            0.375,
+            0.875
+          ],
+          "coordinates": {
+            "x": 0.375,
+            "y": 0.875
+          }
+        },
+        "android": {
+          "bounds": [
+            138,
+            853,
+            75,
+            96
+          ],
+          "centerNormalized": [
+            0.375,
+            0.875
+          ],
+          "coordinates": {
+            "x": 0.375,
+            "y": 0.875
+          }
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "周末",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "首页-发现-记录状态.全部组队",
+      "name": "全部组队",
+      "locators": {
+        "ios": {
+          "bounds": [
+            357,
+            973,
+            86,
+            27
+          ],
+          "centerNormalized": [
+            0.85,
+            0.965
+          ],
+          "coordinates": {
+            "x": 0.85,
+            "y": 0.965
+          }
+        },
+        "android": {
+          "bounds": [
+            357,
+            973,
+            86,
+            27
+          ],
+          "centerNormalized": [
+            0.85,
+            0.965
+          ],
+          "coordinates": {
+            "x": 0.85,
+            "y": 0.965
+          }
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "全部组队",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "navigation"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    }
+  ]
+}

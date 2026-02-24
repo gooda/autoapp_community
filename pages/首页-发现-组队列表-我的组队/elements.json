@@ -1,0 +1,236 @@
+{
+  "_meta": {
+    "pageName": "首页-发现-组队列表-我的组队",
+    "pageSignature": null,
+    "description": "",
+    "elementCount": 4,
+    "updatedAt": "2026-02-22T11:06:17.856Z",
+    "imageSize": {
+      "width": 1125,
+      "height": 2436
+    }
+  },
+  "elements": [
+    {
+      "elementId": "首页-发现-组队列表-我的组队.返回",
+      "name": "返回",
+      "locators": {
+        "ios": {
+          "bounds": [
+            11,
+            61,
+            30,
+            30
+          ],
+          "centerNormalized": [
+            0.055,
+            0.073
+          ],
+          "coordinates": {
+            "x": 0.055,
+            "y": 0.073
+          }
+        },
+        "android": {
+          "bounds": [
+            11,
+            61,
+            30,
+            30
+          ],
+          "centerNormalized": [
+            0.055,
+            0.073
+          ],
+          "coordinates": {
+            "x": 0.055,
+            "y": 0.073
+          }
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "返回",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "back_button",
+        "role": "navigation"
+      },
+      "status": "active",
+      "calibration_status": "corrected",
+      "interactions": {
+        "ios": {
+          "action": "tap",
+          "goto": "首页-发现-记录状态",
+          "params": {}
+        }
+      }
+    },
+    {
+      "elementId": "首页-发现-组队列表-我的组队.全部组队",
+      "name": "全部组队",
+      "locators": {
+        "ios": {
+          "bounds": [
+            133,
+            58,
+            90,
+            35
+          ],
+          "centerNormalized": [
+            0.375,
+            0.073
+          ],
+          "coordinates": {
+            "x": 0.375,
+            "y": 0.073
+          }
+        },
+        "android": {
+          "bounds": [
+            133,
+            58,
+            90,
+            35
+          ],
+          "centerNormalized": [
+            0.375,
+            0.073
+          ],
+          "coordinates": {
+            "x": 0.375,
+            "y": 0.073
+          }
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "全部组队",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "tab_button",
+        "role": "navigation"
+      },
+      "status": "active",
+      "calibration_status": "corrected",
+      "interactions": {
+        "ios": {
+          "action": "tap",
+          "goto": "首页-发现-组队列表",
+          "params": {}
+        }
+      }
+    },
+    {
+      "elementId": "首页-发现-组队列表-我的组队.我的组队",
+      "name": "我的组队",
+      "locators": {
+        "ios": {
+          "bounds": [
+            250,
+            58,
+            90,
+            35
+          ],
+          "centerNormalized": [
+            0.622,
+            0.073
+          ],
+          "coordinates": {
+            "x": 0.622,
+            "y": 0.073
+          }
+        },
+        "android": {
+          "bounds": [
+            250,
+            58,
+            90,
+            35
+          ],
+          "centerNormalized": [
+            0.622,
+            0.073
+          ],
+          "coordinates": {
+            "x": 0.622,
+            "y": 0.073
+          }
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "我的组队",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "tab_button",
+        "role": "navigation"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "首页-发现-组队列表-我的组队.创建",
+      "name": "创建",
+      "locators": {
+        "ios": {
+          "bounds": [
+            418,
+            61,
+            45,
+            30
+          ],
+          "centerNormalized": [
+            0.927,
+            0.073
+          ],
+          "coordinates": {
+            "x": 0.927,
+            "y": 0.073
+          }
+        },
+        "android": {
+          "bounds": [
+            418,
+            61,
+            45,
+            30
+          ],
+          "centerNormalized": [
+            0.927,
+            0.073
+          ],
+          "coordinates": {
+            "x": 0.927,
+            "y": 0.073
+          }
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "创建",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "corrected",
+      "interactions": {
+        "ios": {
+          "action": "tap",
+          "goto": "首页-发现-组队列表-创建任务",
+          "params": {}
+        }
+      }
+    }
+  ]
+}

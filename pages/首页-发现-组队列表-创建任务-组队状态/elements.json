@@ -1,0 +1,522 @@
+{
+  "_meta": {
+    "pageName": "首页-发现-组队列表-创建任务-组队状态",
+    "pageSignature": null,
+    "description": "",
+    "elementCount": 10,
+    "updatedAt": "2026-02-22T11:07:44.771Z",
+    "imageSize": {
+      "width": 1125,
+      "height": 2436
+    }
+  },
+  "elements": [
+    {
+      "elementId": "首页-发现-组队列表-创建任务-组队状态.关闭",
+      "name": "关闭",
+      "locators": {
+        "ios": {
+          "bounds": [
+            12,
+            146,
+            29,
+            29
+          ],
+          "centerNormalized": [
+            0.055,
+            0.158
+          ],
+          "coordinates": {
+            "x": 0.055,
+            "y": 0.158
+          }
+        },
+        "android": {
+          "bounds": [
+            12,
+            146,
+            29,
+            29
+          ],
+          "centerNormalized": [
+            0.055,
+            0.158
+          ],
+          "coordinates": {
+            "x": 0.055,
+            "y": 0.158
+          }
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "关闭",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "close_button",
+        "role": "navigation"
+      },
+      "status": "active",
+      "calibration_status": "corrected",
+      "interactions": {
+        "ios": {
+          "action": "tap",
+          "goto": "首页-发现-组队列表-创建任务",
+          "params": {}
+        }
+      }
+    },
+    {
+      "elementId": "首页-发现-组队列表-创建任务-组队状态.确定",
+      "name": "确定",
+      "locators": {
+        "ios": {
+          "bounds": [
+            383,
+            147,
+            68,
+            35
+          ],
+          "centerNormalized": [
+            0.884,
+            0.158
+          ],
+          "coordinates": {
+            "x": 0.884,
+            "y": 0.158
+          }
+        },
+        "android": {
+          "bounds": [
+            383,
+            147,
+            68,
+            35
+          ],
+          "centerNormalized": [
+            0.884,
+            0.158
+          ],
+          "coordinates": {
+            "x": 0.884,
+            "y": 0.158
+          }
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "确定",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "首页-发现-组队列表-创建任务-组队状态.一起组队",
+      "name": "一起组队",
+      "locators": {
+        "ios": {
+          "bounds": [
+            16,
+            443,
+            88,
+            78
+          ],
+          "centerNormalized": [
+            0.125,
+            0.475
+          ],
+          "coordinates": {
+            "x": 0.125,
+            "y": 0.475
+          }
+        },
+        "android": {
+          "bounds": [
+            16,
+            443,
+            88,
+            78
+          ],
+          "centerNormalized": [
+            0.125,
+            0.475
+          ],
+          "coordinates": {
+            "x": 0.125,
+            "y": 0.475
+          }
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "一起组队",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "首页-发现-组队列表-创建任务-组队状态.坚持",
+      "name": "坚持",
+      "locators": {
+        "ios": {
+          "bounds": [
+            132,
+            443,
+            88,
+            78
+          ],
+          "centerNormalized": [
+            0.375,
+            0.475
+          ],
+          "coordinates": {
+            "x": 0.375,
+            "y": 0.475
+          }
+        },
+        "android": {
+          "bounds": [
+            132,
+            443,
+            88,
+            78
+          ],
+          "centerNormalized": [
+            0.375,
+            0.475
+          ],
+          "coordinates": {
+            "x": 0.375,
+            "y": 0.475
+          }
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "坚持",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "首页-发现-组队列表-创建任务-组队状态.胜利",
+      "name": "胜利",
+      "locators": {
+        "ios": {
+          "bounds": [
+            249,
+            443,
+            88,
+            78
+          ],
+          "centerNormalized": [
+            0.625,
+            0.475
+          ],
+          "coordinates": {
+            "x": 0.625,
+            "y": 0.475
+          }
+        },
+        "android": {
+          "bounds": [
+            249,
+            443,
+            88,
+            78
+          ],
+          "centerNormalized": [
+            0.625,
+            0.475
+          ],
+          "coordinates": {
+            "x": 0.625,
+            "y": 0.475
+          }
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "胜利",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "首页-发现-组队列表-创建任务-组队状态.求好运",
+      "name": "求好运",
+      "locators": {
+        "ios": {
+          "bounds": [
+            370,
+            443,
+            88,
+            78
+          ],
+          "centerNormalized": [
+            0.875,
+            0.475
+          ],
+          "coordinates": {
+            "x": 0.875,
+            "y": 0.475
+          }
+        },
+        "android": {
+          "bounds": [
+            370,
+            443,
+            88,
+            78
+          ],
+          "centerNormalized": [
+            0.875,
+            0.475
+          ],
+          "coordinates": {
+            "x": 0.875,
+            "y": 0.475
+          }
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "求好运",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "首页-发现-组队列表-创建任务-组队状态.握手",
+      "name": "握手",
+      "locators": {
+        "ios": {
+          "bounds": [
+            16,
+            545,
+            88,
+            78
+          ],
+          "centerNormalized": [
+            0.125,
+            0.575
+          ],
+          "coordinates": {
+            "x": 0.125,
+            "y": 0.575
+          }
+        },
+        "android": {
+          "bounds": [
+            16,
+            545,
+            88,
+            78
+          ],
+          "centerNormalized": [
+            0.125,
+            0.575
+          ],
+          "coordinates": {
+            "x": 0.125,
+            "y": 0.575
+          }
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "握手",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "首页-发现-组队列表-创建任务-组队状态.举手",
+      "name": "举手",
+      "locators": {
+        "ios": {
+          "bounds": [
+            132,
+            545,
+            88,
+            78
+          ],
+          "centerNormalized": [
+            0.375,
+            0.575
+          ],
+          "coordinates": {
+            "x": 0.375,
+            "y": 0.575
+          }
+        },
+        "android": {
+          "bounds": [
+            132,
+            545,
+            88,
+            78
+          ],
+          "centerNormalized": [
+            0.375,
+            0.575
+          ],
+          "coordinates": {
+            "x": 0.375,
+            "y": 0.575
+          }
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "举手",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "首页-发现-组队列表-创建任务-组队状态.抱抱",
+      "name": "抱抱",
+      "locators": {
+        "ios": {
+          "bounds": [
+            249,
+            545,
+            88,
+            78
+          ],
+          "centerNormalized": [
+            0.625,
+            0.575
+          ],
+          "coordinates": {
+            "x": 0.625,
+            "y": 0.575
+          }
+        },
+        "android": {
+          "bounds": [
+            249,
+            545,
+            88,
+            78
+          ],
+          "centerNormalized": [
+            0.625,
+            0.575
+          ],
+          "coordinates": {
+            "x": 0.625,
+            "y": 0.575
+          }
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "抱抱",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "首页-发现-组队列表-创建任务-组队状态.赴约",
+      "name": "赴约",
+      "locators": {
+        "ios": {
+          "bounds": [
+            370,
+            545,
+            88,
+            78
+          ],
+          "centerNormalized": [
+            0.875,
+            0.575
+          ],
+          "coordinates": {
+            "x": 0.875,
+            "y": 0.575
+          }
+        },
+        "android": {
+          "bounds": [
+            370,
+            545,
+            88,
+            78
+          ],
+          "centerNormalized": [
+            0.875,
+            0.575
+          ],
+          "coordinates": {
+            "x": 0.875,
+            "y": 0.575
+          }
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "赴约",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    }
+  ]
+}

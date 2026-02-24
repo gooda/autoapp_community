@@ -1,0 +1,522 @@
+{
+  "_meta": {
+    "pageName": "首页-发现",
+    "pageSignature": null,
+    "description": "",
+    "elementCount": 10,
+    "updatedAt": "2026-02-22T11:02:28.204Z",
+    "imageSize": {
+      "width": 1125,
+      "height": 2436
+    }
+  },
+  "elements": [
+    {
+      "elementId": "首页-发现.头像",
+      "name": "头像",
+      "locators": {
+        "ios": {
+          "bounds": [
+            16,
+            66,
+            37,
+            36
+          ],
+          "centerNormalized": [
+            0.072,
+            0.082
+          ],
+          "coordinates": {
+            "x": 0.072,
+            "y": 0.082
+          }
+        },
+        "android": {
+          "bounds": [
+            16,
+            66,
+            37,
+            36
+          ],
+          "centerNormalized": [
+            0.072,
+            0.082
+          ],
+          "coordinates": {
+            "x": 0.072,
+            "y": 0.082
+          }
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "头像",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "icon_button",
+        "role": "profile"
+      },
+      "status": "active",
+      "calibration_status": "corrected",
+      "interactions": {
+        "ios": {
+          "action": "tap",
+          "goto": "首页-发现-记录状态",
+          "params": {}
+        }
+      }
+    },
+    {
+      "elementId": "首页-发现.关注",
+      "name": "关注",
+      "locators": {
+        "ios": {
+          "bounds": [
+            118,
+            66,
+            53,
+            36
+          ],
+          "centerNormalized": [
+            0.305,
+            0.082
+          ],
+          "coordinates": {
+            "x": 0.305,
+            "y": 0.082
+          }
+        },
+        "android": {
+          "bounds": [
+            118,
+            66,
+            53,
+            36
+          ],
+          "centerNormalized": [
+            0.305,
+            0.082
+          ],
+          "coordinates": {
+            "x": 0.305,
+            "y": 0.082
+          }
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "关注",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "tab_button",
+        "role": "navigation"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "首页-发现.发现",
+      "name": "发现",
+      "locators": {
+        "ios": {
+          "bounds": [
+            210,
+            66,
+            53,
+            36
+          ],
+          "centerNormalized": [
+            0.5,
+            0.082
+          ],
+          "coordinates": {
+            "x": 0.5,
+            "y": 0.082
+          }
+        },
+        "android": {
+          "bounds": [
+            210,
+            66,
+            53,
+            36
+          ],
+          "centerNormalized": [
+            0.5,
+            0.082
+          ],
+          "coordinates": {
+            "x": 0.5,
+            "y": 0.082
+          }
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "发现",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "tab_button",
+        "role": "navigation"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "首页-发现.蜂巢",
+      "name": "蜂巢",
+      "locators": {
+        "ios": {
+          "bounds": [
+            303,
+            66,
+            53,
+            36
+          ],
+          "centerNormalized": [
+            0.695,
+            0.082
+          ],
+          "coordinates": {
+            "x": 0.695,
+            "y": 0.082
+          }
+        },
+        "android": {
+          "bounds": [
+            303,
+            66,
+            53,
+            36
+          ],
+          "centerNormalized": [
+            0.695,
+            0.082
+          ],
+          "coordinates": {
+            "x": 0.695,
+            "y": 0.082
+          }
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "蜂巢",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "tab_button",
+        "role": "navigation"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "首页-发现.搜索",
+      "name": "搜索",
+      "locators": {
+        "ios": {
+          "bounds": [
+            420,
+            66,
+            37,
+            36
+          ],
+          "centerNormalized": [
+            0.928,
+            0.082
+          ],
+          "coordinates": {
+            "x": 0.928,
+            "y": 0.082
+          }
+        },
+        "android": {
+          "bounds": [
+            420,
+            66,
+            37,
+            36
+          ],
+          "centerNormalized": [
+            0.928,
+            0.082
+          ],
+          "coordinates": {
+            "x": 0.928,
+            "y": 0.082
+          }
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "搜索",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "icon_button",
+        "role": "search"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "首页-发现.首页",
+      "name": "首页",
+      "locators": {
+        "ios": {
+          "bounds": [
+            14,
+            921,
+            53,
+            46
+          ],
+          "centerNormalized": [
+            0.085,
+            0.922
+          ],
+          "coordinates": {
+            "x": 0.085,
+            "y": 0.922
+          }
+        },
+        "android": {
+          "bounds": [
+            14,
+            921,
+            53,
+            46
+          ],
+          "centerNormalized": [
+            0.085,
+            0.922
+          ],
+          "coordinates": {
+            "x": 0.085,
+            "y": 0.922
+          }
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "首页",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "tab_button",
+        "role": "navigation"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "首页-发现.广场",
+      "name": "广场",
+      "locators": {
+        "ios": {
+          "bounds": [
+            118,
+            921,
+            53,
+            46
+          ],
+          "centerNormalized": [
+            0.305,
+            0.922
+          ],
+          "coordinates": {
+            "x": 0.305,
+            "y": 0.922
+          }
+        },
+        "android": {
+          "bounds": [
+            118,
+            921,
+            53,
+            46
+          ],
+          "centerNormalized": [
+            0.305,
+            0.922
+          ],
+          "coordinates": {
+            "x": 0.305,
+            "y": 0.922
+          }
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "广场",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "tab_button",
+        "role": "navigation"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "首页-发现.发布",
+      "name": "发布",
+      "locators": {
+        "ios": {
+          "bounds": [
+            205,
+            913,
+            63,
+            61
+          ],
+          "centerNormalized": [
+            0.5,
+            0.922
+          ],
+          "coordinates": {
+            "x": 0.5,
+            "y": 0.922
+          }
+        },
+        "android": {
+          "bounds": [
+            205,
+            913,
+            63,
+            61
+          ],
+          "centerNormalized": [
+            0.5,
+            0.922
+          ],
+          "coordinates": {
+            "x": 0.5,
+            "y": 0.922
+          }
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "发布",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "floating_button",
+        "role": "publish"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "首页-发现.消息",
+      "name": "消息",
+      "locators": {
+        "ios": {
+          "bounds": [
+            302,
+            921,
+            53,
+            46
+          ],
+          "centerNormalized": [
+            0.695,
+            0.922
+          ],
+          "coordinates": {
+            "x": 0.695,
+            "y": 0.922
+          }
+        },
+        "android": {
+          "bounds": [
+            302,
+            921,
+            53,
+            46
+          ],
+          "centerNormalized": [
+            0.695,
+            0.922
+          ],
+          "coordinates": {
+            "x": 0.695,
+            "y": 0.922
+          }
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "消息",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "tab_button",
+        "role": "navigation"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "首页-发现.我的",
+      "name": "我的",
+      "locators": {
+        "ios": {
+          "bounds": [
+            407,
+            921,
+            53,
+            46
+          ],
+          "centerNormalized": [
+            0.915,
+            0.922
+          ],
+          "coordinates": {
+            "x": 0.915,
+            "y": 0.922
+          }
+        },
+        "android": {
+          "bounds": [
+            407,
+            921,
+            53,
+            46
+          ],
+          "centerNormalized": [
+            0.915,
+            0.922
+          ],
+          "coordinates": {
+            "x": 0.915,
+            "y": 0.922
+          }
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "我的",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "tab_button",
+        "role": "navigation"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    }
+  ]
+}
