@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "version": "1.0.0",
+    "createdAt": "2026-02-27T03:57:27.553Z",
+    "updatedAt": "2026-02-27T03:57:27.553Z",
+    "author": "recorder"
+  },
+  "name": "智能任务",
+  "description": "",
+  "priority": "medium",
+  "tags": [],
+  "applications": [],
+  "steps": [],
+  "blueprintEnabled": false,
+  "blueprintData": null
+}
