@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "version": "1.0.0",
+    "createdAt": "2026-02-27T04:15:54.451Z",
+    "updatedAt": "2026-02-27T04:15:54.451Z",
+    "author": "recorder"
+  },
+  "name": "测试schema",
+  "description": "",
+  "priority": "medium",
+  "tags": [],
+  "applications": [],
+  "steps": [],
+  "blueprintEnabled": false,
+  "blueprintData": null
+}
