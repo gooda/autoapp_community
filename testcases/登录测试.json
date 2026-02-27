@@ -1,0 +1,78 @@
+{
+  "_meta": {
+    "version": "1.0.0",
+    "createdAt": "2026-02-27T03:56:05.930Z",
+    "updatedAt": "2026-02-27T03:56:05.930Z",
+    "author": "recorder"
+  },
+  "name": "登录测试",
+  "description": "",
+  "priority": "medium",
+  "tags": [],
+  "applications": [],
+  "steps": [
+    {
+      "stepNumber": 1,
+      "action": "tap",
+      "description": "点击「手机号输入」",
+      "elementRef": {
+        "page": "登录页",
+        "name": "手机号输入"
+      }
+    },
+    {
+      "stepNumber": 2,
+      "action": "input",
+      "description": "输入文本: \"14050003220\"",
+      "params": {
+        "text": "14050003220"
+      }
+    },
+    {
+      "stepNumber": 3,
+      "action": "tap",
+      "description": "点击「同意协议」",
+      "elementRef": {
+        "page": "登录页",
+        "name": "同意协议"
+      }
+    },
+    {
+      "stepNumber": 4,
+      "action": "tap",
+      "description": "点击「获取验证码」",
+      "elementRef": {
+        "page": "登录页",
+        "name": "获取验证码"
+      }
+    },
+    {
+      "stepNumber": 5,
+      "action": "tap",
+      "description": "点击「验证码输入框」",
+      "elementRef": {
+        "page": "登录页-验证码",
+        "name": "验证码输入框"
+      }
+    },
+    {
+      "stepNumber": 6,
+      "action": "input",
+      "description": "输入文本: \"569276\"",
+      "params": {
+        "text": "569276"
+      }
+    },
+    {
+      "stepNumber": 7,
+      "action": "tap",
+      "description": "点击「登录」",
+      "elementRef": {
+        "page": "登录页-验证码",
+        "name": "登录"
+      }
+    }
+  ],
+  "blueprintEnabled": false,
+  "blueprintData": null
+}
