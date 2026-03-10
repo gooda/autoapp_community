@@ -1,7 +1,7 @@
 {
   "_meta": {
     "version": "1.0.0",
-    "updatedAt": "2026-02-03T06:10:10.047Z",
+    "updatedAt": "2026-03-10T07:42:37.327Z",
     "updatedBy": "user"
   },
   "categories": [
@@ -12,6 +12,14 @@
       "parentId": null,
       "order": 0,
       "createdAt": "2026-02-03T06:10:10.047Z"
+    },
+    {
+      "id": "cat_mmkayn0u_dcrdaj",
+      "name": "test",
+      "description": "",
+      "parentId": null,
+      "order": 1,
+      "createdAt": "2026-03-10T07:42:37.326Z"
     }
   ]
 }
