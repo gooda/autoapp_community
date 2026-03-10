@@ -1,7 +1,7 @@
 {
   "_meta": {
     "version": "1.0.0",
-    "updatedAt": "2026-03-10T07:42:37.327Z",
+    "updatedAt": "2026-03-10T07:43:01.362Z",
     "updatedBy": "user"
   },
   "categories": [
@@ -17,9 +17,10 @@
       "id": "cat_mmkayn0u_dcrdaj",
       "name": "test",
       "description": "",
-      "parentId": null,
+      "parentId": "cat_ml678xdr_hxgiq1",
       "order": 1,
-      "createdAt": "2026-03-10T07:42:37.326Z"
+      "createdAt": "2026-03-10T07:42:37.326Z",
+      "updatedAt": "2026-03-10T07:43:01.362Z"
     }
   ]
 }
