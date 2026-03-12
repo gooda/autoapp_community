@@ -1,0 +1,76 @@
+{
+  "name": "定时发布开关初始状态测试",
+  "description": "验证定时发布功能的开关初始状态：定时发布开关位于高级设置最后一位且默认关闭",
+  "priority": "medium",
+  "tags": [
+    "定时发布",
+    "发布器",
+    "初始状态",
+    "功能测试"
+  ],
+  "applications": [
+    "网易小蜜蜂"
+  ],
+  "steps": [
+    {
+      "stepNumber": 1,
+      "action": "intelligent-assert",
+      "description": "验证当前处于发布器页面",
+      "params": {
+        "assertion": "当前页面为发布器页面，显示有发布笔记按钮和高级设置入口"
+      }
+    },
+    {
+      "stepNumber": 2,
+      "action": "tap",
+      "description": "点击高级设置展开设置选项",
+      "elementRef": {
+        "page": "发布器-默认",
+        "name": "高级设置"
+      }
+    },
+    {
+      "stepNumber": 3,
+      "action": "wait",
+      "description": "等待高级设置展开动画完成",
+      "params": {
+        "ms": 500
+      }
+    },
+    {
+      "stepNumber": 4,
+      "action": "intelligent-assert",
+      "description": "验证高级设置已展开",
+      "params": {
+        "assertion": "高级设置区域已展开，可以看到设置选项列表"
+      }
+    },
+    {
+      "stepNumber": 5,
+      "action": "intelligent-assert",
+      "description": "验证定时发布开关位于高级设置最后一位",
+      "params": {
+        "assertion": "定时发布选项位于高级设置区域的最后一个位置"
+      }
+    },
+    {
+      "stepNumber": 6,
+      "action": "intelligent-assert",
+      "description": "验证定时发布开关默认关闭状态",
+      "params": {
+        "assertion": "定时发布开关处于关闭状态，未开启定时发布功能"
+      }
+    },
+    {
+      "stepNumber": 7,
+      "action": "intelligent-assert",
+      "description": "验证发布按钮文案为普通发布",
+      "params": {
+        "assertion": "发布按钮显示为发布笔记或发布，不是定时发布"
+      }
+    }
+  ],
+  "minAppVersion": null,
+  "recordedAppVersion": null,
+  "blueprintEnabled": false
+}
