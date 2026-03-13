@@ -1,0 +1,145 @@
+{
+  "name": "TC-1.1 定时发布入口与默认状态",
+  "description": "验证定时发布开关入口位置、默认关闭状态及新功能气泡引导。需求3.1 设置入口。网易小蜜蜂定时发布新功能",
+  "priority": "high",
+  "tags": [
+    "定时发布",
+    "入口",
+    "高级设置",
+    "网易小蜜蜂"
+  ],
+  "applications": [],
+  "minAppVersion": null,
+  "recordedAppVersion": null,
+  "blueprintEnabled": false,
+  "steps": [
+    {
+      "stepNumber": 1,
+      "action": "launchApp",
+      "description": "启动应用",
+      "params": {}
+    },
+    {
+      "stepNumber": 2,
+      "action": "tap",
+      "description": "进入发布笔记页",
+      "elementRef": {
+        "page": "首页-发现",
+        "name": "发布"
+      },
+      "locators": {
+        "ios": {
+          "accessibilityId": "发布",
+          "coordinates": {
+            "x": 0.5,
+            "y": 0.93
+          }
+        },
+        "android": {
+          "accessibilityId": "发布",
+          "coordinates": {
+            "x": 0.5,
+            "y": 0.93
+          }
+        }
+      }
+    },
+    {
+      "stepNumber": 3,
+      "action": "wait",
+      "description": "等待发布类型选择或发布笔记页加载",
+      "params": {
+        "ms": 2000
+      }
+    },
+    {
+      "stepNumber": 4,
+      "action": "tap",
+      "description": "点击高级设置",
+      "elementRef": {
+        "page": "发布笔记页",
+        "name": "高级设置"
+      },
+      "locators": {
+        "ios": {
+          "accessibilityId": "高级设置",
+          "coordinates": {
+            "x": 0.5,
+            "y": 0.82
+          }
+        },
+        "android": {
+          "accessibilityId": "高级设置",
+          "coordinates": {
+            "x": 0.5,
+            "y": 0.82
+          }
+        }
+      }
+    },
+    {
+      "stepNumber": 5,
+      "action": "wait",
+      "description": "等待高级设置页加载",
+      "params": {
+        "ms": 1500
+      }
+    },
+    {
+      "stepNumber": 6,
+      "action": "assertVisible",
+      "description": "验证定时发布开关位于高级设置最后一位",
+      "elementRef": {
+        "page": "高级设置",
+        "name": "定时发布开关"
+      },
+      "locators": {
+        "ios": {
+          "accessibilityId": "定时发布",
+          "coordinates": {
+            "x": 0.9,
+            "y": 0.78
+          }
+        },
+        "android": {
+          "accessibilityId": "定时发布",
+          "coordinates": {
+            "x": 0.9,
+            "y": 0.78
+          }
+        }
+      }
+    },
+    {
+      "stepNumber": 7,
+      "action": "assertExists",
+      "description": "验证定时发布开关存在且默认关闭",
+      "elementRef": {
+        "page": "高级设置",
+        "name": "定时发布开关"
+      },
+      "locators": {
+        "ios": {
+          "accessibilityId": "定时发布",
+          "coordinates": {
+            "x": 0.9,
+            "y": 0.78
+          }
+        },
+        "android": {
+          "accessibilityId": "定时发布",
+          "coordinates": {
+            "x": 0.9,
+            "y": 0.78
+          }
+        }
+      }
+    }
+  ],
+  "blueprintData": null,
+  "updatedAt": "2026-03-09T00:00:00.000Z",
+  "file": "testcases/TC-1.1_定时发布入口与默认状态.json",
+  "categoryIds": [
+    "cat_mmkayn0u_dcrdaj"
+  ]
+}
