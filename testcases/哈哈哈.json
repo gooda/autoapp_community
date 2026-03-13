@@ -47,5 +47,9 @@
       "stepNumber": 2
     }
   ],
-  "updatedAt": "2026-01-13T05:37:08.334Z"
+  "updatedAt": "2026-01-13T05:37:08.334Z",
+  "file": "testcases/哈哈哈.json",
+  "categoryIds": [
+    "cat_ml678xdr_hxgiq1"
+  ]
 }
