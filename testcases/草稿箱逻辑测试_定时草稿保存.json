@@ -1,0 +1,217 @@
+{
+  "name": "草稿箱逻辑测试：定时草稿保存",
+  "description": "测试在发布器中设置定时发布后保存草稿的功能，验证定时草稿是否正确保存到草稿箱",
+  "priority": "high",
+  "tags": [
+    "草稿箱",
+    "定时发布",
+    "保存"
+  ],
+  "applications": [
+    "网易小蜜蜂"
+  ],
+  "steps": [
+    {
+      "stepNumber": 1,
+      "action": "intelligent-assert",
+      "description": "验证当前处于发布器页面",
+      "params": {
+        "assertion": "当前页面是发布器页面，显示有添加图片、正文输入、发布笔记等元素"
+      }
+    },
+    {
+      "stepNumber": 2,
+      "action": "tap",
+      "description": "点击正文输入框",
+      "elementRef": {
+        "page": "发布器-默认",
+        "name": "正文输入"
+      }
+    },
+    {
+      "stepNumber": 3,
+      "action": "wait",
+      "description": "等待键盘弹出",
+      "params": {
+        "ms": 500
+      }
+    },
+    {
+      "stepNumber": 4,
+      "action": "input",
+      "description": "输入测试正文内容",
+      "elementRef": {
+        "page": "发布器-默认",
+        "name": "正文输入"
+      },
+      "params": {
+        "text": "这是一条定时发布的测试草稿内容"
+      }
+    },
+    {
+      "stepNumber": 5,
+      "action": "wait",
+      "description": "等待输入完成",
+      "params": {
+        "ms": 500
+      }
+    },
+    {
+      "stepNumber": 6,
+      "action": "intelligent-action",
+      "description": "收起键盘，点击页面空白区域或完成按钮",
+      "params": {
+        "instruction": "收起键盘，点击页面空白区域或点击完成/确定按钮收起键盘"
+      }
+    },
+    {
+      "stepNumber": 7,
+      "action": "wait",
+      "description": "等待键盘收起",
+      "params": {
+        "ms": 500
+      }
+    },
+    {
+      "stepNumber": 8,
+      "action": "tap",
+      "description": "点击定时发布选项",
+      "elementRef": {
+        "page": "发布器-默认",
+        "name": "定时发布"
+      }
+    },
+    {
+      "stepNumber": 9,
+      "action": "wait",
+      "description": "等待定时发布设置面板加载",
+      "params": {
+        "ms": 1000
+      }
+    },
+    {
+      "stepNumber": 10,
+      "action": "intelligent-assert",
+      "description": "验证定时发布设置面板已显示",
+      "params": {
+        "assertion": "页面显示定时发布设置面板，包含日期时间选择器或定时发布相关设置选项"
+      }
+    },
+    {
+      "stepNumber": 11,
+      "action": "intelligent-action",
+      "description": "选择一个未来的发布时间，如明天或后天的某个时间点",
+      "params": {
+        "instruction": "在时间选择器中选择一个未来的日期和时间，比如明天的10:00，或者直接确认默认的定时时间"
+      }
+    },
+    {
+      "stepNumber": 12,
+      "action": "wait",
+      "description": "等待时间选择完成",
+      "params": {
+        "ms": 500
+      }
+    },
+    {
+      "stepNumber": 13,
+      "action": "intelligent-action",
+      "description": "确认定时发布时间设置",
+      "params": {
+        "instruction": "点击确认、确定、完成或保存按钮，确认定时发布时间设置"
+      }
+    },
+    {
+      "stepNumber": 14,
+      "action": "wait",
+      "description": "等待返回发布器页面",
+      "params": {
+        "ms": 1000
+      }
+    },
+    {
+      "stepNumber": 15,
+      "action": "intelligent-assert",
+      "description": "验证定时发布已设置成功",
+      "params": {
+        "assertion": "发布器页面显示已设置的定时发布时间，或定时发布选项显示已选中的时间"
+      }
+    },
+    {
+      "stepNumber": 16,
+      "action": "tap",
+      "description": "点击存草稿按钮",
+      "elementRef": {
+        "page": "发布器-默认",
+        "name": "存草稿"
+      }
+    },
+    {
+      "stepNumber": 17,
+      "action": "wait",
+      "description": "等待草稿保存完成",
+      "params": {
+        "ms": 2000
+      }
+    },
+    {
+      "stepNumber": 18,
+      "action": "intelligent-assert",
+      "description": "验证草稿保存成功提示或页面变化",
+      "params": {
+        "assertion": "页面显示草稿保存成功的提示，或者已返回上一页面，或者显示草稿已保存的确认信息"
+      }
+    },
+    {
+      "stepNumber": 19,
+      "action": "intelligent-action",
+      "description": "进入草稿箱查看已保存的草稿",
+      "params": {
+        "instruction": "点击草稿箱入口、我的草稿或导航到草稿箱页面查看已保存的草稿列表"
+      }
+    },
+    {
+      "stepNumber": 20,
+      "action": "wait",
+      "description": "等待草稿箱页面加载",
+      "params": {
+        "ms": 1500
+      }
+    },
+    {
+      "stepNumber": 21,
+      "action": "intelligent-assert",
+      "description": "验证草稿箱中存在刚保存的定时草稿",
+      "params": {
+        "assertion": "草稿箱页面显示刚才保存的草稿，草稿内容包含'定时发布的测试草稿'文字，并且显示有定时发布的时间标识或定时图标"
+      }
+    },
+    {
+      "stepNumber": 22,
+      "action": "intelligent-action",
+      "description": "点击查看定时草稿详情",
+      "params": {
+        "instruction": "点击刚保存的定时草稿，进入草稿编辑或详情页面"
+      }
+    },
+    {
+      "stepNumber": 23,
+      "action": "wait",
+      "description": "等待草稿详情加载",
+      "params": {
+        "ms": 1000
+      }
+    },
+    {
+      "stepNumber": 24,
+      "action": "intelligent-assert",
+      "description": "验证草稿内容和定时设置保留完整",
+      "params": {
+        "assertion": "草稿编辑页面显示之前输入的正文内容'这是一条定时发布的测试草稿内容'，并且定时发布设置仍然保留，显示设定的定时发布时间"
+      }
+    }
+  ],
+  "minAppVersion": null,
+  "recordedAppVersion": null,
+  "blueprintEnabled": false
+}
