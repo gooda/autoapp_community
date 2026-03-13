@@ -405,5 +405,9 @@
   ],
   "minAppVersion": null,
   "recordedAppVersion": null,
-  "blueprintEnabled": false
+  "blueprintEnabled": false,
+  "file": "testcases/功能耦合测试_定时笔记分享限制.json",
+  "categoryIds": [
+    "cat_mkcia9w7_tu4zlt"
+  ]
 }
