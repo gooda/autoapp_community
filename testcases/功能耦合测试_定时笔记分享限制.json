@@ -1,16 +1,12 @@
 {
   "name": "功能耦合测试：定时笔记分享限制",
-  "description": "验证定时发布笔记时的分享限制功能，确保定时笔记在发布前不可分享给其他用户",
-  "priority": "high",
-  "tags": [
-    "功能耦合",
-    "定时发布",
-    "分享限制",
-    "笔记"
-  ],
-  "applications": [
-    "网易小蜜蜂"
-  ],
+  "description": "",
+  "priority": "medium",
+  "tags": [],
+  "applications": [],
+  "minAppVersion": null,
+  "recordedAppVersion": null,
+  "blueprintEnabled": false,
   "steps": [
     {
       "stepNumber": 1,
@@ -18,14 +14,17 @@
       "description": "进入发布器页面",
       "params": {
         "instruction": "点击发布按钮或加号按钮进入发布器"
-      }
+      },
+      "instruction": "点击发布按钮或加号按钮进入发布器",
+      "value": "点击发布按钮或加号按钮进入发布器"
     },
     {
       "stepNumber": 2,
       "action": "wait",
       "description": "等待发布器页面加载",
+      "locators": {},
       "params": {
-        "ms": 1500
+        "ms": 1000
       }
     },
     {
@@ -34,7 +33,8 @@
       "description": "验证进入发布器页面",
       "params": {
         "assertion": "页面显示发布器界面，包含添加图片、添加标题、正文输入等元素"
-      }
+      },
+      "assertion": "页面显示发布器界面，包含添加图片、添加标题、正文输入等元素"
     },
     {
       "stepNumber": 4,
@@ -59,7 +59,9 @@
       "description": "选择一张图片",
       "params": {
         "instruction": "从相册中选择第一张图片"
-      }
+      },
+      "instruction": "从相册中选择第一张图片",
+      "value": "从相册中选择第一张图片"
     },
     {
       "stepNumber": 7,
@@ -67,7 +69,9 @@
       "description": "确认选择图片",
       "params": {
         "instruction": "点击完成或确定按钮确认选择图片"
-      }
+      },
+      "instruction": "点击完成或确定按钮确认选择图片",
+      "value": "点击完成或确定按钮确认选择图片"
     },
     {
       "stepNumber": 8,
@@ -83,7 +87,8 @@
       "description": "验证图片已添加",
       "params": {
         "assertion": "发布器中显示已选择的图片"
-      }
+      },
+      "assertion": "发布器中显示已选择的图片"
     },
     {
       "stepNumber": 10,
@@ -100,7 +105,9 @@
       "description": "输入笔记标题",
       "params": {
         "instruction": "在标题输入框中输入'定时发布测试笔记'"
-      }
+      },
+      "instruction": "在标题输入框中输入'定时发布测试笔记'",
+      "value": "在标题输入框中输入'定时发布测试笔记'"
     },
     {
       "stepNumber": 12,
@@ -117,7 +124,9 @@
       "description": "输入笔记正文",
       "params": {
         "instruction": "在正文输入框中输入'这是一条定时发布的测试笔记内容'"
-      }
+      },
+      "instruction": "在正文输入框中输入'这是一条定时发布的测试笔记内容'",
+      "value": "在正文输入框中输入'这是一条定时发布的测试笔记内容'"
     },
     {
       "stepNumber": 14,
@@ -150,7 +159,8 @@
       "description": "验证定时发布设置面板显示",
       "params": {
         "assertion": "页面显示定时发布设置面板，包含时间选择器"
-      }
+      },
+      "assertion": "页面显示定时发布设置面板，包含时间选择器"
     },
     {
       "stepNumber": 18,
@@ -158,7 +168,9 @@
       "description": "选择发布时间",
       "params": {
         "instruction": "选择明天或1小时后的时间作为定时发布时间"
-      }
+      },
+      "instruction": "选择明天或1小时后的时间作为定时发布时间",
+      "value": "选择明天或1小时后的时间作为定时发布时间"
     },
     {
       "stepNumber": 19,
@@ -166,7 +178,9 @@
       "description": "确认定时发布设置",
       "params": {
         "instruction": "点击确定或完成按钮确认定时发布时间设置"
-      }
+      },
+      "instruction": "点击确定或完成按钮确认定时发布时间设置",
+      "value": "点击确定或完成按钮确认定时发布时间设置"
     },
     {
       "stepNumber": 20,
@@ -182,7 +196,8 @@
       "description": "验证定时发布已设置",
       "params": {
         "assertion": "发布器中显示已设置的定时发布时间"
-      }
+      },
+      "assertion": "发布器中显示已设置的定时发布时间"
     },
     {
       "stepNumber": 22,
@@ -190,7 +205,8 @@
       "description": "验证发布按钮文案变更",
       "params": {
         "assertion": "发布按钮文案显示为'定时发布'而非'发布笔记'"
-      }
+      },
+      "assertion": "发布按钮文案显示为'定时发布'而非'发布笔记'"
     },
     {
       "stepNumber": 23,
@@ -215,7 +231,8 @@
       "description": "验证高级设置面板显示",
       "params": {
         "assertion": "页面显示高级设置面板，包含各项设置选项"
-      }
+      },
+      "assertion": "页面显示高级设置面板，包含各项设置选项"
     },
     {
       "stepNumber": 26,
@@ -223,7 +240,8 @@
       "description": "验证分享设置受限提示",
       "params": {
         "assertion": "高级设置中显示分享相关设置被禁用或有定时笔记分享限制的提示说明"
-      }
+      },
+      "assertion": "高级设置中显示分享相关设置被禁用或有定时笔记分享限制的提示说明"
     },
     {
       "stepNumber": 27,
@@ -231,7 +249,9 @@
       "description": "关闭高级设置",
       "params": {
         "instruction": "点击关闭按钮或点击空白区域关闭高级设置面板"
-      }
+      },
+      "instruction": "点击关闭按钮或点击空白区域关闭高级设置面板",
+      "value": "点击关闭按钮或点击空白区域关闭高级设置面板"
     },
     {
       "stepNumber": 28,
@@ -247,7 +267,9 @@
       "description": "点击定时发布按钮提交笔记",
       "params": {
         "instruction": "点击定时发布按钮提交定时笔记"
-      }
+      },
+      "instruction": "点击定时发布按钮提交定时笔记",
+      "value": "点击定时发布按钮提交定时笔记"
     },
     {
       "stepNumber": 30,
@@ -263,7 +285,8 @@
       "description": "验证定时笔记发布成功",
       "params": {
         "assertion": "页面显示定时发布成功的提示或返回上一页面"
-      }
+      },
+      "assertion": "页面显示定时发布成功的提示或返回上一页面"
     },
     {
       "stepNumber": 32,
@@ -271,7 +294,9 @@
       "description": "进入我的定时笔记列表",
       "params": {
         "instruction": "进入个人中心或我的笔记页面，查看定时发布的笔记"
-      }
+      },
+      "instruction": "进入个人中心或我的笔记页面，查看定时发布的笔记",
+      "value": "进入个人中心或我的笔记页面，查看定时发布的笔记"
     },
     {
       "stepNumber": 33,
@@ -287,7 +312,9 @@
       "description": "点击刚发布的定时笔记",
       "params": {
         "instruction": "点击标题为'定时发布测试笔记'的笔记进入详情"
-      }
+      },
+      "instruction": "点击标题为'定时发布测试笔记'的笔记进入详情",
+      "value": "点击标题为'定时发布测试笔记'的笔记进入详情"
     },
     {
       "stepNumber": 35,
@@ -303,7 +330,8 @@
       "description": "验证笔记显示定时状态",
       "params": {
         "assertion": "笔记详情页显示定时发布状态标识或待发布标签"
-      }
+      },
+      "assertion": "笔记详情页显示定时发布状态标识或待发布标签"
     },
     {
       "stepNumber": 37,
@@ -311,7 +339,9 @@
       "description": "尝试分享笔记",
       "params": {
         "instruction": "点击分享按钮或更多操作按钮尝试分享该定时笔记"
-      }
+      },
+      "instruction": "点击分享按钮或更多操作按钮尝试分享该定时笔记",
+      "value": "点击分享按钮或更多操作按钮尝试分享该定时笔记"
     },
     {
       "stepNumber": 38,
@@ -327,7 +357,8 @@
       "description": "验证分享受限",
       "params": {
         "assertion": "显示分享功能被禁用的提示，或分享按钮不可点击，或弹出定时笔记暂不支持分享的提示"
-      }
+      },
+      "assertion": "显示分享功能被禁用的提示，或分享按钮不可点击，或弹出定时笔记暂不支持分享的提示"
     },
     {
       "stepNumber": 40,
@@ -335,7 +366,9 @@
       "description": "长按或点击更多操作查看编辑面板",
       "params": {
         "instruction": "长按笔记或点击更多按钮打开编辑操作面板"
-      }
+      },
+      "instruction": "长按笔记或点击更多按钮打开编辑操作面板",
+      "value": "长按笔记或点击更多按钮打开编辑操作面板"
     },
     {
       "stepNumber": 41,
@@ -351,7 +384,8 @@
       "description": "验证编辑面板中分享选项受限",
       "params": {
         "assertion": "编辑面板中没有分享选项或分享选项显示为灰色不可点击状态"
-      }
+      },
+      "assertion": "编辑面板中没有分享选项或分享选项显示为灰色不可点击状态"
     },
     {
       "stepNumber": 43,
@@ -376,7 +410,9 @@
       "description": "删除测试笔记",
       "params": {
         "instruction": "打开编辑面板并点击删除按钮删除该定时测试笔记"
-      }
+      },
+      "instruction": "打开编辑面板并点击删除按钮删除该定时测试笔记",
+      "value": "打开编辑面板并点击删除按钮删除该定时测试笔记"
     },
     {
       "stepNumber": 46,
@@ -384,7 +420,9 @@
       "description": "确认删除",
       "params": {
         "instruction": "点击确认删除按钮"
-      }
+      },
+      "instruction": "点击确认删除按钮",
+      "value": "点击确认删除按钮"
     },
     {
       "stepNumber": 47,
@@ -400,10 +438,10 @@
       "description": "验证笔记已删除",
       "params": {
         "assertion": "页面显示删除成功提示或笔记列表中不再显示该定时测试笔记"
-      }
+      },
+      "assertion": "页面显示删除成功提示或笔记列表中不再显示该定时测试笔记"
     }
   ],
-  "minAppVersion": null,
-  "recordedAppVersion": null,
-  "blueprintEnabled": false
+  "blueprintData": null,
+  "updatedAt": "2026-03-14T06:17:17.731Z"
 }
