@@ -1,0 +1,213 @@
+{
+  "name": "兼容性测试：话题推荐并行验证",
+  "description": "验证发布器中话题推荐功能在不同设备上的兼容性，测试话题选择、推荐话题展示及交互是否正常",
+  "priority": "high",
+  "tags": [
+    "兼容性测试",
+    "话题推荐",
+    "发布器",
+    "并行验证"
+  ],
+  "applications": [
+    "com.netease.xiaomifeng"
+  ],
+  "steps": [
+    {
+      "stepNumber": 1,
+      "action": "intelligent-assert",
+      "description": "验证当前处于发布器页面",
+      "params": {
+        "assertion": "页面显示发布器界面，包含添加标题、正文输入区域、话题按钮等元素"
+      }
+    },
+    {
+      "stepNumber": 2,
+      "action": "tap",
+      "description": "点击话题按钮打开话题选择面板",
+      "elementRef": {
+        "page": "发布器-默认",
+        "name": "话题"
+      }
+    },
+    {
+      "stepNumber": 3,
+      "action": "wait",
+      "description": "等待话题推荐面板加载完成",
+      "params": {
+        "ms": 1500
+      }
+    },
+    {
+      "stepNumber": 4,
+      "action": "intelligent-assert",
+      "description": "验证话题推荐面板正确展示",
+      "params": {
+        "assertion": "话题选择面板已弹出，显示推荐话题列表或搜索输入框"
+      }
+    },
+    {
+      "stepNumber": 5,
+      "action": "intelligent-assert",
+      "description": "验证推荐话题列表内容",
+      "params": {
+        "assertion": "推荐话题列表包含多个话题选项，每个话题显示话题名称，列表可滚动或有多条记录"
+      }
+    },
+    {
+      "stepNumber": 6,
+      "action": "intelligent-tap",
+      "description": "点击第一个推荐话题",
+      "params": {
+        "prompt": "点击话题推荐列表中的第一个话题选项"
+      }
+    },
+    {
+      "stepNumber": 7,
+      "action": "wait",
+      "description": "等待话题选择响应",
+      "params": {
+        "ms": 1000
+      }
+    },
+    {
+      "stepNumber": 8,
+      "action": "intelligent-assert",
+      "description": "验证话题已成功添加到正文",
+      "params": {
+        "assertion": "正文输入区域或标题区域显示已选择的话题标签，话题以#号开头或以标签形式展示"
+      }
+    },
+    {
+      "stepNumber": 9,
+      "action": "tap",
+      "description": "再次点击话题按钮添加更多话题",
+      "elementRef": {
+        "page": "发布器-默认",
+        "name": "话题"
+      }
+    },
+    {
+      "stepNumber": 10,
+      "action": "wait",
+      "description": "等待话题面板再次加载",
+      "params": {
+        "ms": 1500
+      }
+    },
+    {
+      "stepNumber": 11,
+      "action": "intelligent-assert",
+      "description": "验证话题推荐面板再次正确展示",
+      "params": {
+        "assertion": "话题选择面板再次弹出，推荐话题列表正常显示"
+      }
+    },
+    {
+      "stepNumber": 12,
+      "action": "intelligent-tap",
+      "description": "在话题搜索框输入搜索关键词",
+      "params": {
+        "prompt": "点击话题搜索输入框"
+      }
+    },
+    {
+      "stepNumber": 13,
+      "action": "input",
+      "description": "输入话题搜索关键词",
+      "params": {
+        "text": "摄影"
+      }
+    },
+    {
+      "stepNumber": 14,
+      "action": "wait",
+      "description": "等待搜索结果加载",
+      "params": {
+        "ms": 2000
+      }
+    },
+    {
+      "stepNumber": 15,
+      "action": "intelligent-assert",
+      "description": "验证话题搜索功能正常",
+      "params": {
+        "assertion": "搜索结果列表显示与摄影相关的话题，话题名称包含搜索关键词"
+      }
+    },
+    {
+      "stepNumber": 16,
+      "action": "intelligent-tap",
+      "description": "选择搜索结果中的一个话题",
+      "params": {
+        "prompt": "点击搜索结果列表中的第一个话题"
+      }
+    },
+    {
+      "stepNumber": 17,
+      "action": "wait",
+      "description": "等待话题添加完成",
+      "params": {
+        "ms": 1000
+      }
+    },
+    {
+      "stepNumber": 18,
+      "action": "intelligent-assert",
+      "description": "验证第二个话题已成功添加",
+      "params": {
+        "assertion": "正文区域显示两个已添加的话题标签，或话题数量增加"
+      }
+    },
+    {
+      "stepNumber": 19,
+      "action": "scroll",
+      "description": "向下滚动页面查看完整内容",
+      "params": {
+        "direction": "down"
+      }
+    },
+    {
+      "stepNumber": 20,
+      "action": "wait",
+      "description": "等待滚动完成",
+      "params": {
+        "ms": 500
+      }
+    },
+    {
+      "stepNumber": 21,
+      "action": "intelligent-assert",
+      "description": "验证发布器整体布局正常",
+      "params": {
+        "assertion": "发布器页面布局完整，各功能按钮（表情、话题、@用户等）排列正常，无元素重叠或错位"
+      }
+    },
+    {
+      "stepNumber": 22,
+      "action": "scroll",
+      "description": "向上滚动回到顶部",
+      "params": {
+        "direction": "up"
+      }
+    },
+    {
+      "stepNumber": 23,
+      "action": "wait",
+      "description": "等待滚动完成",
+      "params": {
+        "ms": 500
+      }
+    },
+    {
+      "stepNumber": 24,
+      "action": "intelligent-assert",
+      "description": "最终验证话题功能兼容性",
+      "params": {
+        "assertion": "发布器页面正常显示，已添加的话题标签保持完整，话题按钮可正常点击，整体功能无异常"
+      }
+    }
+  ],
+  "minAppVersion": null,
+  "recordedAppVersion": null,
+  "blueprintEnabled": false
+}

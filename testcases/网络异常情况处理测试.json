@@ -1,0 +1,288 @@
+{
+  "name": "网络异常情况处理测试",
+  "description": "测试网易小蜜蜂应用在网络异常情况下的处理能力，验证断网时发布笔记的错误提示和重试机制",
+  "priority": "high",
+  "tags": [
+    "异常测试",
+    "网络异常",
+    "发布器",
+    "错误处理"
+  ],
+  "applications": [
+    "com.netease.xiaomifeng"
+  ],
+  "steps": [
+    {
+      "stepNumber": 1,
+      "action": "intelligent-assert",
+      "description": "验证当前处于发布器页面",
+      "params": {
+        "assertion": "页面显示发布器界面，包含添加标题、正文输入、发布笔记等元素"
+      }
+    },
+    {
+      "stepNumber": 2,
+      "action": "tap",
+      "description": "点击添加标题输入框",
+      "elementRef": {
+        "page": "发布器-默认",
+        "name": "添加标题"
+      }
+    },
+    {
+      "stepNumber": 3,
+      "action": "wait",
+      "description": "等待输入框获取焦点",
+      "params": {
+        "ms": 500
+      }
+    },
+    {
+      "stepNumber": 4,
+      "action": "input",
+      "description": "输入测试标题",
+      "elementRef": {
+        "page": "发布器-默认",
+        "name": "添加标题"
+      },
+      "params": {
+        "text": "网络异常测试标题"
+      }
+    },
+    {
+      "stepNumber": 5,
+      "action": "tap",
+      "description": "点击正文输入区域",
+      "elementRef": {
+        "page": "发布器-默认",
+        "name": "正文输入"
+      }
+    },
+    {
+      "stepNumber": 6,
+      "action": "wait",
+      "description": "等待输入框获取焦点",
+      "params": {
+        "ms": 500
+      }
+    },
+    {
+      "stepNumber": 7,
+      "action": "input",
+      "description": "输入测试正文内容",
+      "elementRef": {
+        "page": "发布器-默认",
+        "name": "正文输入"
+      },
+      "params": {
+        "text": "这是一条用于测试网络异常情况的笔记内容"
+      }
+    },
+    {
+      "stepNumber": 8,
+      "action": "intelligent-assert",
+      "description": "验证标题和正文已正确输入",
+      "params": {
+        "assertion": "页面显示已输入的标题'网络异常测试标题'和正文内容"
+      }
+    },
+    {
+      "stepNumber": 9,
+      "action": "intelligent-action",
+      "description": "关闭设备网络连接以模拟网络异常",
+      "params": {
+        "instruction": "进入系统设置关闭WiFi和蜂窝数据，模拟无网络状态"
+      }
+    },
+    {
+      "stepNumber": 10,
+      "action": "wait",
+      "description": "等待网络状态变更生效",
+      "params": {
+        "ms": 2000
+      }
+    },
+    {
+      "stepNumber": 11,
+      "action": "intelligent-action",
+      "description": "返回到小蜜蜂应用的发布器页面",
+      "params": {
+        "instruction": "返回到网易小蜜蜂应用，确保处于发布器页面"
+      }
+    },
+    {
+      "stepNumber": 12,
+      "action": "wait",
+      "description": "等待应用界面恢复",
+      "params": {
+        "ms": 1000
+      }
+    },
+    {
+      "stepNumber": 13,
+      "action": "tap",
+      "description": "在无网络状态下点击发布笔记按钮",
+      "elementRef": {
+        "page": "发布器-默认",
+        "name": "发布笔记"
+      }
+    },
+    {
+      "stepNumber": 14,
+      "action": "wait",
+      "description": "等待网络请求超时或错误响应",
+      "params": {
+        "ms": 5000
+      }
+    },
+    {
+      "stepNumber": 15,
+      "action": "intelligent-assert",
+      "description": "验证显示网络异常错误提示",
+      "params": {
+        "assertion": "页面显示网络异常、网络错误、无网络连接、请检查网络等相关错误提示信息"
+      }
+    },
+    {
+      "stepNumber": 16,
+      "action": "intelligent-assert",
+      "description": "验证发布失败后内容未丢失",
+      "params": {
+        "assertion": "发布器页面仍然保留之前输入的标题和正文内容，数据未丢失"
+      }
+    },
+    {
+      "stepNumber": 17,
+      "action": "intelligent-tap",
+      "description": "关闭错误提示弹窗（如果有）",
+      "params": {
+        "prompt": "点击确定、知道了、关闭按钮或弹窗外部区域以关闭网络错误提示"
+      }
+    },
+    {
+      "stepNumber": 18,
+      "action": "wait",
+      "description": "等待弹窗关闭",
+      "params": {
+        "ms": 1000
+      }
+    },
+    {
+      "stepNumber": 19,
+      "action": "tap",
+      "description": "点击存草稿按钮保存内容",
+      "elementRef": {
+        "page": "发布器-默认",
+        "name": "存草稿"
+      }
+    },
+    {
+      "stepNumber": 20,
+      "action": "wait",
+      "description": "等待草稿保存操作完成",
+      "params": {
+        "ms": 2000
+      }
+    },
+    {
+      "stepNumber": 21,
+      "action": "intelligent-assert",
+      "description": "验证草稿保存成功或显示保存提示",
+      "params": {
+        "assertion": "页面显示草稿保存成功提示，或者已返回上一页面且草稿已保存"
+      }
+    },
+    {
+      "stepNumber": 22,
+      "action": "intelligent-action",
+      "description": "恢复设备网络连接",
+      "params": {
+        "instruction": "进入系统设置开启WiFi或蜂窝数据，恢复网络连接"
+      }
+    },
+    {
+      "stepNumber": 23,
+      "action": "wait",
+      "description": "等待网络连接恢复",
+      "params": {
+        "ms": 3000
+      }
+    },
+    {
+      "stepNumber": 24,
+      "action": "intelligent-action",
+      "description": "返回到小蜜蜂应用并进入草稿箱",
+      "params": {
+        "instruction": "返回到网易小蜜蜂应用，找到并进入草稿箱页面"
+      }
+    },
+    {
+      "stepNumber": 25,
+      "action": "wait",
+      "description": "等待草稿箱页面加载",
+      "params": {
+        "ms": 2000
+      }
+    },
+    {
+      "stepNumber": 26,
+      "action": "intelligent-assert",
+      "description": "验证草稿箱中存在刚才保存的草稿",
+      "params": {
+        "assertion": "草稿箱页面显示包含'网络异常测试标题'的草稿条目"
+      }
+    },
+    {
+      "stepNumber": 27,
+      "action": "intelligent-tap",
+      "description": "点击打开保存的草稿",
+      "params": {
+        "prompt": "点击包含'网络异常测试标题'的草稿条目"
+      }
+    },
+    {
+      "stepNumber": 28,
+      "action": "wait",
+      "description": "等待草稿编辑页面加载",
+      "params": {
+        "ms": 2000
+      }
+    },
+    {
+      "stepNumber": 29,
+      "action": "intelligent-assert",
+      "description": "验证草稿内容完整恢复",
+      "params": {
+        "assertion": "发布器页面显示之前保存的标题'网络异常测试标题'和正文内容"
+      }
+    },
+    {
+      "stepNumber": 30,
+      "action": "tap",
+      "description": "网络恢复后重新点击发布笔记",
+      "elementRef": {
+        "page": "发布器-默认",
+        "name": "发布笔记"
+      }
+    },
+    {
+      "stepNumber": 31,
+      "action": "wait",
+      "description": "等待发布请求完成",
+      "params": {
+        "ms": 5000
+      }
+    },
+    {
+      "stepNumber": 32,
+      "action": "intelligent-assert",
+      "description": "验证网络恢复后发布成功",
+      "params": {
+        "assertion": "页面显示发布成功提示，或已自动跳转到笔记详情页或首页"
+      }
+    }
+  ],
+  "minAppVersion": null,
+  "recordedAppVersion": null,
+  "blueprintEnabled": false
+}

@@ -1,0 +1,395 @@
+{
+  "name": "性能测试：接口响应时间",
+  "description": "测试网易小蜜蜂应用关键操作的接口响应时间，包括页面加载、图片上传、内容发布等核心接口的响应性能",
+  "priority": "high",
+  "tags": [
+    "性能测试",
+    "接口响应",
+    "发布器"
+  ],
+  "applications": [
+    "com.netease.xiaomifeng"
+  ],
+  "steps": [
+    {
+      "stepNumber": 1,
+      "action": "intelligent-action",
+      "description": "启动应用并进入发布器页面",
+      "params": {
+        "instruction": "启动网易小蜜蜂应用，等待首页加载完成后进入发布器页面"
+      }
+    },
+    {
+      "stepNumber": 2,
+      "action": "wait",
+      "description": "等待发布器页面完全加载",
+      "params": {
+        "ms": 2000
+      }
+    },
+    {
+      "stepNumber": 3,
+      "action": "intelligent-assert",
+      "description": "验证发布器页面加载成功",
+      "params": {
+        "assertion": "发布器页面已加载完成，显示添加图片、添加标题等元素"
+      }
+    },
+    {
+      "stepNumber": 4,
+      "action": "tap",
+      "description": "点击摄影分类选择器，测试分类加载响应时间",
+      "elementRef": {
+        "page": "发布器-默认",
+        "name": "摄影分类"
+      }
+    },
+    {
+      "stepNumber": 5,
+      "action": "wait",
+      "description": "等待分类列表加载",
+      "params": {
+        "ms": 1500
+      }
+    },
+    {
+      "stepNumber": 6,
+      "action": "intelligent-assert",
+      "description": "验证分类列表已加载显示",
+      "params": {
+        "assertion": "分类选择列表已展示，包含可选的分类选项"
+      }
+    },
+    {
+      "stepNumber": 7,
+      "action": "intelligent-tap",
+      "description": "选择一个分类",
+      "params": {
+        "prompt": "点击分类列表中的第一个分类选项"
+      }
+    },
+    {
+      "stepNumber": 8,
+      "action": "wait",
+      "description": "等待分类选择完成",
+      "params": {
+        "ms": 500
+      }
+    },
+    {
+      "stepNumber": 9,
+      "action": "tap",
+      "description": "点击添加图片按钮，测试相册加载响应时间",
+      "elementRef": {
+        "page": "发布器-默认",
+        "name": "添加图片"
+      }
+    },
+    {
+      "stepNumber": 10,
+      "action": "wait",
+      "description": "等待相册或图片选择器加载",
+      "params": {
+        "ms": 2000
+      }
+    },
+    {
+      "stepNumber": 11,
+      "action": "intelligent-assert",
+      "description": "验证图片选择器已加载",
+      "params": {
+        "assertion": "相册或图片选择器已打开，显示可选择的图片"
+      }
+    },
+    {
+      "stepNumber": 12,
+      "action": "intelligent-tap",
+      "description": "选择一张图片",
+      "params": {
+        "prompt": "点击选择第一张图片"
+      }
+    },
+    {
+      "stepNumber": 13,
+      "action": "wait",
+      "description": "等待图片选择响应",
+      "params": {
+        "ms": 1000
+      }
+    },
+    {
+      "stepNumber": 14,
+      "action": "intelligent-tap",
+      "description": "确认图片选择",
+      "params": {
+        "prompt": "点击确认或完成按钮完成图片选择"
+      }
+    },
+    {
+      "stepNumber": 15,
+      "action": "wait",
+      "description": "等待图片上传处理",
+      "params": {
+        "ms": 3000
+      }
+    },
+    {
+      "stepNumber": 16,
+      "action": "intelligent-assert",
+      "description": "验证图片已成功添加到发布器",
+      "params": {
+        "assertion": "发布器中已显示添加的图片缩略图"
+      }
+    },
+    {
+      "stepNumber": 17,
+      "action": "tap",
+      "description": "点击添加标题输入框",
+      "elementRef": {
+        "page": "发布器-默认",
+        "name": "添加标题"
+      }
+    },
+    {
+      "stepNumber": 18,
+      "action": "wait",
+      "description": "等待键盘弹出",
+      "params": {
+        "ms": 500
+      }
+    },
+    {
+      "stepNumber": 19,
+      "action": "input",
+      "description": "输入测试标题",
+      "elementRef": {
+        "page": "发布器-默认",
+        "name": "添加标题"
+      },
+      "params": {
+        "text": "性能测试标题"
+      }
+    },
+    {
+      "stepNumber": 20,
+      "action": "tap",
+      "description": "点击正文输入区域",
+      "elementRef": {
+        "page": "发布器-默认",
+        "name": "正文输入"
+      }
+    },
+    {
+      "stepNumber": 21,
+      "action": "input",
+      "description": "输入测试正文内容",
+      "elementRef": {
+        "page": "发布器-默认",
+        "name": "正文输入"
+      },
+      "params": {
+        "text": "这是一条用于测试接口响应时间的测试内容"
+      }
+    },
+    {
+      "stepNumber": 22,
+      "action": "tap",
+      "description": "点击话题按钮，测试话题列表加载响应时间",
+      "elementRef": {
+        "page": "发布器-默认",
+        "name": "话题"
+      }
+    },
+    {
+      "stepNumber": 23,
+      "action": "wait",
+      "description": "等待话题列表加载",
+      "params": {
+        "ms": 2000
+      }
+    },
+    {
+      "stepNumber": 24,
+      "action": "intelligent-assert",
+      "description": "验证话题列表已加载显示",
+      "params": {
+        "assertion": "话题选择列表已展示，包含热门话题或推荐话题"
+      }
+    },
+    {
+      "stepNumber": 25,
+      "action": "intelligent-tap",
+      "description": "关闭话题选择或返回发布器",
+      "params": {
+        "prompt": "点击关闭按钮或返回按钮关闭话题选择"
+      }
+    },
+    {
+      "stepNumber": 26,
+      "action": "wait",
+      "description": "等待返回发布器",
+      "params": {
+        "ms": 500
+      }
+    },
+    {
+      "stepNumber": 27,
+      "action": "tap",
+      "description": "点击@用户按钮，测试用户列表加载响应时间",
+      "elementRef": {
+        "page": "发布器-默认",
+        "name": "@用户"
+      }
+    },
+    {
+      "stepNumber": 28,
+      "action": "wait",
+      "description": "等待用户列表加载",
+      "params": {
+        "ms": 2000
+      }
+    },
+    {
+      "stepNumber": 29,
+      "action": "intelligent-assert",
+      "description": "验证用户列表已加载显示",
+      "params": {
+        "assertion": "@用户选择列表已展示，包含关注的用户或推荐用户"
+      }
+    },
+    {
+      "stepNumber": 30,
+      "action": "intelligent-tap",
+      "description": "关闭用户选择或返回发布器",
+      "params": {
+        "prompt": "点击关闭按钮或返回按钮关闭用户选择"
+      }
+    },
+    {
+      "stepNumber": 31,
+      "action": "wait",
+      "description": "等待返回发布器",
+      "params": {
+        "ms": 500
+      }
+    },
+    {
+      "stepNumber": 32,
+      "action": "tap",
+      "description": "点击高级设置，测试设置页面加载响应时间",
+      "elementRef": {
+        "page": "发布器-默认",
+        "name": "高级设置"
+      }
+    },
+    {
+      "stepNumber": 33,
+      "action": "wait",
+      "description": "等待高级设置页面加载",
+      "params": {
+        "ms": 1500
+      }
+    },
+    {
+      "stepNumber": 34,
+      "action": "intelligent-assert",
+      "description": "验证高级设置页面已加载",
+      "params": {
+        "assertion": "高级设置页面已打开，显示各种设置选项"
+      }
+    },
+    {
+      "stepNumber": 35,
+      "action": "intelligent-tap",
+      "description": "返回发布器主页面",
+      "params": {
+        "prompt": "点击返回按钮或关闭按钮返回发布器"
+      }
+    },
+    {
+      "stepNumber": 36,
+      "action": "wait",
+      "description": "等待返回发布器",
+      "params": {
+        "ms": 500
+      }
+    },
+    {
+      "stepNumber": 37,
+      "action": "tap",
+      "description": "点击预览按钮，测试预览加载响应时间",
+      "elementRef": {
+        "page": "发布器-默认",
+        "name": "预览"
+      }
+    },
+    {
+      "stepNumber": 38,
+      "action": "wait",
+      "description": "等待预览页面加载",
+      "params": {
+        "ms": 2000
+      }
+    },
+    {
+      "stepNumber": 39,
+      "action": "intelligent-assert",
+      "description": "验证预览页面已加载显示",
+      "params": {
+        "assertion": "预览页面已打开，显示即将发布的内容预览"
+      }
+    },
+    {
+      "stepNumber": 40,
+      "action": "intelligent-tap",
+      "description": "返回发布器主页面",
+      "params": {
+        "prompt": "点击返回按钮或关闭按钮返回发布器"
+      }
+    },
+    {
+      "stepNumber": 41,
+      "action": "wait",
+      "description": "等待返回发布器",
+      "params": {
+        "ms": 500
+      }
+    },
+    {
+      "stepNumber": 42,
+      "action": "tap",
+      "description": "点击存草稿按钮，测试草稿保存响应时间",
+      "elementRef": {
+        "page": "发布器-默认",
+        "name": "存草稿"
+      }
+    },
+    {
+      "stepNumber": 43,
+      "action": "wait",
+      "description": "等待草稿保存完成",
+      "params": {
+        "ms": 2000
+      }
+    },
+    {
+      "stepNumber": 44,
+      "action": "intelligent-assert",
+      "description": "验证草稿保存成功",
+      "params": {
+        "assertion": "显示草稿保存成功的提示或确认信息"
+      }
+    },
+    {
+      "stepNumber": 45,
+      "action": "intelligent-assert",
+      "description": "最终验证：确认所有接口响应正常",
+      "params": {
+        "assertion": "页面响应正常，无明显卡顿或加载失败的情况"
+      }
+    }
+  ],
+  "minAppVersion": null,
+  "recordedAppVersion": null,
+  "blueprintEnabled": false
+}

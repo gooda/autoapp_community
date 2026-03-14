@@ -4,7 +4,7 @@
     "pageSignature": null,
     "description": "",
     "elementCount": 21,
-    "updatedAt": "2026-03-14T05:48:36.652Z",
+    "updatedAt": "2026-03-14T06:14:56.717Z",
     "imageSize": {
       "width": 473,
       "height": 1024
@@ -17,34 +17,34 @@
       "locators": {
         "ios": {
           "bounds": [
-            15,
-            59,
+            17,
+            65,
             30,
             30
           ],
           "centerNormalized": [
-            0.064,
-            0.072
+            0.063,
+            0.082
           ],
           "coordinates": {
-            "x": 0.064,
-            "y": 0.072
+            "x": 0.063,
+            "y": 0.082
           }
         },
         "android": {
           "bounds": [
-            15,
-            59,
+            17,
+            65,
             30,
             30
           ],
           "centerNormalized": [
-            0.064,
-            0.072
+            0.063,
+            0.082
           ],
           "coordinates": {
-            "x": 0.064,
-            "y": 0.072
+            "x": 0.063,
+            "y": 0.082
           }
         }
       },
@@ -68,33 +68,33 @@
         "ios": {
           "bounds": [
             383,
-            59,
+            65,
             60,
-            30
+            35
           ],
           "centerNormalized": [
             0.874,
-            0.072
+            0.082
           ],
           "coordinates": {
             "x": 0.874,
-            "y": 0.072
+            "y": 0.082
           }
         },
         "android": {
           "bounds": [
             383,
-            59,
+            65,
             60,
-            30
+            35
           ],
           "centerNormalized": [
             0.874,
-            0.072
+            0.082
           ],
           "coordinates": {
             "x": 0.874,
-            "y": 0.072
+            "y": 0.082
           }
         }
       },
@@ -117,34 +117,34 @@
       "locators": {
         "ios": {
           "bounds": [
-            27,
-            126,
-            75,
-            25
+            30,
+            137,
+            80,
+            30
           ],
           "centerNormalized": [
-            0.136,
-            0.135
+            0.145,
+            0.144
           ],
           "coordinates": {
-            "x": 0.136,
-            "y": 0.135
+            "x": 0.145,
+            "y": 0.144
           }
         },
         "android": {
           "bounds": [
-            27,
-            126,
-            75,
-            25
+            30,
+            137,
+            80,
+            30
           ],
           "centerNormalized": [
-            0.136,
-            0.135
+            0.145,
+            0.144
           ],
           "coordinates": {
-            "x": 0.136,
-            "y": 0.135
+            "x": 0.145,
+            "y": 0.144
           }
         }
       },
@@ -167,34 +167,34 @@
       "locators": {
         "ios": {
           "bounds": [
-            205,
-            176,
+            94,
+            180,
             20,
             20
           ],
           "centerNormalized": [
-            0.455,
-            0.181
+            0.214,
+            0.184
           ],
           "coordinates": {
-            "x": 0.455,
-            "y": 0.181
+            "x": 0.214,
+            "y": 0.184
           }
         },
         "android": {
           "bounds": [
-            205,
-            176,
+            94,
+            180,
             20,
             20
           ],
           "centerNormalized": [
-            0.455,
-            0.181
+            0.214,
+            0.184
           ],
           "coordinates": {
-            "x": 0.455,
-            "y": 0.181
+            "x": 0.214,
+            "y": 0.184
           }
         }
       },
@@ -205,57 +205,7 @@
       "details": {
         "type": "button",
         "elementType": "content",
-        "component": "close_button",
-        "role": "action"
-      },
-      "status": "active",
-      "calibration_status": "corrected"
-    },
-    {
-      "elementId": "发布笔记.删除图片2",
-      "name": "删除图片2",
-      "locators": {
-        "ios": {
-          "bounds": [
-            205,
-            176,
-            20,
-            20
-          ],
-          "centerNormalized": [
-            0.455,
-            0.181
-          ],
-          "coordinates": {
-            "x": 0.455,
-            "y": 0.181
-          }
-        },
-        "android": {
-          "bounds": [
-            205,
-            176,
-            20,
-            20
-          ],
-          "centerNormalized": [
-            0.455,
-            0.181
-          ],
-          "coordinates": {
-            "x": 0.455,
-            "y": 0.181
-          }
-        }
-      },
-      "locatorPriority": [
-        "coordinates"
-      ],
-      "findIntent": "删除图片2",
-      "details": {
-        "type": "button",
-        "elementType": "content",
-        "component": "close_button",
+        "component": "icon_button",
         "role": "action"
       },
       "status": "active",
@@ -268,33 +218,33 @@
         "ios": {
           "bounds": [
             39,
-            251,
+            247,
             50,
             25
           ],
           "centerNormalized": [
             0.136,
-            0.257
+            0.258
           ],
           "coordinates": {
             "x": 0.136,
-            "y": 0.257
+            "y": 0.258
           }
         },
         "android": {
           "bounds": [
             39,
-            251,
+            247,
             50,
             25
           ],
           "centerNormalized": [
             0.136,
-            0.257
+            0.258
           ],
           "coordinates": {
             "x": 0.136,
-            "y": 0.257
+            "y": 0.258
           }
         }
       },
@@ -312,39 +262,89 @@
       "calibration_status": "corrected"
     },
     {
+      "elementId": "发布笔记.删除图片2",
+      "name": "删除图片2",
+      "locators": {
+        "ios": {
+          "bounds": [
+            203,
+            180,
+            20,
+            20
+          ],
+          "centerNormalized": [
+            0.455,
+            0.184
+          ],
+          "coordinates": {
+            "x": 0.455,
+            "y": 0.184
+          }
+        },
+        "android": {
+          "bounds": [
+            203,
+            180,
+            20,
+            20
+          ],
+          "centerNormalized": [
+            0.455,
+            0.184
+          ],
+          "coordinates": {
+            "x": 0.455,
+            "y": 0.184
+          }
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "删除图片2",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "icon_button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
       "elementId": "发布笔记.编辑图片2",
       "name": "编辑图片2",
       "locators": {
         "ios": {
           "bounds": [
-            147,
-            251,
+            153,
+            247,
             50,
             25
           ],
           "centerNormalized": [
-            0.364,
-            0.257
+            0.377,
+            0.258
           ],
           "coordinates": {
-            "x": 0.364,
-            "y": 0.257
+            "x": 0.377,
+            "y": 0.258
           }
         },
         "android": {
           "bounds": [
-            147,
-            251,
+            153,
+            247,
             50,
             25
           ],
           "centerNormalized": [
-            0.364,
-            0.257
+            0.377,
+            0.258
           ],
           "coordinates": {
-            "x": 0.364,
-            "y": 0.257
+            "x": 0.377,
+            "y": 0.258
           }
         }
       },
@@ -367,34 +367,34 @@
       "locators": {
         "ios": {
           "bounds": [
-            242,
-            188,
-            80,
-            80
+            240,
+            182,
+            95,
+            95
           ],
           "centerNormalized": [
-            0.596,
-            0.222
+            0.604,
+            0.226
           ],
           "coordinates": {
-            "x": 0.596,
-            "y": 0.222
+            "x": 0.604,
+            "y": 0.226
           }
         },
         "android": {
           "bounds": [
-            242,
-            188,
-            80,
-            80
+            240,
+            182,
+            95,
+            95
           ],
           "centerNormalized": [
-            0.596,
-            0.222
+            0.604,
+            0.226
           ],
           "coordinates": {
-            "x": 0.596,
-            "y": 0.222
+            "x": 0.604,
+            "y": 0.226
           }
         }
       },
@@ -418,33 +418,33 @@
         "ios": {
           "bounds": [
             20,
-            290,
+            298,
             400,
             40
           ],
           "centerNormalized": [
-            0.465,
-            0.303
+            0.47,
+            0.312
           ],
           "coordinates": {
-            "x": 0.465,
-            "y": 0.303
+            "x": 0.47,
+            "y": 0.312
           }
         },
         "android": {
           "bounds": [
             20,
-            290,
+            298,
             400,
             40
           ],
           "centerNormalized": [
-            0.465,
-            0.303
+            0.47,
+            0.312
           ],
           "coordinates": {
-            "x": 0.465,
-            "y": 0.303
+            "x": 0.47,
+            "y": 0.312
           }
         }
       },
@@ -468,33 +468,33 @@
         "ios": {
           "bounds": [
             20,
-            355,
+            351,
             440,
             180
           ],
           "centerNormalized": [
-            0.507,
-            0.435
+            0.5,
+            0.43
           ],
           "coordinates": {
-            "x": 0.507,
-            "y": 0.435
+            "x": 0.5,
+            "y": 0.43
           }
         },
         "android": {
           "bounds": [
             20,
-            355,
+            351,
             440,
             180
           ],
           "centerNormalized": [
-            0.507,
-            0.435
+            0.5,
+            0.43
           ],
           "coordinates": {
-            "x": 0.507,
-            "y": 0.435
+            "x": 0.5,
+            "y": 0.43
           }
         }
       },
@@ -517,34 +517,34 @@
       "locators": {
         "ios": {
           "bounds": [
-            20,
-            630,
+            19,
+            611,
             65,
             35
           ],
           "centerNormalized": [
-            0.112,
-            0.632
+            0.108,
+            0.612
           ],
           "coordinates": {
-            "x": 0.112,
-            "y": 0.632
+            "x": 0.108,
+            "y": 0.612
           }
         },
         "android": {
           "bounds": [
-            20,
-            630,
+            19,
+            611,
             65,
             35
           ],
           "centerNormalized": [
-            0.112,
-            0.632
+            0.108,
+            0.612
           ],
           "coordinates": {
-            "x": 0.112,
-            "y": 0.632
+            "x": 0.108,
+            "y": 0.612
           }
         }
       },
@@ -567,34 +567,34 @@
       "locators": {
         "ios": {
           "bounds": [
-            98,
-            630,
+            97,
+            611,
             65,
             35
           ],
           "centerNormalized": [
-            0.276,
-            0.632
+            0.274,
+            0.612
           ],
           "coordinates": {
-            "x": 0.276,
-            "y": 0.632
+            "x": 0.274,
+            "y": 0.612
           }
         },
         "android": {
           "bounds": [
-            98,
-            630,
+            97,
+            611,
             65,
             35
           ],
           "centerNormalized": [
-            0.276,
-            0.632
+            0.274,
+            0.612
           ],
           "coordinates": {
-            "x": 0.276,
-            "y": 0.632
+            "x": 0.274,
+            "y": 0.612
           }
         }
       },
@@ -618,33 +618,33 @@
         "ios": {
           "bounds": [
             172,
-            630,
-            65,
+            611,
+            70,
             35
           ],
           "centerNormalized": [
-            0.432,
-            0.632
+            0.433,
+            0.612
           ],
           "coordinates": {
-            "x": 0.432,
-            "y": 0.632
+            "x": 0.433,
+            "y": 0.612
           }
         },
         "android": {
           "bounds": [
             172,
-            630,
-            65,
+            611,
+            70,
             35
           ],
           "centerNormalized": [
-            0.432,
-            0.632
+            0.433,
+            0.612
           ],
           "coordinates": {
-            "x": 0.432,
-            "y": 0.632
+            "x": 0.433,
+            "y": 0.612
           }
         }
       },
@@ -668,33 +668,33 @@
         "ios": {
           "bounds": [
             394,
-            630,
+            611,
             50,
             35
           ],
           "centerNormalized": [
             0.886,
-            0.632
+            0.612
           ],
           "coordinates": {
             "x": 0.886,
-            "y": 0.632
+            "y": 0.612
           }
         },
         "android": {
           "bounds": [
             394,
-            630,
+            611,
             50,
             35
           ],
           "centerNormalized": [
             0.886,
-            0.632
+            0.612
           ],
           "coordinates": {
             "x": 0.886,
-            "y": 0.632
+            "y": 0.612
           }
         }
       },
@@ -718,33 +718,33 @@
         "ios": {
           "bounds": [
             20,
-            697,
+            665,
             440,
             45
           ],
           "centerNormalized": [
-            0.507,
-            0.702
+            0.5,
+            0.674
           ],
           "coordinates": {
-            "x": 0.507,
-            "y": 0.702
+            "x": 0.5,
+            "y": 0.674
           }
         },
         "android": {
           "bounds": [
             20,
-            697,
+            665,
             440,
             45
           ],
           "centerNormalized": [
-            0.507,
-            0.702
+            0.5,
+            0.674
           ],
           "coordinates": {
-            "x": 0.507,
-            "y": 0.702
+            "x": 0.5,
+            "y": 0.674
           }
         }
       },
@@ -768,33 +768,33 @@
         "ios": {
           "bounds": [
             20,
-            759,
+            733,
             440,
             45
           ],
           "centerNormalized": [
-            0.507,
-            0.762
+            0.5,
+            0.736
           ],
           "coordinates": {
-            "x": 0.507,
-            "y": 0.762
+            "x": 0.5,
+            "y": 0.736
           }
         },
         "android": {
           "bounds": [
             20,
-            759,
+            733,
             440,
             45
           ],
           "centerNormalized": [
-            0.507,
-            0.762
+            0.5,
+            0.736
           ],
           "coordinates": {
-            "x": 0.507,
-            "y": 0.762
+            "x": 0.5,
+            "y": 0.736
           }
         }
       },
@@ -817,34 +817,34 @@
       "locators": {
         "ios": {
           "bounds": [
-            20,
-            825,
-            440,
+            17,
+            800,
+            120,
             35
           ],
           "centerNormalized": [
-            0.507,
-            0.822
+            0.163,
+            0.798
           ],
           "coordinates": {
-            "x": 0.507,
-            "y": 0.822
+            "x": 0.163,
+            "y": 0.798
           }
         },
         "android": {
           "bounds": [
-            20,
-            825,
-            440,
+            17,
+            800,
+            120,
             35
           ],
           "centerNormalized": [
-            0.507,
-            0.822
+            0.163,
+            0.798
           ],
           "coordinates": {
-            "x": 0.507,
-            "y": 0.822
+            "x": 0.163,
+            "y": 0.798
           }
         }
       },
@@ -859,7 +859,7 @@
         "role": "settings"
       },
       "status": "active",
-      "calibration_status": "partial_corrected"
+      "calibration_status": "corrected"
     },
     {
       "elementId": "发布笔记.高级设置",
@@ -867,34 +867,34 @@
       "locators": {
         "ios": {
           "bounds": [
-            19,
-            868,
+            16,
+            865,
             80,
             30
           ],
           "centerNormalized": [
-            0.124,
-            0.862
+            0.122,
+            0.86
           ],
           "coordinates": {
-            "x": 0.124,
-            "y": 0.862
+            "x": 0.122,
+            "y": 0.86
           }
         },
         "android": {
           "bounds": [
-            19,
-            868,
+            16,
+            865,
             80,
             30
           ],
           "centerNormalized": [
-            0.124,
-            0.862
+            0.122,
+            0.86
           ],
           "coordinates": {
-            "x": 0.124,
-            "y": 0.862
+            "x": 0.122,
+            "y": 0.86
           }
         }
       },
@@ -917,34 +917,34 @@
       "locators": {
         "ios": {
           "bounds": [
-            363,
-            868,
+            362,
+            865,
             80,
             30
           ],
           "centerNormalized": [
-            0.852,
-            0.862
+            0.851,
+            0.86
           ],
           "coordinates": {
-            "x": 0.852,
-            "y": 0.862
+            "x": 0.851,
+            "y": 0.86
           }
         },
         "android": {
           "bounds": [
-            363,
-            868,
+            362,
+            865,
             80,
             30
           ],
           "centerNormalized": [
-            0.852,
-            0.862
+            0.851,
+            0.86
           ],
           "coordinates": {
-            "x": 0.852,
-            "y": 0.862
+            "x": 0.851,
+            "y": 0.86
           }
         }
       },
@@ -967,33 +967,33 @@
       "locators": {
         "ios": {
           "bounds": [
-            10,
-            909,
+            3,
+            891,
             50,
             50
           ],
           "centerNormalized": [
-            0.074,
+            0.063,
             0.912
           ],
           "coordinates": {
-            "x": 0.074,
+            "x": 0.063,
             "y": 0.912
           }
         },
         "android": {
           "bounds": [
-            10,
-            909,
+            3,
+            891,
             50,
             50
           ],
           "centerNormalized": [
-            0.074,
+            0.063,
             0.912
           ],
           "coordinates": {
-            "x": 0.074,
+            "x": 0.063,
             "y": 0.912
           }
         }
@@ -1017,33 +1017,33 @@
       "locators": {
         "ios": {
           "bounds": [
-            90,
-            909,
-            365,
-            50
+            95,
+            886,
+            355,
+            55
           ],
           "centerNormalized": [
-            0.576,
+            0.58,
             0.912
           ],
           "coordinates": {
-            "x": 0.576,
+            "x": 0.58,
             "y": 0.912
           }
         },
         "android": {
           "bounds": [
-            90,
-            909,
-            365,
-            50
+            95,
+            886,
+            355,
+            55
           ],
           "centerNormalized": [
-            0.576,
+            0.58,
             0.912
           ],
           "coordinates": {
-            "x": 0.576,
+            "x": 0.58,
             "y": 0.912
           }
         }
