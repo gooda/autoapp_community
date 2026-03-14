@@ -1,0 +1,147 @@
+{
+  "name": "异常处理模块：推荐接口超时处理",
+  "description": "验证当推荐接口超时时，应用能够正确处理异常情况，显示友好的错误提示，并提供重试机制",
+  "priority": "high",
+  "tags": [
+    "异常处理",
+    "网络超时",
+    "推荐接口",
+    "容错测试"
+  ],
+  "applications": [
+    "com.netease.xiaomifeng"
+  ],
+  "steps": [
+    {
+      "stepNumber": 1,
+      "action": "intelligent-action",
+      "description": "启动应用并进入推荐页面",
+      "params": {
+        "instruction": "启动网易小蜜蜂应用，确保进入首页的推荐页面"
+      }
+    },
+    {
+      "stepNumber": 2,
+      "action": "wait",
+      "description": "等待应用完全加载",
+      "params": {
+        "ms": 2000
+      }
+    },
+    {
+      "stepNumber": 3,
+      "action": "intelligent-assert",
+      "description": "验证推荐页面已加载",
+      "params": {
+        "assertion": "当前处于推荐页面或首页，能看到推荐内容列表或推荐相关的Tab"
+      }
+    },
+    {
+      "stepNumber": 4,
+      "action": "intelligent-action",
+      "description": "模拟网络超时环境下刷新推荐内容",
+      "params": {
+        "instruction": "在推荐页面下拉刷新以触发推荐接口请求"
+      }
+    },
+    {
+      "stepNumber": 5,
+      "action": "wait",
+      "description": "等待接口超时响应",
+      "params": {
+        "ms": 5000
+      }
+    },
+    {
+      "stepNumber": 6,
+      "action": "intelligent-assert",
+      "description": "验证超时情况下的错误提示",
+      "params": {
+        "assertion": "页面显示网络超时、加载失败、请求失败等相关提示，或显示重试按钮，或显示空状态页面"
+      }
+    },
+    {
+      "stepNumber": 7,
+      "action": "intelligent-tap",
+      "description": "点击重试按钮（如果存在）",
+      "params": {
+        "prompt": "点击页面上的重试按钮或刷新按钮"
+      }
+    },
+    {
+      "stepNumber": 8,
+      "action": "wait",
+      "description": "等待重试请求响应",
+      "params": {
+        "ms": 3000
+      }
+    },
+    {
+      "stepNumber": 9,
+      "action": "intelligent-assert",
+      "description": "验证重试功能正常工作",
+      "params": {
+        "assertion": "重试后页面有响应，显示加载中状态或显示内容或再次显示错误提示"
+      }
+    },
+    {
+      "stepNumber": 10,
+      "action": "swipe",
+      "description": "下拉刷新页面进行二次重试",
+      "params": {
+        "direction": "down"
+      }
+    },
+    {
+      "stepNumber": 11,
+      "action": "wait",
+      "description": "等待刷新响应",
+      "params": {
+        "ms": 3000
+      }
+    },
+    {
+      "stepNumber": 12,
+      "action": "intelligent-assert",
+      "description": "验证下拉刷新功能在超时场景下正常",
+      "params": {
+        "assertion": "下拉刷新后页面有响应，不会出现崩溃或卡死，显示加载状态或错误提示或内容"
+      }
+    },
+    {
+      "stepNumber": 13,
+      "action": "intelligent-action",
+      "description": "尝试切换到其他页面再返回",
+      "params": {
+        "instruction": "切换到其他Tab页面（如发现、消息或我的），然后再切换回推荐页面"
+      }
+    },
+    {
+      "stepNumber": 14,
+      "action": "wait",
+      "description": "等待页面切换完成",
+      "params": {
+        "ms": 2000
+      }
+    },
+    {
+      "stepNumber": 15,
+      "action": "intelligent-assert",
+      "description": "验证返回推荐页面后状态正常",
+      "params": {
+        "assertion": "返回推荐页面后，页面正常显示，不会因之前的超时而导致异常状态"
+      }
+    },
+    {
+      "stepNumber": 16,
+      "action": "intelligent-assert",
+      "description": "验证应用整体稳定性",
+      "params": {
+        "assertion": "应用运行正常，没有崩溃，底部导航栏可正常点击，页面可正常交互"
+      }
+    }
+  ],
+  "minAppVersion": null,
+  "recordedAppVersion": null,
+  "blueprintEnabled": false
+}

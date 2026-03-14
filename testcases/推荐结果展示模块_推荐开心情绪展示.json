@@ -1,0 +1,76 @@
+{
+  "name": "推荐结果展示模块：推荐开心情绪展示",
+  "description": "验证在发布器中点击标记情绪后，系统能够正确推荐并展示开心情绪选项",
+  "priority": "medium",
+  "tags": [
+    "推荐",
+    "情绪",
+    "发布器",
+    "UI展示"
+  ],
+  "applications": [
+    "网易小蜜蜂"
+  ],
+  "steps": [
+    {
+      "stepNumber": 1,
+      "action": "tap",
+      "description": "点击标记情绪入口",
+      "elementRef": {
+        "page": "发布器-默认",
+        "name": "标记情绪"
+      }
+    },
+    {
+      "stepNumber": 2,
+      "action": "wait",
+      "description": "等待情绪选择面板加载",
+      "params": {
+        "ms": 1000
+      }
+    },
+    {
+      "stepNumber": 3,
+      "action": "intelligent-assert",
+      "description": "验证情绪选择面板已展示",
+      "params": {
+        "assertion": "页面显示情绪选择面板或情绪标签列表"
+      }
+    },
+    {
+      "stepNumber": 4,
+      "action": "intelligent-assert",
+      "description": "验证推荐的开心情绪选项展示",
+      "params": {
+        "assertion": "情绪选择面板中展示开心相关的情绪选项，如开心、快乐、高兴、愉悦等"
+      }
+    },
+    {
+      "stepNumber": 5,
+      "action": "intelligent-tap",
+      "description": "点击开心情绪选项",
+      "params": {
+        "prompt": "点击开心或快乐情绪选项"
+      }
+    },
+    {
+      "stepNumber": 6,
+      "action": "wait",
+      "description": "等待情绪选择完成",
+      "params": {
+        "ms": 500
+      }
+    },
+    {
+      "stepNumber": 7,
+      "action": "intelligent-assert",
+      "description": "验证开心情绪已被选中并展示在发布器中",
+      "params": {
+        "assertion": "发布器页面显示已选择的开心情绪标签或情绪图标"
+      }
+    }
+  ],
+  "minAppVersion": null,
+  "recordedAppVersion": null,
+  "blueprintEnabled": false
+}

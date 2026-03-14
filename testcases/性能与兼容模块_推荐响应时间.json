@@ -1,0 +1,179 @@
+{
+  "name": "性能与兼容模块：推荐响应时间",
+  "description": "测试网易小蜜蜂应用推荐功能的响应时间，验证推荐内容加载速度是否在可接受范围内",
+  "priority": "high",
+  "tags": [
+    "性能测试",
+    "兼容性",
+    "推荐",
+    "响应时间"
+  ],
+  "applications": [
+    "com.netease.xiaomifeng"
+  ],
+  "steps": [
+    {
+      "stepNumber": 1,
+      "action": "intelligent-tap",
+      "description": "点击首页底部推荐/发现Tab进入推荐页面",
+      "params": {
+        "prompt": "点击底部导航栏的推荐或发现Tab"
+      }
+    },
+    {
+      "stepNumber": 2,
+      "action": "wait",
+      "description": "等待推荐页面开始加载",
+      "params": {
+        "ms": 500
+      }
+    },
+    {
+      "stepNumber": 3,
+      "action": "intelligent-assert",
+      "description": "验证推荐页面已进入并开始展示内容",
+      "params": {
+        "assertion": "页面已切换到推荐页面，底部推荐Tab处于选中状态"
+      }
+    },
+    {
+      "stepNumber": 4,
+      "action": "wait",
+      "description": "等待推荐内容完全加载",
+      "params": {
+        "ms": 3000
+      }
+    },
+    {
+      "stepNumber": 5,
+      "action": "intelligent-assert",
+      "description": "验证推荐内容已加载完成且响应及时",
+      "params": {
+        "assertion": "推荐页面已加载完成，显示推荐内容列表，包含图片、标题等信息，无加载中或空白状态"
+      }
+    },
+    {
+      "stepNumber": 6,
+      "action": "scroll",
+      "description": "向下滚动查看更多推荐内容，测试滚动加载响应",
+      "params": {
+        "direction": "down"
+      }
+    },
+    {
+      "stepNumber": 7,
+      "action": "wait",
+      "description": "等待滚动加载更多内容",
+      "params": {
+        "ms": 2000
+      }
+    },
+    {
+      "stepNumber": 8,
+      "action": "intelligent-assert",
+      "description": "验证滚动后新内容加载响应及时",
+      "params": {
+        "assertion": "滚动后页面已加载更多推荐内容，无卡顿或长时间loading状态"
+      }
+    },
+    {
+      "stepNumber": 9,
+      "action": "scroll",
+      "description": "继续向下滚动测试连续加载性能",
+      "params": {
+        "direction": "down"
+      }
+    },
+    {
+      "stepNumber": 10,
+      "action": "wait",
+      "description": "等待内容加载",
+      "params": {
+        "ms": 2000
+      }
+    },
+    {
+      "stepNumber": 11,
+      "action": "intelligent-assert",
+      "description": "验证连续滚动后内容加载正常",
+      "params": {
+        "assertion": "页面展示新的推荐内容，图片和文字均已正常渲染，无白屏或加载失败情况"
+      }
+    },
+    {
+      "stepNumber": 12,
+      "action": "intelligent-tap",
+      "description": "点击推荐列表中的第一条内容进入详情页",
+      "params": {
+        "prompt": "点击推荐列表中的第一条笔记或内容卡片"
+      }
+    },
+    {
+      "stepNumber": 13,
+      "action": "wait",
+      "description": "等待详情页加载",
+      "params": {
+        "ms": 3000
+      }
+    },
+    {
+      "stepNumber": 14,
+      "action": "intelligent-assert",
+      "description": "验证详情页加载响应时间正常",
+      "params": {
+        "assertion": "详情页已完全加载，显示笔记内容、图片、作者信息、评论区等，无长时间加载状态"
+      }
+    },
+    {
+      "stepNumber": 15,
+      "action": "intelligent-tap",
+      "description": "返回推荐列表页面",
+      "params": {
+        "prompt": "点击左上角返回按钮或使用返回手势返回上一页"
+      }
+    },
+    {
+      "stepNumber": 16,
+      "action": "wait",
+      "description": "等待返回动画完成",
+      "params": {
+        "ms": 1000
+      }
+    },
+    {
+      "stepNumber": 17,
+      "action": "intelligent-assert",
+      "description": "验证返回推荐页面响应正常",
+      "params": {
+        "assertion": "已返回推荐列表页面，之前浏览的位置已保留，内容显示正常"
+      }
+    },
+    {
+      "stepNumber": 18,
+      "action": "swipe",
+      "description": "下拉刷新推荐内容，测试刷新响应时间",
+      "params": {
+        "direction": "down"
+      }
+    },
+    {
+      "stepNumber": 19,
+      "action": "wait",
+      "description": "等待刷新完成",
+      "params": {
+        "ms": 3000
+      }
+    },
+    {
+      "stepNumber": 20,
+      "action": "intelligent-assert",
+      "description": "验证下拉刷新响应时间正常且内容已更新",
+      "params": {
+        "assertion": "下拉刷新已完成，推荐内容已刷新或更新，刷新动画已消失，无持续loading状态"
+      }
+    }
+  ],
+  "minAppVersion": null,
+  "recordedAppVersion": null,
+  "blueprintEnabled": false
+}

@@ -1,0 +1,59 @@
+{
+  "name": "推荐交互模块：点击标记按钮成功",
+  "description": "验证在发布器页面点击标记情绪按钮后，能够成功打开标记情绪的交互面板",
+  "priority": "medium",
+  "tags": [
+    "推荐交互",
+    "标记",
+    "发布器"
+  ],
+  "applications": [
+    "网易小蜜蜂"
+  ],
+  "steps": [
+    {
+      "stepNumber": 1,
+      "action": "wait",
+      "description": "等待发布器页面加载完成",
+      "params": {
+        "ms": 1500
+      }
+    },
+    {
+      "stepNumber": 2,
+      "action": "intelligent-assert",
+      "description": "验证当前处于发布器页面",
+      "params": {
+        "assertion": "页面显示发布器界面，包含添加标题、正文输入区域、发布笔记按钮等元素"
+      }
+    },
+    {
+      "stepNumber": 3,
+      "action": "tap",
+      "description": "点击标记情绪按钮",
+      "elementRef": {
+        "page": "发布器-默认",
+        "name": "标记情绪"
+      }
+    },
+    {
+      "stepNumber": 4,
+      "action": "wait",
+      "description": "等待标记情绪面板展开",
+      "params": {
+        "ms": 1000
+      }
+    },
+    {
+      "stepNumber": 5,
+      "action": "intelligent-assert",
+      "description": "验证标记情绪面板成功打开",
+      "params": {
+        "assertion": "页面显示标记情绪的选择面板或弹窗，包含各种情绪标签选项供用户选择"
+      }
+    }
+  ],
+  "minAppVersion": null,
+  "recordedAppVersion": null,
+  "blueprintEnabled": false
+}

@@ -1,0 +1,132 @@
+{
+  "name": "情绪推荐功能模块：进入发布器自动推荐情绪",
+  "description": "验证用户进入发布器后，系统能够自动推荐情绪标签功能是否正常工作",
+  "priority": "high",
+  "tags": [
+    "情绪推荐",
+    "发布器",
+    "自动推荐"
+  ],
+  "applications": [
+    "网易小蜜蜂"
+  ],
+  "steps": [
+    {
+      "stepNumber": 1,
+      "action": "intelligent-action",
+      "description": "从首页进入发布器",
+      "params": {
+        "instruction": "点击发布按钮或加号按钮进入发布器页面"
+      }
+    },
+    {
+      "stepNumber": 2,
+      "action": "wait",
+      "description": "等待发布器页面加载完成",
+      "params": {
+        "ms": 2000
+      }
+    },
+    {
+      "stepNumber": 3,
+      "action": "intelligent-assert",
+      "description": "验证已进入发布器页面",
+      "params": {
+        "assertion": "页面显示发布器界面，包含添加标题、正文输入、发布笔记等元素"
+      }
+    },
+    {
+      "stepNumber": 4,
+      "action": "intelligent-assert",
+      "description": "验证情绪推荐区域存在",
+      "params": {
+        "assertion": "页面显示标记情绪或情绪推荐相关入口"
+      }
+    },
+    {
+      "stepNumber": 5,
+      "action": "tap",
+      "description": "点击标记情绪入口",
+      "elementRef": {
+        "page": "发布器-默认",
+        "name": "标记情绪"
+      }
+    },
+    {
+      "stepNumber": 6,
+      "action": "wait",
+      "description": "等待情绪选择面板加载",
+      "params": {
+        "ms": 1500
+      }
+    },
+    {
+      "stepNumber": 7,
+      "action": "intelligent-assert",
+      "description": "验证情绪推荐列表显示",
+      "params": {
+        "assertion": "页面显示情绪选择面板或情绪推荐列表，包含多个可选的情绪标签"
+      }
+    },
+    {
+      "stepNumber": 8,
+      "action": "intelligent-assert",
+      "description": "验证有自动推荐的情绪标签",
+      "params": {
+        "assertion": "情绪面板中显示推荐的情绪标签，可能包含开心、难过、兴奋、平静等情绪选项"
+      }
+    },
+    {
+      "stepNumber": 9,
+      "action": "intelligent-tap",
+      "description": "选择一个推荐的情绪标签",
+      "params": {
+        "prompt": "点击情绪面板中的第一个情绪标签或推荐的情绪选项"
+      }
+    },
+    {
+      "stepNumber": 10,
+      "action": "wait",
+      "description": "等待情绪选择生效",
+      "params": {
+        "ms": 1000
+      }
+    },
+    {
+      "stepNumber": 11,
+      "action": "intelligent-assert",
+      "description": "验证情绪标签已被选中并显示在发布器中",
+      "params": {
+        "assertion": "发布器页面显示已选择的情绪标签，情绪入口处显示选中的情绪图标或文案"
+      }
+    },
+    {
+      "stepNumber": 12,
+      "action": "tap",
+      "description": "点击返回按钮退出发布器",
+      "elementRef": {
+        "page": "发布器-默认",
+        "name": "返回"
+      }
+    },
+    {
+      "stepNumber": 13,
+      "action": "wait",
+      "description": "等待页面响应",
+      "params": {
+        "ms": 1000
+      }
+    },
+    {
+      "stepNumber": 14,
+      "action": "intelligent-assert",
+      "description": "验证已退出发布器",
+      "params": {
+        "assertion": "已返回上一页面或显示退出确认弹窗"
+      }
+    }
+  ],
+  "minAppVersion": null,
+  "recordedAppVersion": null,
+  "blueprintEnabled": false
+}
