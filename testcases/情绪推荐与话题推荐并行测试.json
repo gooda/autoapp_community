@@ -1,0 +1,302 @@
+{
+  "name": "情绪推荐与话题推荐并行测试",
+  "description": "验证在发布器中，情绪推荐与话题推荐功能可以并行使用，两个功能互不影响且能正确显示推荐内容",
+  "priority": "high",
+  "tags": [
+    "发布器",
+    "情绪推荐",
+    "话题推荐",
+    "功能耦合",
+    "并行"
+  ],
+  "applications": [
+    "网易小蜜蜂"
+  ],
+  "steps": [
+    {
+      "stepNumber": 1,
+      "action": "intelligent-assert",
+      "description": "验证当前处于发布器默认页面",
+      "params": {
+        "assertion": "页面显示发布器界面，包含添加标题、正文输入区域、发布笔记按钮等元素"
+      }
+    },
+    {
+      "stepNumber": 2,
+      "action": "tap",
+      "description": "点击正文输入区域准备输入内容",
+      "elementRef": {
+        "page": "发布器-默认",
+        "name": "正文输入"
+      }
+    },
+    {
+      "stepNumber": 3,
+      "action": "wait",
+      "description": "等待输入框激活",
+      "params": {
+        "ms": 500
+      }
+    },
+    {
+      "stepNumber": 4,
+      "action": "input",
+      "description": "输入测试正文内容",
+      "elementRef": {
+        "page": "发布器-默认",
+        "name": "正文输入"
+      },
+      "params": {
+        "text": "今天心情很好，想分享一些美好的瞬间"
+      }
+    },
+    {
+      "stepNumber": 5,
+      "action": "wait",
+      "description": "等待内容输入完成",
+      "params": {
+        "ms": 1000
+      }
+    },
+    {
+      "stepNumber": 6,
+      "action": "tap",
+      "description": "点击标记情绪按钮打开情绪推荐面板",
+      "elementRef": {
+        "page": "发布器-默认",
+        "name": "标记情绪"
+      }
+    },
+    {
+      "stepNumber": 7,
+      "action": "wait",
+      "description": "等待情绪推荐面板加载",
+      "params": {
+        "ms": 1500
+      }
+    },
+    {
+      "stepNumber": 8,
+      "action": "intelligent-assert",
+      "description": "验证情绪推荐面板已显示",
+      "params": {
+        "assertion": "页面显示情绪推荐面板或情绪选择列表，包含多个情绪选项如开心、难过、兴奋等"
+      }
+    },
+    {
+      "stepNumber": 9,
+      "action": "intelligent-tap",
+      "description": "选择一个推荐的情绪标签",
+      "params": {
+        "prompt": "点击情绪推荐列表中的第一个情绪选项或开心/高兴相关的情绪标签"
+      }
+    },
+    {
+      "stepNumber": 10,
+      "action": "wait",
+      "description": "等待情绪选择完成",
+      "params": {
+        "ms": 1000
+      }
+    },
+    {
+      "stepNumber": 11,
+      "action": "intelligent-assert",
+      "description": "验证情绪标签已成功添加",
+      "params": {
+        "assertion": "发布器页面显示已选择的情绪标签或情绪图标，情绪已被标记"
+      }
+    },
+    {
+      "stepNumber": 12,
+      "action": "tap",
+      "description": "点击话题按钮打开话题推荐面板",
+      "elementRef": {
+        "page": "发布器-默认",
+        "name": "话题"
+      }
+    },
+    {
+      "stepNumber": 13,
+      "action": "wait",
+      "description": "等待话题推荐面板加载",
+      "params": {
+        "ms": 1500
+      }
+    },
+    {
+      "stepNumber": 14,
+      "action": "intelligent-assert",
+      "description": "验证话题推荐面板已显示",
+      "params": {
+        "assertion": "页面显示话题推荐面板或话题列表，包含多个话题选项，可能有热门话题、推荐话题等分类"
+      }
+    },
+    {
+      "stepNumber": 15,
+      "action": "intelligent-tap",
+      "description": "选择一个推荐的话题",
+      "params": {
+        "prompt": "点击话题推荐列表中的第一个话题选项或任意一个热门话题"
+      }
+    },
+    {
+      "stepNumber": 16,
+      "action": "wait",
+      "description": "等待话题选择完成",
+      "params": {
+        "ms": 1000
+      }
+    },
+    {
+      "stepNumber": 17,
+      "action": "intelligent-assert",
+      "description": "验证话题已成功添加到正文中",
+      "params": {
+        "assertion": "正文输入区域显示已添加的话题标签，格式类似#话题名#或带有话题标识"
+      }
+    },
+    {
+      "stepNumber": 18,
+      "action": "intelligent-assert",
+      "description": "验证情绪标签和话题同时存在",
+      "params": {
+        "assertion": "发布器页面同时显示已选择的情绪标签和已添加的话题，两者均正常显示不冲突"
+      }
+    },
+    {
+      "stepNumber": 19,
+      "action": "tap",
+      "description": "再次点击标记情绪按钮验证可以修改情绪",
+      "elementRef": {
+        "page": "发布器-默认",
+        "name": "标记情绪"
+      }
+    },
+    {
+      "stepNumber": 20,
+      "action": "wait",
+      "description": "等待情绪面板打开",
+      "params": {
+        "ms": 1000
+      }
+    },
+    {
+      "stepNumber": 21,
+      "action": "intelligent-tap",
+      "description": "选择另一个不同的情绪标签",
+      "params": {
+        "prompt": "点击情绪列表中的另一个情绪选项，选择与之前不同的情绪如平静、期待等"
+      }
+    },
+    {
+      "stepNumber": 22,
+      "action": "wait",
+      "description": "等待情绪更新",
+      "params": {
+        "ms": 1000
+      }
+    },
+    {
+      "stepNumber": 23,
+      "action": "intelligent-assert",
+      "description": "验证情绪更新后话题仍然保留",
+      "params": {
+        "assertion": "发布器页面显示新选择的情绪标签，同时之前添加的话题标签仍然存在于正文中"
+      }
+    },
+    {
+      "stepNumber": 24,
+      "action": "tap",
+      "description": "再次点击话题按钮添加第二个话题",
+      "elementRef": {
+        "page": "发布器-默认",
+        "name": "话题"
+      }
+    },
+    {
+      "stepNumber": 25,
+      "action": "wait",
+      "description": "等待话题面板加载",
+      "params": {
+        "ms": 1500
+      }
+    },
+    {
+      "stepNumber": 26,
+      "action": "intelligent-tap",
+      "description": "选择第二个话题",
+      "params": {
+        "prompt": "点击话题列表中的另一个话题选项，选择与之前不同的话题"
+      }
+    },
+    {
+      "stepNumber": 27,
+      "action": "wait",
+      "description": "等待话题添加完成",
+      "params": {
+        "ms": 1000
+      }
+    },
+    {
+      "stepNumber": 28,
+      "action": "intelligent-assert",
+      "description": "验证多个话题和情绪可以同时存在",
+      "params": {
+        "assertion": "发布器页面显示情绪标签，正文中显示两个话题标签，三者同时存在且显示正常"
+      }
+    },
+    {
+      "stepNumber": 29,
+      "action": "tap",
+      "description": "点击预览按钮查看最终效果",
+      "elementRef": {
+        "page": "发布器-默认",
+        "name": "预览"
+      }
+    },
+    {
+      "stepNumber": 30,
+      "action": "wait",
+      "description": "等待预览页面加载",
+      "params": {
+        "ms": 2000
+      }
+    },
+    {
+      "stepNumber": 31,
+      "action": "intelligent-assert",
+      "description": "验证预览页面正确显示情绪和话题",
+      "params": {
+        "assertion": "预览页面同时显示选择的情绪标签和添加的话题标签，内容完整正确"
+      }
+    },
+    {
+      "stepNumber": 32,
+      "action": "intelligent-tap",
+      "description": "关闭预览返回编辑页面",
+      "params": {
+        "prompt": "点击预览页面的返回按钮或关闭按钮返回发布器编辑页面"
+      }
+    },
+    {
+      "stepNumber": 33,
+      "action": "wait",
+      "description": "等待返回编辑页面",
+      "params": {
+        "ms": 1000
+      }
+    },
+    {
+      "stepNumber": 34,
+      "action": "intelligent-assert",
+      "description": "最终验证情绪和话题推荐功能并行正常",
+      "params": {
+        "assertion": "返回发布器编辑页面后，情绪标签和话题标签均保留，功能正常无冲突"
+      }
+    }
+  ],
+  "minAppVersion": null,
+  "recordedAppVersion": null,
+  "blueprintEnabled": false
+}

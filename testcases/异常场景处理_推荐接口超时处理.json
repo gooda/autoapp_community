@@ -1,0 +1,187 @@
+{
+  "name": "异常场景处理：推荐接口超时处理",
+  "description": "测试推荐接口超时时的异常处理机制，验证应用在网络异常情况下的稳定性和用户体验",
+  "priority": "high",
+  "tags": [
+    "异常场景",
+    "网络超时",
+    "推荐接口",
+    "稳定性测试"
+  ],
+  "applications": [
+    "网易小蜜蜂"
+  ],
+  "steps": [
+    {
+      "stepNumber": 1,
+      "action": "intelligent-tap",
+      "description": "进入应用首页推荐Tab",
+      "params": {
+        "prompt": "点击底部导航栏的首页或推荐Tab"
+      }
+    },
+    {
+      "stepNumber": 2,
+      "action": "wait",
+      "description": "等待首页加载完成",
+      "params": {
+        "ms": 2000
+      }
+    },
+    {
+      "stepNumber": 3,
+      "action": "intelligent-assert",
+      "description": "验证首页推荐列表正常显示",
+      "params": {
+        "assertion": "页面显示推荐内容列表或推荐卡片"
+      }
+    },
+    {
+      "stepNumber": 4,
+      "action": "intelligent-action",
+      "description": "模拟网络超时场景-开启飞行模式或断开网络",
+      "params": {
+        "instruction": "进入系统设置开启飞行模式或关闭网络连接以模拟网络超时"
+      }
+    },
+    {
+      "stepNumber": 5,
+      "action": "wait",
+      "description": "等待网络状态切换生效",
+      "params": {
+        "ms": 2000
+      }
+    },
+    {
+      "stepNumber": 6,
+      "action": "intelligent-tap",
+      "description": "返回网易小蜜蜂应用",
+      "params": {
+        "prompt": "点击网易小蜜蜂应用图标或从后台切换回应用"
+      }
+    },
+    {
+      "stepNumber": 7,
+      "action": "wait",
+      "description": "等待应用恢复前台",
+      "params": {
+        "ms": 1000
+      }
+    },
+    {
+      "stepNumber": 8,
+      "action": "swipe",
+      "description": "下拉刷新推荐列表触发网络请求",
+      "params": {
+        "direction": "down"
+      }
+    },
+    {
+      "stepNumber": 9,
+      "action": "wait",
+      "description": "等待网络请求超时",
+      "params": {
+        "ms": 10000
+      }
+    },
+    {
+      "stepNumber": 10,
+      "action": "intelligent-assert",
+      "description": "验证超时错误提示显示",
+      "params": {
+        "assertion": "页面显示网络超时、网络异常、加载失败、请检查网络等错误提示信息"
+      }
+    },
+    {
+      "stepNumber": 11,
+      "action": "intelligent-assert",
+      "description": "验证应用未崩溃且界面可交互",
+      "params": {
+        "assertion": "应用界面正常显示，未出现崩溃、白屏或卡死现象，页面元素可见可操作"
+      }
+    },
+    {
+      "stepNumber": 12,
+      "action": "intelligent-assert",
+      "description": "验证重试按钮或刷新提示显示",
+      "params": {
+        "assertion": "页面显示重试按钮、点击重试、重新加载或下拉刷新等操作提示"
+      }
+    },
+    {
+      "stepNumber": 13,
+      "action": "intelligent-action",
+      "description": "恢复网络连接-关闭飞行模式",
+      "params": {
+        "instruction": "进入系统设置关闭飞行模式或重新开启网络连接"
+      }
+    },
+    {
+      "stepNumber": 14,
+      "action": "wait",
+      "description": "等待网络恢复",
+      "params": {
+        "ms": 3000
+      }
+    },
+    {
+      "stepNumber": 15,
+      "action": "intelligent-tap",
+      "description": "返回网易小蜜蜂应用",
+      "params": {
+        "prompt": "点击网易小蜜蜂应用图标或从后台切换回应用"
+      }
+    },
+    {
+      "stepNumber": 16,
+      "action": "wait",
+      "description": "等待应用恢复前台",
+      "params": {
+        "ms": 1000
+      }
+    },
+    {
+      "stepNumber": 17,
+      "action": "intelligent-tap",
+      "description": "点击重试按钮或下拉刷新重新加载",
+      "params": {
+        "prompt": "点击重试按钮或重新加载按钮，若无则下拉刷新页面"
+      }
+    },
+    {
+      "stepNumber": 18,
+      "action": "wait",
+      "description": "等待推荐数据加载",
+      "params": {
+        "ms": 5000
+      }
+    },
+    {
+      "stepNumber": 19,
+      "action": "intelligent-assert",
+      "description": "验证推荐列表恢复正常显示",
+      "params": {
+        "assertion": "页面显示推荐内容列表，错误提示消失，数据正常加载"
+      }
+    },
+    {
+      "stepNumber": 20,
+      "action": "scroll",
+      "description": "滚动浏览推荐列表验证功能正常",
+      "params": {
+        "direction": "up"
+      }
+    },
+    {
+      "stepNumber": 21,
+      "action": "intelligent-assert",
+      "description": "验证推荐列表可正常滚动和交互",
+      "params": {
+        "assertion": "推荐列表可正常滚动，内容加载正常，无卡顿或异常"
+      }
+    }
+  ],
+  "minAppVersion": null,
+  "recordedAppVersion": null,
+  "blueprintEnabled": false
+}

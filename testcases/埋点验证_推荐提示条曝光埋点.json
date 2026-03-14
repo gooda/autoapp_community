@@ -1,0 +1,223 @@
+{
+  "name": "埋点验证：推荐提示条曝光埋点",
+  "description": "验证发布器页面中推荐提示条的曝光埋点是否正确触发，检查提示条展示时埋点数据的准确性",
+  "priority": "high",
+  "tags": [
+    "埋点验证",
+    "曝光埋点",
+    "推荐提示条",
+    "发布器"
+  ],
+  "applications": [
+    "com.netease.xiaomifeng"
+  ],
+  "steps": [
+    {
+      "stepNumber": 1,
+      "action": "intelligent-action",
+      "description": "进入发布器页面",
+      "params": {
+        "instruction": "从首页进入发布器页面，点击底部导航栏的发布按钮或加号按钮进入发布器"
+      }
+    },
+    {
+      "stepNumber": 2,
+      "action": "wait",
+      "description": "等待发布器页面加载完成",
+      "params": {
+        "ms": 2000
+      }
+    },
+    {
+      "stepNumber": 3,
+      "action": "intelligent-assert",
+      "description": "验证已进入发布器页面",
+      "params": {
+        "assertion": "页面显示发布器界面，包含添加标题、正文输入区域、发布按钮等元素"
+      }
+    },
+    {
+      "stepNumber": 4,
+      "action": "intelligent-assert",
+      "description": "验证推荐提示条是否展示",
+      "params": {
+        "assertion": "页面中存在推荐提示条或推荐标签提示，可能显示在标题区域上方或正文区域附近"
+      }
+    },
+    {
+      "stepNumber": 5,
+      "action": "wait",
+      "description": "等待推荐提示条曝光埋点触发",
+      "params": {
+        "ms": 1500
+      }
+    },
+    {
+      "stepNumber": 6,
+      "action": "tap",
+      "description": "点击添加标题输入框",
+      "elementRef": {
+        "page": "发布器-默认",
+        "name": "添加标题"
+      }
+    },
+    {
+      "stepNumber": 7,
+      "action": "wait",
+      "description": "等待输入框获取焦点",
+      "params": {
+        "ms": 500
+      }
+    },
+    {
+      "stepNumber": 8,
+      "action": "input",
+      "description": "输入测试标题触发推荐提示",
+      "elementRef": {
+        "page": "发布器-默认",
+        "name": "添加标题"
+      },
+      "params": {
+        "text": "今日美食分享"
+      }
+    },
+    {
+      "stepNumber": 9,
+      "action": "wait",
+      "description": "等待推荐提示条响应",
+      "params": {
+        "ms": 2000
+      }
+    },
+    {
+      "stepNumber": 10,
+      "action": "intelligent-assert",
+      "description": "验证输入标题后推荐提示条是否更新展示",
+      "params": {
+        "assertion": "推荐提示条展示与输入内容相关的推荐标签或话题建议"
+      }
+    },
+    {
+      "stepNumber": 11,
+      "action": "tap",
+      "description": "点击正文输入区域",
+      "elementRef": {
+        "page": "发布器-默认",
+        "name": "正文输入"
+      }
+    },
+    {
+      "stepNumber": 12,
+      "action": "wait",
+      "description": "等待正文输入框获取焦点",
+      "params": {
+        "ms": 500
+      }
+    },
+    {
+      "stepNumber": 13,
+      "action": "input",
+      "description": "输入正文内容触发推荐",
+      "elementRef": {
+        "page": "发布器-默认",
+        "name": "正文输入"
+      },
+      "params": {
+        "text": "今天做了一道非常美味的红烧肉，分享给大家"
+      }
+    },
+    {
+      "stepNumber": 14,
+      "action": "wait",
+      "description": "等待推荐提示条响应内容变化",
+      "params": {
+        "ms": 2000
+      }
+    },
+    {
+      "stepNumber": 15,
+      "action": "intelligent-assert",
+      "description": "验证正文输入后推荐提示条曝光状态",
+      "params": {
+        "assertion": "推荐提示条正常展示，显示与美食、红烧肉等相关的推荐话题或标签"
+      }
+    },
+    {
+      "stepNumber": 16,
+      "action": "tap",
+      "description": "点击话题按钮查看推荐",
+      "elementRef": {
+        "page": "发布器-默认",
+        "name": "话题"
+      }
+    },
+    {
+      "stepNumber": 17,
+      "action": "wait",
+      "description": "等待话题选择面板展示",
+      "params": {
+        "ms": 1500
+      }
+    },
+    {
+      "stepNumber": 18,
+      "action": "intelligent-assert",
+      "description": "验证话题推荐面板展示",
+      "params": {
+        "assertion": "话题选择面板已展示，显示推荐话题列表或热门话题"
+      }
+    },
+    {
+      "stepNumber": 19,
+      "action": "intelligent-tap",
+      "description": "关闭话题面板返回发布器",
+      "params": {
+        "prompt": "点击话题面板外部区域或关闭按钮关闭话题选择面板"
+      }
+    },
+    {
+      "stepNumber": 20,
+      "action": "wait",
+      "description": "等待返回发布器主界面",
+      "params": {
+        "ms": 1000
+      }
+    },
+    {
+      "stepNumber": 21,
+      "action": "intelligent-assert",
+      "description": "最终验证推荐提示条曝光状态正常",
+      "params": {
+        "assertion": "发布器页面推荐提示条正常展示，埋点验证场景完成，页面显示正常无异常"
+      }
+    },
+    {
+      "stepNumber": 22,
+      "action": "tap",
+      "description": "点击返回按钮退出发布器",
+      "elementRef": {
+        "page": "发布器-默认",
+        "name": "返回"
+      }
+    },
+    {
+      "stepNumber": 23,
+      "action": "wait",
+      "description": "等待退出确认弹窗或页面跳转",
+      "params": {
+        "ms": 1000
+      }
+    },
+    {
+      "stepNumber": 24,
+      "action": "intelligent-tap",
+      "description": "确认退出发布器",
+      "params": {
+        "prompt": "如果弹出保存草稿确认弹窗，点击不保存或直接退出按钮"
+      }
+    }
+  ],
+  "minAppVersion": null,
+  "recordedAppVersion": null,
+  "blueprintEnabled": false
+}

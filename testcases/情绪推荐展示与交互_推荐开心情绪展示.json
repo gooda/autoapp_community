@@ -1,0 +1,84 @@
+{
+  "name": "情绪推荐展示与交互：推荐开心情绪展示",
+  "description": "验证发布器中情绪推荐功能是否正常展示开心情绪，测试用户点击标记情绪后系统推荐开心情绪的展示效果",
+  "priority": "medium",
+  "tags": [
+    "情绪推荐",
+    "发布器",
+    "开心情绪",
+    "UI展示"
+  ],
+  "applications": [
+    "com.netease.xiaoMiFeng"
+  ],
+  "steps": [
+    {
+      "stepNumber": 1,
+      "action": "intelligent-assert",
+      "description": "验证当前处于发布器默认页面",
+      "params": {
+        "assertion": "当前页面为发布器页面，显示有添加标题、正文输入区域、发布笔记按钮等元素"
+      }
+    },
+    {
+      "stepNumber": 2,
+      "action": "tap",
+      "description": "点击标记情绪入口",
+      "elementRef": {
+        "page": "发布器-默认",
+        "name": "标记情绪"
+      }
+    },
+    {
+      "stepNumber": 3,
+      "action": "wait",
+      "description": "等待情绪选择面板加载",
+      "params": {
+        "ms": 1000
+      }
+    },
+    {
+      "stepNumber": 4,
+      "action": "intelligent-assert",
+      "description": "验证情绪选择面板已展开，显示情绪推荐列表",
+      "params": {
+        "assertion": "页面显示情绪选择面板，包含多种情绪选项如开心、难过、愤怒等情绪标签"
+      }
+    },
+    {
+      "stepNumber": 5,
+      "action": "intelligent-assert",
+      "description": "验证开心情绪在推荐列表中展示",
+      "params": {
+        "assertion": "情绪推荐列表中显示有开心情绪选项，包含开心相关的图标或文字"
+      }
+    },
+    {
+      "stepNumber": 6,
+      "action": "intelligent-tap",
+      "description": "点击选择开心情绪",
+      "params": {
+        "prompt": "点击开心情绪选项或开心相关的情绪标签"
+      }
+    },
+    {
+      "stepNumber": 7,
+      "action": "wait",
+      "description": "等待情绪选择生效",
+      "params": {
+        "ms": 500
+      }
+    },
+    {
+      "stepNumber": 8,
+      "action": "intelligent-assert",
+      "description": "验证开心情绪已被选中并展示在发布器中",
+      "params": {
+        "assertion": "发布器页面显示已选择的开心情绪标签，情绪标记区域显示开心相关的图标或文字"
+      }
+    }
+  ],
+  "minAppVersion": null,
+  "recordedAppVersion": null,
+  "blueprintEnabled": false
+}

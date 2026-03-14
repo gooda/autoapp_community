@@ -1,0 +1,153 @@
+{
+  "name": "情绪推荐功能：进入发布器触发情绪推荐",
+  "description": "验证用户进入发布器后，能够正确触发和使用情绪推荐功能",
+  "priority": "high",
+  "tags": [
+    "情绪推荐",
+    "发布器",
+    "核心功能"
+  ],
+  "applications": [
+    "网易小蜜蜂"
+  ],
+  "steps": [
+    {
+      "stepNumber": 1,
+      "action": "intelligent-tap",
+      "description": "点击底部发布入口进入发布器",
+      "params": {
+        "prompt": "点击底部中央的发布按钮或加号按钮进入发布器"
+      }
+    },
+    {
+      "stepNumber": 2,
+      "action": "wait",
+      "description": "等待发布器页面加载完成",
+      "params": {
+        "ms": 2000
+      }
+    },
+    {
+      "stepNumber": 3,
+      "action": "intelligent-assert",
+      "description": "验证发布器页面已正确加载",
+      "params": {
+        "assertion": "页面显示发布器界面，包含添加图片、添加标题、正文输入等元素"
+      }
+    },
+    {
+      "stepNumber": 4,
+      "action": "tap",
+      "description": "点击正文输入区域准备输入内容",
+      "elementRef": {
+        "page": "发布器-默认",
+        "name": "正文输入"
+      }
+    },
+    {
+      "stepNumber": 5,
+      "action": "input",
+      "description": "输入包含情绪关键词的内容触发情绪推荐",
+      "elementRef": {
+        "page": "发布器-默认",
+        "name": "正文输入"
+      },
+      "params": {
+        "text": "今天心情很好，阳光明媚"
+      }
+    },
+    {
+      "stepNumber": 6,
+      "action": "wait",
+      "description": "等待情绪推荐功能响应",
+      "params": {
+        "ms": 1500
+      }
+    },
+    {
+      "stepNumber": 7,
+      "action": "intelligent-assert",
+      "description": "验证情绪推荐功能被触发",
+      "params": {
+        "assertion": "页面显示情绪推荐相关内容，如情绪标签、情绪选项、情绪气泡或情绪推荐面板"
+      }
+    },
+    {
+      "stepNumber": 8,
+      "action": "tap",
+      "description": "点击标记情绪入口",
+      "elementRef": {
+        "page": "发布器-默认",
+        "name": "标记情绪"
+      }
+    },
+    {
+      "stepNumber": 9,
+      "action": "wait",
+      "description": "等待情绪选择面板加载",
+      "params": {
+        "ms": 1000
+      }
+    },
+    {
+      "stepNumber": 10,
+      "action": "intelligent-assert",
+      "description": "验证情绪选择面板显示",
+      "params": {
+        "assertion": "页面显示情绪选择面板或情绪标签列表，包含多种情绪选项如开心、难过、兴奋等"
+      }
+    },
+    {
+      "stepNumber": 11,
+      "action": "intelligent-tap",
+      "description": "选择一个情绪标签",
+      "params": {
+        "prompt": "点击选择开心或心情好相关的情绪标签"
+      }
+    },
+    {
+      "stepNumber": 12,
+      "action": "wait",
+      "description": "等待情绪标签选择完成",
+      "params": {
+        "ms": 500
+      }
+    },
+    {
+      "stepNumber": 13,
+      "action": "intelligent-assert",
+      "description": "验证情绪标签已成功选中",
+      "params": {
+        "assertion": "情绪标签已被选中，显示已选择的情绪状态或情绪标签显示在发布内容中"
+      }
+    },
+    {
+      "stepNumber": 14,
+      "action": "tap",
+      "description": "点击返回按钮退出发布器",
+      "elementRef": {
+        "page": "发布器-默认",
+        "name": "返回"
+      }
+    },
+    {
+      "stepNumber": 15,
+      "action": "wait",
+      "description": "等待返回确认弹窗出现",
+      "params": {
+        "ms": 500
+      }
+    },
+    {
+      "stepNumber": 16,
+      "action": "intelligent-tap",
+      "description": "确认退出发布器",
+      "params": {
+        "prompt": "点击确认退出或放弃编辑按钮"
+      }
+    }
+  ],
+  "minAppVersion": null,
+  "recordedAppVersion": null,
+  "blueprintEnabled": false
+}
