@@ -1,0 +1,595 @@
+{
+  "_meta": {
+    "pageName": "首页-发现",
+    "pageSignature": null,
+    "description": "顶部为关注、发现、蜂巢分类切换和搜索入口，中央为双列信息流内容，底部为Tab导航栏 · pageType:feed",
+    "elementCount": 10,
+    "updatedAt": "2026-03-27T12:57:05.629Z",
+    "imageSize": {
+      "width": 473,
+      "height": 1024
+    }
+  },
+  "elements": [
+    {
+      "elementId": "首页.头像入口",
+      "name": "头像入口",
+      "locators": {
+        "ios": {
+          "bounds": [
+            17,
+            64,
+            40,
+            40
+          ],
+          "centerNormalized": [
+            0.078,
+            0.082
+          ],
+          "coordinates": {
+            "x": 0.078,
+            "y": 0.082
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            17,
+            64,
+            40,
+            40
+          ],
+          "centerNormalized": [
+            0.078,
+            0.082
+          ],
+          "coordinates": {
+            "x": 0.078,
+            "y": 0.082
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "头像入口",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "icon_button",
+        "role": "navigation"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "首页.关注",
+      "name": "关注",
+      "locators": {
+        "ios": {
+          "bounds": [
+            119,
+            66,
+            50,
+            35
+          ],
+          "centerNormalized": [
+            0.305,
+            0.082
+          ],
+          "coordinates": {
+            "x": 0.305,
+            "y": 0.082
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            119,
+            66,
+            50,
+            35
+          ],
+          "centerNormalized": [
+            0.305,
+            0.082
+          ],
+          "coordinates": {
+            "x": 0.305,
+            "y": 0.082
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "关注",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "category_button",
+        "role": "navigation"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "首页.发现",
+      "name": "发现",
+      "locators": {
+        "ios": {
+          "bounds": [
+            211,
+            66,
+            50,
+            35
+          ],
+          "centerNormalized": [
+            0.5,
+            0.082
+          ],
+          "coordinates": {
+            "x": 0.5,
+            "y": 0.082
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            211,
+            66,
+            50,
+            35
+          ],
+          "centerNormalized": [
+            0.5,
+            0.082
+          ],
+          "coordinates": {
+            "x": 0.5,
+            "y": 0.082
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "发现",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "category_button",
+        "role": "navigation"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "首页.蜂巢",
+      "name": "蜂巢",
+      "locators": {
+        "ios": {
+          "bounds": [
+            304,
+            66,
+            50,
+            35
+          ],
+          "centerNormalized": [
+            0.695,
+            0.082
+          ],
+          "coordinates": {
+            "x": 0.695,
+            "y": 0.082
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            304,
+            66,
+            50,
+            35
+          ],
+          "centerNormalized": [
+            0.695,
+            0.082
+          ],
+          "coordinates": {
+            "x": 0.695,
+            "y": 0.082
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "蜂巢",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "category_button",
+        "role": "navigation"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "首页.搜索",
+      "name": "搜索",
+      "locators": {
+        "ios": {
+          "bounds": [
+            421,
+            66,
+            40,
+            35
+          ],
+          "centerNormalized": [
+            0.932,
+            0.082
+          ],
+          "coordinates": {
+            "x": 0.932,
+            "y": 0.082
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            421,
+            66,
+            40,
+            35
+          ],
+          "centerNormalized": [
+            0.932,
+            0.082
+          ],
+          "coordinates": {
+            "x": 0.932,
+            "y": 0.082
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "搜索",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "icon_button",
+        "role": "search"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "首页.首页",
+      "name": "首页",
+      "locators": {
+        "ios": {
+          "bounds": [
+            10,
+            943,
+            70,
+            45
+          ],
+          "centerNormalized": [
+            0.095,
+            0.942
+          ],
+          "coordinates": {
+            "x": 0.095,
+            "y": 0.942
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            10,
+            943,
+            70,
+            45
+          ],
+          "centerNormalized": [
+            0.095,
+            0.942
+          ],
+          "coordinates": {
+            "x": 0.095,
+            "y": 0.942
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "首页",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "tab_button",
+        "role": "navigation"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "首页.广场",
+      "name": "广场",
+      "locators": {
+        "ios": {
+          "bounds": [
+            107,
+            943,
+            70,
+            45
+          ],
+          "centerNormalized": [
+            0.3,
+            0.942
+          ],
+          "coordinates": {
+            "x": 0.3,
+            "y": 0.942
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            107,
+            943,
+            70,
+            45
+          ],
+          "centerNormalized": [
+            0.3,
+            0.942
+          ],
+          "coordinates": {
+            "x": 0.3,
+            "y": 0.942
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "广场",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "tab_button",
+        "role": "navigation"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "首页.发布",
+      "name": "发布",
+      "locators": {
+        "ios": {
+          "bounds": [
+            209,
+            938,
+            55,
+            55
+          ],
+          "centerNormalized": [
+            0.5,
+            0.942
+          ],
+          "coordinates": {
+            "x": 0.5,
+            "y": 0.942
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            209,
+            938,
+            55,
+            55
+          ],
+          "centerNormalized": [
+            0.5,
+            0.942
+          ],
+          "coordinates": {
+            "x": 0.5,
+            "y": 0.942
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "发布",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "floating_button",
+        "role": "publish"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "首页.消息",
+      "name": "消息",
+      "locators": {
+        "ios": {
+          "bounds": [
+            296,
+            943,
+            70,
+            45
+          ],
+          "centerNormalized": [
+            0.7,
+            0.942
+          ],
+          "coordinates": {
+            "x": 0.7,
+            "y": 0.942
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            296,
+            943,
+            70,
+            45
+          ],
+          "centerNormalized": [
+            0.7,
+            0.942
+          ],
+          "coordinates": {
+            "x": 0.7,
+            "y": 0.942
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "消息",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "tab_button",
+        "role": "navigation"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "首页.我的",
+      "name": "我的",
+      "locators": {
+        "ios": {
+          "bounds": [
+            393,
+            943,
+            70,
+            45
+          ],
+          "centerNormalized": [
+            0.905,
+            0.942
+          ],
+          "coordinates": {
+            "x": 0.905,
+            "y": 0.942
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            393,
+            943,
+            70,
+            45
+          ],
+          "centerNormalized": [
+            0.905,
+            0.942
+          ],
+          "coordinates": {
+            "x": 0.905,
+            "y": 0.942
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "我的",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "tab_button",
+        "role": "navigation"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    }
+  ]
+}

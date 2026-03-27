@@ -1,0 +1,229 @@
+{
+  "name": "笔记发布器功能：发布器页面初始化",
+  "description": "验证从首页进入笔记发布器后，页面各元素正确初始化显示",
+  "priority": "high",
+  "tags": [
+    "笔记发布器",
+    "页面初始化",
+    "功能测试"
+  ],
+  "applications": [
+    "网易小蜜蜂"
+  ],
+  "steps": [
+    {
+      "stepNumber": 1,
+      "action": "tap",
+      "description": "点击首页底部发布按钮",
+      "elementRef": {
+        "page": "首页-发现",
+        "name": "发布"
+      }
+    },
+    {
+      "stepNumber": 2,
+      "action": "wait",
+      "description": "等待发布类型选择弹窗出现",
+      "params": {
+        "ms": 1000
+      }
+    },
+    {
+      "stepNumber": 3,
+      "action": "intelligent-assert",
+      "description": "验证发布类型选择弹窗显示",
+      "params": {
+        "assertion": "页面显示发布类型选择弹窗，包含从相册选择、相机、写文字等选项"
+      }
+    },
+    {
+      "stepNumber": 4,
+      "action": "tap",
+      "description": "点击从相册选择进入笔记发布器",
+      "elementRef": {
+        "page": "发布类型选择",
+        "name": "从相册选择"
+      }
+    },
+    {
+      "stepNumber": 5,
+      "action": "wait",
+      "description": "等待相册页面加载",
+      "params": {
+        "ms": 2000
+      }
+    },
+    {
+      "stepNumber": 6,
+      "action": "intelligent-action",
+      "description": "选择一张图片并确认进入发布器",
+      "params": {
+        "instruction": "从相册中选择一张图片，然后点击确认或下一步按钮进入笔记发布器"
+      }
+    },
+    {
+      "stepNumber": 7,
+      "action": "wait",
+      "description": "等待笔记发布器页面加载完成",
+      "params": {
+        "ms": 2000
+      }
+    },
+    {
+      "stepNumber": 8,
+      "action": "intelligent-assert",
+      "description": "验证笔记发布器页面已打开",
+      "params": {
+        "assertion": "页面显示笔记发布器，顶部有返回按钮和存草稿按钮"
+      }
+    },
+    {
+      "stepNumber": 9,
+      "action": "intelligent-assert",
+      "description": "验证选择蜂巢入口存在",
+      "params": {
+        "assertion": "页面显示选择蜂巢入口"
+      }
+    },
+    {
+      "stepNumber": 10,
+      "action": "intelligent-assert",
+      "description": "验证已选图片显示正确",
+      "params": {
+        "assertion": "页面显示已选择的图片缩略图"
+      }
+    },
+    {
+      "stepNumber": 11,
+      "action": "intelligent-assert",
+      "description": "验证添加图片按钮存在",
+      "params": {
+        "assertion": "页面显示添加图片按钮，可以继续添加更多图片"
+      }
+    },
+    {
+      "stepNumber": 12,
+      "action": "intelligent-assert",
+      "description": "验证标题输入框存在且为空",
+      "params": {
+        "assertion": "页面显示标题输入框，提示文案为添加标题或填写标题相关内容，输入框为空"
+      }
+    },
+    {
+      "stepNumber": 13,
+      "action": "intelligent-assert",
+      "description": "验证内容输入框存在且为空",
+      "params": {
+        "assertion": "页面显示内容输入框，提示文案为添加正文或分享内容相关，输入框为空"
+      }
+    },
+    {
+      "stepNumber": 14,
+      "action": "intelligent-assert",
+      "description": "验证编辑工具栏存在",
+      "params": {
+        "assertion": "页面显示编辑工具栏，包含表情、话题、用户、语音、格式等功能入口"
+      }
+    },
+    {
+      "stepNumber": 15,
+      "action": "intelligent-assert",
+      "description": "验证标记情绪功能入口存在",
+      "params": {
+        "assertion": "页面显示标记情绪功能入口"
+      }
+    },
+    {
+      "stepNumber": 16,
+      "action": "intelligent-assert",
+      "description": "验证更多组件功能入口存在",
+      "params": {
+        "assertion": "页面显示更多组件功能入口"
+      }
+    },
+    {
+      "stepNumber": 17,
+      "action": "intelligent-assert",
+      "description": "验证公开可见默认设置",
+      "params": {
+        "assertion": "页面显示可见范围设置，默认为公开可见"
+      }
+    },
+    {
+      "stepNumber": 18,
+      "action": "intelligent-assert",
+      "description": "验证高级设置入口存在",
+      "params": {
+        "assertion": "页面显示高级设置入口"
+      }
+    },
+    {
+      "stepNumber": 19,
+      "action": "intelligent-assert",
+      "description": "验证匿名发布入口存在",
+      "params": {
+        "assertion": "页面显示匿名发布选项"
+      }
+    },
+    {
+      "stepNumber": 20,
+      "action": "intelligent-assert",
+      "description": "验证预览按钮存在",
+      "params": {
+        "assertion": "页面底部显示预览按钮"
+      }
+    },
+    {
+      "stepNumber": 21,
+      "action": "intelligent-assert",
+      "description": "验证发布笔记按钮存在",
+      "params": {
+        "assertion": "页面底部显示发布笔记按钮"
+      }
+    },
+    {
+      "stepNumber": 22,
+      "action": "tap",
+      "description": "点击返回按钮退出发布器",
+      "elementRef": {
+        "page": "笔记发布器",
+        "name": "返回"
+      }
+    },
+    {
+      "stepNumber": 23,
+      "action": "wait",
+      "description": "等待退出确认弹窗或页面跳转",
+      "params": {
+        "ms": 1000
+      }
+    },
+    {
+      "stepNumber": 24,
+      "action": "intelligent-action",
+      "description": "处理退出确认弹窗并返回首页",
+      "params": {
+        "instruction": "如果出现退出确认弹窗，点击确认退出或不保存，返回到首页"
+      }
+    },
+    {
+      "stepNumber": 25,
+      "action": "wait",
+      "description": "等待返回首页",
+      "params": {
+        "ms": 1000
+      }
+    },
+    {
+      "stepNumber": 26,
+      "action": "intelligent-assert",
+      "description": "验证已返回首页",
+      "params": {
+        "assertion": "页面显示首页，底部有首页、广场、发布、消息、我的等导航选项"
+      }
+    }
+  ],
+  "minAppVersion": null,
+  "recordedAppVersion": null,
+  "blueprintEnabled": false
+}

@@ -1,0 +1,363 @@
+{
+  "_meta": {
+    "pageName": "设置可见范围",
+    "pageSignature": null,
+    "description": "底部弹出设置可见范围面板，包含公开可见、私密、互关好友等隐私选项，顶部有关闭按钮 · pageType:picker",
+    "elementCount": 6,
+    "updatedAt": "2026-03-27T12:56:34.474Z",
+    "imageSize": {
+      "width": 473,
+      "height": 1024
+    }
+  },
+  "elements": [
+    {
+      "elementId": "可见范围设置.关闭",
+      "name": "关闭",
+      "locators": {
+        "ios": {
+          "bounds": [
+            3,
+            561,
+            40,
+            40
+          ],
+          "centerNormalized": [
+            0.048,
+            0.568
+          ],
+          "coordinates": {
+            "x": 0.048,
+            "y": 0.568
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            3,
+            561,
+            40,
+            40
+          ],
+          "centerNormalized": [
+            0.048,
+            0.568
+          ],
+          "coordinates": {
+            "x": 0.048,
+            "y": 0.568
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "关闭",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "close_button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "可见范围设置.公开可见",
+      "name": "公开可见",
+      "locators": {
+        "ios": {
+          "bounds": [
+            24,
+            629,
+            449,
+            56
+          ],
+          "centerNormalized": [
+            0.525,
+            0.641
+          ],
+          "coordinates": {
+            "x": 0.525,
+            "y": 0.641
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            24,
+            629,
+            449,
+            56
+          ],
+          "centerNormalized": [
+            0.525,
+            0.641
+          ],
+          "coordinates": {
+            "x": 0.525,
+            "y": 0.641
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "公开可见",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "partial_corrected"
+    },
+    {
+      "elementId": "可见范围设置.私密",
+      "name": "私密",
+      "locators": {
+        "ios": {
+          "bounds": [
+            24,
+            694,
+            449,
+            56
+          ],
+          "centerNormalized": [
+            0.525,
+            0.705
+          ],
+          "coordinates": {
+            "x": 0.525,
+            "y": 0.705
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            24,
+            694,
+            449,
+            56
+          ],
+          "centerNormalized": [
+            0.525,
+            0.705
+          ],
+          "coordinates": {
+            "x": 0.525,
+            "y": 0.705
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "私密",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "partial_corrected"
+    },
+    {
+      "elementId": "可见范围设置.互关好友",
+      "name": "互关好友",
+      "locators": {
+        "ios": {
+          "bounds": [
+            24,
+            778,
+            449,
+            48
+          ],
+          "centerNormalized": [
+            0.525,
+            0.782
+          ],
+          "coordinates": {
+            "x": 0.525,
+            "y": 0.782
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            24,
+            778,
+            449,
+            48
+          ],
+          "centerNormalized": [
+            0.525,
+            0.782
+          ],
+          "coordinates": {
+            "x": 0.525,
+            "y": 0.782
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "互关好友",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "partial_corrected"
+    },
+    {
+      "elementId": "可见范围设置.只给谁看",
+      "name": "只给谁看",
+      "locators": {
+        "ios": {
+          "bounds": [
+            24,
+            842,
+            449,
+            48
+          ],
+          "centerNormalized": [
+            0.525,
+            0.846
+          ],
+          "coordinates": {
+            "x": 0.525,
+            "y": 0.846
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            24,
+            842,
+            449,
+            48
+          ],
+          "centerNormalized": [
+            0.525,
+            0.846
+          ],
+          "coordinates": {
+            "x": 0.525,
+            "y": 0.846
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "只给谁看",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "partial_corrected"
+    },
+    {
+      "elementId": "可见范围设置.不给谁看",
+      "name": "不给谁看",
+      "locators": {
+        "ios": {
+          "bounds": [
+            24,
+            908,
+            449,
+            48
+          ],
+          "centerNormalized": [
+            0.525,
+            0.91
+          ],
+          "coordinates": {
+            "x": 0.525,
+            "y": 0.91
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            24,
+            908,
+            449,
+            48
+          ],
+          "centerNormalized": [
+            0.525,
+            0.91
+          ],
+          "coordinates": {
+            "x": 0.525,
+            "y": 0.91
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "不给谁看",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "partial_corrected"
+    }
+  ]
+}

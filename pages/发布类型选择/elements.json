@@ -1,0 +1,247 @@
+{
+  "_meta": {
+    "pageName": "发布类型选择",
+    "pageSignature": null,
+    "description": "底部弹出发布选项面板，包含从相册选择、相机、写文字三个入口，顶部被半透明遮罩覆盖 · pageType:overlay",
+    "elementCount": 4,
+    "updatedAt": "2026-03-27T12:55:57.629Z",
+    "imageSize": {
+      "width": 473,
+      "height": 1024
+    }
+  },
+  "elements": [
+    {
+      "elementId": "发布选项.从相册选择",
+      "name": "从相册选择",
+      "locators": {
+        "ios": {
+          "bounds": [
+            0,
+            700,
+            473,
+            56
+          ],
+          "centerNormalized": [
+            0.5,
+            0.712
+          ],
+          "coordinates": {
+            "x": 0.5,
+            "y": 0.712
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            0,
+            700,
+            473,
+            56
+          ],
+          "centerNormalized": [
+            0.5,
+            0.712
+          ],
+          "coordinates": {
+            "x": 0.5,
+            "y": 0.712
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "从相册选择",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "partial_corrected"
+    },
+    {
+      "elementId": "发布选项.相机",
+      "name": "相机",
+      "locators": {
+        "ios": {
+          "bounds": [
+            0,
+            761,
+            473,
+            56
+          ],
+          "centerNormalized": [
+            0.5,
+            0.775
+          ],
+          "coordinates": {
+            "x": 0.5,
+            "y": 0.775
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            0,
+            761,
+            473,
+            56
+          ],
+          "centerNormalized": [
+            0.5,
+            0.775
+          ],
+          "coordinates": {
+            "x": 0.5,
+            "y": 0.775
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "相机",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "partial_corrected"
+    },
+    {
+      "elementId": "发布选项.写文字",
+      "name": "写文字",
+      "locators": {
+        "ios": {
+          "bounds": [
+            0,
+            824,
+            473,
+            56
+          ],
+          "centerNormalized": [
+            0.5,
+            0.83
+          ],
+          "coordinates": {
+            "x": 0.5,
+            "y": 0.83
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            0,
+            824,
+            473,
+            56
+          ],
+          "centerNormalized": [
+            0.5,
+            0.83
+          ],
+          "coordinates": {
+            "x": 0.5,
+            "y": 0.83
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "写文字",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "partial_corrected"
+    },
+    {
+      "elementId": "发布选项.取消",
+      "name": "取消",
+      "locators": {
+        "ios": {
+          "bounds": [
+            0,
+            922,
+            473,
+            50
+          ],
+          "centerNormalized": [
+            0.5,
+            0.922
+          ],
+          "coordinates": {
+            "x": 0.5,
+            "y": 0.922
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            0,
+            922,
+            473,
+            50
+          ],
+          "centerNormalized": [
+            0.5,
+            0.922
+          ],
+          "coordinates": {
+            "x": 0.5,
+            "y": 0.922
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "取消",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "partial_corrected"
+    }
+  ]
+}

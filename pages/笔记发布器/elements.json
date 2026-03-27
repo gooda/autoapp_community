@@ -1,0 +1,1117 @@
+{
+  "_meta": {
+    "pageName": "笔记发布器",
+    "pageSignature": null,
+    "description": "笔记发布编辑页面，顶部有返回和存草稿按钮，中间为标题和内容输入区，底部有表情话题等工具栏和发布按钮 · pageType:form",
+    "elementCount": 19,
+    "updatedAt": "2026-03-27T12:56:22.345Z",
+    "imageSize": {
+      "width": 473,
+      "height": 1024
+    }
+  },
+  "elements": [
+    {
+      "elementId": "发布笔记.返回",
+      "name": "返回",
+      "locators": {
+        "ios": {
+          "bounds": [
+            21,
+            64,
+            40,
+            40
+          ],
+          "centerNormalized": [
+            0.087,
+            0.082
+          ],
+          "coordinates": {
+            "x": 0.087,
+            "y": 0.082
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            21,
+            64,
+            40,
+            40
+          ],
+          "centerNormalized": [
+            0.087,
+            0.082
+          ],
+          "coordinates": {
+            "x": 0.087,
+            "y": 0.082
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "返回",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "back_button",
+        "role": "navigation"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "发布笔记.存草稿",
+      "name": "存草稿",
+      "locators": {
+        "ios": {
+          "bounds": [
+            378,
+            64,
+            70,
+            40
+          ],
+          "centerNormalized": [
+            0.874,
+            0.082
+          ],
+          "coordinates": {
+            "x": 0.874,
+            "y": 0.082
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            378,
+            64,
+            70,
+            40
+          ],
+          "centerNormalized": [
+            0.874,
+            0.082
+          ],
+          "coordinates": {
+            "x": 0.874,
+            "y": 0.082
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "存草稿",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "发布笔记.选择蜂巢",
+      "name": "选择蜂巢",
+      "locators": {
+        "ios": {
+          "bounds": [
+            51,
+            129,
+            100,
+            30
+          ],
+          "centerNormalized": [
+            0.214,
+            0.141
+          ],
+          "coordinates": {
+            "x": 0.214,
+            "y": 0.141
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            51,
+            129,
+            100,
+            30
+          ],
+          "centerNormalized": [
+            0.214,
+            0.141
+          ],
+          "coordinates": {
+            "x": 0.214,
+            "y": 0.141
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "选择蜂巢",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "dropdown",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "发布笔记.已选图片",
+      "name": "已选图片",
+      "locators": {
+        "ios": {
+          "bounds": [
+            34,
+            193,
+            70,
+            70
+          ],
+          "centerNormalized": [
+            0.146,
+            0.223
+          ],
+          "coordinates": {
+            "x": 0.146,
+            "y": 0.223
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            34,
+            193,
+            70,
+            70
+          ],
+          "centerNormalized": [
+            0.146,
+            0.223
+          ],
+          "coordinates": {
+            "x": 0.146,
+            "y": 0.223
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "已选图片",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "发布笔记.添加图片",
+      "name": "添加图片",
+      "locators": {
+        "ios": {
+          "bounds": [
+            138,
+            193,
+            70,
+            70
+          ],
+          "centerNormalized": [
+            0.366,
+            0.223
+          ],
+          "coordinates": {
+            "x": 0.366,
+            "y": 0.223
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            138,
+            193,
+            70,
+            70
+          ],
+          "centerNormalized": [
+            0.366,
+            0.223
+          ],
+          "coordinates": {
+            "x": 0.366,
+            "y": 0.223
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "添加图片",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "发布笔记.标题输入",
+      "name": "标题输入",
+      "locators": {
+        "ios": {
+          "bounds": [
+            35,
+            300,
+            380,
+            30
+          ],
+          "centerNormalized": [
+            0.476,
+            0.308
+          ],
+          "coordinates": {
+            "x": 0.476,
+            "y": 0.308
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            35,
+            300,
+            380,
+            30
+          ],
+          "centerNormalized": [
+            0.476,
+            0.308
+          ],
+          "coordinates": {
+            "x": 0.476,
+            "y": 0.308
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "标题输入",
+      "details": {
+        "type": "input",
+        "elementType": "content",
+        "component": "input",
+        "role": "input"
+      },
+      "status": "active",
+      "calibration_status": "partial_corrected"
+    },
+    {
+      "elementId": "发布笔记.内容输入",
+      "name": "内容输入",
+      "locators": {
+        "ios": {
+          "bounds": [
+            35,
+            395,
+            400,
+            100
+          ],
+          "centerNormalized": [
+            0.5,
+            0.435
+          ],
+          "coordinates": {
+            "x": 0.5,
+            "y": 0.435
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            35,
+            395,
+            400,
+            100
+          ],
+          "centerNormalized": [
+            0.5,
+            0.435
+          ],
+          "coordinates": {
+            "x": 0.5,
+            "y": 0.435
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "内容输入",
+      "details": {
+        "type": "input",
+        "elementType": "content",
+        "component": "input",
+        "role": "input"
+      },
+      "status": "active",
+      "calibration_status": "partial_corrected"
+    },
+    {
+      "elementId": "发布笔记.表情",
+      "name": "表情",
+      "locators": {
+        "ios": {
+          "bounds": [
+            23,
+            601,
+            65,
+            35
+          ],
+          "centerNormalized": [
+            0.118,
+            0.604
+          ],
+          "coordinates": {
+            "x": 0.118,
+            "y": 0.604
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            23,
+            601,
+            65,
+            35
+          ],
+          "centerNormalized": [
+            0.118,
+            0.604
+          ],
+          "coordinates": {
+            "x": 0.118,
+            "y": 0.604
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "表情",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "发布笔记.话题",
+      "name": "话题",
+      "locators": {
+        "ios": {
+          "bounds": [
+            99,
+            601,
+            65,
+            35
+          ],
+          "centerNormalized": [
+            0.278,
+            0.604
+          ],
+          "coordinates": {
+            "x": 0.278,
+            "y": 0.604
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            99,
+            601,
+            65,
+            35
+          ],
+          "centerNormalized": [
+            0.278,
+            0.604
+          ],
+          "coordinates": {
+            "x": 0.278,
+            "y": 0.604
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "话题",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "发布笔记.用户",
+      "name": "用户",
+      "locators": {
+        "ios": {
+          "bounds": [
+            177,
+            601,
+            65,
+            35
+          ],
+          "centerNormalized": [
+            0.443,
+            0.604
+          ],
+          "coordinates": {
+            "x": 0.443,
+            "y": 0.604
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            177,
+            601,
+            65,
+            35
+          ],
+          "centerNormalized": [
+            0.443,
+            0.604
+          ],
+          "coordinates": {
+            "x": 0.443,
+            "y": 0.604
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "用户",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "发布笔记.语音",
+      "name": "语音",
+      "locators": {
+        "ios": {
+          "bounds": [
+            255,
+            601,
+            65,
+            35
+          ],
+          "centerNormalized": [
+            0.608,
+            0.604
+          ],
+          "coordinates": {
+            "x": 0.608,
+            "y": 0.604
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            255,
+            601,
+            65,
+            35
+          ],
+          "centerNormalized": [
+            0.608,
+            0.604
+          ],
+          "coordinates": {
+            "x": 0.608,
+            "y": 0.604
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "语音",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "发布笔记.格式",
+      "name": "格式",
+      "locators": {
+        "ios": {
+          "bounds": [
+            423,
+            601,
+            30,
+            35
+          ],
+          "centerNormalized": [
+            0.925,
+            0.604
+          ],
+          "coordinates": {
+            "x": 0.925,
+            "y": 0.604
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            423,
+            601,
+            30,
+            35
+          ],
+          "centerNormalized": [
+            0.925,
+            0.604
+          ],
+          "coordinates": {
+            "x": 0.925,
+            "y": 0.604
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "格式",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "icon_button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "发布笔记.标记情绪",
+      "name": "标记情绪",
+      "locators": {
+        "ios": {
+          "bounds": [
+            159,
+            665,
+            100,
+            35
+          ],
+          "centerNormalized": [
+            0.443,
+            0.667
+          ],
+          "coordinates": {
+            "x": 0.443,
+            "y": 0.667
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            159,
+            665,
+            100,
+            35
+          ],
+          "centerNormalized": [
+            0.443,
+            0.667
+          ],
+          "coordinates": {
+            "x": 0.443,
+            "y": 0.667
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "标记情绪",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "发布笔记.更多组件",
+      "name": "更多组件",
+      "locators": {
+        "ios": {
+          "bounds": [
+            159,
+            730,
+            100,
+            35
+          ],
+          "centerNormalized": [
+            0.443,
+            0.73
+          ],
+          "coordinates": {
+            "x": 0.443,
+            "y": 0.73
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            159,
+            730,
+            100,
+            35
+          ],
+          "centerNormalized": [
+            0.443,
+            0.73
+          ],
+          "coordinates": {
+            "x": 0.443,
+            "y": 0.73
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "更多组件",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "发布笔记.公开可见",
+      "name": "公开可见",
+      "locators": {
+        "ios": {
+          "bounds": [
+            159,
+            795,
+            100,
+            35
+          ],
+          "centerNormalized": [
+            0.443,
+            0.793
+          ],
+          "coordinates": {
+            "x": 0.443,
+            "y": 0.793
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            159,
+            795,
+            100,
+            35
+          ],
+          "centerNormalized": [
+            0.443,
+            0.793
+          ],
+          "coordinates": {
+            "x": 0.443,
+            "y": 0.793
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "公开可见",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "发布笔记.高级设置",
+      "name": "高级设置",
+      "locators": {
+        "ios": {
+          "bounds": [
+            22,
+            864,
+            75,
+            25
+          ],
+          "centerNormalized": [
+            0.127,
+            0.856
+          ],
+          "coordinates": {
+            "x": 0.127,
+            "y": 0.856
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            22,
+            864,
+            75,
+            25
+          ],
+          "centerNormalized": [
+            0.127,
+            0.856
+          ],
+          "coordinates": {
+            "x": 0.127,
+            "y": 0.856
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "高级设置",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "settings"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "发布笔记.匿名发布",
+      "name": "匿名发布",
+      "locators": {
+        "ios": {
+          "bounds": [
+            364,
+            864,
+            85,
+            25
+          ],
+          "centerNormalized": [
+            0.857,
+            0.856
+          ],
+          "coordinates": {
+            "x": 0.857,
+            "y": 0.856
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            364,
+            864,
+            85,
+            25
+          ],
+          "centerNormalized": [
+            0.857,
+            0.856
+          ],
+          "coordinates": {
+            "x": 0.857,
+            "y": 0.856
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "匿名发布",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "toggle",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "发布笔记.预览",
+      "name": "预览",
+      "locators": {
+        "ios": {
+          "bounds": [
+            16,
+            917,
+            50,
+            50
+          ],
+          "centerNormalized": [
+            0.087,
+            0.919
+          ],
+          "coordinates": {
+            "x": 0.087,
+            "y": 0.919
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            16,
+            917,
+            50,
+            50
+          ],
+          "centerNormalized": [
+            0.087,
+            0.919
+          ],
+          "coordinates": {
+            "x": 0.087,
+            "y": 0.919
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "预览",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "icon_button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "发布笔记.发布笔记",
+      "name": "发布笔记",
+      "locators": {
+        "ios": {
+          "bounds": [
+            95,
+            917,
+            350,
+            50
+          ],
+          "centerNormalized": [
+            0.57,
+            0.919
+          ],
+          "coordinates": {
+            "x": 0.57,
+            "y": 0.919
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            95,
+            917,
+            350,
+            50
+          ],
+          "centerNormalized": [
+            0.57,
+            0.919
+          ],
+          "coordinates": {
+            "x": 0.57,
+            "y": 0.919
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "发布笔记",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "action_button",
+        "role": "publish"
+      },
+      "status": "active",
+      "calibration_status": "partial_corrected"
+    }
+  ]
+}

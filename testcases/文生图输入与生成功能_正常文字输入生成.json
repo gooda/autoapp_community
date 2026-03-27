@@ -1,0 +1,177 @@
+{
+  "name": "文生图输入与生成功能：正常文字输入生成",
+  "description": "验证用户可以通过输入正常文字内容，成功生成文生图并完成发布流程",
+  "priority": "high",
+  "tags": [
+    "文生图",
+    "核心功能",
+    "正常流程"
+  ],
+  "applications": [
+    "网易小蜜蜂"
+  ],
+  "steps": [
+    {
+      "stepNumber": 1,
+      "action": "tap",
+      "description": "点击底部发布按钮",
+      "elementRef": {
+        "page": "首页-发现",
+        "name": "发布"
+      }
+    },
+    {
+      "stepNumber": 2,
+      "action": "wait",
+      "description": "等待发布类型选择弹窗出现",
+      "params": {
+        "ms": 1000
+      }
+    },
+    {
+      "stepNumber": 3,
+      "action": "intelligent-assert",
+      "description": "验证发布类型选择弹窗已显示",
+      "params": {
+        "assertion": "页面显示发布类型选择弹窗，包含从相册选择、相机、写文字等选项"
+      }
+    },
+    {
+      "stepNumber": 4,
+      "action": "tap",
+      "description": "点击写文字选项",
+      "elementRef": {
+        "page": "发布类型选择",
+        "name": "写文字"
+      }
+    },
+    {
+      "stepNumber": 5,
+      "action": "wait",
+      "description": "等待写文字页面加载",
+      "params": {
+        "ms": 1500
+      }
+    },
+    {
+      "stepNumber": 6,
+      "action": "intelligent-assert",
+      "description": "验证写文字页面已打开",
+      "params": {
+        "assertion": "页面显示写文字界面，包含文字输入框"
+      }
+    },
+    {
+      "stepNumber": 7,
+      "action": "tap",
+      "description": "点击想法输入框获取焦点",
+      "elementRef": {
+        "page": "写文字",
+        "name": "想法输入框"
+      }
+    },
+    {
+      "stepNumber": 8,
+      "action": "wait",
+      "description": "等待键盘弹出",
+      "params": {
+        "ms": 500
+      }
+    },
+    {
+      "stepNumber": 9,
+      "action": "input",
+      "description": "输入正常文字内容用于文生图",
+      "elementRef": {
+        "page": "写文字",
+        "name": "想法输入框"
+      },
+      "params": {
+        "text": "今天天气真好，阳光明媚，适合出去踏青赏花"
+      }
+    },
+    {
+      "stepNumber": 10,
+      "action": "wait",
+      "description": "等待文字输入完成",
+      "params": {
+        "ms": 500
+      }
+    },
+    {
+      "stepNumber": 11,
+      "action": "intelligent-assert",
+      "description": "验证文字内容已成功输入",
+      "params": {
+        "assertion": "输入框中显示已输入的文字内容：今天天气真好，阳光明媚，适合出去踏青赏花"
+      }
+    },
+    {
+      "stepNumber": 12,
+      "action": "intelligent-tap",
+      "description": "点击生成图片或AI生成按钮",
+      "params": {
+        "prompt": "点击生成图片、AI生成、文生图或类似的生成按钮"
+      }
+    },
+    {
+      "stepNumber": 13,
+      "action": "wait",
+      "description": "等待图片生成中",
+      "params": {
+        "ms": 5000
+      }
+    },
+    {
+      "stepNumber": 14,
+      "action": "intelligent-assert",
+      "description": "验证图片生成成功或显示生成中状态",
+      "params": {
+        "assertion": "页面显示图片生成成功的结果，或显示生成中的加载状态，或显示生成的图片预览"
+      }
+    },
+    {
+      "stepNumber": 15,
+      "action": "wait",
+      "description": "等待生成完成",
+      "params": {
+        "ms": 3000
+      }
+    },
+    {
+      "stepNumber": 16,
+      "action": "intelligent-assert",
+      "description": "验证文生图生成完成",
+      "params": {
+        "assertion": "页面显示生成完成的图片，或显示可以使用/确认的选项"
+      }
+    },
+    {
+      "stepNumber": 17,
+      "action": "intelligent-tap",
+      "description": "确认使用生成的图片",
+      "params": {
+        "prompt": "点击确认、使用、选择或完成按钮以使用生成的图片"
+      }
+    },
+    {
+      "stepNumber": 18,
+      "action": "wait",
+      "description": "等待页面跳转",
+      "params": {
+        "ms": 1500
+      }
+    },
+    {
+      "stepNumber": 19,
+      "action": "intelligent-assert",
+      "description": "验证已进入发布编辑页面",
+      "params": {
+        "assertion": "页面显示笔记发布编辑界面，包含生成的图片和发布按钮"
+      }
+    }
+  ],
+  "minAppVersion": null,
+  "recordedAppVersion": null,
+  "blueprintEnabled": false
+}

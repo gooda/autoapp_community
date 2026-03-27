@@ -1,0 +1,186 @@
+{
+  "_meta": {
+    "pageName": "写文字",
+    "pageSignature": null,
+    "description": "顶部有关闭按钮，中央为想法输入区域，底部有写长文入口 · pageType:form",
+    "elementCount": 3,
+    "updatedAt": "2026-03-27T12:55:47.263Z",
+    "imageSize": {
+      "width": 473,
+      "height": 1024
+    }
+  },
+  "elements": [
+    {
+      "elementId": "发布想法.关闭",
+      "name": "关闭",
+      "locators": {
+        "ios": {
+          "bounds": [
+            10,
+            52,
+            40,
+            40
+          ],
+          "centerNormalized": [
+            0.063,
+            0.07
+          ],
+          "coordinates": {
+            "x": 0.063,
+            "y": 0.07
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            10,
+            52,
+            40,
+            40
+          ],
+          "centerNormalized": [
+            0.063,
+            0.07
+          ],
+          "coordinates": {
+            "x": 0.063,
+            "y": 0.07
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "关闭",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "close_button",
+        "role": "navigation"
+      },
+      "status": "active"
+    },
+    {
+      "elementId": "发布想法.想法输入框",
+      "name": "想法输入框",
+      "locators": {
+        "ios": {
+          "bounds": [
+            32,
+            108,
+            410,
+            580
+          ],
+          "centerNormalized": [
+            0.5,
+            0.39
+          ],
+          "coordinates": {
+            "x": 0.5,
+            "y": 0.39
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            32,
+            108,
+            410,
+            580
+          ],
+          "centerNormalized": [
+            0.5,
+            0.39
+          ],
+          "coordinates": {
+            "x": 0.5,
+            "y": 0.39
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "想法输入框",
+      "details": {
+        "type": "input",
+        "elementType": "content",
+        "component": "input",
+        "role": "input"
+      },
+      "status": "active"
+    },
+    {
+      "elementId": "发布想法.写长文",
+      "name": "写长文",
+      "locators": {
+        "ios": {
+          "bounds": [
+            32,
+            718,
+            410,
+            70
+          ],
+          "centerNormalized": [
+            0.5,
+            0.73
+          ],
+          "coordinates": {
+            "x": 0.5,
+            "y": 0.73
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            32,
+            718,
+            410,
+            70
+          ],
+          "centerNormalized": [
+            0.5,
+            0.73
+          ],
+          "coordinates": {
+            "x": 0.5,
+            "y": 0.73
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "写长文",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active"
+    }
+  ]
+}

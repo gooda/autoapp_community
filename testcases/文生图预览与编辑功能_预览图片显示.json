@@ -1,0 +1,286 @@
+{
+  "name": "文生图预览与编辑功能：预览图片显示",
+  "description": "验证文生图功能的预览图片显示功能，包括进入预览页面、查看生成的图片以及确认图片正常显示",
+  "priority": "high",
+  "tags": [
+    "文生图",
+    "预览",
+    "图片显示",
+    "编辑功能"
+  ],
+  "applications": [
+    "网易小蜜蜂"
+  ],
+  "steps": [
+    {
+      "stepNumber": 1,
+      "action": "tap",
+      "description": "点击底部发布按钮进入发布流程",
+      "elementRef": {
+        "page": "首页-发现",
+        "name": "发布"
+      }
+    },
+    {
+      "stepNumber": 2,
+      "action": "wait",
+      "description": "等待发布类型选择弹窗出现",
+      "params": {
+        "ms": 1000
+      }
+    },
+    {
+      "stepNumber": 3,
+      "action": "intelligent-assert",
+      "description": "验证发布类型选择弹窗已显示",
+      "params": {
+        "assertion": "页面显示发布类型选择弹窗，包含从相册选择、相机、写文字等选项"
+      }
+    },
+    {
+      "stepNumber": 4,
+      "action": "tap",
+      "description": "点击写文字选项进入文字编辑页面",
+      "elementRef": {
+        "page": "发布类型选择",
+        "name": "写文字"
+      }
+    },
+    {
+      "stepNumber": 5,
+      "action": "wait",
+      "description": "等待写文字页面加载",
+      "params": {
+        "ms": 1500
+      }
+    },
+    {
+      "stepNumber": 6,
+      "action": "intelligent-assert",
+      "description": "验证写文字页面已显示",
+      "params": {
+        "assertion": "页面显示写文字编辑界面，包含想法输入框"
+      }
+    },
+    {
+      "stepNumber": 7,
+      "action": "tap",
+      "description": "点击想法输入框准备输入内容",
+      "elementRef": {
+        "page": "写文字",
+        "name": "想法输入框"
+      }
+    },
+    {
+      "stepNumber": 8,
+      "action": "input",
+      "description": "输入用于文生图的测试文字内容",
+      "elementRef": {
+        "page": "写文字",
+        "name": "想法输入框"
+      },
+      "params": {
+        "text": "一只可爱的小猫在花园里玩耍"
+      }
+    },
+    {
+      "stepNumber": 9,
+      "action": "wait",
+      "description": "等待输入完成",
+      "params": {
+        "ms": 500
+      }
+    },
+    {
+      "stepNumber": 10,
+      "action": "intelligent-tap",
+      "description": "点击文生图或AI生成图片功能入口",
+      "params": {
+        "prompt": "点击文生图或AI生成图片的功能按钮入口"
+      }
+    },
+    {
+      "stepNumber": 11,
+      "action": "wait",
+      "description": "等待文生图功能响应",
+      "params": {
+        "ms": 2000
+      }
+    },
+    {
+      "stepNumber": 12,
+      "action": "intelligent-assert",
+      "description": "验证文生图功能界面已显示",
+      "params": {
+        "assertion": "页面显示文生图相关界面或生成图片的选项"
+      }
+    },
+    {
+      "stepNumber": 13,
+      "action": "intelligent-tap",
+      "description": "点击生成图片按钮开始生成",
+      "params": {
+        "prompt": "点击生成图片或确认生成的按钮"
+      }
+    },
+    {
+      "stepNumber": 14,
+      "action": "wait",
+      "description": "等待图片生成完成（AI生成可能需要较长时间）",
+      "params": {
+        "ms": 5000
+      }
+    },
+    {
+      "stepNumber": 15,
+      "action": "intelligent-assert",
+      "description": "验证图片已生成成功",
+      "params": {
+        "assertion": "页面显示生成的图片或图片预览缩略图"
+      }
+    },
+    {
+      "stepNumber": 16,
+      "action": "intelligent-tap",
+      "description": "点击生成的图片进入预览页面",
+      "params": {
+        "prompt": "点击生成的图片缩略图进入预览"
+      }
+    },
+    {
+      "stepNumber": 17,
+      "action": "wait",
+      "description": "等待预览图页面加载",
+      "params": {
+        "ms": 1500
+      }
+    },
+    {
+      "stepNumber": 18,
+      "action": "intelligent-assert",
+      "description": "验证预览图页面已正确显示",
+      "params": {
+        "assertion": "页面显示预览图界面，包含返回按钮和确定按钮，图片内容清晰可见"
+      }
+    },
+    {
+      "stepNumber": 19,
+      "action": "intelligent-assert",
+      "description": "验证预览图片正常显示无异常",
+      "params": {
+        "assertion": "预览的图片正常显示，无加载失败、图片损坏或空白情况"
+      }
+    },
+    {
+      "stepNumber": 20,
+      "action": "intelligent-assert",
+      "description": "验证底部编辑选项卡显示",
+      "params": {
+        "assertion": "页面底部显示编辑选项卡，包含基础、便签、备忘录等样式选项"
+      }
+    },
+    {
+      "stepNumber": 21,
+      "action": "tap",
+      "description": "点击便签样式选项切换图片样式",
+      "elementRef": {
+        "page": "预览图",
+        "name": "便签"
+      }
+    },
+    {
+      "stepNumber": 22,
+      "action": "wait",
+      "description": "等待样式切换完成",
+      "params": {
+        "ms": 1000
+      }
+    },
+    {
+      "stepNumber": 23,
+      "action": "intelligent-assert",
+      "description": "验证便签样式已应用",
+      "params": {
+        "assertion": "图片预览已切换为便签样式，样式变化明显"
+      }
+    },
+    {
+      "stepNumber": 24,
+      "action": "tap",
+      "description": "点击备忘录样式选项",
+      "elementRef": {
+        "page": "预览图",
+        "name": "备忘录"
+      }
+    },
+    {
+      "stepNumber": 25,
+      "action": "wait",
+      "description": "等待样式切换完成",
+      "params": {
+        "ms": 1000
+      }
+    },
+    {
+      "stepNumber": 26,
+      "action": "intelligent-assert",
+      "description": "验证备忘录样式已应用",
+      "params": {
+        "assertion": "图片预览已切换为备忘录样式"
+      }
+    },
+    {
+      "stepNumber": 27,
+      "action": "tap",
+      "description": "点击基础样式恢复默认",
+      "elementRef": {
+        "page": "预览图",
+        "name": "基础"
+      }
+    },
+    {
+      "stepNumber": 28,
+      "action": "wait",
+      "description": "等待样式切换完成",
+      "params": {
+        "ms": 1000
+      }
+    },
+    {
+      "stepNumber": 29,
+      "action": "intelligent-assert",
+      "description": "验证基础样式已恢复",
+      "params": {
+        "assertion": "图片预览已恢复为基础样式"
+      }
+    },
+    {
+      "stepNumber": 30,
+      "action": "tap",
+      "description": "点击确定按钮确认使用当前预览图",
+      "elementRef": {
+        "page": "预览图",
+        "name": "确定"
+      }
+    },
+    {
+      "stepNumber": 31,
+      "action": "wait",
+      "description": "等待返回编辑页面",
+      "params": {
+        "ms": 1500
+      }
+    },
+    {
+      "stepNumber": 32,
+      "action": "intelligent-assert",
+      "description": "验证已返回编辑页面且图片已添加",
+      "params": {
+        "assertion": "页面显示笔记编辑器或写文字界面，已选图片区域显示刚才选择的预览图"
+      }
+    }
+  ],
+  "minAppVersion": null,
+  "recordedAppVersion": null,
+  "blueprintEnabled": false
+}

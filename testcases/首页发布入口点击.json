@@ -1,0 +1,52 @@
+{
+  "name": "首页发布入口点击",
+  "description": "测试发布入口与类型选择功能：验证首页发布按钮点击后能正确弹出发布类型选择面板",
+  "priority": "high",
+  "tags": [
+    "发布",
+    "首页",
+    "入口",
+    "类型选择"
+  ],
+  "applications": [
+    "网易小蜜蜂"
+  ],
+  "steps": [
+    {
+      "stepNumber": 1,
+      "action": "intelligent-assert",
+      "description": "验证当前在首页",
+      "params": {
+        "assertion": "当前页面为首页，底部导航栏可见且包含首页、广场、发布、消息、我的等入口"
+      }
+    },
+    {
+      "stepNumber": 2,
+      "action": "tap",
+      "description": "点击底部导航栏的发布按钮",
+      "elementRef": {
+        "page": "首页-发现",
+        "name": "发布"
+      }
+    },
+    {
+      "stepNumber": 3,
+      "action": "wait",
+      "description": "等待发布类型选择面板弹出",
+      "params": {
+        "ms": 500
+      }
+    },
+    {
+      "stepNumber": 4,
+      "action": "intelligent-assert",
+      "description": "验证发布类型选择面板已显示",
+      "params": {
+        "assertion": "页面显示发布类型选择面板，包含从相册选择、相机、写文字、取消等选项"
+      }
+    }
+  ],
+  "minAppVersion": null,
+  "recordedAppVersion": null,
+  "blueprintEnabled": false
+}

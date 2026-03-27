@@ -1,0 +1,479 @@
+{
+  "_meta": {
+    "pageName": "预览图",
+    "pageSignature": null,
+    "description": "顶部为返回和确定按钮，中央为卡片预览区域，底部为卡片风格选择器可横向滑动选择 · pageType:picker",
+    "elementCount": 8,
+    "updatedAt": "2026-03-27T12:56:49.210Z",
+    "imageSize": {
+      "width": 472,
+      "height": 1024
+    }
+  },
+  "elements": [
+    {
+      "elementId": "预览图.返回",
+      "name": "返回",
+      "locators": {
+        "ios": {
+          "bounds": [
+            12,
+            94,
+            30,
+            30
+          ],
+          "centerNormalized": [
+            0.058,
+            0.107
+          ],
+          "coordinates": {
+            "x": 0.058,
+            "y": 0.107
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            12,
+            94,
+            30,
+            30
+          ],
+          "centerNormalized": [
+            0.058,
+            0.107
+          ],
+          "coordinates": {
+            "x": 0.058,
+            "y": 0.107
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "返回",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "back_button",
+        "role": "navigation"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "预览图.确定",
+      "name": "确定",
+      "locators": {
+        "ios": {
+          "bounds": [
+            398,
+            94,
+            50,
+            30
+          ],
+          "centerNormalized": [
+            0.896,
+            0.107
+          ],
+          "coordinates": {
+            "x": 0.896,
+            "y": 0.107
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            398,
+            94,
+            50,
+            30
+          ],
+          "centerNormalized": [
+            0.896,
+            0.107
+          ],
+          "coordinates": {
+            "x": 0.896,
+            "y": 0.107
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "确定",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "预览图.基础",
+      "name": "基础",
+      "locators": {
+        "ios": {
+          "bounds": [
+            13,
+            831,
+            80,
+            100
+          ],
+          "centerNormalized": [
+            0.113,
+            0.86
+          ],
+          "coordinates": {
+            "x": 0.113,
+            "y": 0.86
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            13,
+            831,
+            80,
+            100
+          ],
+          "centerNormalized": [
+            0.113,
+            0.86
+          ],
+          "coordinates": {
+            "x": 0.113,
+            "y": 0.86
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "基础",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "category_button",
+        "role": "navigation"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "预览图.便签",
+      "name": "便签",
+      "locators": {
+        "ios": {
+          "bounds": [
+            102,
+            831,
+            80,
+            100
+          ],
+          "centerNormalized": [
+            0.302,
+            0.86
+          ],
+          "coordinates": {
+            "x": 0.302,
+            "y": 0.86
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            102,
+            831,
+            80,
+            100
+          ],
+          "centerNormalized": [
+            0.302,
+            0.86
+          ],
+          "coordinates": {
+            "x": 0.302,
+            "y": 0.86
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "便签",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "category_button",
+        "role": "navigation"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "预览图.备忘录",
+      "name": "备忘录",
+      "locators": {
+        "ios": {
+          "bounds": [
+            192,
+            831,
+            80,
+            100
+          ],
+          "centerNormalized": [
+            0.491,
+            0.86
+          ],
+          "coordinates": {
+            "x": 0.491,
+            "y": 0.86
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            192,
+            831,
+            80,
+            100
+          ],
+          "centerNormalized": [
+            0.491,
+            0.86
+          ],
+          "coordinates": {
+            "x": 0.491,
+            "y": 0.86
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "备忘录",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "category_button",
+        "role": "navigation"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "预览图.新春",
+      "name": "新春",
+      "locators": {
+        "ios": {
+          "bounds": [
+            281,
+            831,
+            80,
+            100
+          ],
+          "centerNormalized": [
+            0.68,
+            0.86
+          ],
+          "coordinates": {
+            "x": 0.68,
+            "y": 0.86
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            281,
+            831,
+            80,
+            100
+          ],
+          "centerNormalized": [
+            0.68,
+            0.86
+          ],
+          "coordinates": {
+            "x": 0.68,
+            "y": 0.86
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "新春",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "category_button",
+        "role": "navigation"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "预览图.二次元",
+      "name": "二次元",
+      "locators": {
+        "ios": {
+          "bounds": [
+            370,
+            831,
+            80,
+            100
+          ],
+          "centerNormalized": [
+            0.869,
+            0.86
+          ],
+          "coordinates": {
+            "x": 0.869,
+            "y": 0.86
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            370,
+            831,
+            80,
+            100
+          ],
+          "centerNormalized": [
+            0.869,
+            0.86
+          ],
+          "coordinates": {
+            "x": 0.869,
+            "y": 0.86
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "二次元",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "category_button",
+        "role": "navigation"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "预览图.换搭配",
+      "name": "换搭配",
+      "locators": {
+        "ios": {
+          "bounds": [
+            24,
+            868,
+            60,
+            25
+          ],
+          "centerNormalized": [
+            0.113,
+            0.86
+          ],
+          "coordinates": {
+            "x": 0.113,
+            "y": 0.86
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            24,
+            868,
+            60,
+            25
+          ],
+          "centerNormalized": [
+            0.113,
+            0.86
+          ],
+          "coordinates": {
+            "x": 0.113,
+            "y": 0.86
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "换搭配",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    }
+  ]
+}

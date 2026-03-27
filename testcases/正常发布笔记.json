@@ -1,0 +1,201 @@
+{
+  "name": "正常发布笔记",
+  "description": "测试用户通过写文字方式正常发布一条笔记，验证发布流程完整性",
+  "priority": "high",
+  "tags": [
+    "发布",
+    "笔记",
+    "核心功能",
+    "P0"
+  ],
+  "applications": [
+    "网易小蜜蜂"
+  ],
+  "steps": [
+    {
+      "stepNumber": 1,
+      "action": "tap",
+      "description": "点击底部发布按钮",
+      "elementRef": {
+        "page": "首页-发现",
+        "name": "发布"
+      }
+    },
+    {
+      "stepNumber": 2,
+      "action": "wait",
+      "description": "等待发布类型选择弹窗出现",
+      "params": {
+        "ms": 1000
+      }
+    },
+    {
+      "stepNumber": 3,
+      "action": "intelligent-assert",
+      "description": "验证发布类型选择弹窗已显示",
+      "params": {
+        "assertion": "页面显示发布类型选择弹窗，包含从相册选择、相机、写文字等选项"
+      }
+    },
+    {
+      "stepNumber": 4,
+      "action": "tap",
+      "description": "选择写文字方式发布",
+      "elementRef": {
+        "page": "发布类型选择",
+        "name": "写文字"
+      }
+    },
+    {
+      "stepNumber": 5,
+      "action": "wait",
+      "description": "等待写文字页面加载",
+      "params": {
+        "ms": 1500
+      }
+    },
+    {
+      "stepNumber": 6,
+      "action": "intelligent-assert",
+      "description": "验证进入写文字页面",
+      "params": {
+        "assertion": "页面显示写文字界面，包含想法输入框和写长文按钮"
+      }
+    },
+    {
+      "stepNumber": 7,
+      "action": "tap",
+      "description": "点击写长文进入笔记发布器",
+      "elementRef": {
+        "page": "写文字",
+        "name": "写长文"
+      }
+    },
+    {
+      "stepNumber": 8,
+      "action": "wait",
+      "description": "等待笔记发布器页面加载",
+      "params": {
+        "ms": 1500
+      }
+    },
+    {
+      "stepNumber": 9,
+      "action": "intelligent-assert",
+      "description": "验证进入笔记发布器页面",
+      "params": {
+        "assertion": "页面显示笔记发布器，包含标题输入、内容输入区域和发布按钮"
+      }
+    },
+    {
+      "stepNumber": 10,
+      "action": "tap",
+      "description": "点击标题输入框",
+      "elementRef": {
+        "page": "笔记发布器",
+        "name": "标题输入"
+      }
+    },
+    {
+      "stepNumber": 11,
+      "action": "wait",
+      "description": "等待键盘弹出",
+      "params": {
+        "ms": 500
+      }
+    },
+    {
+      "stepNumber": 12,
+      "action": "input",
+      "description": "输入笔记标题",
+      "elementRef": {
+        "page": "笔记发布器",
+        "name": "标题输入"
+      },
+      "params": {
+        "text": "自动化测试笔记标题"
+      }
+    },
+    {
+      "stepNumber": 13,
+      "action": "tap",
+      "description": "点击内容输入框",
+      "elementRef": {
+        "page": "笔记发布器",
+        "name": "内容输入"
+      }
+    },
+    {
+      "stepNumber": 14,
+      "action": "wait",
+      "description": "等待输入框获取焦点",
+      "params": {
+        "ms": 500
+      }
+    },
+    {
+      "stepNumber": 15,
+      "action": "input",
+      "description": "输入笔记正文内容",
+      "elementRef": {
+        "page": "笔记发布器",
+        "name": "内容输入"
+      },
+      "params": {
+        "text": "这是一条自动化测试发布的笔记内容，用于验证发布功能是否正常工作。"
+      }
+    },
+    {
+      "stepNumber": 16,
+      "action": "intelligent-assert",
+      "description": "验证标题和内容已输入",
+      "params": {
+        "assertion": "标题输入框显示自动化测试笔记标题，内容输入框显示已输入的正文内容"
+      }
+    },
+    {
+      "stepNumber": 17,
+      "action": "intelligent-tap",
+      "description": "收起键盘",
+      "params": {
+        "prompt": "点击页面空白区域或键盘收起按钮收起键盘"
+      }
+    },
+    {
+      "stepNumber": 18,
+      "action": "wait",
+      "description": "等待键盘收起",
+      "params": {
+        "ms": 500
+      }
+    },
+    {
+      "stepNumber": 19,
+      "action": "tap",
+      "description": "点击发布笔记按钮",
+      "elementRef": {
+        "page": "笔记发布器",
+        "name": "发布笔记"
+      }
+    },
+    {
+      "stepNumber": 20,
+      "action": "wait",
+      "description": "等待发布完成",
+      "params": {
+        "ms": 3000
+      }
+    },
+    {
+      "stepNumber": 21,
+      "action": "intelligent-assert",
+      "description": "验证笔记发布成功",
+      "params": {
+        "assertion": "页面显示发布成功提示，或已返回首页，或跳转到笔记详情页"
+      }
+    }
+  ],
+  "minAppVersion": null,
+  "recordedAppVersion": null,
+  "blueprintEnabled": false
+}
