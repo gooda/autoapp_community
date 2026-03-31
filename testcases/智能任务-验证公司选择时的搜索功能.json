@@ -1,0 +1,50 @@
+{
+  "name": "智能任务-验证公司选择时的搜索功能",
+  "description": "在「信息填写」模块验证公司选择时的搜索功能，步骤：点击公司输入框；输入公司名称关键词；查看搜索结果；选择目标公司",
+  "priority": "medium",
+  "tags": [
+    "smart_task",
+    "plan_generated",
+    "功能"
+  ],
+  "type": "smart_task",
+  "steps": [
+    {
+      "stepNumber": 1,
+      "action": "smart_execute",
+      "description": "在「信息填写」模块验证公司选择时的搜索功能，步骤：点击公司输入框；输入公司名称关键词；查看搜索结果；选择目标公司",
+      "params": {
+        "taskDescription": "在「信息填写」模块验证公司选择时的搜索功能，步骤：点击公司输入框；输入公司名称关键词；查看搜索结果；选择目标公司",
+        "precondition": "用户进入公司选择页面",
+        "preconditionList": [
+          "用户进入公司选择页面"
+        ],
+        "expectedResult": "1. 进入公司选择页，显示搜索框<br>2. 支持模糊匹配搜索<br>3. 显示匹配的公司列表【基于待澄清问题Q21：未搜到结果时引导认证】<br>4. 选中公司后返回填写页",
+        "expectedList": [
+          "进入公司选择页，显示搜索框",
+          "支持模糊匹配搜索",
+          "显示匹配的公司列表【基于待澄清问题Q21：未搜到结果时引导认证】",
+          "选中公司后返回填写页"
+        ],
+        "testSteps": [
+          "点击公司输入框",
+          "输入公司名称关键词",
+          "查看搜索结果",
+          "选择目标公司"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "source": "plan",
+    "planMdPath": "import:网易小蜜蜂/1.0",
+    "planVersion": "1.0",
+    "requirementId": "信息填写模块",
+    "caseId": "TC_Form_009",
+    "module": "信息填写",
+    "sectionModule": "信息填写模块",
+    "caseCategory": "功能",
+    "traceability": "PRD 3.2.2 + 交互文档 3.5",
+    "generatedAt": "2026-03-31T06:46:02.950Z"
+  }
+}

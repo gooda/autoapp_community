@@ -1,0 +1,49 @@
+{
+  "name": "智能任务-验证学校信息及基础数据展示",
+  "description": "在「首页-具体学校」模块验证学校信息及基础数据展示，步骤：查看页面顶部学校信息区域；查看数据来源说明文案；查看累计贡献人数",
+  "priority": "medium",
+  "tags": [
+    "smart_task",
+    "plan_generated",
+    "功能"
+  ],
+  "type": "smart_task",
+  "steps": [
+    {
+      "stepNumber": 1,
+      "action": "smart_execute",
+      "description": "在「首页-具体学校」模块验证学校信息及基础数据展示，步骤：查看页面顶部学校信息区域；查看数据来源说明文案；查看累计贡献人数",
+      "params": {
+        "taskDescription": "在「首页-具体学校」模块验证学校信息及基础数据展示，步骤：查看页面顶部学校信息区域；查看数据来源说明文案；查看累计贡献人数",
+        "precondition": "1. 用户已进入具体学校页面<br>2. 该学校已有数据样本",
+        "preconditionList": [
+          "用户已进入具体学校页面",
+          "该学校已有数据样本"
+        ],
+        "expectedResult": "1. 页面顶部显示学校icon和学校全称<br>2. 显示文案\"以下数据均由真实校友提供，累计XX人\"（X为实际样本量）<br>3. 贡献人数显示为具体数字",
+        "expectedList": [
+          "页面顶部显示学校icon和学校全称",
+          "显示文案\"以下数据均由真实校友提供，累计XX人\"（X为实际样本量）",
+          "贡献人数显示为具体数字"
+        ],
+        "testSteps": [
+          "查看页面顶部学校信息区域",
+          "查看数据来源说明文案",
+          "查看累计贡献人数"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "source": "plan",
+    "planMdPath": "import:网易小蜜蜂/1.0",
+    "planVersion": "1.0",
+    "requirementId": "首页-具体学校模块",
+    "caseId": "TC_School_001",
+    "module": "首页-具体学校",
+    "sectionModule": "首页-具体学校模块",
+    "caseCategory": "功能",
+    "traceability": "PRD 3.1.1 ①②",
+    "generatedAt": "2026-03-31T06:46:02.942Z"
+  }
+}

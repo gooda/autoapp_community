@@ -1,0 +1,51 @@
+{
+  "name": "智能任务-验证讨论区匿名发布评论",
+  "description": "在「首页-具体学校」模块验证讨论区匿名发布评论，步骤：点击评论输入框；勾选匿名选项；输入评论内容；点击发送",
+  "priority": "low",
+  "tags": [
+    "smart_task",
+    "plan_generated",
+    "功能"
+  ],
+  "type": "smart_task",
+  "steps": [
+    {
+      "stepNumber": 1,
+      "action": "smart_execute",
+      "description": "在「首页-具体学校」模块验证讨论区匿名发布评论，步骤：点击评论输入框；勾选匿名选项；输入评论内容；点击发送",
+      "params": {
+        "taskDescription": "在「首页-具体学校」模块验证讨论区匿名发布评论，步骤：点击评论输入框；勾选匿名选项；输入评论内容；点击发送",
+        "precondition": "1. 用户在「校友互助」Tab<br>2. 用户已登录",
+        "preconditionList": [
+          "用户在「校友互助」Tab",
+          "用户已登录"
+        ],
+        "expectedResult": "1. 弹起键盘<br>2. 匿名选项被勾选【基于待澄清问题Q3：匿名昵称生成规则待确认】<br>3. 输入框显示输入内容<br>4. 评论发布成功，显示匿名昵称而非真实昵称",
+        "expectedList": [
+          "弹起键盘",
+          "匿名选项被勾选【基于待澄清问题Q3：匿名昵称生成规则待确认】",
+          "输入框显示输入内容",
+          "评论发布成功，显示匿名昵称而非真实昵称"
+        ],
+        "testSteps": [
+          "点击评论输入框",
+          "勾选匿名选项",
+          "输入评论内容",
+          "点击发送"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "source": "plan",
+    "planMdPath": "import:网易小蜜蜂/1.0",
+    "planVersion": "1.0",
+    "requirementId": "首页-具体学校模块",
+    "caseId": "TC_School_011",
+    "module": "首页-具体学校",
+    "sectionModule": "首页-具体学校模块",
+    "caseCategory": "功能",
+    "traceability": "PRD 3.1.1 ⑨",
+    "generatedAt": "2026-03-31T06:46:02.945Z"
+  }
+}

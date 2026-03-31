@@ -1,0 +1,49 @@
+{
+  "name": "智能任务-验证6个月内只能更新不能新建数据",
+  "description": "在「信息填写」模块验证6个月内只能更新不能新建数据，步骤：进入信息填写；修改部分信息；提交",
+  "priority": "low",
+  "tags": [
+    "smart_task",
+    "plan_generated",
+    "边界"
+  ],
+  "type": "smart_task",
+  "steps": [
+    {
+      "stepNumber": 1,
+      "action": "smart_execute",
+      "description": "在「信息填写」模块验证6个月内只能更新不能新建数据，步骤：进入信息填写；修改部分信息；提交",
+      "params": {
+        "taskDescription": "在「信息填写」模块验证6个月内只能更新不能新建数据，步骤：进入信息填写；修改部分信息；提交",
+        "precondition": "1. 用户6个月内已填写过信息<br>2. 再次进入填写流程",
+        "preconditionList": [
+          "用户6个月内已填写过信息",
+          "再次进入填写流程"
+        ],
+        "expectedResult": "1. 显示上次填写的内容<br>2. 允许修改<br>3. 更新原数据记录，不新增样本数",
+        "expectedList": [
+          "显示上次填写的内容",
+          "允许修改",
+          "更新原数据记录，不新增样本数"
+        ],
+        "testSteps": [
+          "进入信息填写",
+          "修改部分信息",
+          "提交"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "source": "plan",
+    "planMdPath": "import:网易小蜜蜂/1.0",
+    "planVersion": "1.0",
+    "requirementId": "信息填写模块",
+    "caseId": "TC_Form_014",
+    "module": "信息填写",
+    "sectionModule": "信息填写模块",
+    "caseCategory": "边界",
+    "traceability": "PRD 3.2.1 1）",
+    "generatedAt": "2026-03-31T06:46:02.950Z"
+  }
+}

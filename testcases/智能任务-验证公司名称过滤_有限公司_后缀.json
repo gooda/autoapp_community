@@ -1,0 +1,45 @@
+{
+  "name": "智能任务-验证公司名称过滤\"有限公司\"后缀",
+  "description": "在「首页-具体学校」模块验证公司名称过滤\"有限公司\"后缀，步骤：查看表格中的公司名称展示",
+  "priority": "low",
+  "tags": [
+    "smart_task",
+    "plan_generated",
+    "功能"
+  ],
+  "type": "smart_task",
+  "steps": [
+    {
+      "stepNumber": 1,
+      "action": "smart_execute",
+      "description": "在「首页-具体学校」模块验证公司名称过滤\"有限公司\"后缀，步骤：查看表格中的公司名称展示",
+      "params": {
+        "taskDescription": "在「首页-具体学校」模块验证公司名称过滤\"有限公司\"后缀，步骤：查看表格中的公司名称展示",
+        "precondition": "1. 用户在本校数据Tab<br>2. 数据中有含\"有限公司\"的公司",
+        "preconditionList": [
+          "用户在本校数据Tab",
+          "数据中有含\"有限公司\"的公司"
+        ],
+        "expectedResult": "公司名称展示时过滤掉\"有限公司\"后缀，如\"新壹科技有限公司\"展示为\"新壹科技\"【基于PRD 1.13更新记录】",
+        "expectedList": [
+          "1"
+        ],
+        "testSteps": [
+          "查看表格中的公司名称展示"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "source": "plan",
+    "planMdPath": "import:网易小蜜蜂/1.0",
+    "planVersion": "1.0",
+    "requirementId": "首页-具体学校模块",
+    "caseId": "TC_School_022",
+    "module": "首页-具体学校",
+    "sectionModule": "首页-具体学校模块",
+    "caseCategory": "功能",
+    "traceability": "PRD 1.13更新记录",
+    "generatedAt": "2026-03-31T06:46:02.947Z"
+  }
+}

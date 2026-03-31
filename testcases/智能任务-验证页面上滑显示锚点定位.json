@@ -1,0 +1,46 @@
+{
+  "name": "智能任务-验证页面上滑显示锚点定位",
+  "description": "在「首页-具体学校」模块验证页面上滑显示锚点定位，步骤：向下滑动页面；继续向下滑动至讨论区",
+  "priority": "low",
+  "tags": [
+    "smart_task",
+    "plan_generated",
+    "交互"
+  ],
+  "type": "smart_task",
+  "steps": [
+    {
+      "stepNumber": 1,
+      "action": "smart_execute",
+      "description": "在「首页-具体学校」模块验证页面上滑显示锚点定位，步骤：向下滑动页面；继续向下滑动至讨论区",
+      "params": {
+        "taskDescription": "在「首页-具体学校」模块验证页面上滑显示锚点定位，步骤：向下滑动页面；继续向下滑动至讨论区",
+        "precondition": "用户已进入具体学校页面",
+        "preconditionList": [
+          "用户已进入具体学校页面"
+        ],
+        "expectedResult": "1. 页面上滑时顶部出现锚点定位栏，可快速切换数据和讨论区<br>2. 滑动至讨论区区域",
+        "expectedList": [
+          "页面上滑时顶部出现锚点定位栏，可快速切换数据和讨论区",
+          "滑动至讨论区区域"
+        ],
+        "testSteps": [
+          "向下滑动页面",
+          "继续向下滑动至讨论区"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "source": "plan",
+    "planMdPath": "import:网易小蜜蜂/1.0",
+    "planVersion": "1.0",
+    "requirementId": "首页-具体学校模块",
+    "caseId": "TC_School_024",
+    "module": "首页-具体学校",
+    "sectionModule": "首页-具体学校模块",
+    "caseCategory": "交互",
+    "traceability": "交互文档 2.3",
+    "generatedAt": "2026-03-31T06:46:02.947Z"
+  }
+}

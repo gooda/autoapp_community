@@ -1,0 +1,48 @@
+{
+  "name": "智能任务-验证APP搜索学校进入校友互助",
+  "description": "在「功能入口」模块验证APP搜索学校进入校友互助，步骤：输入「学校名称+校友互助」；查看搜索结果；点击搜索结果",
+  "priority": "medium",
+  "tags": [
+    "smart_task",
+    "plan_generated",
+    "功能"
+  ],
+  "type": "smart_task",
+  "steps": [
+    {
+      "stepNumber": 1,
+      "action": "smart_execute",
+      "description": "在「功能入口」模块验证APP搜索学校进入校友互助，步骤：输入「学校名称+校友互助」；查看搜索结果；点击搜索结果",
+      "params": {
+        "taskDescription": "在「功能入口」模块验证APP搜索学校进入校友互助，步骤：输入「学校名称+校友互助」；查看搜索结果；点击搜索结果",
+        "precondition": "用户在APP搜索页",
+        "preconditionList": [
+          "用户在APP搜索页"
+        ],
+        "expectedResult": "1. 支持模糊搜索<br>2. 显示「单校互助引导卡片」，包含学校名称、icon、数据样本数<br>3. 进入该学校的校友互助页面",
+        "expectedList": [
+          "支持模糊搜索",
+          "显示「单校互助引导卡片」，包含学校名称、icon、数据样本数",
+          "进入该学校的校友互助页面"
+        ],
+        "testSteps": [
+          "输入「学校名称+校友互助」",
+          "查看搜索结果",
+          "点击搜索结果"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "source": "plan",
+    "planMdPath": "import:网易小蜜蜂/1.0",
+    "planVersion": "1.0",
+    "requirementId": "功能入口模块",
+    "caseId": "TC_Entry_001",
+    "module": "功能入口",
+    "sectionModule": "功能入口模块",
+    "caseCategory": "功能",
+    "traceability": "PRD 3.5.1 + 交互文档 1.1",
+    "generatedAt": "2026-03-31T06:46:02.951Z"
+  }
+}

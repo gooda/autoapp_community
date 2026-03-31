@@ -1,0 +1,47 @@
+{
+  "name": "智能任务-验证评论被点赞时的消息提醒",
+  "description": "在「消息提醒」模块验证评论被点赞时的消息提醒，步骤：用户A收到消息提醒；点击消息提醒",
+  "priority": "medium",
+  "tags": [
+    "smart_task",
+    "plan_generated",
+    "功能"
+  ],
+  "type": "smart_task",
+  "steps": [
+    {
+      "stepNumber": 1,
+      "action": "smart_execute",
+      "description": "在「消息提醒」模块验证评论被点赞时的消息提醒，步骤：用户A收到消息提醒；点击消息提醒",
+      "params": {
+        "taskDescription": "在「消息提醒」模块验证评论被点赞时的消息提醒，步骤：用户A收到消息提醒；点击消息提醒",
+        "precondition": "1. 用户A发布了评论<br>2. 用户B点赞了该评论",
+        "preconditionList": [
+          "用户A发布了评论",
+          "用户B点赞了该评论"
+        ],
+        "expectedResult": "1. 触发客户端消息提醒和Push【基于待澄清问题Q9：Push文案待确认】<br>2. 先跳转到对应学校的校友互助页面，再打开讨论区列表页并锚定到该条评论",
+        "expectedList": [
+          "触发客户端消息提醒和Push【基于待澄清问题Q9：Push文案待确认】",
+          "先跳转到对应学校的校友互助页面，再打开讨论区列表页并锚定到该条评论"
+        ],
+        "testSteps": [
+          "用户A收到消息提醒",
+          "点击消息提醒"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "source": "plan",
+    "planMdPath": "import:网易小蜜蜂/1.0",
+    "planVersion": "1.0",
+    "requirementId": "消息提醒模块",
+    "caseId": "TC_Msg_001",
+    "module": "消息提醒",
+    "sectionModule": "消息提醒模块",
+    "caseCategory": "功能",
+    "traceability": "PRD 3.6",
+    "generatedAt": "2026-03-31T06:46:02.952Z"
+  }
+}

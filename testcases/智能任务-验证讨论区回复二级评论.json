@@ -1,0 +1,49 @@
+{
+  "name": "智能任务-验证讨论区回复二级评论",
+  "description": "在「首页-具体学校」模块验证讨论区回复二级评论，步骤：点击一级评论下方的「回复」按钮；输入回复内容；点击发送",
+  "priority": "medium",
+  "tags": [
+    "smart_task",
+    "plan_generated",
+    "功能"
+  ],
+  "type": "smart_task",
+  "steps": [
+    {
+      "stepNumber": 1,
+      "action": "smart_execute",
+      "description": "在「首页-具体学校」模块验证讨论区回复二级评论，步骤：点击一级评论下方的「回复」按钮；输入回复内容；点击发送",
+      "params": {
+        "taskDescription": "在「首页-具体学校」模块验证讨论区回复二级评论，步骤：点击一级评论下方的「回复」按钮；输入回复内容；点击发送",
+        "precondition": "1. 用户在「校友互助」Tab<br>2. 存在一级评论",
+        "preconditionList": [
+          "用户在「校友互助」Tab",
+          "存在一级评论"
+        ],
+        "expectedResult": "1. 输入框显示「回复@XXX」<br>2. 支持输入文字【基于待澄清问题Q2：字数限制待确认】<br>3. 回复发布成功，显示在该评论的回复列表中",
+        "expectedList": [
+          "输入框显示「回复@XXX」",
+          "支持输入文字【基于待澄清问题Q2：字数限制待确认】",
+          "回复发布成功，显示在该评论的回复列表中"
+        ],
+        "testSteps": [
+          "点击一级评论下方的「回复」按钮",
+          "输入回复内容",
+          "点击发送"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "source": "plan",
+    "planMdPath": "import:网易小蜜蜂/1.0",
+    "planVersion": "1.0",
+    "requirementId": "首页-具体学校模块",
+    "caseId": "TC_School_012",
+    "module": "首页-具体学校",
+    "sectionModule": "首页-具体学校模块",
+    "caseCategory": "功能",
+    "traceability": "PRD 3.1.1 ⑨ + 交互文档 2.1",
+    "generatedAt": "2026-03-31T06:46:02.945Z"
+  }
+}

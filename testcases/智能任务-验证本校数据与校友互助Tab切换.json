@@ -1,0 +1,48 @@
+{
+  "name": "智能任务-验证本校数据与校友互助Tab切换",
+  "description": "在「首页-具体学校」模块验证本校数据与校友互助Tab切换，步骤：查看页面中部Tab栏；点击「校友互助」Tab；点击「本校数据」Tab",
+  "priority": "medium",
+  "tags": [
+    "smart_task",
+    "plan_generated",
+    "功能"
+  ],
+  "type": "smart_task",
+  "steps": [
+    {
+      "stepNumber": 1,
+      "action": "smart_execute",
+      "description": "在「首页-具体学校」模块验证本校数据与校友互助Tab切换，步骤：查看页面中部Tab栏；点击「校友互助」Tab；点击「本校数据」Tab",
+      "params": {
+        "taskDescription": "在「首页-具体学校」模块验证本校数据与校友互助Tab切换，步骤：查看页面中部Tab栏；点击「校友互助」Tab；点击「本校数据」Tab",
+        "precondition": "用户已进入具体学校页面",
+        "preconditionList": [
+          "用户已进入具体学校页面"
+        ],
+        "expectedResult": "1. Tab栏显示「本校数据」和「校友互助」两个选项，默认选中「本校数据」<br>2. 页面切换至讨论区内容，显示用户发布的讨论内容<br>3. 页面切换回数据表格区域",
+        "expectedList": [
+          "Tab栏显示「本校数据」和「校友互助」两个选项，默认选中「本校数据」",
+          "页面切换至讨论区内容，显示用户发布的讨论内容",
+          "页面切换回数据表格区域"
+        ],
+        "testSteps": [
+          "查看页面中部Tab栏",
+          "点击「校友互助」Tab",
+          "点击「本校数据」Tab"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "source": "plan",
+    "planMdPath": "import:网易小蜜蜂/1.0",
+    "planVersion": "1.0",
+    "requirementId": "首页-具体学校模块",
+    "caseId": "TC_School_002",
+    "module": "首页-具体学校",
+    "sectionModule": "首页-具体学校模块",
+    "caseCategory": "功能",
+    "traceability": "PRD 3.1.1 ③ + 交互文档 2.4",
+    "generatedAt": "2026-03-31T06:46:02.943Z"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "智能任务-验证网络异常时页面加载失败处理",
+  "description": "在「异常场景」模块验证网络异常时页面加载失败处理，步骤：进入校友互助页面；查看加载状态",
+  "priority": "medium",
+  "tags": [
+    "smart_task",
+    "plan_generated",
+    "异常"
+  ],
+  "type": "smart_task",
+  "steps": [
+    {
+      "stepNumber": 1,
+      "action": "smart_execute",
+      "description": "在「异常场景」模块验证网络异常时页面加载失败处理，步骤：进入校友互助页面；查看加载状态",
+      "params": {
+        "taskDescription": "在「异常场景」模块验证网络异常时页面加载失败处理，步骤：进入校友互助页面；查看加载状态",
+        "precondition": "网络连接异常",
+        "preconditionList": [
+          "网络连接异常"
+        ],
+        "expectedResult": "显示「加载失败，请重试」和「重新加载」按钮",
+        "expectedList": [
+          "显示「加载失败，请重试」和「重新加载」按钮"
+        ],
+        "testSteps": [
+          "进入校友互助页面",
+          "查看加载状态"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "source": "plan",
+    "planMdPath": "import:网易小蜜蜂/1.0",
+    "planVersion": "1.0",
+    "requirementId": "异常场景",
+    "caseId": "TC_Exception_001",
+    "module": "异常场景",
+    "sectionModule": "异常场景",
+    "caseCategory": "异常",
+    "traceability": "交互文档 2.7",
+    "generatedAt": "2026-03-31T06:46:02.954Z"
+  }
+}

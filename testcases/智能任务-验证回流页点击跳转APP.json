@@ -1,0 +1,46 @@
+{
+  "name": "智能任务-验证回流页点击跳转APP",
+  "description": "在「分享相关」模块验证回流页点击跳转APP，步骤：点击「打开看看」；点击「我也要填写」；点击「APP内打开」",
+  "priority": "medium",
+  "tags": [
+    "smart_task",
+    "plan_generated",
+    "功能"
+  ],
+  "type": "smart_task",
+  "steps": [
+    {
+      "stepNumber": 1,
+      "action": "smart_execute",
+      "description": "在「分享相关」模块验证回流页点击跳转APP，步骤：点击「打开看看」；点击「我也要填写」；点击「APP内打开」",
+      "params": {
+        "taskDescription": "在「分享相关」模块验证回流页点击跳转APP，步骤：点击「打开看看」；点击「我也要填写」；点击「APP内打开」",
+        "precondition": "用户在回流页",
+        "preconditionList": [
+          "用户在回流页"
+        ],
+        "expectedResult": "1-3. 均触发打开/下载APP，并跳转到对应页面",
+        "expectedList": [
+          "1-3. 均触发打开/下载APP，并跳转到对应页面"
+        ],
+        "testSteps": [
+          "点击「打开看看」",
+          "点击「我也要填写」",
+          "点击「APP内打开」"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "source": "plan",
+    "planMdPath": "import:网易小蜜蜂/1.0",
+    "planVersion": "1.0",
+    "requirementId": "分享相关模块",
+    "caseId": "TC_Share_002",
+    "module": "分享相关",
+    "sectionModule": "分享相关模块",
+    "caseCategory": "功能",
+    "traceability": "PRD 3.7.1",
+    "generatedAt": "2026-03-31T06:46:02.953Z"
+  }
+}

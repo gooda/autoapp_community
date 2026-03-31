@@ -1,0 +1,45 @@
+{
+  "name": "智能任务-验证数据为空时的页面展示",
+  "description": "在「异常场景」模块验证数据为空时的页面展示，步骤：进入学校页面；查看数据区域",
+  "priority": "low",
+  "tags": [
+    "smart_task",
+    "plan_generated",
+    "异常"
+  ],
+  "type": "smart_task",
+  "steps": [
+    {
+      "stepNumber": 1,
+      "action": "smart_execute",
+      "description": "在「异常场景」模块验证数据为空时的页面展示，步骤：进入学校页面；查看数据区域",
+      "params": {
+        "taskDescription": "在「异常场景」模块验证数据为空时的页面展示，步骤：进入学校页面；查看数据区域",
+        "precondition": "该学校无任何数据样本",
+        "preconditionList": [
+          "该学校无任何数据样本"
+        ],
+        "expectedResult": "显示空状态「抱歉，还没有数据~」",
+        "expectedList": [
+          "显示空状态「抱歉，还没有数据~」"
+        ],
+        "testSteps": [
+          "进入学校页面",
+          "查看数据区域"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "source": "plan",
+    "planMdPath": "import:网易小蜜蜂/1.0",
+    "planVersion": "1.0",
+    "requirementId": "异常场景",
+    "caseId": "TC_Exception_002",
+    "module": "异常场景",
+    "sectionModule": "异常场景",
+    "caseCategory": "异常",
+    "traceability": "交互文档 2.7",
+    "generatedAt": "2026-03-31T06:46:02.954Z"
+  }
+}

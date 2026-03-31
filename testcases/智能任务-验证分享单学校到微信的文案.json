@@ -1,0 +1,45 @@
+{
+  "name": "智能任务-验证分享单学校到微信的文案",
+  "description": "在「分享相关」模块验证分享单学校到微信的文案，步骤：点击分享；选择分享到微信",
+  "priority": "low",
+  "tags": [
+    "smart_task",
+    "plan_generated",
+    "功能"
+  ],
+  "type": "smart_task",
+  "steps": [
+    {
+      "stepNumber": 1,
+      "action": "smart_execute",
+      "description": "在「分享相关」模块验证分享单学校到微信的文案，步骤：点击分享；选择分享到微信",
+      "params": {
+        "taskDescription": "在「分享相关」模块验证分享单学校到微信的文案，步骤：点击分享；选择分享到微信",
+        "precondition": "用户在具体学校页面",
+        "preconditionList": [
+          "用户在具体学校页面"
+        ],
+        "expectedResult": "分享卡片显示：icon为单学校icon，标题为「「学校名称」校友就业情况大盘点，快来看看~」，副标题为「看看大家都去哪啦，都在做些什么~」",
+        "expectedList": [
+          "分享卡片显示：icon为单学校icon，标题为「「学校名称」校友就业情况大盘点，快来看看~」，副标题为「看看大家都去哪啦，都在做些什么~」"
+        ],
+        "testSteps": [
+          "点击分享",
+          "选择分享到微信"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "source": "plan",
+    "planMdPath": "import:网易小蜜蜂/1.0",
+    "planVersion": "1.0",
+    "requirementId": "分享相关模块",
+    "caseId": "TC_Share_007",
+    "module": "分享相关",
+    "sectionModule": "分享相关模块",
+    "caseCategory": "功能",
+    "traceability": "PRD 3.7.1",
+    "generatedAt": "2026-03-31T06:46:02.954Z"
+  }
+}

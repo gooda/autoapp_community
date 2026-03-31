@@ -1,0 +1,48 @@
+{
+  "name": "智能任务-验证信息提交成功后的反馈",
+  "description": "在「信息填写」模块验证信息提交成功后的反馈，步骤：点击提交按钮；查看反馈弹窗；点击「我知道了」",
+  "priority": "medium",
+  "tags": [
+    "smart_task",
+    "plan_generated",
+    "功能"
+  ],
+  "type": "smart_task",
+  "steps": [
+    {
+      "stepNumber": 1,
+      "action": "smart_execute",
+      "description": "在「信息填写」模块验证信息提交成功后的反馈，步骤：点击提交按钮；查看反馈弹窗；点击「我知道了」",
+      "params": {
+        "taskDescription": "在「信息填写」模块验证信息提交成功后的反馈，步骤：点击提交按钮；查看反馈弹窗；点击「我知道了」",
+        "precondition": "用户已完成信息填写",
+        "preconditionList": [
+          "用户已完成信息填写"
+        ],
+        "expectedResult": "1. 提交成功<br>2. 弹出弹窗显示「感谢你！成为第XXX位数据贡献者」「快去查看更新后的数据吧~」<br>3. 弹窗关闭，返回数据页",
+        "expectedList": [
+          "提交成功",
+          "弹出弹窗显示「感谢你！成为第XXX位数据贡献者」「快去查看更新后的数据吧~」",
+          "弹窗关闭，返回数据页"
+        ],
+        "testSteps": [
+          "点击提交按钮",
+          "查看反馈弹窗",
+          "点击「我知道了」"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "source": "plan",
+    "planMdPath": "import:网易小蜜蜂/1.0",
+    "planVersion": "1.0",
+    "requirementId": "信息填写模块",
+    "caseId": "TC_Form_012",
+    "module": "信息填写",
+    "sectionModule": "信息填写模块",
+    "caseCategory": "功能",
+    "traceability": "PRD 3.2.1 ④ + 交互文档 3.6",
+    "generatedAt": "2026-03-31T06:46:02.950Z"
+  }
+}

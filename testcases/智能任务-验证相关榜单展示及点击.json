@@ -1,0 +1,49 @@
+{
+  "name": "智能任务-验证相关榜单展示及点击",
+  "description": "在「首页-具体学校」模块验证相关榜单展示及点击，步骤：查看相关榜单区域；点击「查看更多」；返回后点击具体评分对象",
+  "priority": "low",
+  "tags": [
+    "smart_task",
+    "plan_generated",
+    "功能"
+  ],
+  "type": "smart_task",
+  "steps": [
+    {
+      "stepNumber": 1,
+      "action": "smart_execute",
+      "description": "在「首页-具体学校」模块验证相关榜单展示及点击，步骤：查看相关榜单区域；点击「查看更多」；返回后点击具体评分对象",
+      "params": {
+        "taskDescription": "在「首页-具体学校」模块验证相关榜单展示及点击，步骤：查看相关榜单区域；点击「查看更多」；返回后点击具体评分对象",
+        "precondition": "1. 用户在本校数据Tab<br>2. 该学校已绑定榜单【基于待澄清问题Q18：榜单绑定逻辑待确认】",
+        "preconditionList": [
+          "用户在本校数据Tab",
+          "该学校已绑定榜单【基于待澄清问题Q18：榜单绑定逻辑待确认】"
+        ],
+        "expectedResult": "1. 显示绑定的评分榜单和评分对象<br>2. 进入评分列表页<br>3. 进入评分对象详情页",
+        "expectedList": [
+          "显示绑定的评分榜单和评分对象",
+          "进入评分列表页",
+          "进入评分对象详情页"
+        ],
+        "testSteps": [
+          "查看相关榜单区域",
+          "点击「查看更多」",
+          "返回后点击具体评分对象"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "source": "plan",
+    "planMdPath": "import:网易小蜜蜂/1.0",
+    "planVersion": "1.0",
+    "requirementId": "首页-具体学校模块",
+    "caseId": "TC_School_015",
+    "module": "首页-具体学校",
+    "sectionModule": "首页-具体学校模块",
+    "caseCategory": "功能",
+    "traceability": "PRD 3.1.1 ⑩ + 交互文档 2.1",
+    "generatedAt": "2026-03-31T06:46:02.945Z"
+  }
+}

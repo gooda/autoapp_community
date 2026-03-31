@@ -1,0 +1,50 @@
+{
+  "name": "智能任务-验证职业信息推荐展示",
+  "description": "在「首页-具体学校」模块验证职业信息推荐展示，步骤：查看职业信息推荐区域；查看公司展示信息；点击「查看更多」",
+  "priority": "medium",
+  "tags": [
+    "smart_task",
+    "plan_generated",
+    "功能"
+  ],
+  "type": "smart_task",
+  "steps": [
+    {
+      "stepNumber": 1,
+      "action": "smart_execute",
+      "description": "在「首页-具体学校」模块验证职业信息推荐展示，步骤：查看职业信息推荐区域；查看公司展示信息；点击「查看更多」",
+      "params": {
+        "taskDescription": "在「首页-具体学校」模块验证职业信息推荐展示，步骤：查看职业信息推荐区域；查看公司展示信息；点击「查看更多」",
+        "precondition": "1. 用户在本校数据Tab<br>2. 有匹配的招聘公司数据",
+        "preconditionList": [
+          "用户在本校数据Tab",
+          "有匹配的招聘公司数据"
+        ],
+        "expectedResult": "1. 显示「哪些企业在招聘？」区域<br>2. 展示公司icon（无icon时显示公司首字兜底【基于PRD 1.21】）、公司名称、岗位信息（最多2个岗位，每岗位最多6个字）或行业信息<br>3. 进入企业招聘二级页，最多展示top30公司",
+        "expectedList": [
+          "显示「哪些企业在招聘？」区域",
+          "展示公司icon（无icon时显示公司首字兜底【基于PRD",
+          "21】）、公司名称、岗位信息（最多2个岗位，每岗位最多6个字）或行业信息",
+          "进入企业招聘二级页，最多展示top30公司"
+        ],
+        "testSteps": [
+          "查看职业信息推荐区域",
+          "查看公司展示信息",
+          "点击「查看更多」"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "source": "plan",
+    "planMdPath": "import:网易小蜜蜂/1.0",
+    "planVersion": "1.0",
+    "requirementId": "首页-具体学校模块",
+    "caseId": "TC_School_016",
+    "module": "首页-具体学校",
+    "sectionModule": "首页-具体学校模块",
+    "caseCategory": "功能",
+    "traceability": "PRD 3.1.1 ⑪ + 交互文档 2.2",
+    "generatedAt": "2026-03-31T06:46:02.946Z"
+  }
+}

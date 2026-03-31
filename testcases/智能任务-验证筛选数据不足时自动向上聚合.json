@@ -1,0 +1,48 @@
+{
+  "name": "智能任务-验证筛选数据不足时自动向上聚合",
+  "description": "在「首页-具体学校」模块验证筛选数据不足时自动向上聚合，步骤：选择样本量为0的三级专业；查看提示信息；查看表格数据",
+  "priority": "low",
+  "tags": [
+    "smart_task",
+    "plan_generated",
+    "边界"
+  ],
+  "type": "smart_task",
+  "steps": [
+    {
+      "stepNumber": 1,
+      "action": "smart_execute",
+      "description": "在「首页-具体学校」模块验证筛选数据不足时自动向上聚合，步骤：选择样本量为0的三级专业；查看提示信息；查看表格数据",
+      "params": {
+        "taskDescription": "在「首页-具体学校」模块验证筛选数据不足时自动向上聚合，步骤：选择样本量为0的三级专业；查看提示信息；查看表格数据",
+        "precondition": "1. 用户已进入具体学校页面<br>2. 选择的专业样本量为0",
+        "preconditionList": [
+          "用户已进入具体学校页面",
+          "选择的专业样本量为0"
+        ],
+        "expectedResult": "1. 弹出Toast提示「该专业数据样本不足，已为你合并到#专业名称#进行统计展示」<br>2. 表格自动展示上一级（二级或一级）专业的聚合数据",
+        "expectedList": [
+          "弹出Toast提示「该专业数据样本不足，已为你合并到#专业名称#进行统计展示」",
+          "表格自动展示上一级（二级或一级）专业的聚合数据"
+        ],
+        "testSteps": [
+          "选择样本量为0的三级专业",
+          "查看提示信息",
+          "查看表格数据"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "source": "plan",
+    "planMdPath": "import:网易小蜜蜂/1.0",
+    "planVersion": "1.0",
+    "requirementId": "首页-具体学校模块",
+    "caseId": "TC_School_007",
+    "module": "首页-具体学校",
+    "sectionModule": "首页-具体学校模块",
+    "caseCategory": "边界",
+    "traceability": "PRD 3.1.1 表格配置 + 交互文档 2.6",
+    "generatedAt": "2026-03-31T06:46:02.944Z"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "智能任务-验证退出引导仅展示一次",
+  "description": "在「页面引导」模块验证退出引导仅展示一次，步骤：点击返回按钮",
+  "priority": "low",
+  "tags": [
+    "smart_task",
+    "plan_generated",
+    "功能"
+  ],
+  "type": "smart_task",
+  "steps": [
+    {
+      "stepNumber": 1,
+      "action": "smart_execute",
+      "description": "在「页面引导」模块验证退出引导仅展示一次，步骤：点击返回按钮",
+      "params": {
+        "taskDescription": "在「页面引导」模块验证退出引导仅展示一次，步骤：点击返回按钮",
+        "precondition": "1. 用户已看过首次退出引导<br>2. 再次从端外进入页面",
+        "preconditionList": [
+          "用户已看过首次退出引导",
+          "再次从端外进入页面"
+        ],
+        "expectedResult": "直接退出页面，不再展示引导弹窗【基于待澄清问题Q8：判断依据待确认】",
+        "expectedList": [
+          "直接退出页面，不再展示引导弹窗【基于待澄清问题Q8：判断依据待确认】"
+        ],
+        "testSteps": [
+          "点击返回按钮"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "source": "plan",
+    "planMdPath": "import:网易小蜜蜂/1.0",
+    "planVersion": "1.0",
+    "requirementId": "页面引导模块",
+    "caseId": "TC_Guide_002",
+    "module": "页面引导",
+    "sectionModule": "页面引导模块",
+    "caseCategory": "功能",
+    "traceability": "PRD 3.4.1",
+    "generatedAt": "2026-03-31T06:46:02.951Z"
+  }
+}

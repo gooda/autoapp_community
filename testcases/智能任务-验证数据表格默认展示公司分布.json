@@ -1,0 +1,49 @@
+{
+  "name": "智能任务-验证数据表格默认展示公司分布",
+  "description": "在「首页-具体学校」模块验证数据表格默认展示公司分布，步骤：查看表格标题；查看表格样本量；查看表格数据展示",
+  "priority": "medium",
+  "tags": [
+    "smart_task",
+    "plan_generated",
+    "功能"
+  ],
+  "type": "smart_task",
+  "steps": [
+    {
+      "stepNumber": 1,
+      "action": "smart_execute",
+      "description": "在「首页-具体学校」模块验证数据表格默认展示公司分布，步骤：查看表格标题；查看表格样本量；查看表格数据展示",
+      "params": {
+        "taskDescription": "在「首页-具体学校」模块验证数据表格默认展示公司分布，步骤：查看表格标题；查看表格样本量；查看表格数据展示",
+        "precondition": "1. 用户在本校数据Tab<br>2. 该学校有公司分布数据",
+        "preconditionList": [
+          "用户在本校数据Tab",
+          "该学校有公司分布数据"
+        ],
+        "expectedResult": "1. 表格标题显示「校友都去哪了？」<br>2. 显示当前筛选条件下的样本量<br>3. 默认展示公司维度数据，按人数降序排列，最多展示前6条（含展开入口）【置信度：中，交互文档2.2写\"仅展示前6条\"，PRD写\"最多取TOP100\"】",
+        "expectedList": [
+          "表格标题显示「校友都去哪了？」",
+          "显示当前筛选条件下的样本量",
+          "默认展示公司维度数据，按人数降序排列，最多展示前6条（含展开入口）【置信度：中，交互文档2.2写\"仅展示前6条\"，PRD写\"最多取TOP100\"】"
+        ],
+        "testSteps": [
+          "查看表格标题",
+          "查看表格样本量",
+          "查看表格数据展示"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "source": "plan",
+    "planMdPath": "import:网易小蜜蜂/1.0",
+    "planVersion": "1.0",
+    "requirementId": "首页-具体学校模块",
+    "caseId": "TC_School_003",
+    "module": "首页-具体学校",
+    "sectionModule": "首页-具体学校模块",
+    "caseCategory": "功能",
+    "traceability": "PRD 3.1.1 ④⑤⑥⑧ + 交互文档 2.2",
+    "generatedAt": "2026-03-31T06:46:02.943Z"
+  }
+}

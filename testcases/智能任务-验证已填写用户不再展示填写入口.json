@@ -1,0 +1,45 @@
+{
+  "name": "智能任务-验证已填写用户不再展示填写入口",
+  "description": "在「信息填写」模块验证已填写用户不再展示填写入口，步骤：返回数据页；查看填写入口",
+  "priority": "low",
+  "tags": [
+    "smart_task",
+    "plan_generated",
+    "功能"
+  ],
+  "type": "smart_task",
+  "steps": [
+    {
+      "stepNumber": 1,
+      "action": "smart_execute",
+      "description": "在「信息填写」模块验证已填写用户不再展示填写入口，步骤：返回数据页；查看填写入口",
+      "params": {
+        "taskDescription": "在「信息填写」模块验证已填写用户不再展示填写入口，步骤：返回数据页；查看填写入口",
+        "precondition": "用户已完成必填信息填写",
+        "preconditionList": [
+          "用户已完成必填信息填写"
+        ],
+        "expectedResult": "数据页不再显示「去填写」按钮或信息填写引导卡片",
+        "expectedList": [
+          "数据页不再显示「去填写」按钮或信息填写引导卡片"
+        ],
+        "testSteps": [
+          "返回数据页",
+          "查看填写入口"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "source": "plan",
+    "planMdPath": "import:网易小蜜蜂/1.0",
+    "planVersion": "1.0",
+    "requirementId": "信息填写模块",
+    "caseId": "TC_Form_013",
+    "module": "信息填写",
+    "sectionModule": "信息填写模块",
+    "caseCategory": "功能",
+    "traceability": "交互文档 3.1",
+    "generatedAt": "2026-03-31T06:46:02.950Z"
+  }
+}

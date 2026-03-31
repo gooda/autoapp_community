@@ -1,0 +1,46 @@
+{
+  "name": "智能任务-验证信息填写入口的身份选择",
+  "description": "在「信息填写」模块验证信息填写入口的身份选择，步骤：点击填写入口；查看身份选择弹窗",
+  "priority": "medium",
+  "tags": [
+    "smart_task",
+    "plan_generated",
+    "功能"
+  ],
+  "type": "smart_task",
+  "steps": [
+    {
+      "stepNumber": 1,
+      "action": "smart_execute",
+      "description": "在「信息填写」模块验证信息填写入口的身份选择，步骤：点击填写入口；查看身份选择弹窗",
+      "params": {
+        "taskDescription": "在「信息填写」模块验证信息填写入口的身份选择，步骤：点击填写入口；查看身份选择弹窗",
+        "precondition": "用户点击信息填写入口",
+        "preconditionList": [
+          "用户点击信息填写入口"
+        ],
+        "expectedResult": "1. 底部弹起「请选择当前状态」弹窗<br>2. 显示「还在校（含实习）」和「已经毕业」两个选项",
+        "expectedList": [
+          "底部弹起「请选择当前状态」弹窗",
+          "显示「还在校（含实习）」和「已经毕业」两个选项"
+        ],
+        "testSteps": [
+          "点击填写入口",
+          "查看身份选择弹窗"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "source": "plan",
+    "planMdPath": "import:网易小蜜蜂/1.0",
+    "planVersion": "1.0",
+    "requirementId": "信息填写模块",
+    "caseId": "TC_Form_001",
+    "module": "信息填写",
+    "sectionModule": "信息填写模块",
+    "caseCategory": "功能",
+    "traceability": "PRD 3.2.1 + 交互文档 3.2",
+    "generatedAt": "2026-03-31T06:46:02.948Z"
+  }
+}

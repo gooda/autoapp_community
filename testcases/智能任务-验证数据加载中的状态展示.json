@@ -1,0 +1,45 @@
+{
+  "name": "智能任务-验证数据加载中的状态展示",
+  "description": "在「异常场景」模块验证数据加载中的状态展示，步骤：进入页面或切换筛选；查看加载状态",
+  "priority": "low",
+  "tags": [
+    "smart_task",
+    "plan_generated",
+    "交互"
+  ],
+  "type": "smart_task",
+  "steps": [
+    {
+      "stepNumber": 1,
+      "action": "smart_execute",
+      "description": "在「异常场景」模块验证数据加载中的状态展示，步骤：进入页面或切换筛选；查看加载状态",
+      "params": {
+        "taskDescription": "在「异常场景」模块验证数据加载中的状态展示，步骤：进入页面或切换筛选；查看加载状态",
+        "precondition": "页面正在加载数据",
+        "preconditionList": [
+          "页面正在加载数据"
+        ],
+        "expectedResult": "显示加载动画「正在载入」",
+        "expectedList": [
+          "显示加载动画「正在载入」"
+        ],
+        "testSteps": [
+          "进入页面或切换筛选",
+          "查看加载状态"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "source": "plan",
+    "planMdPath": "import:网易小蜜蜂/1.0",
+    "planVersion": "1.0",
+    "requirementId": "异常场景",
+    "caseId": "TC_Exception_003",
+    "module": "异常场景",
+    "sectionModule": "异常场景",
+    "caseCategory": "交互",
+    "traceability": "交互文档 2.7",
+    "generatedAt": "2026-03-31T06:46:02.954Z"
+  }
+}

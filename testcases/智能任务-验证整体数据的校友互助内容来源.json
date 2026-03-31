@@ -1,0 +1,45 @@
+{
+  "name": "智能任务-验证整体数据的校友互助内容来源",
+  "description": "在「首页-整体数据」模块验证整体数据的校友互助内容来源，步骤：点击「校友互助」Tab；查看讨论区内容",
+  "priority": "medium",
+  "tags": [
+    "smart_task",
+    "plan_generated",
+    "功能"
+  ],
+  "type": "smart_task",
+  "steps": [
+    {
+      "stepNumber": 1,
+      "action": "smart_execute",
+      "description": "在「首页-整体数据」模块验证整体数据的校友互助内容来源，步骤：点击「校友互助」Tab；查看讨论区内容",
+      "params": {
+        "taskDescription": "在「首页-整体数据」模块验证整体数据的校友互助内容来源，步骤：点击「校友互助」Tab；查看讨论区内容",
+        "precondition": "用户在整体数据页的「校友互助」Tab",
+        "preconditionList": [
+          "用户在整体数据页的「校友互助」Tab"
+        ],
+        "expectedResult": "讨论区内容取自所有学校下的讨论内容",
+        "expectedList": [
+          "讨论区内容取自所有学校下的讨论内容"
+        ],
+        "testSteps": [
+          "点击「校友互助」Tab",
+          "查看讨论区内容"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "source": "plan",
+    "planMdPath": "import:网易小蜜蜂/1.0",
+    "planVersion": "1.0",
+    "requirementId": "首页-整体数据模块",
+    "caseId": "TC_Overall_003",
+    "module": "首页-整体数据",
+    "sectionModule": "首页-整体数据模块",
+    "caseCategory": "功能",
+    "traceability": "PRD 3.1.2",
+    "generatedAt": "2026-03-31T06:46:02.948Z"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "name": "智能任务-验证无数据无评论时的分享卡片",
+  "description": "在「分享相关」模块验证无数据无评论时的分享卡片，步骤：点击分享生成卡片；查看卡片内容",
+  "priority": "low",
+  "tags": [
+    "smart_task",
+    "plan_generated",
+    "功能"
+  ],
+  "type": "smart_task",
+  "steps": [
+    {
+      "stepNumber": 1,
+      "action": "smart_execute",
+      "description": "在「分享相关」模块验证无数据无评论时的分享卡片，步骤：点击分享生成卡片；查看卡片内容",
+      "params": {
+        "taskDescription": "在「分享相关」模块验证无数据无评论时的分享卡片，步骤：点击分享生成卡片；查看卡片内容",
+        "precondition": "1. 分享页面无数据<br>2. 分享页面无评论",
+        "preconditionList": [
+          "分享页面无数据",
+          "分享页面无评论"
+        ],
+        "expectedResult": "1. 「校友就业数据」旁不显示数据标签<br>2. 数据模块显示「暂时没有校友数据 快来小蜜蜂填写信息帮助更多师弟师妹吧」<br>3. 不展示「讨论区」模块<br>4. 底部展示二维码和「扫码查看全部就业信息与更多讨论 网易小蜜蜂 我的成长秘籍」文案",
+        "expectedList": [
+          "「校友就业数据」旁不显示数据标签",
+          "数据模块显示「暂时没有校友数据 快来小蜜蜂填写信息帮助更多师弟师妹吧」",
+          "不展示「讨论区」模块",
+          "底部展示二维码和「扫码查看全部就业信息与更多讨论 网易小蜜蜂 我的成长秘籍」文案"
+        ],
+        "testSteps": [
+          "点击分享生成卡片",
+          "查看卡片内容"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "source": "plan",
+    "planMdPath": "import:网易小蜜蜂/1.0",
+    "planVersion": "1.0",
+    "requirementId": "分享相关模块",
+    "caseId": "TC_Share_006",
+    "module": "分享相关",
+    "sectionModule": "分享相关模块",
+    "caseCategory": "功能",
+    "traceability": "PRD 3.7.2",
+    "generatedAt": "2026-03-31T06:46:02.954Z"
+  }
+}

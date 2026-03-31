@@ -1,0 +1,46 @@
+{
+  "name": "智能任务-验证整体数据的数据来源范围",
+  "description": "在「首页-整体数据」模块验证整体数据的数据来源范围，步骤：查看表格标题；查看数据内容",
+  "priority": "medium",
+  "tags": [
+    "smart_task",
+    "plan_generated",
+    "功能"
+  ],
+  "type": "smart_task",
+  "steps": [
+    {
+      "stepNumber": 1,
+      "action": "smart_execute",
+      "description": "在「首页-整体数据」模块验证整体数据的数据来源范围，步骤：查看表格标题；查看数据内容",
+      "params": {
+        "taskDescription": "在「首页-整体数据」模块验证整体数据的数据来源范围，步骤：查看表格标题；查看数据内容",
+        "precondition": "用户在整体数据页的「本校数据」Tab",
+        "preconditionList": [
+          "用户在整体数据页的「本校数据」Tab"
+        ],
+        "expectedResult": "1. 表格标题显示「大家都去哪了？」和「大家都在干什么？」<br>2. 数据来源于所有学校的样本数据",
+        "expectedList": [
+          "表格标题显示「大家都去哪了？」和「大家都在干什么？」",
+          "数据来源于所有学校的样本数据"
+        ],
+        "testSteps": [
+          "查看表格标题",
+          "查看数据内容"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "source": "plan",
+    "planMdPath": "import:网易小蜜蜂/1.0",
+    "planVersion": "1.0",
+    "requirementId": "首页-整体数据模块",
+    "caseId": "TC_Overall_002",
+    "module": "首页-整体数据",
+    "sectionModule": "首页-整体数据模块",
+    "caseCategory": "功能",
+    "traceability": "PRD 3.1.2",
+    "generatedAt": "2026-03-31T06:46:02.948Z"
+  }
+}

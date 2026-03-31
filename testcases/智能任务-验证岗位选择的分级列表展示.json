@@ -1,0 +1,50 @@
+{
+  "name": "智能任务-验证岗位选择的分级列表展示",
+  "description": "在「信息填写」模块验证岗位选择的分级列表展示，步骤：点击岗位输入框；查看岗位选择页；点击左侧分类；选择右侧具体岗位",
+  "priority": "medium",
+  "tags": [
+    "smart_task",
+    "plan_generated",
+    "功能"
+  ],
+  "type": "smart_task",
+  "steps": [
+    {
+      "stepNumber": 1,
+      "action": "smart_execute",
+      "description": "在「信息填写」模块验证岗位选择的分级列表展示，步骤：点击岗位输入框；查看岗位选择页；点击左侧分类；选择右侧具体岗位",
+      "params": {
+        "taskDescription": "在「信息填写」模块验证岗位选择的分级列表展示，步骤：点击岗位输入框；查看岗位选择页；点击左侧分类；选择右侧具体岗位",
+        "precondition": "用户进入岗位选择页面",
+        "preconditionList": [
+          "用户进入岗位选择页面"
+        ],
+        "expectedResult": "1. 进入岗位选择页<br>2. 左侧显示岗位分类（互联网/AI、产品、运营/客服等），右侧显示具体岗位<br>3. 切换分类时右侧列表刷新<br>4. 选中岗位后返回填写页",
+        "expectedList": [
+          "进入岗位选择页",
+          "左侧显示岗位分类（互联网/AI、产品、运营/客服等），右侧显示具体岗位",
+          "切换分类时右侧列表刷新",
+          "选中岗位后返回填写页"
+        ],
+        "testSteps": [
+          "点击岗位输入框",
+          "查看岗位选择页",
+          "点击左侧分类",
+          "选择右侧具体岗位"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "source": "plan",
+    "planMdPath": "import:网易小蜜蜂/1.0",
+    "planVersion": "1.0",
+    "requirementId": "信息填写模块",
+    "caseId": "TC_Form_010",
+    "module": "信息填写",
+    "sectionModule": "信息填写模块",
+    "caseCategory": "功能",
+    "traceability": "PRD 3.2.2 + 交互文档 3.5",
+    "generatedAt": "2026-03-31T06:46:02.950Z"
+  }
+}

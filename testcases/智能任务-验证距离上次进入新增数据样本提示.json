@@ -1,0 +1,46 @@
+{
+  "name": "智能任务-验证距离上次进入新增数据样本提示",
+  "description": "在「首页-具体学校」模块验证距离上次进入新增数据样本提示，步骤：进入页面；查看新增数据提示",
+  "priority": "low",
+  "tags": [
+    "smart_task",
+    "plan_generated",
+    "功能"
+  ],
+  "type": "smart_task",
+  "steps": [
+    {
+      "stepNumber": 1,
+      "action": "smart_execute",
+      "description": "在「首页-具体学校」模块验证距离上次进入新增数据样本提示，步骤：进入页面；查看新增数据提示",
+      "params": {
+        "taskDescription": "在「首页-具体学校」模块验证距离上次进入新增数据样本提示，步骤：进入页面；查看新增数据提示",
+        "precondition": "1. 用户非首次进入该页面<br>2. 距离上次进入有新增样本",
+        "preconditionList": [
+          "用户非首次进入该页面",
+          "距离上次进入有新增样本"
+        ],
+        "expectedResult": "显示新增数据样本数量提示【基于待澄清问题Q4：具体展示形式待确认】",
+        "expectedList": [
+          "显示新增数据样本数量提示【基于待澄清问题Q4：具体展示形式待确认】"
+        ],
+        "testSteps": [
+          "进入页面",
+          "查看新增数据提示"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "source": "plan",
+    "planMdPath": "import:网易小蜜蜂/1.0",
+    "planVersion": "1.0",
+    "requirementId": "首页-具体学校模块",
+    "caseId": "TC_School_021",
+    "module": "首页-具体学校",
+    "sectionModule": "首页-具体学校模块",
+    "caseCategory": "功能",
+    "traceability": "PRD 3.1.1 ②",
+    "generatedAt": "2026-03-31T06:46:02.947Z"
+  }
+}

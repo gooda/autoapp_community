@@ -1,0 +1,49 @@
+{
+  "name": "智能任务-验证有数据无评论时的分享卡片",
+  "description": "在「分享相关」模块验证有数据无评论时的分享卡片，步骤：点击分享生成卡片；查看卡片内容",
+  "priority": "low",
+  "tags": [
+    "smart_task",
+    "plan_generated",
+    "功能"
+  ],
+  "type": "smart_task",
+  "steps": [
+    {
+      "stepNumber": 1,
+      "action": "smart_execute",
+      "description": "在「分享相关」模块验证有数据无评论时的分享卡片，步骤：点击分享生成卡片；查看卡片内容",
+      "params": {
+        "taskDescription": "在「分享相关」模块验证有数据无评论时的分享卡片，步骤：点击分享生成卡片；查看卡片内容",
+        "precondition": "1. 分享页面有数据<br>2. 分享页面无评论",
+        "preconditionList": [
+          "分享页面有数据",
+          "分享页面无评论"
+        ],
+        "expectedResult": "1. 展示数据标签<br>2. 展示图表数据<br>3. 不展示「讨论区」模块<br>4. 底部展示二维码和岗位数据",
+        "expectedList": [
+          "展示数据标签",
+          "展示图表数据",
+          "不展示「讨论区」模块",
+          "底部展示二维码和岗位数据"
+        ],
+        "testSteps": [
+          "点击分享生成卡片",
+          "查看卡片内容"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "source": "plan",
+    "planMdPath": "import:网易小蜜蜂/1.0",
+    "planVersion": "1.0",
+    "requirementId": "分享相关模块",
+    "caseId": "TC_Share_005",
+    "module": "分享相关",
+    "sectionModule": "分享相关模块",
+    "caseCategory": "功能",
+    "traceability": "PRD 3.7.2",
+    "generatedAt": "2026-03-31T06:46:02.953Z"
+  }
+}

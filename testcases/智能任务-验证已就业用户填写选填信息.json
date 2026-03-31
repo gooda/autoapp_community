@@ -1,0 +1,46 @@
+{
+  "name": "智能任务-验证已就业用户填写选填信息",
+  "description": "在「信息填写」模块验证已就业用户填写选填信息，步骤：完成必填字段；选择工作年限；选择当前月薪范围；选择MBTI；点击提交",
+  "priority": "low",
+  "tags": [
+    "smart_task",
+    "plan_generated",
+    "功能"
+  ],
+  "type": "smart_task",
+  "steps": [
+    {
+      "stepNumber": 1,
+      "action": "smart_execute",
+      "description": "在「信息填写」模块验证已就业用户填写选填信息，步骤：完成必填字段；选择工作年限；选择当前月薪范围；选择MBTI；点击提交",
+      "params": {
+        "taskDescription": "在「信息填写」模块验证已就业用户填写选填信息，步骤：完成必填字段；选择工作年限；选择当前月薪范围；选择MBTI；点击提交",
+        "precondition": "用户选择「已经毕业」身份",
+        "preconditionList": [
+          "用户选择「已经毕业」身份"
+        ],
+        "expectedResult": "",
+        "expectedList": [],
+        "testSteps": [
+          "完成必填字段",
+          "选择工作年限",
+          "选择当前月薪范围",
+          "选择MBTI",
+          "点击提交"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "source": "plan",
+    "planMdPath": "import:网易小蜜蜂/1.0",
+    "planVersion": "1.0",
+    "requirementId": "信息填写模块",
+    "caseId": "TC_Form_004",
+    "module": "信息填写",
+    "sectionModule": "信息填写模块",
+    "caseCategory": "功能",
+    "traceability": "PRD 3.2.2",
+    "generatedAt": "2026-03-31T06:46:02.949Z"
+  }
+}

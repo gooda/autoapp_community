@@ -1,0 +1,49 @@
+{
+  "name": "智能任务-验证讨论区评论点赞功能",
+  "description": "在「首页-具体学校」模块验证讨论区评论点赞功能，步骤：查看评论点赞数；点击点赞按钮；再次点击点赞按钮",
+  "priority": "medium",
+  "tags": [
+    "smart_task",
+    "plan_generated",
+    "功能"
+  ],
+  "type": "smart_task",
+  "steps": [
+    {
+      "stepNumber": 1,
+      "action": "smart_execute",
+      "description": "在「首页-具体学校」模块验证讨论区评论点赞功能，步骤：查看评论点赞数；点击点赞按钮；再次点击点赞按钮",
+      "params": {
+        "taskDescription": "在「首页-具体学校」模块验证讨论区评论点赞功能，步骤：查看评论点赞数；点击点赞按钮；再次点击点赞按钮",
+        "precondition": "1. 用户在「校友互助」Tab<br>2. 存在评论内容",
+        "preconditionList": [
+          "用户在「校友互助」Tab",
+          "存在评论内容"
+        ],
+        "expectedResult": "1. 显示当前点赞数<br>2. 点赞数+1，点赞图标变为已点赞状态<br>3. 点赞数-1，点赞图标恢复未点赞状态",
+        "expectedList": [
+          "显示当前点赞数",
+          "点赞数+1，点赞图标变为已点赞状态",
+          "点赞数-1，点赞图标恢复未点赞状态"
+        ],
+        "testSteps": [
+          "查看评论点赞数",
+          "点击点赞按钮",
+          "再次点击点赞按钮"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "source": "plan",
+    "planMdPath": "import:网易小蜜蜂/1.0",
+    "planVersion": "1.0",
+    "requirementId": "首页-具体学校模块",
+    "caseId": "TC_School_013",
+    "module": "首页-具体学校",
+    "sectionModule": "首页-具体学校模块",
+    "caseCategory": "功能",
+    "traceability": "PRD 3.1.1 ⑨",
+    "generatedAt": "2026-03-31T06:46:02.945Z"
+  }
+}

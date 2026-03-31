@@ -1,0 +1,48 @@
+{
+  "name": "智能任务-验证整体数据页面基础展示",
+  "description": "在「首页-整体数据」模块验证整体数据页面基础展示，步骤：查看页面标题；查看数据来源说明；查看Tab切换",
+  "priority": "medium",
+  "tags": [
+    "smart_task",
+    "plan_generated",
+    "功能"
+  ],
+  "type": "smart_task",
+  "steps": [
+    {
+      "stepNumber": 1,
+      "action": "smart_execute",
+      "description": "在「首页-整体数据」模块验证整体数据页面基础展示，步骤：查看页面标题；查看数据来源说明；查看Tab切换",
+      "params": {
+        "taskDescription": "在「首页-整体数据」模块验证整体数据页面基础展示，步骤：查看页面标题；查看数据来源说明；查看Tab切换",
+        "precondition": "用户通过搜索「校友互助」进入整体数据页",
+        "preconditionList": [
+          "用户通过搜索「校友互助」进入整体数据页"
+        ],
+        "expectedResult": "1. 页面标题显示「XXX所全国高校」或「高校就业数据」<br>2. 显示数据来源说明和累计人数<br>3. 显示「本校数据」和「校友互助」两个Tab",
+        "expectedList": [
+          "页面标题显示「XXX所全国高校」或「高校就业数据」",
+          "显示数据来源说明和累计人数",
+          "显示「本校数据」和「校友互助」两个Tab"
+        ],
+        "testSteps": [
+          "查看页面标题",
+          "查看数据来源说明",
+          "查看Tab切换"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "source": "plan",
+    "planMdPath": "import:网易小蜜蜂/1.0",
+    "planVersion": "1.0",
+    "requirementId": "首页-整体数据模块",
+    "caseId": "TC_Overall_001",
+    "module": "首页-整体数据",
+    "sectionModule": "首页-整体数据模块",
+    "caseCategory": "功能",
+    "traceability": "PRD 3.1.2 + 交互文档 2.1",
+    "generatedAt": "2026-03-31T06:46:02.948Z"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "name": "智能任务-验证端外回流用户首次退出时的引导",
+  "description": "在「页面引导」模块验证端外回流用户首次退出时的引导，步骤：点击返回按钮；查看引导弹窗；点击「我知道啦」",
+  "priority": "low",
+  "tags": [
+    "smart_task",
+    "plan_generated",
+    "功能"
+  ],
+  "type": "smart_task",
+  "steps": [
+    {
+      "stepNumber": 1,
+      "action": "smart_execute",
+      "description": "在「页面引导」模块验证端外回流用户首次退出时的引导，步骤：点击返回按钮；查看引导弹窗；点击「我知道啦」",
+      "params": {
+        "taskDescription": "在「页面引导」模块验证端外回流用户首次退出时的引导，步骤：点击返回按钮；查看引导弹窗；点击「我知道啦」",
+        "precondition": "1. 用户从端外（分享链接）进入页面【基于待澄清问题Q7：端外判断逻辑待确认】<br>2. 用户首次退出",
+        "preconditionList": [
+          "用户从端外（分享链接）进入页面【基于待澄清问题Q7：端外判断逻辑待确认】",
+          "用户首次退出"
+        ],
+        "expectedResult": "1. 触发退出<br>2. 弹出引导弹窗，标题「下次从这里进」，内容展示APP搜索入口和示例<br>3. 弹窗关闭，退出页面",
+        "expectedList": [
+          "触发退出",
+          "弹出引导弹窗，标题「下次从这里进」，内容展示APP搜索入口和示例",
+          "弹窗关闭，退出页面"
+        ],
+        "testSteps": [
+          "点击返回按钮",
+          "查看引导弹窗",
+          "点击「我知道啦」"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "source": "plan",
+    "planMdPath": "import:网易小蜜蜂/1.0",
+    "planVersion": "1.0",
+    "requirementId": "页面引导模块",
+    "caseId": "TC_Guide_001",
+    "module": "页面引导",
+    "sectionModule": "页面引导模块",
+    "caseCategory": "功能",
+    "traceability": "PRD 3.4.1 + 交互文档 4",
+    "generatedAt": "2026-03-31T06:46:02.951Z"
+  }
+}
