@@ -1,0 +1,595 @@
+{
+  "_meta": {
+    "pageName": "高校就业数据",
+    "pageSignature": null,
+    "description": "",
+    "elementCount": 10,
+    "updatedAt": "2026-03-30T05:38:27.381Z",
+    "imageSize": {
+      "width": 473,
+      "height": 1024
+    }
+  },
+  "elements": [
+    {
+      "elementId": "高校就业数据.返回",
+      "name": "返回",
+      "locators": {
+        "ios": {
+          "bounds": [
+            8,
+            64,
+            40,
+            40
+          ],
+          "centerNormalized": [
+            0.059,
+            0.082
+          ],
+          "coordinates": {
+            "x": 0.059,
+            "y": 0.082
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            8,
+            64,
+            40,
+            40
+          ],
+          "centerNormalized": [
+            0.059,
+            0.082
+          ],
+          "coordinates": {
+            "x": 0.059,
+            "y": 0.082
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "返回",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "back_button",
+        "role": "navigation"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "高校就业数据.刷新",
+      "name": "刷新",
+      "locators": {
+        "ios": {
+          "bounds": [
+            424,
+            64,
+            40,
+            40
+          ],
+          "centerNormalized": [
+            0.937,
+            0.082
+          ],
+          "coordinates": {
+            "x": 0.937,
+            "y": 0.082
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            424,
+            64,
+            40,
+            40
+          ],
+          "centerNormalized": [
+            0.937,
+            0.082
+          ],
+          "coordinates": {
+            "x": 0.937,
+            "y": 0.082
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "刷新",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "icon_button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "高校就业数据.选择学校查看数据",
+      "name": "选择学校查看数据",
+      "locators": {
+        "ios": {
+          "bounds": [
+            115,
+            195,
+            243,
+            45
+          ],
+          "centerNormalized": [
+            0.5,
+            0.212
+          ],
+          "coordinates": {
+            "x": 0.5,
+            "y": 0.212
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            115,
+            195,
+            243,
+            45
+          ],
+          "centerNormalized": [
+            0.5,
+            0.212
+          ],
+          "coordinates": {
+            "x": 0.5,
+            "y": 0.212
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "选择学校查看数据",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "高校就业数据.我要填写",
+      "name": "我要填写",
+      "locators": {
+        "ios": {
+          "bounds": [
+            443,
+            177,
+            30,
+            80
+          ],
+          "centerNormalized": [
+            0.967,
+            0.212
+          ],
+          "coordinates": {
+            "x": 0.967,
+            "y": 0.212
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            443,
+            177,
+            30,
+            80
+          ],
+          "centerNormalized": [
+            0.967,
+            0.212
+          ],
+          "coordinates": {
+            "x": 0.967,
+            "y": 0.212
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "我要填写",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "高校就业数据.就业数据",
+      "name": "就业数据",
+      "locators": {
+        "ios": {
+          "bounds": [
+            28,
+            284,
+            75,
+            35
+          ],
+          "centerNormalized": [
+            0.137,
+            0.295
+          ],
+          "coordinates": {
+            "x": 0.137,
+            "y": 0.295
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            28,
+            284,
+            75,
+            35
+          ],
+          "centerNormalized": [
+            0.137,
+            0.295
+          ],
+          "coordinates": {
+            "x": 0.137,
+            "y": 0.295
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "就业数据",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "tab_button",
+        "role": "navigation"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "高校就业数据.校友互助",
+      "name": "校友互助",
+      "locators": {
+        "ios": {
+          "bounds": [
+            140,
+            284,
+            75,
+            35
+          ],
+          "centerNormalized": [
+            0.375,
+            0.295
+          ],
+          "coordinates": {
+            "x": 0.375,
+            "y": 0.295
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            140,
+            284,
+            75,
+            35
+          ],
+          "centerNormalized": [
+            0.375,
+            0.295
+          ],
+          "coordinates": {
+            "x": 0.375,
+            "y": 0.295
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "校友互助",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "tab_button",
+        "role": "navigation"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "高校就业数据.全部专业",
+      "name": "全部专业",
+      "locators": {
+        "ios": {
+          "bounds": [
+            363,
+            284,
+            85,
+            35
+          ],
+          "centerNormalized": [
+            0.855,
+            0.295
+          ],
+          "coordinates": {
+            "x": 0.855,
+            "y": 0.295
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            363,
+            284,
+            85,
+            35
+          ],
+          "centerNormalized": [
+            0.855,
+            0.295
+          ],
+          "coordinates": {
+            "x": 0.855,
+            "y": 0.295
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "全部专业",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "dropdown",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "高校就业数据.公司/单位",
+      "name": "公司/单位",
+      "locators": {
+        "ios": {
+          "bounds": [
+            30,
+            418,
+            85,
+            35
+          ],
+          "centerNormalized": [
+            0.152,
+            0.425
+          ],
+          "coordinates": {
+            "x": 0.152,
+            "y": 0.425
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            30,
+            418,
+            85,
+            35
+          ],
+          "centerNormalized": [
+            0.152,
+            0.425
+          ],
+          "coordinates": {
+            "x": 0.152,
+            "y": 0.425
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "公司/单位",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "category_button",
+        "role": "navigation"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "高校就业数据.行业",
+      "name": "行业",
+      "locators": {
+        "ios": {
+          "bounds": [
+            118,
+            418,
+            55,
+            35
+          ],
+          "centerNormalized": [
+            0.307,
+            0.425
+          ],
+          "coordinates": {
+            "x": 0.307,
+            "y": 0.425
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            118,
+            418,
+            55,
+            35
+          ],
+          "centerNormalized": [
+            0.307,
+            0.425
+          ],
+          "coordinates": {
+            "x": 0.307,
+            "y": 0.425
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "行业",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "category_button",
+        "role": "navigation"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    },
+    {
+      "elementId": "高校就业数据.查看更多",
+      "name": "查看更多",
+      "locators": {
+        "ios": {
+          "bounds": [
+            18,
+            800,
+            80,
+            25
+          ],
+          "centerNormalized": [
+            0.122,
+            0.792
+          ],
+          "coordinates": {
+            "x": 0.122,
+            "y": 0.792
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            18,
+            800,
+            80,
+            25
+          ],
+          "centerNormalized": [
+            0.122,
+            0.792
+          ],
+          "coordinates": {
+            "x": 0.122,
+            "y": 0.792
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "查看更多",
+      "details": {
+        "type": "button",
+        "elementType": "content",
+        "component": "button",
+        "role": "action"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    }
+  ]
+}

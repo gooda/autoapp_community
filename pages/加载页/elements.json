@@ -1,0 +1,73 @@
+{
+  "_meta": {
+    "pageName": "加载页",
+    "pageSignature": null,
+    "description": "",
+    "elementCount": 1,
+    "updatedAt": "2026-03-30T05:39:44.269Z",
+    "imageSize": {
+      "width": 473,
+      "height": 1024
+    }
+  },
+  "elements": [
+    {
+      "elementId": "加载页.返回",
+      "name": "返回",
+      "locators": {
+        "ios": {
+          "bounds": [
+            7,
+            46,
+            40,
+            40
+          ],
+          "centerNormalized": [
+            0.057,
+            0.064
+          ],
+          "coordinates": {
+            "x": 0.057,
+            "y": 0.064
+          },
+          "accessibilityId": null,
+          "predicate": null,
+          "classChain": null,
+          "xpath": null
+        },
+        "android": {
+          "bounds": [
+            7,
+            46,
+            40,
+            40
+          ],
+          "centerNormalized": [
+            0.057,
+            0.064
+          ],
+          "coordinates": {
+            "x": 0.057,
+            "y": 0.064
+          },
+          "accessibilityId": null,
+          "resourceId": null,
+          "uiAutomator": null,
+          "xpath": null
+        }
+      },
+      "locatorPriority": [
+        "coordinates"
+      ],
+      "findIntent": "返回",
+      "details": {
+        "type": "icon",
+        "elementType": "content",
+        "component": "back_button",
+        "role": "navigation"
+      },
+      "status": "active",
+      "calibration_status": "corrected"
+    }
+  ]
+}
