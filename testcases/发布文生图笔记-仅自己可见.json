@@ -1,6 +1,7 @@
 {
   "name": "发布文生图笔记-仅自己可见",
   "description": "发一篇文生图笔记，设置仅自己可见后发布",
+  "type": "smart_task",
   "priority": "medium",
   "tags": [
     "smart_task",
@@ -12,46 +13,12 @@
   "steps": [
     {
       "stepNumber": 1,
-      "action": "tap",
-      "description": "发一篇文生图笔记，设置仅自己可见后发布 (步骤 1/8)"
-    },
-    {
-      "stepNumber": 2,
-      "action": "tap",
-      "description": "发一篇文生图笔记，设置仅自己可见后发布 (步骤 2/8)"
-    },
-    {
-      "stepNumber": 3,
-      "action": "tap",
-      "description": "发一篇文生图笔记，设置仅自己可见后发布 (步骤 3/8)"
-    },
-    {
-      "stepNumber": 4,
-      "action": "input",
-      "description": "发一篇文生图笔记，设置仅自己可见后发布 (步骤 4/8)",
+      "action": "smart_execute",
+      "description": "发一篇文生图笔记，设置仅自己可见后发布",
       "params": {
-        "text": "一只可爱的猫咪在樱花树下玩耍，粉色花瓣飘落，阳光明媚，治愈系插画风格"
+        "taskDescription": "发一篇文生图笔记，设置仅自己可见后发布",
+        "originalStepsCount": 8
       }
-    },
-    {
-      "stepNumber": 5,
-      "action": "tap",
-      "description": "发一篇文生图笔记，设置仅自己可见后发布 (步骤 5/8)"
-    },
-    {
-      "stepNumber": 6,
-      "action": "tap",
-      "description": "发一篇文生图笔记，设置仅自己可见后发布 (步骤 6/8)"
-    },
-    {
-      "stepNumber": 7,
-      "action": "tap",
-      "description": "发一篇文生图笔记，设置仅自己可见后发布 (步骤 7/8)"
-    },
-    {
-      "stepNumber": 8,
-      "action": "tap",
-      "description": "发一篇文生图笔记，设置仅自己可见后发布 (步骤 8/8)"
     }
   ],
   "metadata": {
@@ -59,6 +26,16 @@
     "taskId": "agent_1775058092053_5u2qrz3xb",
     "generatedAt": "2026-04-01T15:47:46.341Z",
     "originalStepsCount": 16,
-    "convertedStepsCount": 8
+    "convertedStepsCount": 8,
+    "detailedSteps": [
+      { "stepNumber": 1, "action": "tap", "description": "点击发布按钮" },
+      { "stepNumber": 2, "action": "tap", "description": "选择文生图类型" },
+      { "stepNumber": 3, "action": "tap", "description": "点击输入区域" },
+      { "stepNumber": 4, "action": "input", "description": "输入图片描述", "params": { "text": "一只可爱的猫咪在樱花树下玩耍，粉色花瓣飘落，阳光明媚，治愈系插画风格" } },
+      { "stepNumber": 5, "action": "tap", "description": "点击生成按钮" },
+      { "stepNumber": 6, "action": "tap", "description": "设置可见范围" },
+      { "stepNumber": 7, "action": "tap", "description": "选择仅自己可见" },
+      { "stepNumber": 8, "action": "tap", "description": "点击发布确认" }
+    ]
   }
 }
